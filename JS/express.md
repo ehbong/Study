@@ -6,3 +6,6 @@
 
 ## LOG 모듈
 * [logger_winston 사용법](https://basketdeveloper.tistory.com/42)
+
+## 기타
+* [클라이언트 ip 추출](https://qastack.kr/programming/8107856/how-to-determine-a-users-ip-address-in-node)
