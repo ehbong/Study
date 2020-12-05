@@ -10,3 +10,4 @@
 
 ## order
 * [request 받기](https://stackoverrun.com/ko/q/11370200)
+* [requests 모듈 외부 주소 호출](https://m.blog.naver.com/wideeyed/221586482884)
