@@ -9,3 +9,5 @@
 ``` replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
 ##### 앞뒤 공백제거
 ``` strip() ```
+##### 반복문 인덱스 구하기
+``` for i in range(len(array)): ```
