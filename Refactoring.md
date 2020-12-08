@@ -51,3 +51,61 @@
     File "<stdin>", line 1, in <module>
   AssertionError
 ```
+
+* 메서드 추출
+  + 너무 긴 메소드(함수)를 기능단위 또는 중복을 제거해서 나눈다.
+```
+  // 기존소스
+  function printText(text){
+    var barLength = 10;
+    var str = "";
+    // 구분선 추가
+    for(var i = 0; i < barLength; i++){
+      str += "-";
+    }
+    
+    // 내용 출력
+    for(var i = 0; i < barLength; i++){
+      str += text+"\n";
+    }
+    
+    // 구분선 추가
+    for(var i = 0; i < barLength; i++){
+      str += "-";
+    }  
+  }
+  
+  // 바뀐소스
+  function printText(text){
+    
+    var str = "";
+    // 구분선 추가
+    str = setBorder(str);
+    
+    // 내용 출력
+    str = setContent(str, text);
+    
+    // 구분선 추가
+    str = setBorder(str);
+    
+    console.log(str);
+    
+  }
+  
+  function setBorder(text){
+    var barLength = 10;
+    for(var i = 0; i < barLength; i++){
+      text += "-";
+    }
+    return text;
+  }
+  
+  function setContent(sumtext, text){
+    
+    for(var i = 0; i < barLength; i++){
+      sumtext += text+"\n";
+    }
+    return sumtext;
+  }
+  
+```
