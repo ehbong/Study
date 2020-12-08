@@ -36,3 +36,18 @@
     }
   }
 ```
+
+* 가정 설정문 도입(assertion)
+  + 값이 특정 형태나 값이여야 할때 미리 오류를 검증하는 방법
+```
+  ## python 
+  
+  ## a == 2 가 아닐때 에러를 발생시켜 해당 조건문을 검증한다.
+  >>> a = 3
+  >>> assert a == 2 
+
+  #결과
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+  AssertionError
+```
