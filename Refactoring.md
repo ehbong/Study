@@ -122,3 +122,18 @@
   }
   
 ```
+
+* 반복문을 파이프라인으로 바꾸기
+  파이프라인형으로 이해하기 쉬운 코드로 변경
+```
+  // 변경전
+  const names = [];
+  for (const i of input){
+    if(i.job === "programmer") name.push(i.name)
+  }
+  
+  // 변경 후
+  const names = input
+    .filter(i => i.job === "programmer")
+    .map(i => i.name);
+```
