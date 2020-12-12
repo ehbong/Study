@@ -137,3 +137,18 @@
     .filter(i => i.job === "programmer")
     .map(i => i.name);
 ```
+
+* 변수 쪼개기
+  변수에 여러번 대입이 들어가는 경우역할에 따라 변수를 쪼개서 사용한다
+```
+  // 변경 전
+  let temp = 2 * (height + width);
+  console.log(temp);
+  temp = height * width;
+  console.log(temp);
+  // 변경 후
+  const perimeter = 2 * (height + width);
+  console.log(perimeter);
+  const area = height * width;
+  console.log(area);
+```
