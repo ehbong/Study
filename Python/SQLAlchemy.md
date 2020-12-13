@@ -20,3 +20,5 @@
 * [이미 있는 DB의 모델정보 가져오기](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
+
+* [동적쿼리](https://stackoverflow.com/questions/37336520/sqlalchemy-dynamic-filter)
