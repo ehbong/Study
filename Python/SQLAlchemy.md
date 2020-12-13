@@ -13,6 +13,8 @@
 
 * [SQLAlchemy 튜토리얼](https://riptutorial.com/ko/sqlalchemy)
 
+* [SQLAlchemy 튜토리얼 번역](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
+
 * [flask_sqlalchemy](https://opentutorials.org/module/3669/22070)
 
 * [SQLAlchemy SQL 호출예제](https://lowelllll.github.io/til/2019/04/19/TIL-flask-sqlalchemy-orm/)
