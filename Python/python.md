@@ -11,3 +11,12 @@
 ``` strip() ```
 ##### 반복문 인덱스 구하기
 ``` for i in range(len(array)): ```
+
+##### 딕셔너리리스트 검색
+``` 
+  list = [{'Name': 'Tom', 'Age': 30},{'Name': 'Jack', 'Age': 31},{'Name': 'Sue', 'Age': 32}]
+  tom = (item for item in list if item['Name'] == 'Tom')\
+  dict = next(tom, False)
+  >>> dict {'Name': 'Tom', 'Age': 30} 
+  >>> dict['Age']
+```
