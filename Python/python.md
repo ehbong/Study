@@ -19,4 +19,7 @@
   dict = next(tom, False)
   >>> dict {'Name': 'Tom', 'Age': 30} 
   >>> dict['Age']
+  
+  ret = next(item for item in list if item['Name'] == 'Tom'), None)
+  print(ret)
 ```
