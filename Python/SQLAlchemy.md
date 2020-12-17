@@ -28,3 +28,7 @@
 * [동적쿼리2](https://stackoverrun.com/ko/q/10784033)
 
 * [nvl 역할을 하는 func.coalesce](https://programtalk.com/python-examples/sqlalchemy.sql.func.coalesce/)
+
+* [in 조건](https://stackoverflow.com/questions/8603088/sqlalchemy-in-clause)
+
+* [특정 컬럼만 출력](https://qastack.kr/programming/11530196/flask-sqlalchemy-query-specify-column-names)
