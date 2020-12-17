@@ -26,3 +26,5 @@
 * [동적쿼리1](https://stackoverflow.com/questions/37336520/sqlalchemy-dynamic-filter)
 
 * [동적쿼리2](https://stackoverrun.com/ko/q/10784033)
+
+* [nvl 역할을 하는 func.coalesce](https://programtalk.com/python-examples/sqlalchemy.sql.func.coalesce/)
