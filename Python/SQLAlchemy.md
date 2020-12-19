@@ -34,3 +34,5 @@
 * [특정 컬럼만 출력](https://qastack.kr/programming/11530196/flask-sqlalchemy-query-specify-column-names)
 
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
+
+* [pandas로 데이터 출력](https://lemontia.tistory.com/844)
