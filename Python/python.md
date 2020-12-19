@@ -23,3 +23,4 @@
   ret = next(item for item in list if item['Name'] == 'Tom'), None)
   print(ret)
 ```
+* [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
