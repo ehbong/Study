@@ -36,3 +36,18 @@
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
 
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
+```
+import pandas as df
+
+queryset = stock.query.filter(stock.name.like('%'+search_text+'%'))
+
+# 위와 달라진게 있다면 끝에 .all() 이 없다 (sql 객체 그대로 pandas.read_sql()에 전달)
+
+df = pd.read_sql(queryset.statement, queryset.session.bind)
+
+
+# 기본출력은 a:[], b:[], c:[] 이고 뒤에 orient='records'옵션을 추가하면 [{a:'',b:'',c:''},{a,b,c..},{}] 형태로 변환
+
+print(json.loads(df.to_json(orient='records')))
+```
+
