@@ -25,7 +25,7 @@
 ```
 * [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
 
-### 변수 스코프
+##### 변수 스코프
 ```
   def a: 
     a = 0
