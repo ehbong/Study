@@ -24,3 +24,15 @@
   print(ret)
 ```
 * [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
+
+### 변수 스코프
+```
+  def a: 
+    a = 0
+    if a == 0:
+      b = 0
+    print(a)
+    print(b)
+  # 둘다 동작
+  # 자바스크립트의 var와 비슷하게 def 함수 안에서 전역으로 동작한다.
+```
