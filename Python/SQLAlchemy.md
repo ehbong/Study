@@ -50,4 +50,4 @@ df = pd.read_sql(queryset.statement, queryset.session.bind)
 
 print(json.loads(df.to_json(orient='records')))
 ```
-
+* [between, in, like, not null](https://m.blog.naver.com/PostView.nhn?blogId=mrkanghyun&logNo=220706394148&proxyReferer=https:%2F%2Fwww.google.com%2F)
