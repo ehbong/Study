@@ -51,3 +51,4 @@ df = pd.read_sql(queryset.statement, queryset.session.bind)
 print(json.loads(df.to_json(orient='records')))
 ```
 * [subquery](https://stackoverrun.com/ko/q/10713483)
+* [autocommit](https://ash84.io/2018/07/30/sqlalchemy-autocommit/)
