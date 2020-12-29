@@ -53,4 +53,4 @@ print(json.loads(df.to_json(orient='records')))
 * [subquery](https://stackoverrun.com/ko/q/10713483)
 * [autocommit](https://ash84.io/2018/07/30/sqlalchemy-autocommit/)
 
-### ORM 방식 쿼리와 기본 쿼리 방식의 트랜젝션을 공유하지 않음.
+* ORM 방식 쿼리와 기본 쿼리 방식의 트랜젝션을 공유하지 않음.
