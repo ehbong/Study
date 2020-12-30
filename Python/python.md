@@ -23,6 +23,7 @@
   
   ret = next(item for item in list if item['Name'] == 'Tom'), None)
   print(ret)
+  ## 키가 없을때 item['Name'] 은 오류발생 item.get('Name') 을 사용
 ```
 * [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
 
