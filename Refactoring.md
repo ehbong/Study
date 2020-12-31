@@ -152,3 +152,33 @@
   const area = height * width;
   console.log(area);
 ```
+
+* 조건문 분해하기
+  복잡한 조건문을 함수로 추출해서 코드의 이해를 돕는다.
+```
+  // 변경 전
+  if (fromDate > new Date() && toDate < new Date())
+    action = a * b;
+  else
+    action = a + b;
+  
+  // 변경 후
+  if (checkInDate())
+    action = multiply();
+  else
+    action = plus();
+    
+  // 한줄로 표현가능
+  action = checkInDate() ? multiply() : plus();
+      
+  function checkInDate(){
+    return fromDate > new Date() && toDate < new Date();
+  }
+  
+  function multiply(){
+    return a * b;
+  }
+  function plus(){
+    return a + b;
+  }
+```
