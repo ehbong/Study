@@ -182,3 +182,31 @@
     return a + b;
   }
 ```
+
+* 중첩 조건문을 보호 구문으로 바꾸기
+```
+  // 변경 전
+  function getPayAmount(){
+    let reuslt;
+    if (isDead)
+      result = deadAmount();
+    else {
+      if (isSeparated)
+        result = separatedAmount();
+      else {
+        if (isRetired)
+          result = retiredAmount();
+        else
+          result = normalPayAmount();
+      }
+    }
+    return result;
+  }
+  // 변경 후
+  function getPayAmount(){
+    if (isDead) return deadAmount();
+    if (isSeparated) return separatedAmount();
+    if (isRetired) return retiredAmount();
+    return normalPayAmount();
+  }
+```
