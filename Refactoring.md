@@ -210,3 +210,21 @@
     return normalPayAmount();
   }
 ```
+
+* 질의 함수와 변경 함수 분리하기
+```
+// 변경 전
+ function getTotalOutstandingAndSendBill(){
+  const result = customer.invoices.reduce((total, each)=> each.amount + total, 0);
+  sendBill();
+  return result;
+ }
+
+// 변경 후
+function totalOutstanding(){
+  return customer.invoices.reduce((total, each)=> each.amount + total, 0);
+}
+function sandBill(){
+  emailGateway.send(formatBill(customer));
+}
+```
