@@ -212,6 +212,7 @@
 ```
 
 * 질의 함수와 변경 함수 분리하기
+  * 질의 함수(읽기 함수)는 모든 부수효과가 없어야 한다.
 ```
 // 변경 전
  function getTotalOutstandingAndSendBill(){
