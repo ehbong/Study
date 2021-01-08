@@ -229,3 +229,30 @@ function sandBill(){
   emailGateway.send(formatBill(customer));
 }
 ```
+
+*  값을 변경이 아닌 반환하게 만들기
+  * 함수나 메소드가 값을 내부에서 변경하는게 아니라 반환하도록 코드를 작성한다.
+```
+/// 변경 전
+let totoalValue = 0;
+calculateValue();
+
+function calculateValue(){
+  for(let i= 1; i < list.length; i++){
+    // 생략
+    totalValue += value;
+  }
+}
+
+// 변경 후
+let totoalValue = calculateValue();
+
+function calculateValue(){
+  let result = 0;
+  for(let i= 1; i < list.length; i++){
+    // 생략
+    result += value;
+  }
+  return result;
+}
+```
