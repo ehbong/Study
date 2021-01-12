@@ -40,3 +40,7 @@
 ```
 ##### 특정 시간마다 실행
 *[특정시간마다 실행](https://tre2man.tistory.com/188)
+
+##### 데코레이터
+* [파이썬 코딩 도장 데코레이터](https://dojang.io/mod/page/view.php?id=2427)
+* [데코레이터 기본 사용법](https://www.daleseo.com/python-decorators/)
