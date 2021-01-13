@@ -11,3 +11,6 @@
 ## order
 * [request 받기](https://stackoverrun.com/ko/q/11370200)
 * [requests 모듈 외부 주소 호출](https://m.blog.naver.com/wideeyed/221586482884)
+
+## session
+* [session 사용](https://riptutorial.com/ko/flask/example/9236/%EB%B3%B4%EA%B8%B0-%EB%82%B4%EC%97%90%EC%84%9C-%EC%84%B8%EC%85%98-%EA%B0%9D%EC%B2%B4-%EC%82%AC%EC%9A%A9)
