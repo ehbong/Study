@@ -7,6 +7,7 @@
 * [클래스 json 변환](http://jsonpickle.github.io/)
 * [split](https://mainia.tistory.com/5624)
 * [문자열로 된 숫자 확인하는 방법](https://soooprmx.com/archives/10159)
+* [filter](https://wikidocs.net/22803)
 ##### 문자열치환
 ``` replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
 ##### 앞뒤 공백제거
