@@ -35,6 +35,8 @@
 
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
 
+# Pandas
+
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
 ```
 import pandas as df
@@ -54,3 +56,10 @@ print(json.loads(df.to_json(orient='records')))
 * [autocommit](https://ash84.io/2018/07/30/sqlalchemy-autocommit/)
 
 * ORM 방식 쿼리와 기본 쿼리 방식의 트랜젝션을 공유하지 않음.
+
+
+```
+ # 특정 컬럼을 리스트로 출력
+ df = pd.real_sql(<sql_data>.statement, <sql_data>.session.bind)
+ data = df['컬럼명'].to_numpy()
+```
