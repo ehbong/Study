@@ -10,6 +10,9 @@
 * [filter](https://wikidocs.net/22803)
 * [AES-GCM 암복호화](https://blog.naver.com/chandong83/221886840586)
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
+##### 상속
+* [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
+
 ##### 문자열치환
 ``` replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
 * [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
