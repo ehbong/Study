@@ -88,3 +88,6 @@
   print(add(10, 20))
   print(add(2, 5))
 ```
+
+##### 멀티쓰레드 & 멀티 프로세스
+*[멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
