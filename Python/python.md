@@ -90,4 +90,4 @@
 ```
 
 ##### 멀티쓰레드 & 멀티 프로세스
-*[멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
+* [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
