@@ -10,6 +10,7 @@
 * [filter](https://wikidocs.net/22803)
 * [AES-GCM 암복호화](https://blog.naver.com/chandong83/221886840586)
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
+* [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 ##### 상속
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
 
