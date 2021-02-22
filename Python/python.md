@@ -98,6 +98,7 @@
 ##### 비동기 처리
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
 * [비동기 request처리](https://item4.blog/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
+* [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
 ```
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
