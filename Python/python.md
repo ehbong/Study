@@ -48,8 +48,9 @@
   # 둘다 동작
   # 자바스크립트의 var와 비슷하게 def 함수 안에서 전역으로 동작한다.
 ```
-##### 특정 시간마다 실행
+##### 특정 시간마다 실행(스케줄러)
 *[특정시간마다 실행](https://tre2man.tistory.com/188)
+*[apscheduler 기본 사용법](https://hello-bryan.tistory.com/216)
 
 ##### 예외 전이
 ```
