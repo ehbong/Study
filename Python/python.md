@@ -49,8 +49,8 @@
   # 자바스크립트의 var와 비슷하게 def 함수 안에서 전역으로 동작한다.
 ```
 ##### 특정 시간마다 실행(스케줄러)
-*[특정시간마다 실행](https://tre2man.tistory.com/188)
-*[apscheduler 기본 사용법](https://hello-bryan.tistory.com/216)
+* [특정시간마다 실행](https://tre2man.tistory.com/188)
+* [apscheduler 기본 사용법](https://hello-bryan.tistory.com/216)
 
 ##### 예외 전이
 ```
@@ -107,3 +107,4 @@
 ##### logger
 * [logging 기본설명](https://docs.python.org/ko/3/howto/logging.html)
 * [날짜별 로깅파일 생성](https://yurimkoo.github.io/python/2019/08/11/logging.html)
+* [flask 에 적용 방법](https://ourcstory.tistory.com/230)
