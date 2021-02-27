@@ -35,6 +35,8 @@
 
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
 
+* [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
+
 # Pandas
 
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
@@ -64,4 +66,4 @@ print(json.loads(df.to_json(orient='records')))
  data = df['컬럼명'].to_numpy()
 ```
 
-* [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
+
