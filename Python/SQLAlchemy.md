@@ -63,3 +63,5 @@ print(json.loads(df.to_json(orient='records')))
  df = pd.real_sql(<sql_data>.statement, <sql_data>.session.bind)
  data = df['컬럼명'].to_numpy()
 ```
+
+* [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
