@@ -35,6 +35,8 @@
 
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
 
+* [Hybrid Attributes 공식문서](https://docs.sqlalchemy.org/en/13/orm/extensions/hybrid.html) 
+
 * [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
 
 # Pandas
