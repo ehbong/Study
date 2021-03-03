@@ -109,3 +109,4 @@
 * [날짜별 로깅파일 생성](https://yurimkoo.github.io/python/2019/08/11/logging.html)
 * [flask 에 적용 방법](https://ourcstory.tistory.com/230)
 * [formatter 설정](https://docs.python.org/ko/3/library/logging.html#logging.Formatter)
+* [formatter 예제](https://stackoverflow.com/questions/533048/how-to-log-source-file-name-and-line-number-in-python/44401529)
