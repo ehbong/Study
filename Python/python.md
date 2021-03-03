@@ -108,3 +108,4 @@
 * [logging 기본설명](https://docs.python.org/ko/3/howto/logging.html)
 * [날짜별 로깅파일 생성](https://yurimkoo.github.io/python/2019/08/11/logging.html)
 * [flask 에 적용 방법](https://ourcstory.tistory.com/230)
+* [formatter 설정](https://docs.python.org/ko/3/library/logging.html#logging.Formatter)
