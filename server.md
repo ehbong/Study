@@ -6,6 +6,7 @@
   * ex) AWS EC2 인스턴스에 Route 53으로 연결하고 도메인을 가비아에서 사서 연결할 경우 Route53에서 설정을 변경해야 반영.
   
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
+* [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 * [PM2 로그관리 모듈](https://lahuman.jabsiri.co.kr/258)
 #### supervisor 명령어
 ```
