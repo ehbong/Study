@@ -8,6 +8,11 @@
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
 * [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 * [PM2 로그관리 모듈](https://lahuman.jabsiri.co.kr/258)
+
+```
+ # pm2 로 파이썬 실행
+ pm2 start run.py --interpreter=python
+```
 #### supervisor 명령어
 ```
    supervisord :  프로세스 관리 및 모니터링을 위한 프로그램 
