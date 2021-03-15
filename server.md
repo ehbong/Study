@@ -12,6 +12,8 @@
 ```
  # pm2 로 파이썬 실행
  pm2 start run.py --interpreter=python
+ # 오류발생시
+ pm2 start job1.py --name job1 --interpreter python3
 ```
 #### supervisor 명령어
 ```
