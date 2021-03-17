@@ -38,6 +38,11 @@
 * [Hybrid Attributes 공식문서](https://docs.sqlalchemy.org/en/13/orm/extensions/hybrid.html) 
 
 * [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
+* [여러 DB를 사용중일때 특정 연결(엔진)을 불러올때](https://github.com/pallets/flask-sqlalchemy/issues/359)
+```
+##여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
+ db.get_engine(app, <bind명>)
+```
 
 # Pandas
 * [pandas](http://pythonstudy.xyz/python/article/408-pandas-%EB%8D%B0%EC%9D%B4%ED%83%80-%EB%B6%84%EC%84%9D)
