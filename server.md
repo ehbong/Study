@@ -8,6 +8,7 @@
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
 * [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 * [PM2 로그관리 모듈](https://lahuman.jabsiri.co.kr/258)
+* 가비아(도메인 구입업체)에서 NS서버 연결 시 NS발급처에서 DNS세팅(mx, txt 등)을 해야 정상 동작함.
 
 ```
  # pm2 로 파이썬 실행
