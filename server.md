@@ -49,3 +49,4 @@
 * [AWS CICD Automation](https://aws-diary.tistory.com/26)
 * [AWS를 이용한 간략 지속적 통합 예제, 무중단 배포 자동화 CI & CD, CodeBuild, CodeDeploy, CodePipeline](https://roka88.dev/97)
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
+* [MicroService and Serverless](https://waspro.tistory.com/495)
