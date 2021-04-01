@@ -13,6 +13,7 @@
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [날짜 포메팅](https://krksap.tistory.com/1635)
+* 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 ##### 상속
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
 
