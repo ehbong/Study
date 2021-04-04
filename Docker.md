@@ -4,3 +4,4 @@
 * [Docker image 안을 sftp로 접근방법](https://m.blog.naver.com/PostView.nhn?blogId=alice_k106&logNo=220650722592&proxyReferer=https:%2F%2Fgeekcoders.tistory.com%2Fentry%2FDocker-Docker-%25EC%2584%25A4%25EC%25B9%2598%25EB%25B6%2580%25ED%2584%25B0-%25EA%25B8%25B0%25EB%25B3%25B8-%25EC%2582%25AC%25EC%259A%25A9)
 * [Docker 란?](https://www.44bits.io/ko/post/easy-deploy-with-docker)
 * [Docker, Kubernetes](https://medium.com/withj-kr/d-3eba3de2894e)
+* [Docker youtube 기초 강의](https://www.youtube.com/watch?v=ePpiEy_C_jk&list=PLnIaYcDMsSczk-byS2iCDmQCfVU_KHWDk)
