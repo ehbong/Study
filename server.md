@@ -37,6 +37,7 @@
    reread                # 설정 파일 다시 읽기
  
 ```
+* [flask는 프로덕션 서버가 아닙니다.](https://build.vsupalov.com/flask-web-server-in-production/)
 * [flask and nginx](http://egloos.zum.com/mcchae/v/11149241)
 * [에러 추적(Error Tracking) 및 로그 취합(logging aggregation) 시스템인 Sentry](https://www.lesstif.com/system-admin/error-tracking-logging-aggregation-sentry-30705079.html)
 * [ubuntu 패키지 관리하기, 여러개 패키지 중 대표 버전설정](https://www.whatwant.com/entry/update-alternatives-%EC%97%AC%EB%9F%AC-%EB%B2%84%EC%A0%84%EC%9D%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0)
