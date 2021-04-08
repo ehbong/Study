@@ -15,3 +15,4 @@
   2. 마우스 우클릭
   3. 인스턴스 설정
   4. 크래딧 사양변경
+* [인스턴스 경보 만들기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-cloudwatch-createalarm.html)
