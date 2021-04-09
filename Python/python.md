@@ -12,7 +12,7 @@
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
-* [날짜 포메팅](https://krksap.tistory.com/1635)
+
 * 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 * formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 ##### 상속
@@ -26,6 +26,16 @@
 ``` strip() ```
 ##### 반복문 인덱스 구하기
 ``` for i in range(len(array)): ```
+##### 시간 다루기
+* [날짜 포메팅](https://krksap.tistory.com/1635)
+```
+  # 타임 스탬프를 데이트 타입으로 변경
+  datetime.datetime.fromtimestamp(<타입스탬프> / 1000, <타임존 예 datetime.timezone.utc>)
+  # 데이트 타입을 문자열로
+  datetype_data..strftime(<포멧형식 예) %Y-%m-%d %H:%M:%S >)
+  # 시간형태 문자열을 포멧변경
+  datetime.strptime(<시간형태 문자열>, '%Y-%m-%d %H:%M:%S.%f')
+```
 
 ##### 딕셔너리리스트 검색
 ``` 
