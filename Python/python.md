@@ -26,6 +26,16 @@
 ``` strip() ```
 ##### 반복문 인덱스 구하기
 ``` for i in range(len(array)): ```
+
+##### 배열 검색
+* [filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
+```
+  # 필터 형식 검색
+  result = list(filter(lambda x: x.value == 1 , arrayData))
+  
+  # list comprehension 형식 검색
+  result = [x for x in arrayData if x.value == 1]
+```
 ##### 시간 다루기
 * [날짜 포메팅](https://krksap.tistory.com/1635)
 ```
