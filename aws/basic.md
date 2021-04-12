@@ -8,6 +8,7 @@
 
 ## EC2
 * [Ec2 속도저하](https://steemit.com/kr-dev/@segyepark/aws-ec2)
+* Ec2 인스턴스 생성시 gp2볼륨은 크기별로 IOPS(입출력제한)가 달라짐. 사용용량이 작은데 입출력이 많을 경우 gp3볼륨으로 변경.
 * EC2 종료는 인스턴스의 삭제를 의미하므로 종료 방지 설정 필수
 * [EBS 볼륨은 IO 제한이 존재하고 gp2의 경우 gp3로 마이그래이션가능하다](https://aws.amazon.com/ko/blogs/korea/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/)
 * EC2 무제한모드(일부 인스턴스기능) 설정 방법
