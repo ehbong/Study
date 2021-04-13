@@ -1,5 +1,5 @@
 # AWS BASIC
-
+* [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html) 
 
 ## VPC
 
