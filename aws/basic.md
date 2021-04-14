@@ -18,3 +18,8 @@
   3. 인스턴스 설정
   4. 크래딧 사양변경
 * [인스턴스 경보 만들기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-cloudwatch-createalarm.html)
+
+## IAM
+* IAM 권한설정. 
+  * 인라인 정책 : 그룹 또는 사용자에게 정책을 직접 부여하는 방식으로 해당 정책 삭제 시 소멸.
+  * 관리형 정책 : 정책을 생성 후 그룹 또는 사용자에게 연결 시키는 방식. 연결으 해제해도 정책은 유지.
