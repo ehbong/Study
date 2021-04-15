@@ -54,3 +54,8 @@
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
 * [MicroService and Serverless](https://waspro.tistory.com/495)
 * [MSA란](https://blog.neonkid.xyz/200?category=830544)
+
+
+## cron
+* [Cron 사용법](https://www.letmecompile.com/scheduler-cron-tutorial/)
+* [Crontab 명령어](https://www.letmecompile.com/scheduler-cron-tutorial/)
