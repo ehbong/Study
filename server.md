@@ -59,3 +59,6 @@
 ## cron
 * [Cron 사용법](https://www.letmecompile.com/scheduler-cron-tutorial/)
 * [Crontab 명령어](https://ojava.tistory.com/154)
+
+## sysstat
+* [sysstat사용법](https://brunch.co.kr/@lars/9)
