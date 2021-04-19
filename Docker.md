@@ -14,3 +14,15 @@ container directory : 호스트 시스템 디렉토리를 마운트할 컨테이
 docker -v <host system directory>:<container directory> [IMAGE NAME]
 docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
 ```
+
+##### 기본 명령어
+```
+  docker ps : 현재 실행중인 컨테이너 확인 (옵션 : -a 전체, -q 아이디만 보기)
+  docker images : 저장된 이미지들 보기
+  docker run <이미지이름 또는 아이디>: 컨테이너 생성 및 실행(이미지가 없을 경우 다운로드까지 진행)
+    옵션 : -i 입력스트림 -t 터미널 기본적으로 -it 로 많이 사용
+           -v 볼륨 연결, -d 백그라운드 실행, --name <사용할이름> 이름지정
+  docker stop <컨테이너이름 또는 아이디>
+  docker rm : 컨테이너삭제
+  docker rmi : 이미지 삭제
+```
