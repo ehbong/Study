@@ -37,10 +37,10 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
   LABEL : 라벨 작성 (docker inspect 명령으로 label 확인할 수 있습니다.)
   EXPOSE : 호스트와 연결할 포트 번호를 설정한다.
   ENV : 환경변수 설정
-  ADD : 파일 / 디렉터리 추가
-  COPY : 파일 복사
-  ENTRYPOINT : 컨테이너가 시작되었을 때 스크립트 실행
-  VOLUME : 볼륨 마운트
+  ADD : 호스트 OS또는 원격 URL에 파일 또는 디렉토리 복사
+  COPY : 호스트 OS에 파일 또는 디렉토리 복사
+  ENTRYPOINT : 컨테이너가 시작되었을 때 스크립트 실행(docker run 이후 나오는 명령어에 인수만 받고 명령어는 미리 등록된 명령어가 실행)
+  VOLUME : 볼륨 마운트(이미지에 지정한 경로의 파일을 호스트에 /var/lib/docker/volume/ 경로에 저장)
   USER : 명령 실행할 사용자 권한 지정
   WORKDIR : "RUN", "CMD", "ENTRYPOINT" 명령이 실행될 작업 디렉터리
   ARG : Dockerfile 내부 변수
