@@ -29,6 +29,7 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
 ##### DockerFile
 * [DockerFile 작성법](https://velog.io/@seheon99/Dockerfile-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95-12)
 * [RUN, CMD, ENTRYPOINT의 차이](https://nirsa.tistory.com/66)
+* [Docker Compose를 활용한 개발환경 구성](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose)
 ```
   FROM : 베이스가 될 도커 이미지 이름 (기반이 되는 이미지, <이미지 이름>:<태그> 형식으로 설정)
   MAINTAINER : 작성자 정보
