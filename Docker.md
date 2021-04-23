@@ -5,7 +5,7 @@
 * [Docker 란?](https://www.44bits.io/ko/post/easy-deploy-with-docker)
 * [Docker, Kubernetes](https://medium.com/withj-kr/d-3eba3de2894e)
 * [Docker youtube 기초 강의](https://www.youtube.com/watch?v=ePpiEy_C_jk&list=PLnIaYcDMsSczk-byS2iCDmQCfVU_KHWDk)
-
+* [Docker 컨테이너 자동시작](https://help.iwinv.kr/manual/read.html?idx=572)
 ##### 공유폴더 설정
 * [공유 폴더 설정하기](https://tttsss77.tistory.com/161)
 ```
