@@ -50,6 +50,7 @@
 * [AWS CICD Automation](https://aws-diary.tistory.com/26)
 * [AWS를 이용한 간략 지속적 통합 예제, 무중단 배포 자동화 CI & CD, CodeBuild, CodeDeploy, CodePipeline](https://roka88.dev/97)
 * [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
+* [Server 운용 방법 5가지](https://blog.msalt.net/77)
 ## MSA
 
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
