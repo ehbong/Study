@@ -12,6 +12,7 @@
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
+* [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
 
 * 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 * formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
