@@ -29,12 +29,9 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
 ```
 ##### DockerFile
 * [DockerFile 작성법](https://velog.io/@seheon99/Dockerfile-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95-12)
-* [RUN, CMD, ENTRYPOINT의 차이](https://nirsa.tistory.com/66)
-* [Docker Compose를 활용한 개발환경 구성](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose)
-* [Docker Compose 커맨드](https://www.daleseo.com/docker-compose/)
-* [YAML 문법](https://subicura.com/k8s/prepare/yaml.html#%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8)
-* [YAML TO JSON](https://onlineyamltools.com/convert-yaml-to-json)
+
 ```
+  # DockerFile 작성 옵션
   FROM : 베이스가 될 도커 이미지 이름 (기반이 되는 이미지, <이미지 이름>:<태그> 형식으로 설정)
   MAINTAINER : 작성자 정보
   RUN : Shell Script 또는 명령을 실행(보통 패키지 설치에 사용)
@@ -51,4 +48,20 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
   ARG : Dockerfile 내부 변수
   ONBUILD : 다른 이미지의 Base Image로 쓰이는 경우 실행될 명령 수행
   SHELL : Default Shell 지정
+```
+* [RUN, CMD, ENTRYPOINT의 차이](https://nirsa.tistory.com/66)
+* [Docker Compose를 활용한 개발환경 구성](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose)
+* [Docker Compose 커맨드](https://www.daleseo.com/docker-compose/)
+* [YAML 문법](https://subicura.com/k8s/prepare/yaml.html#%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8)
+* [YAML TO JSON](https://onlineyamltools.com/convert-yaml-to-json)
+```
+  # Docker Compose 옵션
+  version : <사용할 docker compose 버전>
+  services : # 컨테이너들정보들을 가지고 있는 맵(key, value)
+    <컨테이너 이름>:
+      image: <Docker Hub에 있는 이미지 명 : <태그>>
+      restart: <자동 재시작 옵션 always 항상재시작, "no" 기본값 재시작하지 않음, unless-stopped 수동으로 중지한 경우를 제외하고 재시작>
+      volumes: # docker run 에 -v 옵션과 동일한 역할(배열 형태)
+        - <호스트에경로>:<컨테이너내부경로>
+            
 ```
