@@ -34,7 +34,7 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
   # DockerFile 작성 옵션
   FROM : 베이스가 될 도커 이미지 이름 (기반이 되는 이미지, <이미지 이름>:<태그> 형식으로 설정)
   MAINTAINER : 작성자 정보
-  RUN : Shell Script 또는 명령을 실행(보통 패키지 설치에 사용)
+  RUN : Shell Script 또는 명령을 실행(보통 패키지 설치에 사용 apt-get update > apt-get install -y flask)
   CMD : 컨테이너를 실행할 때 사용할 default를 설정
   LABEL : 라벨 작성 (docker inspect 명령으로 label 확인할 수 있습니다.)
   EXPOSE : 호스트와 연결할 포트 번호를 설정한다.
