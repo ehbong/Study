@@ -63,5 +63,20 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
       restart: <자동 재시작 옵션 always 항상재시작, "no" 기본값 재시작하지 않음, unless-stopped 수동으로 중지한 경우를 제외하고 재시작>
       volumes: # docker run 에 -v 옵션과 동일한 역할(배열 형태)
         - <호스트에경로>:<컨테이너내부경로>
+      environment: # 환경 변수 및 컨피그 옵션 등(배열형태)
+        - MYSQL_PASSWORD=password
+      ports: #사용할 포트(배열)
+        - <외부포트>:<내부포트>
+    <컨테이너 이름>:
+      ....
+```  
+  
+```  
+  # Docker Compose 명령
+  docker-compose up -d : 실행
+  docker-compose stop : 중지
+  docker-compose down : 생성된 컨테이너 삭제
+      
+  
             
 ```
