@@ -31,19 +31,19 @@
 ##### 배열
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
 ```
+  # 필터 형식 검색
+  result = list(filter(lambda x: x.value == 1 , arrayData))
+  
+  # list comprehension 형식 검색
+  result = [x for x in arrayData if x.value == 1]
+```
+```
   # 두 배열의 차집합 구하는 방법
   temp3 = list(set(temp1) - set(temp2)) #순서 보존이 안됨
 
   #또는
   s = set(temp2)
   temp3 = [x for x in temp1 if x not in s] #순서 보존됨
-```
-```
-  # 필터 형식 검색
-  result = list(filter(lambda x: x.value == 1 , arrayData))
-  
-  # list comprehension 형식 검색
-  result = [x for x in arrayData if x.value == 1]
 ```
 ##### 시간 다루기
 * [날짜 포메팅](https://krksap.tistory.com/1635)
