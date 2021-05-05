@@ -74,6 +74,7 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
 ```  
   # Docker Compose 명령
   docker-compose up -d : 실행
+  docker-compose ls : 조회
   docker-compose stop : 중지
   docker-compose down : 생성된 컨테이너 삭제
       
