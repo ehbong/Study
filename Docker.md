@@ -24,6 +24,8 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
     옵션 : -i 입력스트림 -t 터미널 기본적으로 -it 로 많이 사용
            -v 볼륨 연결, -d 백그라운드 실행, --name <사용할이름> 이름지정
   docker stop <컨테이너이름 또는 아이디>
+  docker commit <옵션> <컨테이너 이름> <새로저장할 이미지 이름>
+    옵션 : -a 작성자, -c 생성된 이미지에 도커파일 명령 적용, -m 커밋메세지, -p 커밋중 컨테어니 일시 중지
   docker rm : 컨테이너삭제
   docker rmi : 이미지 삭제
 ```
