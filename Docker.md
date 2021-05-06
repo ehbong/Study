@@ -26,6 +26,9 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
   docker stop <컨테이너이름 또는 아이디>
   docker commit <옵션> <컨테이너 이름> <새로저장할 이미지 이름>
     옵션 : -a 작성자, -c 생성된 이미지에 도커파일 명령 적용, -m 커밋메세지, -p 커밋중 컨테어니 일시 중지
+  docker diff <이미지 이름> : 본래 이미지와 달라진 파일 리스트 출력 (A 추가, D 삭제, C 수정)
+  docker inspect : 이미지와 컨테이너 설정 확인
+  docker logs : stdout 확인
   docker rm : 컨테이너삭제
   docker rmi : 이미지 삭제
 ```
