@@ -42,7 +42,8 @@ docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
   ADD : 호스트 OS또는 원격 URL에 파일 또는 디렉토리 복사
   COPY : 호스트 OS에 파일 또는 디렉토리 복사
   ENTRYPOINT : 컨테이너가 시작되었을 때 스크립트 실행(docker run 이후 나오는 명령어에 인수만 받고 명령어는 미리 등록된 명령어가 실행)
-  VOLUME : 볼륨 마운트(이미지에 지정한 경로의 파일을 호스트에 /var/lib/docker/volume/ 경로에 저장)
+  VOLUME : 볼륨 마운트(이미지에 지정한 경로의 파일을 호스트에 /var/lib/docker/volume/ 경로에 저장 
+                      도커가 지정한 해시값으로 저장되므로 나중에 찾기 힘듬 기본적으로 도커를 실행할때 -v 옵션을 사용)
   USER : 명령 실행할 사용자 권한 지정
   WORKDIR : "RUN", "CMD", "ENTRYPOINT" 명령이 실행될 작업 디렉터리
   ARG : Dockerfile 내부 변수
