@@ -10,10 +10,7 @@
 ##### 공유폴더 설정
 * [공유 폴더 설정하기](https://tttsss77.tistory.com/161)
 ```
-host system directory : 공유하고자 하는 호스트 시스템 디렉토리 절대 경로
-container directory : 호스트 시스템 디렉토리를 마운트할 컨테이너 내부 절대 경로
-docker -v <host system directory>:<container directory> [IMAGE NAME]
-docker -volume="<host system directory>:<container directory>" [IMAGE NAME]
+docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로>:<호스트 시스템 디렉토리를 마운트할 컨테이너 내부 절대 경로> [IMAGE NAME]
 ```
 
 ##### 기본 명령어
