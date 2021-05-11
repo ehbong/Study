@@ -85,3 +85,11 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   
             
 ```
+##### requirements.txt로 모듈 설치시 mysql_config Error 대처법
+```
+  FROM python:3.8.5-slim ## -slim = apt-get이 설치된 버전의 이미지
+  
+  RUN apt-get update
+  RUN apt-get install default-libmysqlclient-dev gcc  -y
+  RUN pip install -r requirements.txt
+```
