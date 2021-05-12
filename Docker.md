@@ -93,3 +93,9 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   RUN apt-get install default-libmysqlclient-dev gcc  -y
   RUN pip install -r requirements.txt
 ```
+##### 인스턴스 내에 타임존 설정(Dockerfile)
+```
+  ARG DEBIAN_FRONTEND=noninteractive
+  ENV TZ=Asia/Seoul
+  RUN apt-get install -y tzdata
+```
