@@ -65,3 +65,9 @@
 
 ## sysstat
 * [sysstat사용법](https://brunch.co.kr/@lars/9)
+
+## homebrew
+```
+ # 설치 및 변경이 안될때 해당 경로 아래의 모든 소유를 바꿈
+ sudo chown -R $(whoami) $(brew --prefix)/*
+```
