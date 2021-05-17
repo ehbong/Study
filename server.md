@@ -70,4 +70,10 @@
 ```
  # 설치 및 변경이 안될때 해당 경로 아래의 모든 소유를 바꿈
  sudo chown -R $(whoami) $(brew --prefix)/*
+ 
+ # 브류업데이트로 파이썬 버전이 업데이트 돼서 심볼릭 링크가 깨졌을때(3.8>3.9로 변경되어서 되돌릴때)
+ brew install python@3.8
+ brew unlink python@3.9
+ brew link python@3.8 # 이 명령어가 안되면 brew link --overwrite --dry-run python@3.8
 ```
+
