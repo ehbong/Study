@@ -7,6 +7,12 @@
 * [Docker youtube 기초 강의](https://www.youtube.com/watch?v=ePpiEy_C_jk&list=PLnIaYcDMsSczk-byS2iCDmQCfVU_KHWDk)
 * [Docker 컨테이너 자동시작](https://help.iwinv.kr/manual/read.html?idx=572)
 * [Jenkins 와 Docker 그리고 AWS](https://pks2974.medium.com/jenkins-%EC%99%80-docker-%EA%B7%B8%EB%A6%AC%EA%B3%A0-aws-cli-%EC%82%BD%EC%A7%88%EA%B8%B0-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-e728986960e2)
+##### 설치(ubuntu)
+```
+  $ sudo apt-get update
+  $ sudo apt-get install docker.io
+  $ sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker # 링크
+```
 ##### 공유폴더 설정
 * [공유 폴더 설정하기](https://tttsss77.tistory.com/161)
 ```
