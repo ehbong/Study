@@ -6,7 +6,12 @@
 
 ```
   # 안드로이드 스튜디오 설치 후, 환경변수 설정했음에도 adb가 안될때 (mac os 기준)
-  brew cask install android-platform-tools
+  brew cask install android-platform-tools실
+  
+  # react-native run-android 로 안드로이드 빌드할때 sdk 오류발생시
+  # android 디렉토리에서 local.properties 파일 생성
+  sdk.dir = <SDK 경로>
+  # 추가 후 재실행
 ```
 
 
