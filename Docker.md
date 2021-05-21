@@ -76,6 +76,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
         - <호스트에경로>:<컨테이너내부경로>
       environment: # 환경 변수 및 컨피그 옵션 등(배열형태)
         - MYSQL_PASSWORD=password
+        - TZ="Asia/Seoul" # 시간대 설정(서울로 시간대 변경 timezone)
       ports: #사용할 포트(배열)
         - <외부포트>:<내부포트>
     <컨테이너 이름>:
