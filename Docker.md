@@ -70,8 +70,13 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   version : <사용할 docker compose 버전>
   services : # 컨테이너들정보들을 가지고 있는 맵(key, value)
     <컨테이너 이름>:
-      image: <Docker Hub에 있는 이미지 명 : <태그>>
+      image: <Docker Hub에 있는 이미지 명 : <태그>
       restart: <자동 재시작 옵션 always 항상재시작, "no" 기본값 재시작하지 않음, unless-stopped 수동으로 중지한 경우를 제외하고 재시작>
+      logging: <로그 옵션>
+        driver: "json-file"
+        options:
+          max-file: "5" <파일 갯수>
+          max-size: "100m" <파일 최대 크기>
       volumes: # docker run 에 -v 옵션과 동일한 역할(배열 형태)
         - <호스트에경로>:<컨테이너내부경로>
       environment: # 환경 변수 및 컨피그 옵션 등(배열형태)
