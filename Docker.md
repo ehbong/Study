@@ -93,7 +93,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   docker-compose up -d : 실행
   docker-compose ls : 조회
   docker-compose stop : 중지
-  docker-compose down : 생성된 컨테이너 삭제
+  docker-compose down : 생성된 컨테이너 삭제 <해당 명령을 수행하면 docker log가 다 삭제됨>
       
   
             
