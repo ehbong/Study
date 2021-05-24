@@ -69,9 +69,10 @@ print(json.loads(df.to_json(orient='records')))
 
 
 ```
- # 특정 컬럼을 리스트로 출력
+ # 특정 컬럼값만 리스트로 출력
  df = pd.real_sql(<sql_data>.statement, <sql_data>.session.bind)
  data = df['컬럼명'].to_numpy()
+ 
 ```
 
 
