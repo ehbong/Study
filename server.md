@@ -7,6 +7,7 @@
   * ex2) 메일 서버를 연결할 경우 Route53에서 mx 추가, 인증을 txt 로할경우 txt 
   
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
+* [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
 * [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 * [PM2 로그관리 모듈](https://lahuman.jabsiri.co.kr/258)
 
