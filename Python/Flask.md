@@ -18,3 +18,20 @@
 
 ## socket-io
 * [SocketIO 공식문서](https://flask-socketio.readthedocs.io/en/latest/getting_started.html)
+```
+
+  -- javascript
+  let socket = io.connect(
+    "http://" + document.domain + ":" + location.port + "/test"
+  );
+  
+  -- flask
+  # namespace 는 connect 시 주소에 붙는 namespace 
+  # 호출로 모두에게 보내기
+  @socketio.on('my event')
+  def handle_my_custom_event(data):
+    emit('response', data, broadcast=True, namespace='/test')
+  # 서버에서 모두에게 보내기 emit가 아니라 socketio.emit
+  def some_function():
+    socketio.emit('some event', {'data': 'test'}, namespace='/test')
+```
