@@ -7,3 +7,5 @@
 * [Lambda API 설정방법 및 절차](https://medium.com/@yumenohosi/aws-lambda-api-gateway-dynamodb-node-js-%EC%82%AC%EC%9A%A9%EA%B8%B0-%EC%82%BD%EC%A7%88%EA%B8%B0-b5352e00b396)
 
 * [Lambda 에 대한 개발 절차](https://daddyprogrammer.org/post/9131/aws-lambda-setup-develop-environment/)
+
+* [Lambda Rest API 만들기](https://blog.msalt.net/222)
