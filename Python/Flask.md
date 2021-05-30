@@ -35,3 +35,7 @@
   def some_function():
     socketio.emit('some event', {'data': 'test'}, namespace='/test')
 ```
+```
+  # 로그남기기
+  socketio = SocketIO(logger=True, engineio_logger=True)
+```
