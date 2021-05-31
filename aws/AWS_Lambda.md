@@ -9,3 +9,5 @@
 * [Lambda 에 대한 개발 절차](https://daddyprogrammer.org/post/9131/aws-lambda-setup-develop-environment/)
 
 * [Lambda Rest API 만들기](https://blog.msalt.net/222)
+
+* [AWS Architecting Serverless Solutions 강의](https://www.aws.training/Details/eLearning?id=70986)
