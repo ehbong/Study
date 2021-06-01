@@ -50,3 +50,7 @@
 * IAM 권한설정. 
   * 인라인 정책 : 그룹 또는 사용자에게 정책을 직접 부여하는 방식으로 해당 정책 삭제 시 소멸.
   * 관리형 정책 : 정책을 생성 후 그룹 또는 사용자에게 연결 시키는 방식. 연결으 해제해도 정책은 유지.
+
+
+## ElastiCache
+* [ElastiCache와 Redis를 이용한 세션클러스터](https://aws.amazon.com/ko/getting-started/hands-on/building-fast-session-caching-with-amazon-elasticache-for-redis/)
