@@ -143,3 +143,7 @@
 * [flask 에 적용 방법](https://ourcstory.tistory.com/230)
 * [formatter 설정](https://docs.python.org/ko/3/library/logging.html#logging.Formatter)
 * [formatter 예제](https://stackoverflow.com/questions/533048/how-to-log-source-file-name-and-line-number-in-python/44401529)
+
+##### QR code
+* [qrcode 모듈 공식 문서](https://pypi.org/project/qrcode/)
+* [qrcode > pdf 생성 reportlab-qrcode 모듈 공식문서](https://pypi.org/project/reportlab-qrcode/)
