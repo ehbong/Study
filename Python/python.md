@@ -147,3 +147,4 @@
 ##### QR code
 * [qrcode 모듈 공식 문서](https://pypi.org/project/qrcode/)
 * [qrcode > pdf 생성 reportlab-qrcode 모듈 공식문서](https://pypi.org/project/reportlab-qrcode/)
+* [pdf as response + sampleSytleSheet font](https://stackoverflow.com/questions/63992269/reportlab-pdf-python-3-problems-with-fonts)
