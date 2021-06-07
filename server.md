@@ -40,21 +40,25 @@
    reread                # 설정 파일 다시 읽기
  
 ```
+* [ubuntu 패키지 관리하기, 여러개 패키지 중 대표 버전설정](https://www.whatwant.com/entry/update-alternatives-%EC%97%AC%EB%9F%AC-%EB%B2%84%EC%A0%84%EC%9D%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0)
+* [에러 추적(Error Tracking) 및 로그 취합(logging aggregation) 시스템인 Sentry](https://www.lesstif.com/system-admin/error-tracking-logging-aggregation-sentry-30705079.html)
+
+## nginx
 * [flask는 프로덕션 서버가 아닙니다.](https://build.vsupalov.com/flask-web-server-in-production/)
 * [flask and nginx](http://egloos.zum.com/mcchae/v/11149241)
-* [에러 추적(Error Tracking) 및 로그 취합(logging aggregation) 시스템인 Sentry](https://www.lesstif.com/system-admin/error-tracking-logging-aggregation-sentry-30705079.html)
-* [ubuntu 패키지 관리하기, 여러개 패키지 중 대표 버전설정](https://www.whatwant.com/entry/update-alternatives-%EC%97%AC%EB%9F%AC-%EB%B2%84%EC%A0%84%EC%9D%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0)
-
 * [Nginx](https://opentutorials.org/module/384/3462)
 * [Nginx, Gunicorn(+ WSGI) 개념 이해 및 활용](https://www.opentutorials.org/module/4936/28881)
 * [Nginx 설치 및 기본 환경 설정](https://kscory.com/dev/nginx/install)
 * [AWS EC2 ubuntu Nginx 기본 설치가이드](https://erulabo.com/post/aws-ec2-how-to-install-nginx-server)
 * [Nginx + Gunicorn + flask 연동](https://velog.io/@yvvyoon/flask-nginx-gunicorn-1)
+* [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
+
+## CICD
 * [AWS CICD pipeline build](https://medium.com/better-programming/how-to-build-a-ci-cd-pipeline-in-aws-in-5-minutes-and-58-seconds-4de156477042)
 * [AWS CICD Automation](https://aws-diary.tistory.com/26)
 * [AWS를 이용한 간략 지속적 통합 예제, 무중단 배포 자동화 CI & CD, CodeBuild, CodeDeploy, CodePipeline](https://roka88.dev/97)
-* [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
 * [Server 운용 방법 5가지](https://blog.msalt.net/77)
+* 
 ## MSA
 
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
