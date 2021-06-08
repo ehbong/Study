@@ -10,3 +10,10 @@
   * [async/await](https://joshua1988.github.io/web-development/javascript/js-async-await/)
 
 * [유니코드 정규화 방식 nomalize](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
+```
+ // base64
+ btoa()  //  base64로 인코딩
+ atob()  //  base64로 디코딩
+ // base64 인코딩 오류시
+ btoa(unescape(encodeURIComponent(str)))
+```
