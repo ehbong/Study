@@ -15,6 +15,9 @@
 ## session
 * [session 사용](https://riptutorial.com/ko/flask/example/9236/%EB%B3%B4%EA%B8%B0-%EB%82%B4%EC%97%90%EC%84%9C-%EC%84%B8%EC%85%98-%EA%B0%9D%EC%B2%B4-%EC%82%AC%EC%9A%A9)
 
+## file
+* [file upload](https://velog.io/@kho5420/Flask-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C-File-Upload%ED%95%98%EA%B8%B0)
+
 
 ## socket-io
 * [SocketIO 공식문서](https://flask-socketio.readthedocs.io/en/latest/getting_started.html)
