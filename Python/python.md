@@ -88,6 +88,8 @@
 * [특정시간마다 실행](https://tre2man.tistory.com/188)
 * [apscheduler 기본 사용법](https://hello-bryan.tistory.com/216)
 
+##### 예외
+* [에러와 예외](https://docs.python.org/ko/3/tutorial/errors.html)
 ##### 예외 전이
 ```
   # 따로 throw 없이 예외가 전이돼서 예외처리됨
