@@ -4,3 +4,4 @@
 * [객체지양 디자인패턴 유튜브](https://www.youtube.com/watch?v=lJES5TQTTWE)
 * [싱글톤 패턴](https://woowacourse.github.io/javable/post/2020-11-07-singleton/)
 * [팩토리 패턴](https://jdm.kr/blog/180)
+* [데코레이터 패턴](https://gmlwjd9405.github.io/2018/07/09/decorator-pattern.html)
