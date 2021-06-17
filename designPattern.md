@@ -53,3 +53,4 @@
 
 ```
  * [커맨드 패턴](https://gmlwjd9405.github.io/2018/07/07/command-pattern.html)
+ * [옵저버 패턴](https://gmlwjd9405.github.io/2018/07/08/observer-pattern.html)
