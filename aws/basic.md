@@ -55,3 +55,15 @@
 
 ## ElastiCache
 * [ElastiCache와 Redis를 이용한 세션클러스터](https://aws.amazon.com/ko/getting-started/hands-on/building-fast-session-caching-with-amazon-elasticache-for-redis/)
+
+## 탄력적 IP(고정IP)
+* [탄력적 IP기본 갯수(5개) 이상으로 늘리고 싶을때](https://goodlife-coding.tistory.com/entry/Elastic-IP%ED%83%84%EB%A0%A5%EC%A0%81-IP-%ED%95%A0%EB%8B%B9-%ED%95%9C%EA%B3%84-%EB%B0%8F-%EC%9A%94%EA%B8%88-%EB%B6%80%EA%B3%BC-%EB%B0%A9%EC%8B%9D)
+```
+  1. support
+  2. support center 
+  4. Create case 
+  5. Regarding : Service Limit Increase 
+  6. Limit Type : Elastic IPs 
+  7. 리전 선택(서울리전) 
+  8. limit 개수 수정
+```
