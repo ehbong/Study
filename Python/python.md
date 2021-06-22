@@ -153,3 +153,11 @@
 * [qrcode 모듈 공식 문서](https://pypi.org/project/qrcode/)
 * [qrcode > pdf 생성 reportlab-qrcode 모듈 공식문서](https://pypi.org/project/reportlab-qrcode/)
 * [pdf as response + sampleSytleSheet font](https://stackoverflow.com/questions/63992269/reportlab-pdf-python-3-problems-with-fonts)
+
+##### eval(), exec()
+```
+  eval 함수는 
+  수식을 받아서 컴파일 코드로 변환
+  exec 함수는 
+  소스코드를 받아서 컴파일 코드로 변환
+```
