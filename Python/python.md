@@ -54,7 +54,7 @@
   # 타임 스탬프를 데이트 타입으로 변경
   datetime.datetime.fromtimestamp(<타입스탬프> / 1000, <타임존 예 datetime.timezone.utc>)
   # 데이트 타입을 문자열로(데이트 > 바꿀 데이트 형태 문자열)
-  datetype_data..strftime(<포멧형식 예) %Y-%m-%d %H:%M:%S >)
+  datetype_data.strftime(<포멧형식 예) %Y-%m-%d %H:%M:%S >)
   # 시간형태 문자열을 포멧변경(데이트 형태 문자열+ 데이트형식 > 데이트)
   datetime.strptime(<시간형태 문자열>, '%Y-%m-%d %H:%M:%S.%f')
 ```
