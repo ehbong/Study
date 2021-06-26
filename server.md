@@ -12,6 +12,7 @@
   
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
 * [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
+* [Server 운용 방법 5가지](https://blog.msalt.net/77)
 
 #### PM2
 * [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
@@ -61,10 +62,9 @@
 * [AWS CICD pipeline build](https://medium.com/better-programming/how-to-build-a-ci-cd-pipeline-in-aws-in-5-minutes-and-58-seconds-4de156477042)
 * [AWS CICD Automation](https://aws-diary.tistory.com/26)
 * [AWS를 이용한 간략 지속적 통합 예제, 무중단 배포 자동화 CI & CD, CodeBuild, CodeDeploy, CodePipeline](https://roka88.dev/97)
-* [Server 운용 방법 5가지](https://blog.msalt.net/77)
-* 
-## MSA
 
+
+## MSA
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
 * [MicroService and Serverless](https://waspro.tistory.com/495)
 * [MSA란](https://blog.neonkid.xyz/200?category=830544)
