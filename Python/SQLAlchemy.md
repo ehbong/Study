@@ -20,6 +20,11 @@
 * [SQLAlchemy SQL 호출예제](https://lowelllll.github.io/til/2019/04/19/TIL-flask-sqlalchemy-orm/)
 
 * [이미 있는 DB의 모델정보 가져오기](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
+```
+  # 디비 모델 정보 가져오기
+  pip install flask-sqlacodegen
+  flask-sqlacodegen "mysql://username:password@DB_IP/DB_NAME" --flask > models.py
+```
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
 
