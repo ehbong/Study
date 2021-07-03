@@ -17,3 +17,4 @@
  // base64 인코딩 오류시
  btoa(unescape(encodeURIComponent(str)))
 ```
+* [내부 처리 방법 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
