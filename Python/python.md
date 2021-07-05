@@ -13,6 +13,9 @@
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
+```
+ socket_io.run() 은 nginx 등 웹서버와 연결해야 사용가능.
+```
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [staticMethod class 차이](https://sshkim.tistory.com/184)
 
