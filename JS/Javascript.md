@@ -18,4 +18,4 @@
  btoa(unescape(encodeURIComponent(str)))
 ```
 * [내부 명렁 처리 순서 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
-* [Script async defer](https://www.youtube.com/watch?v=tJieVCgGzhs)
+* [Script 인클루드 할때 옵션 async defer](https://www.youtube.com/watch?v=tJieVCgGzhs)
