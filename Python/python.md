@@ -12,18 +12,32 @@
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
+* [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
+* [staticMethod class 차이](https://sshkim.tistory.com/184)
+* 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
+* formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
+##### socketio
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
 ```
  # Using Websockets with Python 링크에서 참조 
  # WebSocket은 n 개의 클라이언트에 연결할 수 있으므로 플라스크는 Eventlet 또는 Gevent와 같은 일부 비동기 라이브러리를 사용해야합니다. 따라서 우리의 경우 Eventlet을 설치하고 있습니다.
  # Eventlet 스레드 라이브러리로 프로젝트를 실행하려면 Gunicorn 웹 서버를 설치하거나 UWsgi 서버를 사용하겠습니다.
  # socket_io.run() 을 사용하려면 Gunicorn 또는 UWsgi 서버를 사용해야함.
+ 
+ # 소켓사용 nginx 설정 시 
+ # location 항목에 아래 옵션 추가
+ proxy_http_version 1.1;
+ proxy_set_header Upgrade $http_upgrade;
+ proxy_set_header Connection "upgrade";
 ```
-* [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
-* [staticMethod class 차이](https://sshkim.tistory.com/184)
+* [flask-socketio 모듈 공식문서 Deployment 항목에 gunicorn 서버 연결 부분 참조](https://flask-socketio.readthedocs.io/en/latest/deployment.html)
 
-* 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
-* formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
+
+
+
+
+
+
 ##### 상속
 * 설치한 특정 모듈의 메소드를 수정해서 사용하고 싶을때 사용가능하다.
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
