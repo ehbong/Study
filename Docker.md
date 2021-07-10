@@ -31,6 +31,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   docker commit <옵션> <컨테이너 이름> <새로저장할 이미지 이름>
     옵션 : -a 작성자, -c 생성된 이미지에 도커파일 명령 적용, -m 커밋메세지, -p 커밋중 컨테어니 일시 중지
   docker diff <이미지 이름> : 본래 이미지와 달라진 파일 리스트 출력 (A 추가, D 삭제, C 수정)
+  docker exec <이미지 이름> -it /bin/bash : 컨테이너 안으로 진입
   docker inspect : 이미지와 컨테이너 설정 확인
   docker logs : stdout 확인
   docker rm : 컨테이너삭제
