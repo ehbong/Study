@@ -13,6 +13,11 @@
   $ sudo apt-get update
   $ sudo apt-get install docker.io
   $ sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker # 링크
+  
+  # 그룹생성
+  $ sudo groupadd docker
+  # 그룹에 유저추가(재접속 후 반영)
+  $ sudo usermod -aG docker $USER
 ```
 ##### 공유폴더 설정
 * [공유 폴더 설정하기](https://tttsss77.tistory.com/161)
