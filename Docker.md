@@ -64,6 +64,11 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   ARG : Dockerfile 내부 변수
   ONBUILD : 다른 이미지의 Base Image로 쓰이는 경우 실행될 명령 수행
   SHELL : Default Shell 지정
+  
+  
+  # Dockerfile 로 이미지 생성방법
+  docker build -t <이미지이름> <도커파일경로 같은 디렉토리면 .>
+  
 ```
 * [RUN, CMD, ENTRYPOINT의 차이](https://nirsa.tistory.com/66)
 * [YAML 문법](https://subicura.com/k8s/prepare/yaml.html#%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8)
