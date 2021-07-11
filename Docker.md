@@ -82,6 +82,9 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   services : # 컨테이너들정보들을 가지고 있는 맵(key, value)
     <컨테이너 이름>:
       image: <Docker Hub에 있는 이미지 명 : <태그>
+      build: <도커파일로 빌드할 경우 단일 도커파일에 기본경로면 ./ 로 한줄로 끝 >
+        context: <프로젝트 폴더>
+        dockerfile: <도커파일 경로 및 이름>
       restart: <자동 재시작 옵션 always 항상재시작, "no" 기본값 재시작하지 않음, unless-stopped 수동으로 중지한 경우를 제외하고 재시작>
       logging: <로그 옵션>
         driver: "json-file"
