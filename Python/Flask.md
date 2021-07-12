@@ -3,7 +3,12 @@
 * [플라스크 튜토리얼](https://flask-docs-kr.readthedocs.io/ko/latest/)
 * [잔재미코딩 flask 사용법](https://www.fun-coding.org/flask_basic-2.html)
 * [Jinja2 템플릿 사용법](http://hleecaster.com/flask-jinja2/)
-
+```
+  # 기본 포트 5000, 아래처럼 실행하면 로컬에서만 접속 가능
+  app.run()
+  # 기본 호스트를 지정, 포트는 바꿀경우 아래와 같이 추가
+  app.run(host='0.0.0.0', port='5000')
+```
 ## mysql for flask
 * [mac mysql 설치](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
 * [venv 에서 mysql 경로 못찾을때](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
