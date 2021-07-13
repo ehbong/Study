@@ -63,6 +63,11 @@
   result = [x for x in arrayData if x.value == 1]
 ```
 ```
+  # 인덱스 없을 경우 오류발생
+  temp.index(<검색할 값>)
+  # in 으로 배열내 값이 있는지 확인
+  <검색할 값> in temp
+  
   # 두 배열의 차집합 구하는 방법
   temp3 = list(set(temp1) - set(temp2)) #순서 보존이 안됨
 
