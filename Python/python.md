@@ -41,7 +41,7 @@
 ##### 상속
 * 설치한 특정 모듈의 메소드를 수정해서 사용하고 싶을때 사용가능하다.
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
-
+#### 문자열
 ##### 문자열치환
 ``` replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
 * [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
@@ -49,6 +49,10 @@
 
 ##### 앞뒤 공백제거
 ``` strip() ```
+##### 문자열 검색
+````
+ 'abc'.find('a) >>> 0 #인덱스를 반환 없을 경우 -1
+````
 
 ##### 반복문 인덱스 구하기
 ``` for i in range(len(array)): ```
