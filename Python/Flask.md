@@ -22,6 +22,16 @@
 
 ## file
 * [file upload](https://velog.io/@kho5420/Flask-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C-File-Upload%ED%95%98%EA%B8%B0)
+```
+  # 파일 삭제
+  import os
+  file = './upload/test.txt'
+
+  if os.path.isfile(file):
+    os.remove(file)
+  # 폴더 삭제
+  os.rmdir('/abc/')
+```
 
 
 ## socket-io
