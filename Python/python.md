@@ -18,6 +18,10 @@
 * [staticMethod class 차이](https://sshkim.tistory.com/184)
 * 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 * formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
+```
+ # 3항 연산자 자바나 자바스크립트와는 다름
+ <참 결과> if <조건> else <거짓결과>
+```
 ##### socketio
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
 ```
