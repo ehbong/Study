@@ -171,6 +171,14 @@
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
 * [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
+```
+ # 멀티 프로세스(함수에 매개변수 넣는 형태의 목록을 프로세스를 여러개 생성에서 병렬로처리) 
+ # sqlAlcemy를 사용해서 db.session.commit() 을 바깥에서 할 경우 실제로는 커밋되지 않음(세션을 공유하지않음)
+ pool = multiprocessing.Pool(processes=4)
+ pool.map(<함수명>, <매개변수 리스트>)
+ pool.close()
+ pool.join()
+```
 
 ##### 비동기 처리
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
