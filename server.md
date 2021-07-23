@@ -13,6 +13,18 @@
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
 * [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
 * [Server 운용 방법 5가지](https://blog.msalt.net/77)
+```
+## 우분트 시스템에 자동업데이트 서비스로 인해 문제가 생길때
+sudo systemctl stop apt-daily.timer
+sudo systemctl disable apt-daily.timer
+sudo systemctl disable apt-daily.service
+
+sudo systemctl stop apt-daily-upgrade.timer
+sudo systemctl disable apt-daily-upgrade.timer
+sudo systemctl disable apt-daily-upgrade.service
+
+sudo systemctl daemon-reload
+```
 
 #### PM2
 * [PM2 사용법](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
