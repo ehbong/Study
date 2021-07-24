@@ -24,6 +24,8 @@
   # 디비 모델 정보 가져오기
   pip install flask-sqlacodegen
   flask-sqlacodegen "mysql://username:password@DB_IP/DB_NAME" --flask > models.py
+  
+  # db커넥션 연결을 유지하려면 DB설정의 time_out 시간보다 pool_recycle 설정 값이 작아야함.
 ```
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
