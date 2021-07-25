@@ -49,16 +49,16 @@
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
 #### 문자열
 ##### 문자열치환
-``` replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
+```python replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
 * [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
 * [re 모듈 활용](https://velog.io/@ednadev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-re%EB%AA%A8%EB%93%88)
 
 ##### 앞뒤 공백제거
 ``` strip() ```
 ##### 문자열 검색
-````
- 'abc'.index('a) >>> 0 #인덱스를 반환 없을 예
- 'abc'.find('a) >>> 0 #인덱스를 반환 없을 경우 -1
+````python
+ 'abc'.index('a) # >>> 0 #인덱스를 반환 없을 예
+ 'abc'.find('a) # >>> 0 #인덱스를 반환 없을 경우 -1
 ````
 
 ##### 반복문 인덱스 구하기
@@ -66,14 +66,14 @@
 
 ##### 배열
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
-```
+```python
   # 필터 형식 검색
   result = list(filter(lambda x: x.value == 1 , arrayData))
   
   # list comprehension 형식 검색
   result = [x for x in arrayData if x.value == 1]
 ```
-```
+```python
   # 인덱스 없을 경우 오류발생(인덱스 번호로 반환)
   temp.index(<검색할 값>)
   # in 으로 배열내 값이 있는지 확인(오류발생은 없으나 반환값을 True, False로 반환)
@@ -88,7 +88,7 @@
 ```
 ##### 시간 다루기
 * [날짜 포메팅](https://krksap.tistory.com/1635)
-```
+```python
   # 타임 스탬프를 데이트 타입으로 변경
   datetime.datetime.fromtimestamp(<타입스탬프> / 1000, <타임존 예 datetime.timezone.utc>)
   # 데이트 타입을 문자열로(데이트 > 바꿀 데이트 형태 문자열)
@@ -98,12 +98,12 @@
 ```
 
 ##### 딕셔너리리스트 검색
-``` 
+```python
   list = [{'Name': 'Tom', 'Age': 30},{'Name': 'Jack', 'Age': 31},{'Name': 'Sue', 'Age': 32}]
   tom = (item for item in list if item['Name'] == 'Tom')\
   dict = next(tom, False)
-  >>> dict {'Name': 'Tom', 'Age': 30} 
-  >>> dict['Age']
+  # >>> dict {'Name': 'Tom', 'Age': 30} 
+  # >>> dict['Age']
   
   ret = next(item for item in list if item['Name'] == 'Tom'), None)
   print(ret)
@@ -112,7 +112,7 @@
 * [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
 
 ##### 변수 스코프
-```
+```python
   def a: 
     a = 0
     if a == 0:
@@ -129,7 +129,7 @@
 ##### 예외
 * [에러와 예외](https://docs.python.org/ko/3/tutorial/errors.html)
 ##### 예외 전이
-```
+```python
   # 따로 throw 없이 예외가 전이돼서 예외처리됨
   def a():
     try:
@@ -145,7 +145,7 @@
 ##### 데코레이터
 * [파이썬 코딩 도장 데코레이터](https://dojang.io/mod/page/view.php?id=2427)
 * [데코레이터 기본 사용법](https://www.daleseo.com/python-decorators/)
-```
+```python
   # 매개변수가 있는 데코레이터 출처 https://dojang.io/mod/page/view.php?id=2429
   def is_multiple(x):              # 데코레이터가 사용할 매개변수를 지정
     def real_decorator(func):    # 호출할 함수를 매개변수로 받음
@@ -171,7 +171,7 @@
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
 * [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
-```
+```python
  # 멀티 프로세스(함수에 매개변수 넣는 형태의 목록을 프로세스를 여러개 생성에서 병렬로처리) 
  # sqlAlcemy를 사용해서 db.session.commit() 을 바깥에서 할 경우 실제로는 커밋되지 않음(세션을 공유하지않음)
  pool = multiprocessing.Pool(processes=4)
