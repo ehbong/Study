@@ -3,7 +3,7 @@
 * [플라스크 튜토리얼](https://flask-docs-kr.readthedocs.io/ko/latest/)
 * [잔재미코딩 flask 사용법](https://www.fun-coding.org/flask_basic-2.html)
 * [Jinja2 템플릿 사용법](http://hleecaster.com/flask-jinja2/)
-```
+```python
   # 기본 포트 5000, 아래처럼 실행하면 로컬에서만 접속 가능
   app.run()
   # 기본 호스트를 지정, 포트는 바꿀경우 아래와 같이 추가
@@ -22,7 +22,7 @@
 
 ## file
 * [file upload](https://velog.io/@kho5420/Flask-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C-File-Upload%ED%95%98%EA%B8%B0)
-```
+```python
   # 파일 삭제
   import os
   file = './upload/test.txt'
@@ -36,7 +36,7 @@
 
 ## socket-io
 * [SocketIO 공식문서](https://flask-socketio.readthedocs.io/en/latest/getting_started.html)
-```
+```python
 
   -- javascript
   let socket = io.connect(
@@ -53,7 +53,7 @@
   def some_function():
     socketio.emit('some event', {'data': 'test'}, namespace='/test')
 ```
-```
+```python
   # 로그남기기
   socketio = SocketIO(logger=True, engineio_logger=True)
 ```
