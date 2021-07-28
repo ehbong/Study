@@ -4,7 +4,7 @@
 
 ### 설치방법
 
-```
+```bash
   pip3 install sqlalchemy
 ```
 
@@ -20,7 +20,7 @@
 * [SQLAlchemy SQL 호출예제](https://lowelllll.github.io/til/2019/04/19/TIL-flask-sqlalchemy-orm/)
 
 * [이미 있는 DB의 모델정보 가져오기](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
-```
+```bash
   # 디비 모델 정보 가져오기
   pip install flask-sqlacodegen
   flask-sqlacodegen "mysql://username:password@DB_IP/DB_NAME" --flask > models.py
@@ -46,7 +46,7 @@
 
 * [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
 * [여러 DB를 사용중일때 특정 연결(엔진)을 불러올때](https://github.com/pallets/flask-sqlalchemy/issues/359)
-```
+```python
 ##여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
  db.get_engine(app, <bind명>)
 ## 그룹 바이
@@ -63,7 +63,7 @@ func.count(distinct(User.name))
 # Pandas
 * [pandas](http://pythonstudy.xyz/python/article/408-pandas-%EB%8D%B0%EC%9D%B4%ED%83%80-%EB%B6%84%EC%84%9D)
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
-```
+```python
 import pandas as df
 
 queryset = stock.query.filter(stock.name.like('%'+search_text+'%'))
@@ -84,7 +84,7 @@ print(json.loads(df.to_json(orient='records')))
 * ORM 방식 쿼리와 기본 쿼리 방식의 트랜젝션을 공유하지 않음.
 
 
-```
+```python
  # 특정 컬럼값만 리스트로 출력
  df = pd.real_sql(<sql_data>.statement, <sql_data>.session.bind)
  data = df['컬럼명'].to_numpy()
