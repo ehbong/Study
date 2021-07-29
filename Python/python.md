@@ -49,7 +49,9 @@
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
 #### 문자열
 ##### 문자열치환
-```python replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) ```
+```python 
+replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) 
+```
 * [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
 * [re 모듈 활용](https://velog.io/@ednadev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-re%EB%AA%A8%EB%93%88)
 
