@@ -56,7 +56,9 @@ replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수])
 * [re 모듈 활용](https://velog.io/@ednadev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-re%EB%AA%A8%EB%93%88)
 
 ##### 앞뒤 공백제거
-``` strip() ```
+```python 
+strip() 
+```
 ##### 문자열 검색
 ````python
  'abc'.index('a) # >>> 0 #인덱스를 반환 없을 예
@@ -64,7 +66,9 @@ replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수])
 ````
 
 ##### 반복문 인덱스 구하기
-``` for i in range(len(array)): ```
+```python
+for i in range(len(array)): 
+```
 
 ##### 배열
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
