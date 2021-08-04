@@ -49,15 +49,22 @@
 ```python
 ##여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
  db.get_engine(app, <bind명>)
+ 
 ## 그룹 바이
 .group_by(<컬럼명>)
+
 ## sum
 func.sum()
+
 ## count
 func.count()
+
 ## distinct 컬럼값 중복 제거
 from sqlalchemy import distinct
 func.count(distinct(User.name))
+
+## 두 쿼리의 결과값을 결합(유니온)
+<a query>.union(<b query>)
 ```
 
 # Pandas
