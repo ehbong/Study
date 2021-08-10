@@ -7,4 +7,10 @@
 ```
   team 은 하나의 작업 그룹
   project 는 하나의 상품 정도로 구분
+  
+  canvas는 바탕
+  frame 그려질 영역
+  layer 는 포토샵의 의미와 동일
+  page 는 여러 canvas를 구분짓기 위한 것
+  
 ```
