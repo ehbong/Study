@@ -65,6 +65,9 @@ func.count(distinct(User.name))
 
 ## 두 쿼리의 결과값을 결합(유니온)
 <a query>.union(<b query>)
+
+## 날짜형식의 값을 문자열 형식으로 표현
+func.date_format(<컬럼명>, '%Y-%m-%d'>
 ```
 
 # Pandas
