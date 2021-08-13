@@ -67,7 +67,7 @@ func.count(distinct(User.name))
 <a query>.union(<b query>)
 
 ## 날짜형식의 값을 문자열 형식으로 표현
-func.date_format(<컬럼명>, '%Y-%m-%d'>)
+func.date_format(<컬럼명>, '%Y-%m-%d')
 ```
 
 # Pandas
