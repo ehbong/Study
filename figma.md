@@ -15,3 +15,12 @@
   
   component 재활용하는 객체
 ```
+
+* [플러그인 설치방법](https://designer-story.tistory.com/26)
+
+#### 유용한 플러그인
+
+* [Autoflow 플로우 차트 기능](https://www.figma.com/community/plugin/733902567457592893/Autoflow)
+* [iconify 아이콘 플러그인](www.figma.com/community/plugin/735098390272716381/Iconify)
+* [viewports 뷰포트 플러그인](https://www.figma.com/community/plugin/732240841094697441/Viewports)
+* [Find and Replace 찾기, 찾아바꾸기 플러그인](https://www.figma.com/community/plugin/735072959812183643/Find-and-Replace)
