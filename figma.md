@@ -13,7 +13,10 @@
   layer 는 포토샵의 의미와 동일
   page 는 여러 canvas를 구분짓기 위한 것
   
+  asset 탭 component를 담은 탭
   component 재활용하는 객체
+  
+  
 ```
 
 * [플러그인 설치방법](https://designer-story.tistory.com/26)
