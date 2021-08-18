@@ -1,5 +1,6 @@
 # AWS BASIC
-* [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html) 
+* [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html)
+* [AWS cluoud 보안 교육](https://www.aws.training/Details/eLearning?id=54772)
 
 ## VPC
 
