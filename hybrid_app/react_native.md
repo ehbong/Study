@@ -24,3 +24,4 @@
 
 ## Expo
 * [공식사이트](https://expo.dev/)
+* [Expo 장단점](https://medium.com/official-podo/expo%EB%A1%9C-%EC%95%B1-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B8-%ED%9B%84%EA%B8%B0-vs-vanilla-react-native-fc20c8dac937)
