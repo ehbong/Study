@@ -21,3 +21,6 @@
   # 프로젝트 만들기
   react-native init --version <버전> <프로젝트명>
 ```
+
+## Expo
+* [공식사이트](https://expo.dev/)
