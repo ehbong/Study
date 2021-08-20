@@ -40,7 +40,8 @@
 
 
 
-
+##### JIT(Just In Time)컴파일 런타임
+* [pypy](https://www.pypy.org/)
 
 
 
