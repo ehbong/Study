@@ -38,13 +38,34 @@
 ```
 * [flask-socketio 모듈 공식문서 Deployment 항목에 gunicorn 서버 연결 부분 참조](https://flask-socketio.readthedocs.io/en/latest/deployment.html)
 
-
-#### 속도 개선 방법
+---
+## 속도 개선 방법 
 * [다양한 속도 개선 방법 예제](https://jinwoo1990.github.io/dev-wiki/python-concept-4/)
 ##### JIT(Just In Time)컴파일 런타임
 * [pypy](https://www.pypy.org/)
 
+##### 멀티쓰레드 & 멀티 프로세스
+* [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
+* [멀티프로세싱 예제](https://doorbw.tistory.com/205)
+* [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
+```python
+ # 멀티 프로세스(함수에 매개변수 넣는 형태의 목록을 프로세스를 여러개 생성에서 병렬로처리) 
+ # sqlAlcemy를 사용해서 db.session.commit() 을 바깥에서 할 경우 실제로는 커밋되지 않음(세션을 공유하지않음)
+ pool = multiprocessing.Pool(processes=4)
+ pool.map(<함수명>, <매개변수 리스트>)
+ pool.close()
+ pool.join()
+```
 
+##### 비동기 처리
+* [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
+* [비동기 request처리](https://item4.blog/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
+* [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
+```
+  ## 시간 딜레이 추가
+  await asyncio.sleep(<초>) 
+```
+---
 
 ##### 상속
 * 설치한 특정 모듈의 메소드를 수정해서 사용하고 싶을때 사용가능하다.
@@ -175,27 +196,6 @@ for i in range(len(array)):
   print(add(2, 5))
 ```
 
-##### 멀티쓰레드 & 멀티 프로세스
-* [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
-* [멀티프로세싱 예제](https://doorbw.tistory.com/205)
-* [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
-```python
- # 멀티 프로세스(함수에 매개변수 넣는 형태의 목록을 프로세스를 여러개 생성에서 병렬로처리) 
- # sqlAlcemy를 사용해서 db.session.commit() 을 바깥에서 할 경우 실제로는 커밋되지 않음(세션을 공유하지않음)
- pool = multiprocessing.Pool(processes=4)
- pool.map(<함수명>, <매개변수 리스트>)
- pool.close()
- pool.join()
-```
-
-##### 비동기 처리
-* [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
-* [비동기 request처리](https://item4.blog/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
-* [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
-```
-  ## 시간 딜레이 추가
-  await asyncio.sleep(<초>) 
-```
 ##### logger
 * [logging 기본설명](https://docs.python.org/ko/3/howto/logging.html)
 * [날짜별 로깅파일 생성](https://yurimkoo.github.io/python/2019/08/11/logging.html)
