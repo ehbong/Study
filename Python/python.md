@@ -39,7 +39,8 @@
 * [flask-socketio 모듈 공식문서 Deployment 항목에 gunicorn 서버 연결 부분 참조](https://flask-socketio.readthedocs.io/en/latest/deployment.html)
 
 
-
+#### 속도 개선 방법
+* [다양한 속도 개선 방법 예제](https://jinwoo1990.github.io/dev-wiki/python-concept-4/)
 ##### JIT(Just In Time)컴파일 런타임
 * [pypy](https://www.pypy.org/)
 
