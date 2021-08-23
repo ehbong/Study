@@ -77,6 +77,17 @@ for element in some_list:
 # List Comprehension 으로 변환하면 속도가 개선됨
 result = [x for x in large_list if some_filter(x)]
 ```
+###### 외부 라이러리를 변수에 담아 사용
+```python
+import random #wrong
+While something
+>> print(random.randint(0,10))
+
+import random #right
+rand = random.randint
+While something:
+>>print(rand(0,10))
+```
 ---
 
 ##### 상속
