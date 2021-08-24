@@ -88,6 +88,8 @@ rand = random.randint
 While something:
 >>print(rand(0,10))
 ```
+######  cProfile 속도 측정 모듈
+* [공식문서 한글 번역](https://docs.python.org/ko/3/library/profile.html)
 ---
 
 ##### 상속
