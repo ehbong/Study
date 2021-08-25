@@ -110,3 +110,5 @@ sudo systemctl daemon-reload
  brew link python@3.8 # 이 명령어가 안되면 brew link --overwrite --dry-run python@3.8
 ```
 
+## Ansible
+* [Ansible 공식 튜토리얼](https://www.redhat.com/ko/topics/automation/learning-ansible-tutorial)
