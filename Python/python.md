@@ -16,6 +16,7 @@
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [staticMethod class 차이](https://sshkim.tistory.com/184)
+* [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 * formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 ```
