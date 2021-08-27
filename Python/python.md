@@ -44,6 +44,10 @@
 * [다양한 속도 개선 방법 예제](https://jinwoo1990.github.io/dev-wiki/python-concept-4/)
 ##### JIT(Just In Time)컴파일 런타임
 * [pypy](https://www.pypy.org/)
+```
+ numpy, pandas 모듈 사용시 특정 버전이 필요한게 아니라면 
+ requirements.txt 에 버전 없이 표기해서 설치
+```
 
 ##### 멀티쓰레드 & 멀티 프로세스
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
