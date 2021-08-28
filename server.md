@@ -85,6 +85,7 @@ sudo systemctl daemon-reload
 * [jenkins flask 연동](https://velog.io/@inyong_pang/devops-jenkins-flask-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%B0%EB%8F%99)
 * [jenkins github 연동](https://goddaehee.tistory.com/258)
 * [jenkins github 연결설정](https://bcho.tistory.com/1237)
+* [CI/CD 툴 비교](https://medium.com/day34/ci-cd-tool-comparison-f710a4777852)
 
 ## MSA
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
