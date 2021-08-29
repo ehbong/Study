@@ -3,6 +3,7 @@
 ### 기본 강좌
 * [깃허브 강좌 상](https://www.youtube.com/watch?v=FXDjmsiv8fI&t=38s)
 * [깃허브 강좌 하](https://www.youtube.com/watch?v=GaKjTjwcKQo)
+* [브랜치 종류 설명](https://mylko72.gitbooks.io/git/content/branch/branch_type.html)
 
 ### 기본 명령어
 #### 버전=커밋ID
@@ -32,6 +33,7 @@ git diff : git add하기 전(작업디렉터리)과 add한 후(index)의 파일 
 
 git reset --soft 버전 : 저장소만 이전 버전으로 돌아감
 git reset --hard 버전 : 작업디렉터리까지 이전 버전으로 돌아감
+git reset --hard ORIG_HEAD : 실수로 리셋을 한경우 이전으로 돌아감
 
 git revert 버전 : 버전의 커밋을 취소한 내용을 새로운 버전으로 만드는 명령
 
