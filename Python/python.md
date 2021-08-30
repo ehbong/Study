@@ -48,6 +48,7 @@
  numpy, pandas 모듈 사용시 특정 버전이 필요한게 아니라면 
  requirements.txt 에 버전 없이 표기해서 설치
 ```
+* [Numba](http://numba.pydata.org/)
 
 ##### 멀티쓰레드 & 멀티 프로세스
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
