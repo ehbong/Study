@@ -49,7 +49,8 @@
  requirements.txt 에 버전 없이 표기해서 설치
 ```
 * [Numba](http://numba.pydata.org/)
-
+##### 확장모듈 생성
+* [cython](https://cython.org/)
 ##### 멀티쓰레드 & 멀티 프로세스
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
