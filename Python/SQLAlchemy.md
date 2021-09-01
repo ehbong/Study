@@ -68,6 +68,9 @@ func.count(distinct(User.name))
 
 ## 날짜형식의 값을 문자열 형식으로 표현
 func.date_format(<컬럼명>, '%Y-%m-%d')
+
+## 특정 컬럼 + 컬럼명을 조회할때
+.with_entities(<테이블명>.<컬럼명>.label(<바꿀 컬럼명>), <테이블명>.<컬럼명>.label(<바꿀 컬럼명>), ...)
 ```
 
 # Pandas
@@ -76,9 +79,11 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 ```python
 import pandas as df
 
-queryset = stock.query.filter(stock.name.like('%'+search_text+'%'))
+queryset = <테이블 모델>.query.filter(<테이블 모델>.<테이블 컬럼>.like('%'+search_text+'%'))
+또는
+queryset = db.session.query(<테이블 명 또는 컬럼>).filter(<테이블 모델>.<테이블 컬럼>.like('%'+search_text+'%'))
 
-# 위와 달라진게 있다면 끝에 .all() 이 없다 (sql 객체 그대로 pandas.read_sql()에 전달)
+# 중요한 점은 .all() .first() 등 결과 객체를 반환하지 않고 sql 객체 그대로 pandas.read_sql()에 전달
 
 df = pd.read_sql(queryset.statement, queryset.session.bind)
 # pd.read_sql(queryset.statement, <세션바인드 멀티 DB일 경우 해당 DB 세션을 연결 예. db.get_engine(app, bind명)>)
