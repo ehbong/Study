@@ -22,13 +22,14 @@
 ```
  # 3항 연산자 자바나 자바스크립트와는 다름
  <참 결과> if <조건> else <거짓결과>
+ 'True' if a == 1 else 'False'
 ```
 ##### socketio
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
 ```
  # Using Websockets with Python 링크에서 참조 
- # WebSocket은 n 개의 클라이언트에 연결할 수 있으므로 플라스크는 Eventlet 또는 Gevent와 같은 일부 비동기 라이브러리를 사용해야합니다. 따라서 우리의 경우 Eventlet을 설치하고 있습니다.
- # Eventlet 스레드 라이브러리로 프로젝트를 실행하려면 Gunicorn 웹 서버를 설치하거나 UWsgi 서버를 사용하겠습니다.
+ # WebSocket은 n 개의 클라이언트에 연결할 수 있으므로 플라스크는 Eventlet 또는 Gevent와 같은 일부 비동기 라이브러리가 필요
+ # Eventlet 스레드 라이브러리로 프로젝트를 실행하려면 Gunicorn 웹 서버를 설치하거나 UWsgi 서버를 사용
  # socket_io.run() 을 사용하려면 Gunicorn 또는 UWsgi 서버를 사용해야함.
  
  # 소켓사용 nginx 설정 시 
