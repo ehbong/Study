@@ -73,6 +73,14 @@
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
 ```
+###### . 연산 사용을 줄임
+```python
+# 모듈을 import 해서 내부 함수를 사용하는 것보다
+from mudule
+module.function()
+# 직접 내부 함수를 import해서 사용하면 __getattribute()__하거나 __getattr()__ 등 사전연산을 줄일 수 있음.
+from module import function
+```
 
 ###### List Comprehension 사용
 ```python
@@ -80,7 +88,7 @@ result = []
 # for 문을 사용하는 것보다
 for element in some_list:
 	if some_filter(element):
-		result.append(element)
+		result.append(element) 
 
 # List Comprehension 으로 변환하면 속도가 개선됨
 result = [x for x in large_list if some_filter(x)]
