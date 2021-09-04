@@ -48,14 +48,14 @@ sudo systemctl daemon-reload
  kill $pid       : stop
 
  supervisorctl 사용
- status                # 모든 프로세스 보기
- avail                  # 설정 프로세스 보기
- exit / quit           # shell에서 나가기
- start                  # 등록된 프로세스 시작
- stop                  # 등록된 프로세스 중지
- restart                # 등록된 프로세스 재시작
- reload                # supervisord 재시작
- reread                # 설정 파일 다시 읽기
+ supervisorctl status                # 모든 프로세스 보기
+ supervisorctl avail                  # 설정 프로세스 보기
+ supervisorctl exit / quit           # shell에서 나가기
+ supervisorctl start                  # 등록된 프로세스 시작
+ supervisorctl stop                  # 등록된 프로세스 중지
+ supervisorctl restart                # 등록된 프로세스 재시작
+ supervisorctl reload                # supervisord 재시작
+ supervisorctl reread                # 설정 파일 다시 읽기
  
 ```
 * [ubuntu 패키지 관리하기, 여러개 패키지 중 대표 버전설정](https://www.whatwant.com/entry/update-alternatives-%EC%97%AC%EB%9F%AC-%EB%B2%84%EC%A0%84%EC%9D%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0)
