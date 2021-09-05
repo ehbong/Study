@@ -21,6 +21,9 @@
   # 프로젝트 만들기
   react-native init --version <버전> <프로젝트명>
 ```
+## React-native cli
+* [리액트 네이티브 cli 설치 방법](https://velog.io/@max9106/React-Native-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8Creact-native-%EB%91%90-%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95-2-React-Native-CLI-bmk0gz4izg)
+
 
 ## Expo
 * [공식사이트](https://expo.dev/)
