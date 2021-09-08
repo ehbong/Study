@@ -285,4 +285,9 @@ os.unlink(<링크 생성 경로>)
 
 # 하드 혹은 소프트 link 파일 혹은 폴더인지 확인할 때 사용
 os.path.islink(<링크 생성 경로>)
+
+# 링크가 있는지 확인해서 있으면 삭제 후 생성
+if os.path.islink('/abc/link.file'):
+	os.symlink('/abc/orifile.file')
+os.symlink('/abc/orifile.file', '/abc/link.file')
 ```
