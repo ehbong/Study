@@ -288,6 +288,6 @@ os.path.islink(<링크 생성 경로>)
 
 # 링크가 있는지 확인해서 있으면 삭제 후 생성
 if os.path.islink('/abc/link.file'):
-	os.symlink('/abc/orifile.file')
+  os.symlink('/abc/orifile.file')
 os.symlink('/abc/orifile.file', '/abc/link.file')
 ```
