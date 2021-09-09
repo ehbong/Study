@@ -291,3 +291,7 @@ if os.path.islink('/abc/link.file'):
   os.symlink('/abc/orifile.file')
 os.symlink('/abc/orifile.file', '/abc/link.file')
 ```
+
+
+##### 다른 언어 파일 다루기
+* [java 다루기 jPype](https://jpype.readthedocs.io/en/latest/quickguide.html)
