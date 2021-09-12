@@ -2,6 +2,10 @@
 * [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html)
 * [AWS cluoud 보안 교육](https://www.aws.training/Details/eLearning?id=54772)
 
+
+## AWS CLI 
+* [AWS CLI 공식문서](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-chap-welcome.html)
+
 ## VPC
 
 * [VPC 쉽게 이해하기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
