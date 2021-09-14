@@ -73,6 +73,9 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 .with_entities(<테이블명>.<컬럼명>.label(<바꿀 컬럼명>), <테이블명>.<컬럼명>.label(<바꿀 컬럼명>), ...)
 ```
 
+* [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
+
+
 # Pandas
 * [pandas](http://pythonstudy.xyz/python/article/408-pandas-%EB%8D%B0%EC%9D%B4%ED%83%80-%EB%B6%84%EC%84%9D)
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
