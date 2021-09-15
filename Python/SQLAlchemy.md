@@ -74,7 +74,7 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 ```
 
 * [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
-```
+```python
 for u in session.query(<테이블>).all():
   print u.__dict__
 ```
