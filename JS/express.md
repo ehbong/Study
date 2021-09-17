@@ -12,5 +12,8 @@
 ```javascript
   // 서버 호스트 주소 조회
   request.headers.host
+  // 클라이언트 주소 조회
+  request.connection.remoteAddress
 ```
 * [클라이언트 ip 추출](https://qastack.kr/programming/8107856/how-to-determine-a-users-ip-address-in-node)
+
