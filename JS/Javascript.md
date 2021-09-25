@@ -48,3 +48,7 @@ var third = second.normalize('NFC'); // '\uD55C\uAE00'
 ```
 * [내부 명렁 처리 순서 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
 * [Script 인클루드 할때 옵션 async defer](https://www.youtube.com/watch?v=tJieVCgGzhs)
+
+
+### 성능개선
+* [javascript 성능을 높이는 코드 스타일](https://12bme.tistory.com/134)
