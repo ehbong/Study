@@ -49,6 +49,57 @@ var third = second.normalize('NFC'); // '\uD55C\uAE00'
 * [내부 명렁 처리 순서 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
 * [Script 인클루드 할때 옵션 async defer](https://www.youtube.com/watch?v=tJieVCgGzhs)
 
+```javascript
+// import, export 종류 및 차이
+
+////////////// named export 각각 export, import 해서 사용
+//cal.js
+export const plus = (a, b) => a + b;
+export const minus = (a, b) => a - b;
+
+// main.js
+import { plus } from './cal'; // 이름이 export 이름과 동일
+
+////////////// default export 각 파일당 1개만 가능
+//cal.js
+const plus = (a, b) => a + b;
+const minus = (a, b) => a - b;
+export default { plus, minus }
+
+// main.js
+import cal from './cal'; // 이름 마음대로 지정가능
+cal.plus(1,2);
+
+
+////////////// default export, named export 가 섞여있는 경우
+//cal.js
+const plus = (a, b) => a + b;
+export const minus = (a, b) => a - b;
+export default plus
+
+// main.js
+import plus, { minus } from './cal'; // default 는 기본형식으로, named 는 {} 괄호를 이용해 import 
+
+
+////////////// dynamic import 필용한 상황에 불러오기
+//cal.js
+export const plus = (a, b) => a + b;
+export const minus = (a, b) => a - b;
+
+// main.js
+function callAnything(){
+ // then 방식
+ import('./cal').then(cal => cal.plus(2, 2));
+ // async/await 방식
+ const cal = await import('./cal');
+ cal.plus(2, 2);
+}
+
+// 해당 내용 출처
+// https://www.youtube.com/watch?v=WUirHxOBXL4
+
+```
+
 
 ### 성능개선
 * [javascript 성능을 높이는 코드 스타일](https://12bme.tistory.com/134)
