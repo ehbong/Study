@@ -52,3 +52,11 @@ var third = second.normalize('NFC'); // '\uD55C\uAE00'
 
 ### 성능개선
 * [javascript 성능을 높이는 코드 스타일](https://12bme.tistory.com/134)
+* [기본적인 웹사이트 최적화 방법](https://12bme.tistory.com/128?category=682905)
+```javascript
+// Code #1 - String 객체를 이용한 문자열 생성 
+var str = new String("abcdefghijklmnopqrstuvwxyz"); 
+// Code #2 - 리터럴을 이용한 문자열 생성 (속도가 더 빠름)
+var str = "abcdefghijklmnopqrstuvwxyz";
+
+```
