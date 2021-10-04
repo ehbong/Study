@@ -49,9 +49,11 @@ $ aws ec2 delete-security-group --group-id <보안그룹ID>
 ```
 
 ###### [보안 그룹에 IP 삭제](https://docs.aws.amazon.com/cli/latest/reference/ec2/authorize-security-group-ingress.html)
+###### [revoke-security-group-ingress 명령어 옵션](https://docs.aws.amazon.com/cli/latest/reference/ec2/revoke-security-group-ingress.html#synopsis)
 ```bash
 ## 정보로 삭제
 $ aws ec2 revoke-security-group-ingress --group-id <보안그룹ID> --protocol tcp --port <허용포트> --cidr <IP 예 192.0.0.1/32 모두 허용일 경우 0.0.0.0/0>
 ## security-group-rule-ids 로 삭제
 $ aws ec2 revoke-security-group-ingress --group-id <보안그룹ID> --security-group-rule-ids <보안그룹 규칙ID>
 ```
+
