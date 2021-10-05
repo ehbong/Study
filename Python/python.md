@@ -297,3 +297,20 @@ os.symlink('/abc/orifile.file', '/abc/link.file')
 
 ##### 다른 언어 파일 다루기
 * [java 다루기 jPype](https://jpype.readthedocs.io/en/latest/quickguide.html)
+
+
+##### command 라인 다루기
+* [shell 명령어](https://codechacha.com/ko/python-run-shell-script/)
+
+```python
+import os
+
+# 콘솔에 프린트
+os.system('echo "hello"')
+
+# 데이터로 리턴
+stream = os.popen('echo "hello"')
+output = stream.read()
+print(output)
+
+```
