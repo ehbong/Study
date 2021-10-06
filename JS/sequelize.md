@@ -3,6 +3,7 @@
 * [시퀄라이즈 공식문서](https://sequelize.org/master/)
 
 * [관계 설정](https://velog.io/@josworks27/Sequelize-Association)
+* [DB모델 자동 생성sequelize-auto](https://github.com/sequelize/sequelize-auto)
 
 #### Raw query 사용법
 * [공식문서 Raw Queries](https://sequelize.org/master/manual/raw-queries.html)
