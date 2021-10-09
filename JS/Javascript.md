@@ -2,6 +2,33 @@
 
 
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
+* [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
+* [web component](https://developer.mozilla.org/ko/docs/Web/Web_Components)
+* [customerElement 생성](https://developer.mozilla.org/ko/docs/Web/Web_Components/Using_custom_elements)
+```javascript
+customerElements.defind('<새로만들 컴포넌트 명>', <html 정보를 가진 클래스 오브젝트>) 
+
+class CustomInput extends HTMLElement {
+ // connectedCallback 은 커스텀 엘리먼트가 document의 DOM에 연결될 때마다 호출
+ // attributeChangedCallback은 커스텀 엘리먼트의 애트리뷰트가 추가, 제거 또는 변경될때 호출
+ connectedCallback(){
+  let label = document.createElement('label');
+  label.innerHTML = '인풋A';
+  this.appendChild(label);
+  let input = document.createElement('input');
+  this.appendChild(input);
+ }
+ // 변경점 감시 함수
+ static get observerdAttributes(){
+  return ['<변경점을 감시할 속성>']
+ }
+ // 변경점이 감시될때 실행될 함수
+ attributeChangeCallback(){
+  
+ }
+}
+
+```
 
 * [Promise](https://ko.javascript.info/promise-basics)
 
