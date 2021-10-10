@@ -4,6 +4,7 @@
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
 * [Object.defineProperty()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+* [ES2015 proxy](https://www.zerocho.com/category/EcmaScript/post/57ca5f053316f61500c4f902)
 * [web component](https://developer.mozilla.org/ko/docs/Web/Web_Components)
 * [customerElement 생성](https://developer.mozilla.org/ko/docs/Web/Web_Components/Using_custom_elements)
 ```javascript
