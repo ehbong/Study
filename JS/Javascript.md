@@ -31,6 +31,7 @@ class CustomInput extends HTMLElement {
 }
 
 ```
+* [shadow DOM](https://developer.mozilla.org/ko/docs/Web/Web_Components/Using_shadow_DOM)
 
 * [Promise](https://ko.javascript.info/promise-basics)
 
