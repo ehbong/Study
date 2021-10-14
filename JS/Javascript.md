@@ -1,6 +1,7 @@
 # Javascript
 
 * [prototype 이해](https://poiemaweb.com/js-prototype)
+* [prototype 유튜브 설명](https://www.youtube.com/watch?v=wUgmzvExL_E&t=16s)
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
 
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
