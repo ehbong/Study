@@ -1,6 +1,6 @@
 # Javascript
 
-
+* [prototype 이해](https://poiemaweb.com/js-prototype)
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
 
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
@@ -18,12 +18,12 @@ Object.defineProperty(someObj, 'valA', {
 });
 
 var a = { get b() {
-           return this._b || 0;
-          },
-          set b(num) {
-            this._b = num;
-            console.log(this._b); // 변경될때 일괄 동작 처리
-         }};
+  return this._b || 0;
+ },
+ set b(num) {
+   this._b = num;
+   console.log(this._b); // 변경될때 일괄 동작 처리
+}};
 
 
 someObj.valA++;
