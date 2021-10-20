@@ -14,3 +14,16 @@
 const { QueryTypes } = require('sequelize');
 const users = await sequelize.query("SELECT * FROM `users`", { type: QueryTypes.SELECT });
 ```
+
+#### Join
+```javascript
+<Model>.findAll({
+     include: [
+        {
+          model: <조인할 Model>,
+          attributes: [<필요한컬럼 리스트>]
+        }
+     ],
+     where: {<조건식>},
+});
+```
