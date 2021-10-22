@@ -1,5 +1,5 @@
 # Javascript
-
+* [setInterval, setTimeout의 차이](https://www.jiwon.me/setinterval-vs-settimeout/?fbclid=IwAR3Y_Ul-RzI6wh3aGiLNLu9vEBNu-hbII_TWzcCRHsIW7Xec5kgKwG_rPCM)
 * [prototype 이해](https://poiemaweb.com/js-prototype)
 * [prototype 이해2](https://velog.io/@adam2/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Prototype-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC)
 * [prototype, \_\_proto__ 생활코딩](https://www.youtube.com/watch?v=wT1Bl5uV27Y)
