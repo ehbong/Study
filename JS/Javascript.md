@@ -4,6 +4,7 @@
 * [prototype 이해2](https://velog.io/@adam2/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Prototype-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC)
 * [prototype, \_\_proto__ 생활코딩](https://www.youtube.com/watch?v=wT1Bl5uV27Y)
 * [prototype 유튜브 설명](https://www.youtube.com/watch?v=wUgmzvExL_E&t=16s)
+* [valueOf 메소드](https://dev.to/composite/valueof-mesodeu-mweohareo-issnya-1n97?fbclid=IwAR3NbHOY1Y-H7jxBdIdUTw1gzL0cf3Mdx_hpcP76m24qr08CQK-whDqUe5Q)
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
 
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
