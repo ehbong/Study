@@ -57,3 +57,11 @@ $ aws ec2 revoke-security-group-ingress --group-id <보안그룹ID> --protocol t
 $ aws ec2 revoke-security-group-ingress --group-id <보안그룹ID> --security-group-rule-ids <보안그룹 규칙ID>
 ```
 
+###### crontab 에 설정할때 awsconfig 설정을 불러오지 못할때 sh 파일에 명령어 실행하기전에 아래 설정 명령어 추가
+```bash
+export AWS_CONFIG_FILE="/home/<유저명>/.aws/config"
+export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXHRQ
+export AWS_SECRET_ACCESS_KEY=XXXXXXXfHyR
+```
+
+
