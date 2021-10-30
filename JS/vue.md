@@ -2,7 +2,7 @@
 
 * [Vue 공식문서](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js)
 * [vscode 익스텐션 추천](https://linked2ev.github.io/devsub/2020/08/31/Visual-Studio-Code-vue.js-%EA%B0%9C%EB%B0%9C%EC%8B%9C-%EC%B6%94%EC%B2%9C-plugin-%EC%A0%95%EB%A6%AC/)
-
+* [vue 기본 기능 애플코딩 강의](https://www.youtube.com/watch?v=-tVaahsXpwk&list=PLfLgtT94nNq3Br68sEe26jkOqCPK_8UQ-)
 ```html
 ##### vue 시작하기
 <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
