@@ -6,9 +6,9 @@
 * [브랜치 종류 설명](https://mylko72.gitbooks.io/git/content/branch/branch_type.html)
 
 ### 기본 명령어
-#### 버전=커밋ID
+> 버전=커밋ID
 
-URL에는 원격저장소 뿐아니라 로컬저장소 경로도 포함될 수 있다.
+>URL에는 원격저장소 뿐아니라 로컬저장소 경로도 포함될 수 있다.
 ```bash
 git init : 저장소 생성
 git init --bare : 작업이 불가능하고 기능만 수행하는 저장소 생성(.git 내 파일만 존재)
