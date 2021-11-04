@@ -84,6 +84,10 @@ for u in session.query(<테이블>).all():
   print u.__dict__
 ```
 
+> SQLAlchemy 사용 시 멀티테스킹 + eventlet 을 사용하면 
+> Commands out of sync; you can’t run this command now 에러가 발생할 수 있다. [링크](https://docs.sqlalchemy.org/en/13/faq/connections.html#commands-out-of-sync-you-can-t-run-this-command-now-this-result-object-does-not-return-rows-it-has-been-closed-automatically)
+> 
+
 # Pandas
 * [pandas](http://pythonstudy.xyz/python/article/408-pandas-%EB%8D%B0%EC%9D%B4%ED%83%80-%EB%B6%84%EC%84%9D)
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
