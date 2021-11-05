@@ -2,6 +2,7 @@
 * [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html)
 * [AWS cluoud 보안 교육](https://www.aws.training/Details/eLearning?id=54772)
 * [AWS EC2 putty 로 접속](https://mozi.tistory.com/191)
+* [Route 53 서브 도메인 공식문서](https://aws.amazon.com/ko/premiumsupport/knowledge-center/create-subdomain-route-53/)
 
 ## VPC
 
