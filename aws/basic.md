@@ -2,8 +2,7 @@
 * [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html)
 * [AWS cluoud 보안 교육](https://www.aws.training/Details/eLearning?id=54772)
 * [AWS EC2 putty 로 접속](https://mozi.tistory.com/191)
-* [Route 53 서브 도메인 공식문서](https://aws.amazon.com/ko/premiumsupport/knowledge-center/create-subdomain-route-53/)
-* [AWS 서브 도메인 설정](https://blog.self-made.cloud/232)
+
 
 ## VPC
 
@@ -71,3 +70,13 @@
   7. 리전 선택(서울리전) 
   8. limit 개수 수정
 ```
+
+
+## 서브도메인 생성 및 SSL 인증서 적용
+* [Route 53 서브 도메인 공식문서](https://aws.amazon.com/ko/premiumsupport/knowledge-center/create-subdomain-route-53/)
+* [AWS 서브 도메인 설정](https://blog.self-made.cloud/232)
+> 서브도메인 생성
+1. [AWS 호스팅영역 생성](https://console.aws.amazon.com/route53/v2/hostedzones#) 서브 도메인 명으로 생성
+2. 생성된 서브도메인의 NS 값을 복사 
+3. 메인 도메인에 레코드 생성, 레코드 이름은 서브도메인명, 레코드 유형 NS, 값은 2번에서 복사한 NS값을 넣음
+4. 서브도메인 호스팅 영역에 레코드 생성해서 대상 연결 및 SSL 설정
