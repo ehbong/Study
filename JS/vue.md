@@ -26,3 +26,15 @@
 ```
 > v-if 는 그릴지 안그릴지, v-show 는 css 속성만 변경
 >> v-if 는 자주 바뀌지 않는 조건에, v-show는 자주 바뀌는 조건에 적용
+
+
+##### Invalid Host header
+```javascript
+// filename : vue.config.js
+module.exports = {
+  // options...
+  devServer: {
+    disableHostCheck: true
+  }
+};
+```
