@@ -16,6 +16,7 @@
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [staticMethod class 차이](https://sshkim.tistory.com/184)
+* [__init__.py 사용 이유](https://mmjourney.tistory.com/14)
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
 * [framework 비교](https://dingrr.com/blog/post/python-%EC%9B%B9%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-%EB%81%9D%ED%8C%90%EC%99%95-%EA%B0%80%EB%A6%AC%EA%B8%B0-django-flask-fastapi-sanic)
