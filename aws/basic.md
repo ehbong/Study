@@ -2,7 +2,7 @@
 * [AWS 기본 교육](https://kr-id-general.workshop.aws/ko/compute/launching.html)
 * [AWS cluoud 보안 교육](https://www.aws.training/Details/eLearning?id=54772)
 * [AWS EC2 putty 로 접속](https://mozi.tistory.com/191)
-
+* [결제 대시보드](https://console.aws.amazon.com/billing/home?region=ap-northeast-2#/)
 
 ## VPC
 
