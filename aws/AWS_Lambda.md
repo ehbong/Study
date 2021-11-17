@@ -11,3 +11,5 @@
 * [Lambda Rest API 만들기](https://blog.msalt.net/222)
 
 * [AWS Architecting Serverless Solutions 강의](https://www.aws.training/Details/eLearning?id=70986)
+
+* [Lambda rds 연결](https://dev.classmethod.jp/articles/lambda-rds-interlock/)
