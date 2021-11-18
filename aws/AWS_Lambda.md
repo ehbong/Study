@@ -13,3 +13,5 @@
 * [AWS Architecting Serverless Solutions 강의](https://www.aws.training/Details/eLearning?id=70986)
 
 * [Lambda rds 연결](https://dev.classmethod.jp/articles/lambda-rds-interlock/)
+
+* [Lambda vs ec2 비용 비교](https://dev.classmethod.jp/articles/amazon-ec2-vs-aws-lambda-price/)
