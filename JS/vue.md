@@ -13,7 +13,7 @@
 > 7. ESLint
 > 8. Prettier
 > 9. Auto Close Tag
-> 10.Atom Keymap
+> 10. Atom Keymap
 * [vue 기본 기능 애플코딩 강의](https://www.youtube.com/watch?v=-tVaahsXpwk&list=PLfLgtT94nNq3Br68sEe26jkOqCPK_8UQ-)
 ```html
 ##### vue 시작하기
