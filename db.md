@@ -6,6 +6,7 @@
 * [SQL query 튜닝](https://cornswrold.tistory.com/87)
 * [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
+* [DB네이밍 팁](https://jang8584.tistory.com/35)
 
 > mysql 데드락 걸렸을때 대처
 ```sql
