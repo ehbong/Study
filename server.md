@@ -94,6 +94,7 @@ sudo systemctl daemon-reload
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
 * [MicroService and Serverless](https://waspro.tistory.com/495)
 * [MSA란](https://blog.neonkid.xyz/200?category=830544)
+* [MSA 선택의 이유(카카오 이모티콘서비스에 )](https://tech.kakao.com/2021/09/14/msa/)
 
 
 ## cron
