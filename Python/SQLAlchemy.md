@@ -51,6 +51,8 @@
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
 
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
+
+* [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
 ```python
 ##여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
  db.get_engine(app, <bind명>)
