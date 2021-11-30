@@ -53,6 +53,23 @@
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
 
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
+> pandas 없이 dict로 변환
+```python
+# sqlquery 데이터 또는 sqldata 를 dictlist 또는 list로 변환
+def convert_sql_data_to_dict(list_or_query=[], data=None):
+    if type(list_or_query) is BaseQuery or len(list_or_query) > 0:
+        return [delete_sa_instance_state(row) for row in list_or_query]
+    if data is not None:
+        return delete_sa_instance_state(data)
+    return None
+
+# sa_instance_state 키 삭제
+def delete_sa_instance_state(row):
+    dict_data = row.__dict__
+    del dict_data['_sa_instance_state']
+    return dict_data
+```
+> 여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
 ```python
 ##여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
  db.get_engine(app, <bind명>)
