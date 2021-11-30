@@ -53,7 +53,12 @@
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
 
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
+* [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
 > pandas 없이 dict로 변환
+```python
+for u in session.query(<테이블>).all():
+  print u.__dict__
+```
 ```python
 # sqlquery 데이터 또는 sqldata 를 dictlist 또는 list로 변환
 def convert_sql_data_to_dict(list_or_query=[], data=None):
@@ -97,11 +102,7 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 .with_entities(<테이블명>.<컬럼명>.label(<바꿀 컬럼명>), <테이블명>.<컬럼명>.label(<바꿀 컬럼명>), ...)
 ```
 
-* [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
-```python
-for u in session.query(<테이블>).all():
-  print u.__dict__
-```
+
 
 > SQLAlchemy 사용 시 멀티테스킹 + eventlet 을 사용하면 
 > Commands out of sync; you can’t run this command now 에러가 발생할 수 있다. [링크](https://docs.sqlalchemy.org/en/13/faq/connections.html#commands-out-of-sync-you-can-t-run-this-command-now-this-result-object-does-not-return-rows-it-has-been-closed-automatically)
