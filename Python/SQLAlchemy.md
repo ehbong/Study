@@ -1,7 +1,8 @@
 # SQLAlchemy
 
 ## 파이썬 ORM 모듈
-
+### 다른 ORM
+* [tortoise-orm](https://tortoise-orm.readthedocs.io/en/latest/)
 ### 설치방법
 
 ```bash
