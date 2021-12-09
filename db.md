@@ -8,6 +8,7 @@
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
 * [Aurora MySQL vs Aurora PostgreSQL](https://techblog.woowahan.com/6550/)
+* [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
 
 > mysql 데드락 걸렸을때 대처
 ```sql
