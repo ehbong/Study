@@ -118,3 +118,16 @@ sudo systemctl daemon-reload
 
 ## Ansible
 * [Ansible 공식 튜토리얼](https://www.redhat.com/ko/topics/automation/learning-ansible-tutorial)
+
+## python
+```zsh
+  # python 명령어로 python3 실행하기
+  ~/.bashrc 또는 ~/.bash_aliases 파일에 아래의 내용을 추가
+
+  alias python=python3
+  alias pip=pip3
+  그리고 이를 적용하기 위해 source ~/.bashrc 또는 source ~/.bash_aliases를 실행
+
+  $ python --version
+  Python 3.6.9
+```
