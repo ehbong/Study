@@ -26,7 +26,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
 ```
 
 ##### 기본 명령어
-```
+```bash
   docker ps : 현재 실행중인 컨테이너 확인 (옵션 : -a 전체, -q 아이디만 보기)
   docker images : 저장된 이미지들 보기
   docker run <이미지이름 또는 아이디>: 컨테이너 생성 및 실행(이미지가 없을 경우 다운로드까지 진행)
@@ -102,7 +102,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
       ....
 ```  
   
-```  
+```bash  
   # Docker Compose 명령
   docker-compose up -d : 실행
   docker-compose ls : 조회
