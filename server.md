@@ -132,3 +132,5 @@ sudo systemctl daemon-reload
   $ python --version
   Python 3.6.9
 ```
+## cookiecutter
+* [cookiecutter ](https://cookiecutter.readthedocs.io/en/latest/installation.html)
