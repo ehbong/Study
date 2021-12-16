@@ -15,6 +15,7 @@
 > 9. Auto Close Tag
 > 10. Atom Keymap
 * [vue 기본 기능 애플코딩 강의](https://www.youtube.com/watch?v=-tVaahsXpwk&list=PLfLgtT94nNq3Br68sEe26jkOqCPK_8UQ-)
+* [vue 크롬 디버깅](https://vuejs-kr.github.io/vue/2017/02/25/vue-chrome-debugging/)
 ```html
 ##### vue 시작하기
 <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
