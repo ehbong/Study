@@ -7,9 +7,7 @@
 * [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
-* [Aurora MySQL vs Aurora PostgreSQL](https://techblog.woowahan.com/6550/)
-* [postgreSQL 특장점](https://codecamp.tistory.com/2)\
-* [PostgreSQL 슬로우 쿼리 수정](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
+
 * [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
 
 > mysql 데드락 걸렸을때 대처
@@ -21,3 +19,9 @@ KILL <PROCESS ID>
 # innodb의 상태 확인
 SHOW ENGINE INNODB STATUS;
 ```
+
+### PostgreSQL
+* [Aurora MySQL vs Aurora PostgreSQL](https://techblog.woowahan.com/6550/)
+* [postgreSQL 특장점](https://codecamp.tistory.com/2)
+* [PostgreSQL 슬로우 쿼리 수정](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
+* [postgresql AUTO INCREMENT](https://aspdotnet.tistory.com/2401)
