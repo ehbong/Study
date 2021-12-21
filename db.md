@@ -23,5 +23,5 @@ SHOW ENGINE INNODB STATUS;
 ### PostgreSQL
 * [Aurora MySQL vs Aurora PostgreSQL](https://techblog.woowahan.com/6550/)
 * [postgreSQL 특장점](https://codecamp.tistory.com/2)
-* [PostgreSQL 슬로우 쿼리 수정](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
+* [PostgreSQL 쿼리 속도 개선](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
 * [postgresql AUTO INCREMENT](https://aspdotnet.tistory.com/2401)
