@@ -20,7 +20,8 @@ KILL <PROCESS ID>
 SHOW ENGINE INNODB STATUS;
 ```
 
-### PostgreSQL
+## PostgreSQL
+
 * [Aurora MySQL vs Aurora PostgreSQL](https://techblog.woowahan.com/6550/)
 * [postgreSQL 특장점](https://codecamp.tistory.com/2)
 * [PostgreSQL 쿼리 속도 개선](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
