@@ -42,7 +42,7 @@
 >> v-if 는 자주 바뀌지 않는 조건에, v-show는 자주 바뀌는 조건에 적용
 
 
-##### Invalid Host header 
+##### Invalid Host header 처리방법
 ```javascript
 // filename : vue.config.js
 module.exports = {
