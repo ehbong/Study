@@ -58,8 +58,9 @@ module.exports = {
   vue add router
 ```
 * [lazy load(비동기 파일 요청)](https://kyounghwan01.github.io/blog/Vue/vue/lazy-loading/#%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A5%E1%86%BA%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2)
+* [prefetch 설명](https://code-hoon.tistory.com/163)
 ```javascript
-// lazy load 끄는방법
+// prefetch 끄는방법
 // vue.config.js 내에 작성
 module.exports = {
   chainWebpack: config => {
