@@ -7,6 +7,7 @@
 * [DB모델 자동 생성sequelize-auto](https://github.com/sequelize/sequelize-auto)
 * [테이블 변경 사항 적용하기 마이그레이션](https://jeonghwan-kim.github.io/sequelize-migration/)
 * [트랜젝션 사용방법](https://sequelize.org/master/manual/transactions.html)
+* [튜토리얼](https://soogoonsoogoonpythonists.github.io/sqlalchemy-for-pythonist/tutorial/6.%20ORM%20%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A1%B0%EC%9E%91%ED%95%98%EA%B8%B0.html#orm%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%92%E1%85%A2%E1%86%BC-%E1%84%89%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)
 
 #### Raw query 사용법
 * [공식문서 Raw Queries](https://sequelize.org/master/manual/raw-queries.html)
