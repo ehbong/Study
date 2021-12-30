@@ -6,3 +6,4 @@
   config_defaults_inc.php 파일수정
   $g_send_reset_password  = OFF 에 OFF 를 ON으로  수정
 ```
+* [plugin list](https://www.mantisbt.org/wiki/doku.php/mantisbt:plugins:start)
