@@ -69,3 +69,5 @@ module.exports = {
   }
 }
 ```
+
+* [computed 와 watch 비교](https://kr.vuejs.org/v2/guide/computed.html)
