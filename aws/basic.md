@@ -6,6 +6,7 @@
 * [VPC 개념이해하기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
 
 * [CloudFront 함수생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/edge-functions.html)
+* [CloudFront 함수생성 예제](https://github.com/aws-samples/amazon-cloudfront-functions)
 >  CloudFront 는 ECMAScript (ES) version 5.1 을 준수
 
 ## VPC
