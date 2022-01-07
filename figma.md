@@ -3,6 +3,7 @@
 * [figma 인프런 강의](https://www.inflearn.com/course/%ED%94%BC%EA%B7%B8%EB%A7%88-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90/dashboard)
 * [figma download](https://www.figma.com/downloads/)
 * [figma 유용한 단축키](https://nicecarrot2.tistory.com/93)
+* [figma 한글 자음 모음 분리 현상 해결방법](https://2test.tistory.com/entry/Figma-%EA%B5%AD%EB%AC%B8-%ED%83%80%EC%9D%B4%ED%95%91-%EC%8B%9C-%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94-%EC%9E%90%EC%9D%8C%EB%AA%A8%EC%9D%8C-%EB%B6%84%EB%A6%AC%ED%98%84%EC%83%81-%ED%95%B4%EA%B2%B0%EB%B2%95)
 ---
 ```
   team 은 하나의 작업 그룹
