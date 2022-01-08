@@ -17,8 +17,10 @@
   asset 탭 component를 담은 탭
   component 재활용하는 객체
   
+  자주사용하는 객체는 component 화해서 활용
+  
   # frame 과 group의 차이
-  frame은 속성변경이 내부 객체에 영향을 주지 않음
+  frame은 속성변경이 내부 객체에 영향을 주지 않음.
   group은 속성변경이 내부 객체에 영향을 끼침.
   
   예) 사이즈변경시 frame은 자신만 변하고, group는 같이 변함
