@@ -41,3 +41,4 @@
 * [iconify 아이콘 플러그인](www.figma.com/community/plugin/735098390272716381/Iconify)
 * [viewports 뷰포트 플러그인](https://www.figma.com/community/plugin/732240841094697441/Viewports)
 * [Find and Replace 찾기, 찾아바꾸기 플러그인](https://www.figma.com/community/plugin/735072959812183643/Find-and-Replace)
+* [추천 플러그인 목록](https://designcompass.org/2021/05/09/figma-plugin/)
