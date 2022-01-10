@@ -42,3 +42,4 @@
 * [viewports 뷰포트 플러그인](https://www.figma.com/community/plugin/732240841094697441/Viewports)
 * [Find and Replace 찾기, 찾아바꾸기 플러그인](https://www.figma.com/community/plugin/735072959812183643/Find-and-Replace)
 * [추천 플러그인 목록](https://designcompass.org/2021/05/09/figma-plugin/)
+* [UX 디자인 활용 플러그인](https://brunch.co.kr/@hailey-hyunjee/59)
