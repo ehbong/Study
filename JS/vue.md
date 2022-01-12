@@ -19,7 +19,7 @@
 * [vue 크롬 디버깅](https://vuejs-kr.github.io/vue/2017/02/25/vue-chrome-debugging/)
 * [vue vscode 디버깅](https://v3.ko.vuejs.org/cookbook/debugging-in-vscode.html#%E1%84%8B%E1%85%A1%E1%87%81%E1%84%89%E1%85%A5-%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%87%E1%85%B5%E1%84%92%E1%85%A1%E1%86%AF-%E1%84%80%E1%85%A5%E1%86%BA)
 * [Component 활용](https://ux.stories.pe.kr/131)
-```html
+```vue
 ##### vue 시작하기
 <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
