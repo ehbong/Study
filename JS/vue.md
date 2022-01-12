@@ -74,4 +74,4 @@ module.exports = {
 
 
 #### nuxtjs
-* [nuxtjs공식] (https://nuxtjs.org/)
+* [nuxtjs공식](https://nuxtjs.org/)
