@@ -6,6 +6,7 @@
 * [gRPC 공식문서](https://grpc.io/)
 * [Golang gRPC server 구축하기](https://devjin-blog.com/golang-grpc-server-1/)
 * [gRPC GIT](https://github.com/grpc)
+* [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
   ssh-keygen -R <IP 또는 주소>
