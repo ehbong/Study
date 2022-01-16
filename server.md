@@ -94,6 +94,7 @@ sudo systemctl daemon-reload
 * [jenkins github 연동](https://goddaehee.tistory.com/258)
 * [jenkins github 연결설정](https://bcho.tistory.com/1237)
 * [CI/CD 툴 비교](https://medium.com/day34/ci-cd-tool-comparison-f710a4777852)
+* [github action cicd](https://wookim789.tistory.com/39)
 
 ## MSA
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
