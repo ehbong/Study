@@ -23,6 +23,7 @@
 * [framework 비교](https://dingrr.com/blog/post/python-%EC%9B%B9%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-%EB%81%9D%ED%8C%90%EC%99%95-%EA%B0%80%EB%A6%AC%EA%B8%B0-django-flask-fastapi-sanic)
 * [fastAPI 장단점](https://velog.io/@maintain0404/Django%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-FastAPI-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0)
 * [Context Manager 사용법](https://sjquant.tistory.com/12)
+* [Context Manager 설명 및 간단 생성](https://velog.io/@fregataa/Python3-Context-manager)
 > 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 > formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 ```
