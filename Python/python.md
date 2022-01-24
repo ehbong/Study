@@ -26,6 +26,7 @@
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [Context Manager 사용법](https://sjquant.tistory.com/12)
 * [Context Manager 설명 및 간단 생성](https://velog.io/@fregataa/Python3-Context-manager)
+* [비동기 분산처리 Celer](https://velog.io/@swhan9404/Celery%EB%9E%80)
 > 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 > formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 ```
