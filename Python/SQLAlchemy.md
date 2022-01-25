@@ -20,6 +20,8 @@
 
 * [SQLAlchemy SQL 호출예제](https://lowelllll.github.io/til/2019/04/19/TIL-flask-sqlalchemy-orm/)
 
+* [SqlAlchemy 모델로 DB테이블 생성](https://gggggeun.tistory.com/77)
+
 * [이미 있는 DB의 모델정보 가져오기](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
 ```bash
   # 디비 모델 정보 가져오기
