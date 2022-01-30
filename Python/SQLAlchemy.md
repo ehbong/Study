@@ -22,7 +22,10 @@
 
 * [SqlAlchemy 모델로 DB테이블 생성](https://gggggeun.tistory.com/77)
 
-* [이미 있는 DB의 모델정보 가져오기](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
+* [이미 있는 DB의 모델정보 가져오기 for flask](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
+
+* [이미 있는 DB의 모델정보 가져오기](https://wooiljeong.github.io/python/sqlacodegen/)
+
 ```bash
   # 디비 모델 정보 가져오기
   pip install flask-sqlacodegen
