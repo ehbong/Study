@@ -6,3 +6,4 @@
 * [FastAPI 유튜브 기본강의](https://www.youtube.com/watch?v=7frN5JPMsQU&list=PLr_ki3_GfpZMTSdQehJRrIwuDGOHh5LvB&index=7)
 * [FastAPI 다른 강의](https://www.youtube.com/watch?v=ktGVFmfGiGM&list=PLKy1qiqTzJteucwpykHuZyCh-HqeZXIG4&index=17)
 * [FastAPI Websocket](https://fastapi.tiangolo.com/ko/advanced/websockets/?h=web)
+* [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
