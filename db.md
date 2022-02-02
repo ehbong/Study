@@ -29,4 +29,5 @@ SHOW ENGINE INNODB STATUS;
 * [join 종류](https://venova.tistory.com/entry/SQL-PostgreSQL-Join-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 
 ## 인메모리 DB
+* [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
