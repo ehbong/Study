@@ -331,3 +331,6 @@ output = stream.read()
 print(output)
 
 ```
+
+##### 보안
+* [XSS(Cross-Site Scripting) 개념 및 방어 방법](https://roadofdevelopment.tistory.com/38)
