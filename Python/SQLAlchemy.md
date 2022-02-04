@@ -23,15 +23,17 @@
 * [SqlAlchemy 모델로 DB테이블 생성](https://gggggeun.tistory.com/77)
 
 * [이미 있는 DB의 모델정보 가져오기 for flask](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
-
-* [이미 있는 DB의 모델정보 가져오기](https://wooiljeong.github.io/python/sqlacodegen/)
-
 ```bash
   # 디비 모델 정보 가져오기
   pip install flask-sqlacodegen
   flask-sqlacodegen "mysql://username:password@DB_IP/DB_NAME" --flask > models.py
   
   # db커넥션 연결을 유지하려면 DB설정의 time_out 시간보다 pool_recycle 설정 값이 작아야함.
+```
+* [이미 있는 DB의 모델정보 가져오기](https://wooiljeong.github.io/python/sqlacodegen/)
+```bash
+   # 스키마 등 옵션 가능
+   sqlacodegen --schema=myschema --tables=mytable '<디비타입>://myuser:mypassword@myhost'
 ```
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
