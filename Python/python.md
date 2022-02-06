@@ -339,3 +339,4 @@ print(output)
 ##### pydantic 데이터 유효성검사
 * [pydantic 공식홈페이지](https://pydantic-docs.helpmanual.io/)
 * [orm 개체에 매핑하기 위해 모델에 하는 설정](https://pydantic-docs.helpmanual.io/usage/models/)
+* [pycharm pydantic 플러그인](https://plugins.jetbrains.com/plugin/12861-pydantic)
