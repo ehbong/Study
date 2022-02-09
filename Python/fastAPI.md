@@ -8,3 +8,45 @@
 * [FastAPI Websocket](https://fastapi.tiangolo.com/ko/advanced/websockets/?h=web)
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
 * [uvloop 설명](https://koreapy.tistory.com/1124)
+
+* [form 데이터 처리 방법](https://github.com/tiangolo/fastapi/issues/2387)
+```python
+# pydantic model
+# 데코레이션 함수 작성
+def as_form(cls: Type[BaseModel]):
+  """
+  Adds an as_form class method to decorated models. The as_form class method
+  can be used with FastAPI endpoints
+  """
+  new_params = [
+      inspect.Parameter(
+          field.alias,
+          inspect.Parameter.POSITIONAL_ONLY,
+          default=(Form(field.default) if not field.required else Form(...)),
+          annotation=field.outer_type_,
+      )
+      for field in cls.__fields__.values()
+  ]
+
+  async def _as_form(**data):
+      return cls(**data)
+
+  sig = inspect.signature(_as_form)
+  sig = sig.replace(parameters=new_params)
+  _as_form.__signature__ = sig
+  setattr(cls, "as_form", _as_form)
+  return cls
+      
+# 폼 모델 정의  
+@as_form
+class Item(BaseModel):
+    name: str
+    another: str
+    opts: Dict[str, int] = {}
+
+# 폼 모델 사용 법 + 파일 데이터 수신 방법
+@app.post("/test", response_model=Item)
+def endpoint(item: Item = Depends(Item.as_form), data: bytes = File(...)):
+    print(len(data))
+    return item
+```
