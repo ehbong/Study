@@ -43,10 +43,19 @@ class Item(BaseModel):
     name: str
     another: str
     opts: Dict[str, int] = {}
+    
 
 # 폼 모델 사용 법 + 파일 데이터 수신 방법
 @app.post("/test", response_model=Item)
 def endpoint(item: Item = Depends(Item.as_form), data: bytes = File(...)):
     print(len(data))
     return item
+
+# 필수값이 아닌 값 설정 Optional
+from typing import Optional
+
+class Item(BaseModel):
+    name: Optional[str]
+    another: str
+    opts: Dict[str, int] = {}
 ```
