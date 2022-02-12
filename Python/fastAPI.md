@@ -9,6 +9,8 @@
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
 * [uvloop 설명](https://koreapy.tistory.com/1124)
 
+### pydantic 
+
 * [form 데이터 처리 방법](https://github.com/tiangolo/fastapi/issues/2387)
 ```python
 # pydantic model
@@ -58,4 +60,12 @@ class Item(BaseModel):
     name: Optional[str]
     another: str
     opts: Dict[str, int] = {}
+```
+
+* [모델 컬럼 길이 정의](https://stackoverflow.com/questions/61326020/how-can-i-set-max-string-field-length-constraint-in-pydantic)
+```python
+from pydantic import BaseModel, constr
+
+class MyPydanticModel(BaseModel):
+    name: constr(max_length=10)
 ```
