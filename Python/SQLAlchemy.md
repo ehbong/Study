@@ -81,6 +81,26 @@ def delete_sa_instance_state(row):
     dict_data = row.__dict__
     del dict_data['_sa_instance_state']
     return dict_data
+    
+#### 다른방법
+# 디비 모델 테이블에 소스 추가
+from sqlalchemy.ext.declarative import as_declarative
+from sqlalchemy import inspect
+
+
+@as_declarative()
+class Base:
+    def _asdict(self):
+        return {c.key: getattr(self, c.key)
+                for c in inspect(self).mapper.column_attrs}
+         
+# 사용처에서
+def convert_sql_data_to_dict(list_or_query=[], data=None):
+    if type(list_or_query) is BaseQuery or len(list_or_query) > 0:
+        return [row._asdict() for row in list_or_query]
+    if data is not None:
+        return data._asdict()
+    return None
 ```
 > 여러 DB를 사용중일때 특정 연결(엔진)을 불러올때
 ```python
