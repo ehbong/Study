@@ -76,6 +76,14 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
 * [Docker Compose를 활용한 개발환경 구성](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose)
 * [Docker Compose 커맨드](https://www.daleseo.com/docker-compose/)
 * [Docker Compose 공식문서](https://docs.docker.com/compose/)
+```bash
+ # 설치
+ sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ # 권한부여
+ chmod +x /usr/local/bin/docker-compose
+ # 심볼릭링크
+ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
 ```
   # Docker Compose 옵션
   version : <사용할 docker compose 버전>
