@@ -78,6 +78,7 @@ sudo systemctl daemon-reload
 * [Nginx + Gunicorn + flask 연동](https://velog.io/@yvvyoon/flask-nginx-gunicorn-1)
 * [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
 * [nginx 프록시 패스 리다이렉션 무시](https://serverfault.com/questions/363159/nginx-proxy-pass-redirects-ignore-port)
+* [Nginx Keepalive 웹서버와 was 간의 통신 튜닝](https://jojoldu.tistory.com/322?category=777282)
 * [nginx 튜닝](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81-%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D-1-%EB%94%94%EC%8A%A4%ED%81%AC%EC%9D%98-IO-%EB%B3%91%EB%AA%A9-%EC%A4%84%EC%9D%B4%EA%B8%B0)
 ```
   # nginx.conf 포트 고정(프록시 리다이렉트 무시)할때 설정 $host를 $http_host로 변경
