@@ -10,6 +10,15 @@
 * [uvloop 설명](https://koreapy.tistory.com/1124)
 * [swagger 주석](https://fastapi.tiangolo.com/tutorial/metadata/)
 
+```python
+ # swagger 에 토큰 헤더 추가
+ import fastapi import APIKeyHeader
+ 
+ API_KEY_HEADER = APIKeyHeader(name="Authorization", auto_error=False)
+ 
+ app.include_router(test.router, dependencise=[Depends(API_KEY_HEADER)])
+```
+
 ### pydantic 
 
 * [form 데이터 처리 방법](https://github.com/tiangolo/fastapi/issues/2387)
