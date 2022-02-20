@@ -10,9 +10,9 @@
 * [uvloop 설명](https://koreapy.tistory.com/1124)
 * [swagger 주석](https://fastapi.tiangolo.com/tutorial/metadata/)
 
+>  swagger 쓸때 토큰 인증이 필요한 API 호출 시\
+>  swagger 에 토큰 헤더 기능 추가
 ```python
- # swagger 쓸때 토큰 인증이 필요한 API 호출 시
- # swagger 에 토큰 헤더 기능 추가
  import fastapi import APIKeyHeader
  
  API_KEY_HEADER = APIKeyHeader(name="Authorization", auto_error=False)
