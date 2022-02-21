@@ -113,6 +113,7 @@ for element in some_list:
 # List Comprehension 으로 변환하면 속도가 개선됨
 result = [x for x in large_list if some_filter(x)]
 ```
+* [List comprehension 2중 for문](https://velog.io/@yejin20/TILList-comprehension-%EC%A4%91%EC%B2%A9)
 ###### 외부 라이러리를 변수에 담아 사용
 ```python
 import random #wrong
