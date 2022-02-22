@@ -28,6 +28,7 @@ SHOW ENGINE INNODB STATUS;
 * [postgresql AUTO INCREMENT](https://aspdotnet.tistory.com/2401)
 * [join 종류](https://venova.tistory.com/entry/SQL-PostgreSQL-Join-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 * [parttioning](https://hides.tistory.com/1040)
+* [선언적파티셔닝, 상속 파티셔닝](https://uiandwe.tistory.com/1318)
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
