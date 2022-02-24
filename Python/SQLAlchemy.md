@@ -59,7 +59,7 @@
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
 
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
-
+* [SQLAlchemy bulk insert](https://velog.io/@samnaka/sqlalchemy-bulk-insert)
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
 * [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
 > pandas 없이 dict로 변환
