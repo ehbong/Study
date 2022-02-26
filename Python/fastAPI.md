@@ -8,6 +8,8 @@
 * [FastAPI Websocket](https://fastapi.tiangolo.com/ko/advanced/websockets/?h=web)
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
 * [uvloop 설명](https://koreapy.tistory.com/1124)
+* [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
+
 * [swagger 주석](https://fastapi.tiangolo.com/tutorial/metadata/)
 ```python
    # swagger 주석 
@@ -22,7 +24,7 @@
     return {}
    
 ```
-* [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
+
 
 >  swagger 쓸때 토큰 인증이 필요한 API 호출 시\
 >  swagger 에 토큰 헤더 기능 추가
