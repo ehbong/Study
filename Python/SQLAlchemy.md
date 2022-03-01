@@ -60,6 +60,7 @@
 * [비동기 처리](https://ellune.tistory.com/73)
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
 * [SQLAlchemy bulk insert](https://velog.io/@samnaka/sqlalchemy-bulk-insert)
+* [SQLAlchemy 관계 flush 사용없이 insert](https://stackoverflow.com/questions/71285679/how-to-speed-up-python-and-sqlalchemy)
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
 * [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
 > pandas 없이 dict로 변환
