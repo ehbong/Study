@@ -113,7 +113,7 @@ var third = second.normalize('NFC'); // '\uD55C\uAE00'
  // base64 인코딩 오류시
  btoa(unescape(encodeURIComponent(str)))
 ```
-* [내부 명렁 처리 순서 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
+* [** javascript 내부 명렁 처리 순서 stack, queue, 등](https://www.youtube.com/watch?v=v67LloZ1ieI)
 * [Script 인클루드 할때 옵션 async defer](https://www.youtube.com/watch?v=tJieVCgGzhs)
 
 ```javascript
