@@ -4,6 +4,7 @@
 * [AWS EC2 putty 로 접속](https://mozi.tistory.com/191)
 * [결제 대시보드](https://console.aws.amazon.com/billing/home?region=ap-northeast-2#/)
 * [AWS 비용절감 방법 10가지](https://aws.amazon.com/ko/blogs/korea/10-things-you-can-do-today-to-reduce-aws-costs/)
+* [AWS 비용절감 영상](https://aws.amazon.com/ko/blogs/korea/startups-six-ways-to-reduce-your-aws-bill/)
 * [VPC 개념이해하기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
 
 * [CloudFront 함수생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/edge-functions.html)
