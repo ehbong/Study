@@ -80,7 +80,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
  # 설치
  sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
  # 권한부여
- chmod +x /usr/local/bin/docker-compose
+ sudo chmod +x /usr/local/bin/docker-compose
  # 심볼릭링크
  ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
