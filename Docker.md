@@ -120,6 +120,7 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   
             
 ```
+> build 시 오래걸릴 경우 볼륨 설정의 파일의 용량이 큰지 확인
 ##### requirements.txt로 모듈 설치시 mysql_config Error 대처법
 ```
   FROM python:3.8.5-slim ## -slim = apt-get이 설치된 버전의 이미지
