@@ -56,6 +56,8 @@
 
 * [여러 DB를 사용중일때 특정 연결(엔진)을 불러올때](https://github.com/pallets/flask-sqlalchemy/issues/359)
 
+* [insert or update](https://stackoverflow.com/questions/7165998/how-to-do-an-upsert-with-sqlalchemy)
+
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
 * [비동기 처리](https://ellune.tistory.com/73)
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
