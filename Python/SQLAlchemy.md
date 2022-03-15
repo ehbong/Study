@@ -58,6 +58,7 @@
 
 * [insert or update](https://stackoverflow.com/questions/7165998/how-to-do-an-upsert-with-sqlalchemy)
 
+* [한 테이블의 여러 관계키 연결 할때 오류 해결 방법](https://stackoverflow.com/questions/44434410/sqlalchemy-multiple-foreign-key-pointing-to-same-table-same-attribute)
 
 > 관계를 이용한 insert 시 add 와 상관없이 부모가 commit 될때 데이터가 반영.<br>
 session.add 로 들어갈 데이터와 들어가지 않을 데이터를 구분할 수 없음<br>
@@ -65,11 +66,17 @@ session.expunge(obj) 로 가능하지만 관계가 설정될 경우 컨트롤이
 [관계 insert시 add 반영에 대한 질답](https://stackoverflow.com/questions/71456425/i-was-wondering-how-to-prevent-objects-not-added-to-sqlalchemy-from-being-commit)
 
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
+
 * [비동기 처리](https://ellune.tistory.com/73)
+
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
+
 * [SQLAlchemy bulk insert](https://velog.io/@samnaka/sqlalchemy-bulk-insert)
+
 * [SQLAlchemy model 관계를 이용해서 flush 사용없이 insert](https://stackoverflow.com/questions/71285679/how-to-speed-up-python-and-sqlalchemy)
+
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
+
 * [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
 > pandas 없이 dict로 변환
 ```python
