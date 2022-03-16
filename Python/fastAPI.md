@@ -12,6 +12,7 @@
 * [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
 > 오래걸리는 작업은 우선 응답을 해주고 백그라운드에서 작업을 BackgroundTasks 로 처리
 * [FastAPI BackgroundTasks](https://fastapi.tiangolo.com/tutorial/background-tasks/)
+* [tag 활용](https://fastapi.tiangolo.com/tutorial/metadata/)
 
 * [swagger 주석](https://fastapi.tiangolo.com/tutorial/metadata/)
 ```python
