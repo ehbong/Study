@@ -38,6 +38,21 @@
  'True' if a == 1 else 'False'
 ```
 
+##### base64 encode, decode
+```python
+import base64
+
+str = '문자열'
+# encode
+str_base64 = base64.b64encode(str.encode('utf-8'))
+# b' ' 지우기
+str_base64.decode('utf-8')
+
+# decode
+str = base64.b64decode(str_base64).decode('utf-8')
+
+```
+
 ##### yield
 > 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
 * [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
