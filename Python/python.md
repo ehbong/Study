@@ -23,6 +23,7 @@
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
 * [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
 * [bcrypt로 암호화](https://24hours-beginner.tistory.com/120)
+* [.env 사용](https://blog.gilbok.com/how-to-use-dot-env-in-python/)
 
 * [framework 비교](https://dingrr.com/blog/post/python-%EC%9B%B9%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-%EB%81%9D%ED%8C%90%EC%99%95-%EA%B0%80%EB%A6%AC%EA%B8%B0-django-flask-fastapi-sanic)
 * [fastAPI 장단점](https://velog.io/@maintain0404/Django%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-FastAPI-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0)
