@@ -12,6 +12,7 @@
 * [AES CBC 암복호화](https://mkjjo.github.io/python/2019/08/04/crypto.html)
 * [AES CBC 암복호화2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221021909030)
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
+* [refresh token, access token](https://tansfil.tistory.com/59)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
