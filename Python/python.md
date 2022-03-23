@@ -98,6 +98,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 
 ---
 ## 속도 개선 방법 
+* [속도 개선 코딩 방법](https://camel-it.tistory.com/140)
 * [다양한 속도 개선 방법 예제](https://jinwoo1990.github.io/dev-wiki/python-concept-4/)
 ##### JIT(Just In Time)컴파일 런타임
 * [pypy](https://www.pypy.org/)
