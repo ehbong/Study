@@ -5,6 +5,7 @@
 * [결제 대시보드](https://console.aws.amazon.com/billing/home?region=ap-northeast-2#/)
 * [AWS 비용절감 방법 10가지](https://aws.amazon.com/ko/blogs/korea/10-things-you-can-do-today-to-reduce-aws-costs/)
 * [AWS 비용절감 영상](https://aws.amazon.com/ko/blogs/korea/startups-six-ways-to-reduce-your-aws-bill/)
+* [saving plan vs 예약 인스턴스](https://sa-na.tistory.com/entry/AWS-%EB%B9%84%EC%9A%A9%EC%A4%84%EC%9D%B4%EA%B8%B0-%EC%98%88%EC%95%BD-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%99%80-Savings-Plans)
 * [VPC 개념이해하기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
 
 * [CloudFront 함수생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/edge-functions.html)
