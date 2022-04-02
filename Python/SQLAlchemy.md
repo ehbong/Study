@@ -156,6 +156,7 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 * [pandas](http://pythonstudy.xyz/python/article/408-pandas-%EB%8D%B0%EC%9D%B4%ED%83%80-%EB%B6%84%EC%84%9D)
 * [pandas로 데이터 출력](https://lemontia.tistory.com/844)
 * [pandas 의 to_sql 이용한 Bulk insert](https://tzara.tistory.com/119)
+* [dataframe 에서 값 검색](https://www.delftstack.com/ko/howto/python-pandas/pandas-get-index-of-row/)
 ```python
 import pandas as df
 
