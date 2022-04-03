@@ -3,10 +3,15 @@
 * [SSL 인증서 생성,사설 인증서 생성](https://namjackson.tistory.com/24)
 * [구글 검색 안되게 하기](https://ragonfly.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%97%90%EC%84%9C-%EA%B2%80%EC%83%89-%EC%95%88%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94%EB%B2%95)
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
+
+## gRPC
 * [gRPC 공식문서](https://grpc.io/)
+* [python gRPc](https://grpc.io/docs/languages/python/quickstart/)
 * [Golang gRPC server 구축하기](https://devjin-blog.com/golang-grpc-server-1/)
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
+
+
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
   ssh-keygen -R <IP 또는 주소>
