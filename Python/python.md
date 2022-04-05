@@ -224,6 +224,7 @@ for i in range(len(array)):
   datetype_data.strftime(<포멧형식 예) %Y-%m-%d %H:%M:%S >)
   # 시간형태 문자열을 포멧변경(데이트 형태 문자열+ 데이트형식 > 데이트)
   datetime.strptime(<시간형태 문자열>, '%Y-%m-%d %H:%M:%S.%f')
+  ## strptime 실행시 포멧 형식이 안맞으면 오류발생
 ```
 
 ##### 딕셔너리리스트 검색
