@@ -34,6 +34,7 @@ SHOW ENGINE INNODB STATUS;
 * [parttioning](https://hides.tistory.com/1040)
 * [선언적파티셔닝, 상속 파티셔닝](https://uiandwe.tistory.com/1318)
 * [성능개선 방법](https://uiandwe.tistory.com/1283)
+* [postgis 위치 정보](https://postgis.net/)
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
