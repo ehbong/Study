@@ -9,6 +9,7 @@
 * [asana developers](https://asana.com/developers?missingtranslation=ko#i18n-404)
 * [asana 튜토리얼](https://asana.com/ko/guide/get-started/begin/quick-start)
 * [notion 타임라인](https://brunch.co.kr/@kys4620/200)
+* [redmine docker 시작](https://velog.io/@coffiter/Docker-%EB%8F%84%EC%BB%A4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-Redmine-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 
 # 책
 > 데이터중심 어플리케이션 설계
