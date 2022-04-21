@@ -17,6 +17,28 @@
 * [request 받기](https://stackoverrun.com/ko/q/11370200)
 * [requests 모듈 외부 주소 호출](https://m.blog.naver.com/wideeyed/221586482884)
 * [요청에 대한 이벤트 핸들러](https://blusky10.tistory.com/243)
+```python
+  @app.before_first_request
+  def before_first_request():
+  print("앱이 기동되고 나서 첫 번째 HTTP 요청에만 응답")
+
+  @app.before_request
+  def before_request():
+  print("매 HTTP 요청이 처리되기 전에 실행")
+
+  @app.after_request
+  def after_request(response):
+  print("매 HTTP 요청이 처리되고 나서 실행")
+  return response
+
+  @app.teardown_request
+  def teardown_request(exception):
+  print("매 HTTP요청의 결과가 브라우저에 응답하고 나서 호출")
+
+  @app.teardown_appcontext
+  def teardown_appcontext(exception):
+  print("HTTP요청의 어플리케이션 컨텍스트가 종료될때 실행")
+```
 
 ## session
 * [session 사용](https://riptutorial.com/ko/flask/example/9236/%EB%B3%B4%EA%B8%B0-%EB%82%B4%EC%97%90%EC%84%9C-%EC%84%B8%EC%85%98-%EA%B0%9D%EC%B2%B4-%EC%82%AC%EC%9A%A9)
