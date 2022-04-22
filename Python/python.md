@@ -384,7 +384,7 @@ print(output)
 
 
 ##### 데이터 처리
-###### Pandas
+##### Pandas
 * [판다스(Pandas) and 넘파이(Numpy) and 맷플롭립(Matplotlib)](https://wikidocs.net/32829)
 
 
