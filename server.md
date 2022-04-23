@@ -88,6 +88,7 @@ sudo systemctl daemon-reload
 * [nginx 프록시 패스 리다이렉션 무시](https://serverfault.com/questions/363159/nginx-proxy-pass-redirects-ignore-port)
 * [Nginx Keepalive 웹서버와 was 간의 통신 튜닝](https://jojoldu.tistory.com/322?category=777282)
 * [Nginx 로드밸런싱](https://kscory.com/dev/nginx/loadbalancer)
+* [nginx 로드밸런싱 파마레터 설명](https://kamang-it.tistory.com/entry/WebServernginxnginx%EB%A1%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-%ED%95%98%EA%B8%B0)
 ```
 Load balancing methods(부하 부산 규칙)
 
