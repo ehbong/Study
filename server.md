@@ -25,6 +25,7 @@
 * [도커 컴포즈 활용 Prometheus and Grafana 설치](https://danawalab.github.io/common/2020/03/16/Common-Prometheus.html)
 * [nginx-prometheus-exporter](https://gurumee92.tistory.com/231)
 * [grafana dashboard labs](https://grafana.com/grafana/dashboards/)
+* [grafana alert 설정](https://ksr930.tistory.com/177)
 * [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
 * [Server 운용 방법 5가지](https://blog.msalt.net/77)
 * [Naver 메인페이지 트래픽처리 방법](https://d2.naver.com/helloworld/6070967)
