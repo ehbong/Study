@@ -169,3 +169,4 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 > Traefik( 트래픽으로 발음 )은 마이크로서비스를 쉽게 배포할 수 있게 해주는 최신 HTTP 역방향 프록시 및 로드 밸런서
 * [traefik Github](https://github.com/traefik/traefik)
 * [traefik vs nginx](https://gist.github.com/rabelais88/a458c1f45eea7d28240c64621853bb64)
+* [traefik docker 환경설정](https://danawalab.github.io/common/2021/07/14/traefik-reverse-froxy.html)
