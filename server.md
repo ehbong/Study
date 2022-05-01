@@ -97,7 +97,7 @@ Load balancing methods(부하 부산 규칙)
 
 round-robin(디폴트) - 그냥 돌아가면서 분배한다.
 hash - 해시한 값으로 분배한다 쓰려면 hash <키> 형태로 쓴다. ex)hash $remote_addr <- 이는 ip_hash와 같다.
-ip_hash - 아이피로 해싱해서 분배한다.
+ip_hash - 아이피로 해싱해서 분배한다.(한번 접속한 IP는 같은 서버로 분배)
 random - 그냥 랜덤으로 분배한다.
 least_conn - 연결수가 가장 적은 서버를 선택해서 분배, 근데 가중치를 고려함
 least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적은 쪽을 선택해서분배
