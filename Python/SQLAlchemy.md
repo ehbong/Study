@@ -58,6 +58,8 @@
 
 * [insert or update](https://stackoverflow.com/questions/7165998/how-to-do-an-upsert-with-sqlalchemy)
 
+* [SQLAlchemy + Graphene로 GraphQL 구현](https://blog.neonkid.xyz/254?category=656103)
+
 * [한 테이블의 여러 관계키 연결 할때 오류 해결 방법](https://stackoverflow.com/questions/44434410/sqlalchemy-multiple-foreign-key-pointing-to-same-table-same-attribute)
 
 > 관계를 이용한 insert 시 add 와 상관없이 부모가 commit 될때 데이터가 반영.<br>
@@ -145,7 +147,6 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 ## 특정 컬럼 + 컬럼명을 조회할때
 .with_entities(<테이블명>.<컬럼명>.label(<바꿀 컬럼명>), <테이블명>.<컬럼명>.label(<바꿀 컬럼명>), ...)
 ```
-
 
 
 > SQLAlchemy 사용 시 멀티테스킹 + eventlet 을 사용하면 
