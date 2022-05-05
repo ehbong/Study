@@ -8,4 +8,5 @@
 * [EFS 수명주기 IA스토리지 클래스](https://aws.amazon.com/ko/about-aws/whats-new/2019/07/optimize-cost-amazon-efs-infrequent-access-lifecycle-management/)
 * [EFS 마운트 예제](https://jsonobject.tistory.com/541)
 
- * 마운트시에 timed out 에러 발생시 EFS 메뉴 > EFS 상세 > 네트워크 > 보안그룹 수정.
+* 마운트시에 timed out 에러 발생시 EFS 메뉴 > EFS 상세 > 네트워크 > 보안그룹 수정.
+* [docker efs mount](https://stackoverflow.com/questions/64087211/locally-mount-aws-efs-using-docker-compose)
