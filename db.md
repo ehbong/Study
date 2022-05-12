@@ -9,6 +9,7 @@
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
 * [DBeave 에서 실행계획 보는법](http://item.gmarket.co.kr/detailview/item.asp?goodscode=2267277866)
+* [couchebase db 개념과 특징](https://azderica.github.io/02-db-nosql-couchbase/)
 * [postgresql 실행 계획 분석, 상황별 실행되는 스캔](https://seungtaek-overflow.tistory.com/5)
 
 * [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
