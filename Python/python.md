@@ -352,6 +352,17 @@ os.path.islink(<링크 생성 경로>)
 if os.path.islink('/abc/link.file'):
   os.symlink('/abc/orifile.file')
 os.symlink('/abc/orifile.file', '/abc/link.file')
+
+# 파일이나 경로가 존재하는지 확인 True or False
+# 심볼릭 링크가 깨진 경우, 접근 권한이 없어도 False
+os.path.exists(path)
+
+# path가 파일인 경우 True를 리턴하고 디렉토리이거나 파일이 존재하지 않으면 False
+os.path.isfile(path)
+
+# path가 디렉토리인 경우 True를 리턴하고 파일이거나 디렉토리가 존재하지 않으면 Fals
+os.path.isdir(path)
+
 ```
 
 
