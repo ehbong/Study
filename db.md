@@ -39,4 +39,5 @@ SHOW ENGINE INNODB STATUS;
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
+* [redis 설명](https://devlog-wjdrbs96.tistory.com/374)
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
