@@ -11,6 +11,7 @@
 * [DBeave 에서 실행계획 보는법](http://item.gmarket.co.kr/detailview/item.asp?goodscode=2267277866)
 * [couchebase db 개념과 특징](https://azderica.github.io/02-db-nosql-couchbase/)
 * [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
+* [효과적인 nosql 활용 feat AWS](https://www.youtube.com/watch?v=8rEsuvdL17s) 
 
 > mysql 데드락 걸렸을때 대처
 ```sql
