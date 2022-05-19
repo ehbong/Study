@@ -12,6 +12,8 @@
 
 * [AWS Architecting Serverless Solutions 강의](https://www.aws.training/Details/eLearning?id=70986)
 
+* [서버리스 대용량 트래픽처리 예제](https://catalog.us-east-1.prod.workshops.aws/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1)
+
 * [Lambda rds 연결](https://dev.classmethod.jp/articles/lambda-rds-interlock/)
 
 * [Lambda vs ec2 비용 비교](https://dev.classmethod.jp/articles/amazon-ec2-vs-aws-lambda-price/)
