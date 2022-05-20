@@ -6,7 +6,7 @@
 * [prototype 유튜브 설명](https://www.youtube.com/watch?v=wUgmzvExL_E&t=16s)
 * [valueOf 메소드](https://dev.to/composite/valueof-mesodeu-mweohareo-issnya-1n97?fbclid=IwAR3NbHOY1Y-H7jxBdIdUTw1gzL0cf3Mdx_hpcP76m24qr08CQK-whDqUe5Q)
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
-
+* [class 접근자 프로퍼티](https://velog.io/@bigbrothershin/JavaScript-%EC%A0%91%EA%B7%BC%EC%9E%90-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0-getter-setter)
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
 * [Object.defineProperty()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 ```javascript
