@@ -91,6 +91,15 @@ class Item(BaseModel):
     name: Optional[str]
     another: str
     opts: Dict[str, int] = {}
+    
+# 모델 객체를 dict로 변환
+@app.post("/test", response_model=Item)
+def endpoint(item: Item):
+    # dict 변환 방법1 내부에 모델객체가 또 있을경우 변환되지 않음
+    dict(item)
+    # dict 변환 방법2 내부에 모델객체도 전부 변환 됨
+    item.dict()
+    return item
 ```
 
 * [모델 컬럼 길이 정의](https://stackoverflow.com/questions/61326020/how-can-i-set-max-string-field-length-constraint-in-pydantic)
