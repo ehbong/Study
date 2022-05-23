@@ -404,3 +404,7 @@ print(output)
 ##### 크롤링
 * [Selenium을 활용한 크롤러](https://beomi.github.io/2017/02/27/HowToMakeWebCrawler-With-Selenium/)
 * [Selenium 지연방법](https://codechacha.com/ko/selenium-explicit-implicit-wait/)
+
+
+##### pyscript
+* [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
