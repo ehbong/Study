@@ -406,5 +406,5 @@ print(output)
 * [Selenium 지연방법](https://codechacha.com/ko/selenium-explicit-implicit-wait/)
 
 
-##### pyscript
+##### pyscript, python으로 웹프론트개발
 * [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
