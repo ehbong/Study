@@ -113,6 +113,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [AWS CICD pipeline build](https://medium.com/better-programming/how-to-build-a-ci-cd-pipeline-in-aws-in-5-minutes-and-58-seconds-4de156477042)
 * [AWS CICD Automation](https://aws-diary.tistory.com/26)
 * [AWS를 이용한 간략 지속적 통합 예제, 무중단 배포 자동화 CI & CD, CodeBuild, CodeDeploy, CodePipeline](https://roka88.dev/97)
+* [AWS CI/CD 구축 git, Codebuild, CodeDeploy, CodePipeline](https://mingoogle.tistory.com/22)
 * [jenkins & Docker](https://pks2974.medium.com/jenkins-%EC%99%80-docker-%EA%B7%B8%EB%A6%AC%EA%B3%A0-aws-cli-%EC%82%BD%EC%A7%88%EA%B8%B0-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-e728986960e2)
 * [Jenkins와 GitHub 연결을 통한 CICD Docker 환경 구성](https://txegg.tistory.com/173)
 * [jenkins 호출을 위한 Github Webhook](https://crispyblog.kr/development/common/11)
