@@ -43,6 +43,7 @@
 > v-if 는 그릴지 안그릴지, v-show 는 css 속성만 변경
 >> v-if 는 자주 바뀌지 않는 조건에, v-show는 자주 바뀌는 조건에 적용
 
+* [Props & Emit 사용법](https://any-ting.tistory.com/41)
 
 ##### Invalid Host header 처리방법
 ```javascript
