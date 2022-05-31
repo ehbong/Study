@@ -155,6 +155,25 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
 
 ### 암호화
 * [SQLAlchemy-Utils 활용 컬럼 암호화](https://blog.linewalks.com/archives/7645)
+```python
+  import sqlalchemy as sa
+  from sqlalchemy.orm import declarative_base
+  from sqlalchemy_utils import EncryptedType
+  ## AesEngine, AesGcmEngine
+  ## 암호화 정도는 AesEngine < AesGcmEngine
+  ## 해당 컬럼으로 조회를 하려면 AesEngine 을 사용
+  from sqlalchemy_utils.types.encrypted.encrypted_type import AesEngine
+
+  Base = declarative_base()
+
+  secretkey = "1234567812345678"
+  
+  class TableModel(Base):
+    __tablename__ = "patient"
+    id = sa.Column(sa.Integer, sa.Sequence("pid_seq"), primary_key=True)
+    data = sa.Column(EncryptedType(sa.String, secretkey, AesEngine, "pkcs5"))
+    
+```
 
 
 # Pandas
