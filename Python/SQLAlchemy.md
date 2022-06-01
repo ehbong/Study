@@ -160,7 +160,7 @@ func.date_format(<컬럼명>, '%Y-%m-%d')
   from sqlalchemy.orm import declarative_base
   from sqlalchemy_utils import EncryptedType
   ## AesEngine, AesGcmEngine
-  ## 암호화 정도는 AesEngine < AesGcmEngine
+  ## 암호화 정도는 AesEngine(cbc) < AesGcmEngine(gcm)
   ## 해당 컬럼으로 조회를 하려면 AesEngine 을 사용
   from sqlalchemy_utils.types.encrypted.encrypted_type import AesEngine
 
