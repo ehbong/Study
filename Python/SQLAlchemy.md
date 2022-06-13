@@ -35,7 +35,7 @@
 * [이미 있는 DB의 모델정보 가져오기](https://wooiljeong.github.io/python/sqlacodegen/)
 ```bash
    # 스키마 등 옵션 가능
-   sqlacodegen --schema=myschema --tables=mytable '<디비타입>://myuser:mypassword@myhost'
+   sqlacodegen --schema=myschema --tables=mytable '<디비타입>://myuser:mypassword@myhost:port/database' > model.py
 ```
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
