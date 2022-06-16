@@ -20,6 +20,9 @@
 * [VPC 개념이해하기](https://jbhs7014.tistory.com/164)
 * [VPC 쉽게 이해하기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
 
+## WAF
+* [지역 일치 작업(특정 국가접속 허용)](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/classic-web-acl-geo-conditions.html)
+
 
 ## EC2
 * [Ec2 속도저하](https://steemit.com/kr-dev/@segyepark/aws-ec2)
