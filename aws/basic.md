@@ -22,6 +22,7 @@
 
 ## WAF
 * [지역 일치 작업(특정 국가접속 허용)](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/classic-web-acl-geo-conditions.html)
+* [지역 일치 규칙문](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/waf-rule-statement-type-geo-match.html)
 
 
 ## EC2
