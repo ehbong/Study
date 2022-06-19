@@ -23,7 +23,18 @@
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
+
+
 * [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
+```python
+   # 변수명: 주석 = 대입 값 형태로 사용
+   test_no:int = 123
+   def test_func(param:int=0):
+   	print(param)
+
+   # 단순한 주석 역할 이기때문에 오류를 발생시키지는 않음
+   test_func('aaa')
+```
 * [bcrypt로 암호화](https://24hours-beginner.tistory.com/120)
 * [.env 사용](https://blog.gilbok.com/how-to-use-dot-env-in-python/)
 ```python
