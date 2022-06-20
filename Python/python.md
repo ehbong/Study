@@ -23,6 +23,8 @@
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
+* [defaultdict](https://dongdongfather.tistory.com/69)
+> defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
 
 
 * [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
