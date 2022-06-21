@@ -125,6 +125,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
  requirements.txt 에 버전 없이 표기해서 설치p
 ```
 * [Numba](http://numba.pydata.org/)
+* [Numba 설명](https://gurujung.github.io/_posts/2019-02-17-numba_user_5minguide/)
 ##### 확장모듈 생성
 * [cython](https://cython.org/)
 ##### 멀티쓰레드 & 멀티 프로세스
