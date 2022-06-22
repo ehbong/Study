@@ -120,6 +120,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [다양한 속도 개선 방법 예제](https://jinwoo1990.github.io/dev-wiki/python-concept-4/)
 ##### JIT(Just In Time)컴파일 런타임
 * [pypy](https://www.pypy.org/)
+* [python pypy 차이](https://ralp0217.tistory.com/entry/Python3-%EC%99%80-PyPy3-%EC%B0%A8%EC%9D%B4)
 ```
  numpy, pandas 모듈 사용시 특정 버전이 필요한게 아니라면 
  requirements.txt 에 버전 없이 표기해서 설치p
