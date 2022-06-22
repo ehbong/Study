@@ -127,6 +127,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 ```
 * [Numba](http://numba.pydata.org/)
 * [Numba 설명](https://gurujung.github.io/_posts/2019-02-17-numba_user_5minguide/)
+* [Numba 기본 사용법](https://gurujung.github.io/_posts/2019-04-10-numba_user_jit/)
 ##### 확장모듈 생성
 * [cython](https://cython.org/)
 ##### 멀티쓰레드 & 멀티 프로세스
