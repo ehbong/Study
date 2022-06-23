@@ -8,25 +8,39 @@
 * [split](https://mainia.tistory.com/5624)
 * [문자열로 된 숫자 확인하는 방법](https://soooprmx.com/archives/10159)
 * [filter](https://wikidocs.net/22803)
+
+
 * [AES-GCM 암복호화](https://blog.naver.com/chandong83/221886840586)
 * [AES CBC 암복호화](https://mkjjo.github.io/python/2019/08/04/crypto.html)
 * [AES CBC 암복호화2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221021909030)
 * [AES Pycrytptodemo 암복호화](https://deok2kim.tistory.com/302)
+
+
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
 * [refresh token, access token](https://tansfil.tistory.com/59)
+
+
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
+* 
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
+
+
 * [정적메소드 2가지 차이 staticMethod classMethod 차이](https://sshkim.tistory.com/184)
 * [정적메소드 사용법 및 2가지 종류 차이](https://wikidocs.net/16074)
+* 
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
+* 
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+* 
 * [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
 
 
+
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
+
 
 
 * [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
