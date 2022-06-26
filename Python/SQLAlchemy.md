@@ -22,7 +22,7 @@
 
 * [SqlAlchemy 모델로 DB테이블 생성](https://gggggeun.tistory.com/77)
 
-* [geohash 값으로 주변 검색](https://github.com/Jd007/adaptive-geohash-sql)
+* [SqlAlchemy geohash 값으로 주변 검색](https://github.com/Jd007/adaptive-geohash-sql)
 
 * [이미 있는 DB의 모델정보 가져오기 for flask](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
 ```bash
