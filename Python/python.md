@@ -153,6 +153,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 
 ##### 비동기 처리
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
+* [asyncio 사용하기](https://dojang.io/mod/page/view.php?id=2469)
 * [비동기 request처리](https://item4.blog/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 * [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
 * [flask 에서 백그라운드처리](https://blog.kshgroup.kr/background-jobs-with-flask/)
