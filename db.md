@@ -1,11 +1,8 @@
 ## DB
 
 * [index 란?](https://itholic.github.io/database-index/)
-* [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
 * [단계별 정규화](https://minimax95.tistory.com/entry/%EC%A0%95%EA%B7%9C%ED%99%94Normalization-%EA%B0%9C%EB%85%90%EA%B3%BC-%EA%B8%B0%EB%B3%B8-%EA%B3%BC%EC%A0%95)
 * [SQL query 튜닝](https://cornswrold.tistory.com/87)
-* [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
-* [mysql query cache 설정](https://jupiny.com/2021/01/10/mysql-query-cache-disadvantage/)
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
 * [DBeaver 에서 실행계획 보는법](http://item.gmarket.co.kr/detailview/item.asp?goodscode=2267277866)
@@ -13,6 +10,11 @@
 * [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
 * [효과적인 nosql 활용 feat AWS](https://www.youtube.com/watch?v=8rEsuvdL17s) 
 * [connection pool 연결 지연 대기](https://engineering-skcc.github.io/cloud/tomcat/apache/DB-Pool-For-Event/)
+
+## mysql
+* [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
+* [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
+* [mysql query cache 설정](https://jupiny.com/2021/01/10/mysql-query-cache-disadvantage/)
 
 > mysql 데드락 걸렸을때 대처
 ```sql
