@@ -36,7 +36,7 @@ SHOW ENGINE INNODB STATUS;
 * [join 종류](https://venova.tistory.com/entry/SQL-PostgreSQL-Join-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 * [partitioning](https://hides.tistory.com/1040)
 * [선언적파티셔닝, 상속 파티셔닝](https://uiandwe.tistory.com/1318)
-* [성능개선 방법](https://uiandwe.tistory.com/1283)
+* [postgreSQL 성능개선 방법](https://uiandwe.tistory.com/1283)
 * [postgis 위치 정보](https://postgis.net/)
 * [json type 사용 방법](https://brownbears.tistory.com/504)
 * [postgresql 실행 계획 분석, 상황별 실행되는 스캔](https://seungtaek-overflow.tistory.com/5)
