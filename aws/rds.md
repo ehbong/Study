@@ -4,3 +4,4 @@
 * [Aurora 장단점](https://m.blog.naver.com/sory1008/220950945170)
 * [postgresql Query log 설정](https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-postgresql-query-logging/)
 * [postgresql Parameters](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Appendix.PostgreSQL.CommonDBATasks.Parameters.html)
+* [postgresql 엔진 업그레이드](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html#USER_UpgradeDBInstance.PostgreSQL.MajorVersion)
