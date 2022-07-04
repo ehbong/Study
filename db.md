@@ -41,6 +41,7 @@ SHOW ENGINE INNODB STATUS;
 * [json type 사용 방법](https://brownbears.tistory.com/504)
 * [postgresql 실행 계획 분석, 상황별 실행되는 스캔](https://seungtaek-overflow.tistory.com/5)
 * [PostgreSQL synchronous_commit](http://minsql.com/postgres/PostgreSQL-synchronous_commit-%EA%B0%9C%EB%85%90%EB%8F%84/)
+* [autovacuum 튜닝](https://nrise.github.io/posts/postgresql-autovacuum/)
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
