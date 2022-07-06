@@ -43,6 +43,7 @@ SHOW ENGINE INNODB STATUS;
 * [PostgreSQL synchronous_commit](http://minsql.com/postgres/PostgreSQL-synchronous_commit-%EA%B0%9C%EB%85%90%EB%8F%84/)
 * [autovacuum 튜닝](https://nrise.github.io/posts/postgresql-autovacuum/)
 * [blocking query 확인 및 킬 방법](https://aws.amazon.com/ko/premiumsupport/knowledge-center/dms-error-canceling-statement-timeout/)
+* [pg_cron을 활용한 배치](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/PostgreSQL_pg_cron.html)
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
