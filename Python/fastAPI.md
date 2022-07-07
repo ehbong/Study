@@ -103,7 +103,12 @@ def endpoint(item: Item):
     # dict 변환 방법2 내부에 모델객체도 전부 변환 됨
     item.dict()
     return item
+
+# get 요청에서 필수값이 아닌 요청을 할때는 = None을 넣음
+param : str = None 
 ```
+
+
 
 * [모델 컬럼 길이 정의](https://stackoverflow.com/questions/61326020/how-can-i-set-max-string-field-length-constraint-in-pydantic)
 ```python
