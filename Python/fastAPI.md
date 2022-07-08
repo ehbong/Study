@@ -104,7 +104,7 @@ def endpoint(item: Item):
     item.dict()
     return item
 
-# get 요청에서 필수값이 아닌 요청을 할때는 = None을 넣음
+# 요청에서 필수값이 아닌 요청을 할때는 = None을 넣음
 param : str = None 
 ```
 
