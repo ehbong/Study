@@ -105,7 +105,11 @@ def endpoint(item: Item):
     return item
 
 # 요청에서 필수값이 아닌 요청을 할때는 = None을 넣음
-param : str = None 
+@app.post("/test", response_model=Item)
+def endpoint(param : str = None ):
+   print(param)
+   return None
+
 ```
 
 
