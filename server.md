@@ -125,6 +125,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [jenkins & Docker](https://pks2974.medium.com/jenkins-%EC%99%80-docker-%EA%B7%B8%EB%A6%AC%EA%B3%A0-aws-cli-%EC%82%BD%EC%A7%88%EA%B8%B0-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-e728986960e2)
 * [Jenkins와 GitHub 연결을 통한 CICD Docker 환경 구성](https://txegg.tistory.com/173)
 * [jenkins 호출을 위한 Github Webhook](https://crispyblog.kr/development/common/11)
+* [젠킨스(Jenkins) Github Webhooks 연동](https://junhyunny.github.io/information/jenkins/github/jenkins-github-webhook/)
 * [jenkins flask 연동](https://velog.io/@inyong_pang/devops-jenkins-flask-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%B0%EB%8F%99)
 * [jenkins github 연동](https://goddaehee.tistory.com/258)
 * [jenkins github 연결설정](https://bcho.tistory.com/1237)
