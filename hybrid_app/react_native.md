@@ -26,7 +26,8 @@
 * [ADB has terminated 에러시 대처](https://stackoverflow.com/questions/68312799/android-studio-the-emulator-process-for-avd-pixel-2-api-30-has-terminated-on)
 ## React-native cli
 * [리액트 네이티브 cli 설치 방법](https://velog.io/@max9106/React-Native-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8Creact-native-%EB%91%90-%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95-2-React-Native-CLI-bmk0gz4izg)
-
+## bridge
+* [naver-map](https://github.com/quadflask/react-native-naver-map)
 
 ## Expo
 * [공식사이트](https://expo.dev/)
