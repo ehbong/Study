@@ -6,6 +6,7 @@
 * [리액트 네이티브 기본 강좌](https://www.youtube.com/watch?v=Sr5UOR4llXY&list=PL60Uti4nULBN7EQYmgjksXJXnkufo0m-9)
 * [리액트 네이티브 커뮤니티 깃](https://github.com/react-native-community)
 * [리액트 네이티브 기본 설정 가이드](https://reactnative.dev/docs/environment-setup)
+* [리액트 네이티브 동작방식 브릿지, 가상돔](https://firework-ham.tistory.com/117)
 
 ```
   # 안드로이드 스튜디오 설치 후, 환경변수 설정했음에도 adb가 안될때 (mac os 기준)
