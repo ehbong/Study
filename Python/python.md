@@ -12,15 +12,18 @@
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
-***
+*** 
+> AES 암복호화
 * [AES-GCM 암복호화](https://blog.naver.com/chandong83/221886840586)
 * [AES CBC 암복호화](https://mkjjo.github.io/python/2019/08/04/crypto.html)
 * [AES CBC 암복호화2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221021909030)
 * [AES Pycrytptodemo 암복호화](https://deok2kim.tistory.com/302)
 ***
+> jwt 토큰
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
 * [refresh token, access token](https://tansfil.tistory.com/59)
 ***
+> 정적메소드
 * [정적메소드 2가지 차이 staticMethod classMethod 차이](https://sshkim.tistory.com/184)
 * [정적메소드 사용법 및 2가지 종류 차이](https://wikidocs.net/16074)
 ***
