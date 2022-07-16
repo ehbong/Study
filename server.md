@@ -180,3 +180,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [traefik Github](https://github.com/traefik/traefik)
 * [traefik vs nginx](https://gist.github.com/rabelais88/a458c1f45eea7d28240c64621853bb64)
 * [traefik docker 환경설정](https://danawalab.github.io/common/2021/07/14/traefik-reverse-froxy.html)
+
+
+## 쿠버네티스
+* [쿠버네티스 문서](https://kubernetes.io/ko/docs/home/)
