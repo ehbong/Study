@@ -416,6 +416,7 @@ os.path.isdir(path)
 
 ##### command 라인 다루기
 * [shell 명령어](https://codechacha.com/ko/python-run-shell-script/)
+* [subprocess](https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=sagala_soske&logNo=221280201722&parentCategoryNo=&categoryNo=118&viewDate=&isShowPopularPosts=true&from=search)
 
 ```python
 import os
