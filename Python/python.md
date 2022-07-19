@@ -263,6 +263,7 @@ for i in range(len(array)):
 ```
 ##### 시간 다루기
 * [날짜 포메팅](https://krksap.tistory.com/1635)
+
 ```python
   # 타임 스탬프를 데이트 타입으로 변경
   datetime.datetime.fromtimestamp(<타입스탬프> / 1000, <타임존 예 datetime.timezone.utc>)
@@ -272,6 +273,7 @@ for i in range(len(array)):
   datetime.strptime(<시간형태 문자열>, '%Y-%m-%d %H:%M:%S.%f')
   ## strptime 실행시 포멧 형식이 안맞으면 오류발생
 ```
+* [timezone 변경방법](https://codechacha.com/ko/python-apply-timezone-to-datetime/)
 
 ##### 딕셔너리리스트 검색
 ```python
