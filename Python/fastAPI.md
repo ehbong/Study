@@ -95,6 +95,11 @@ class Item(BaseModel):
     another: str
     opts: Dict[str, int] = {}
     
+# 정해진 값만 받는 경우 enum
+class ItemType(str, Enum):
+   box: str = "B"
+   roll: str = "R"
+    
 # 모델 객체를 dict로 변환
 @app.post("/test", response_model=Item)
 def endpoint(item: Item):
