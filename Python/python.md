@@ -12,7 +12,7 @@
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
-## python
+#### python 설치 및 연결
 ```zsh
   # python 명령어로 python3 실행하기
   ~/.bashrc 또는 ~/.bash_aliases 파일에 아래의 내용을 추가
@@ -365,8 +365,7 @@ for i in range(len(array)):
   소스코드를 받아서 컴파일 코드로 변환
 ```
 
-##### 파일다루기
-
+#### 파일다루기
 
 ####### 링크만들기(동일한 파일을 여러 이름으로 사용할때 등)
 > 하드링크와 소프트 링크 차이
