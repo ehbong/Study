@@ -121,7 +121,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
 * [제너레이터와 yield](https://dojang.io/mod/page/view.php?id=2412)
 
-##### socketio
+##### 웹소켓 socketio
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
 ```
  # Using Websockets with Python 링크에서 참조 
