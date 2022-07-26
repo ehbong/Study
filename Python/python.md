@@ -459,3 +459,6 @@ print(output)
 
 ##### pyscript, python으로 웹프론트개발
 * [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
+
+##### 크롤링
+* [기본적인 크롤링](https://wikidocs.net/6660)
