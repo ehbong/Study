@@ -74,7 +74,7 @@ def as_form(cls: Type[BaseModel]):
   setattr(cls, "as_form", _as_form)
   return cls
       
-# 폼 모델 정의  
+# 폼 모델 정의 (단한개의 값이라도 바디에서 받으려면 모델 생성 필요) 
 @as_form
 class Item(BaseModel):
     name: str
