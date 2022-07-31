@@ -43,6 +43,10 @@
  
  app.include_router(test.router, dependencise=[Depends(API_KEY_HEADER)])
 ```
+```python
+   # 스웨거에 호출 지연 시간 표시 옵션
+   app = FastAPI(swagger_ui_parameters={"displayRequestDuration": True})
+```
 
 ### pydantic 
 
