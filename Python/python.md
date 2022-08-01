@@ -101,7 +101,7 @@
  'True' if a == 1 else 'False'
 ```
 
-##### base64 encode, decode
+##### base64 인코딩(encoding), 디코딩(decoding)
 ```python
 import base64
 
