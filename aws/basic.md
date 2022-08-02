@@ -10,6 +10,7 @@
 ## ECS
 * [ecs 이해하기](https://tech.cloud.nongshim.co.kr/2021/08/30/%EC%86%8C%EA%B0%9C-amazon-ecs%EB%9E%80/)
 * [ECS 구성하기](https://waspro.tistory.com/428)
+* [ECS ](https://minddong.tistory.com/69)
 
 * [CloudFront 함수생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/edge-functions.html)
 * [CloudFront 함수생성 예제](https://github.com/aws-samples/amazon-cloudfront-functions)
