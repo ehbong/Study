@@ -38,6 +38,7 @@
   @app.teardown_appcontext
   def teardown_appcontext(exception):
   print("HTTP요청의 어플리케이션 컨텍스트가 종료될때 실행")
+  # db.session.close(), db.session.remove() 등 연결 관련 설정을 종료시킬때도 활용
 ```
 
 ## session
