@@ -143,8 +143,11 @@ func.count(distinct(User.name))
 ## 두 쿼리의 결과값을 결합(유니온)
 <a query>.union(<b query>)
 
-## 날짜형식의 값을 문자열 형식으로 표현
+## 날짜형식의 값을 문자열 형식으로 표현(mysql 기준)
 func.date_format(<컬럼명>, '%Y-%m-%d')
+
+## 날짜형식의 값을 문자열 형식으로 표현(postgresql 기준)
+func.to_char(<컬럼명>, 'YYYY-MM-DD')
 
 ## 특정 컬럼 + 컬럼명을 조회할때
 .with_entities(<테이블명>.<컬럼명>.label(<바꿀 컬럼명>), <테이블명>.<컬럼명>.label(<바꿀 컬럼명>), ...)
