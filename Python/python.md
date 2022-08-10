@@ -258,6 +258,8 @@ for i in range(len(array)):
   # in 으로 배열내 값이 있는지 확인(오류발생은 없으나 반환값을 True, False로 반환)
   <검색할 값> in temp
   
+  # list -> set 으로 형변환할 때 내부 자원이 class일경우 오류발생할 수 있음 
+  
   # 두 배열의 차집합 구하는 방법(배열안에 dict 또는 클래스일 경우 안됨)
   temp3 = list(set(temp1) - set(temp2)) #순서 보존이 안됨
 
