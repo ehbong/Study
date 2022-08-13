@@ -39,7 +39,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# 스웨거에서 제외 include_in_schema=False
+# 스웨거에서 엔드포인트 제외 설정 include_in_schema=False
 @app.get("/items/", include_in_schema=False)
 async def read_items():
     return [{"item_id": "Foo"}]
