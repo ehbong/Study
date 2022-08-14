@@ -463,3 +463,7 @@ print(output)
 
 ##### 크롤링
 * [기본적인 크롤링](https://wikidocs.net/6660)
+
+
+##### GUI
+* [PyQt5 Tutorial](https://wikidocs.net/book/2165)
