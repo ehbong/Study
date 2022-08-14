@@ -456,13 +456,10 @@ print(output)
 ##### 크롤링
 * [Selenium을 활용한 크롤러](https://beomi.github.io/2017/02/27/HowToMakeWebCrawler-With-Selenium/)
 * [Selenium 지연방법](https://codechacha.com/ko/selenium-explicit-implicit-wait/)
-
+* [기본적인 크롤링](https://wikidocs.net/6660)
 
 ##### pyscript, python으로 웹프론트개발
 * [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
-
-##### 크롤링
-* [기본적인 크롤링](https://wikidocs.net/6660)
 
 
 ##### GUI
