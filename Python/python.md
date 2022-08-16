@@ -464,3 +464,8 @@ print(output)
 
 ##### GUI
 * [PyQt5 Tutorial](https://wikidocs.net/book/2165)
+> py 파일을 exe 파일로 생성
+```bash
+> pip install pyinstaller
+> pyinstaller -w -F 파일명.py
+```
