@@ -467,5 +467,6 @@ print(output)
 > py 파일을 exe 파일로 생성
 ```bash
 > pip install pyinstaller
+# 하나의 파일로 생성
 > pyinstaller -w -F 파일명.py
 ```
