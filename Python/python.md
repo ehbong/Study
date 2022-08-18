@@ -462,7 +462,7 @@ print(output)
 * [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
 
 
-##### GUI
+##### GUI(윈도우 프로그램 그래픽 인터페이스)
 * [PyQt5 Tutorial](https://wikidocs.net/book/2165)
 > py 파일을 exe 파일로 생성
 ```bash
