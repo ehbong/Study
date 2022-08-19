@@ -4,6 +4,7 @@
 * [Vue Cli 공식문서](https://cli.vuejs.org/guide/)
 * [모질라 내 vue 설명](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started)
 * [vscode eslint 설정](https://velog.io/@skyepodium/VS-code%EC%97%90%EC%84%9C-vue%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-eslint-%EC%A0%81%EC%9A%A9-7xjr4r2on5)
+* [emit](https://webruden.tistory.com/925)
 * [vscode 익스텐션 추천](https://linked2ev.github.io/devsub/2020/08/31/Visual-Studio-Code-vue.js-%EA%B0%9C%EB%B0%9C%EC%8B%9C-%EC%B6%94%EC%B2%9C-plugin-%EC%A0%95%EB%A6%AC/)
 > 1. material icon theme
 > 2. file icon theme
