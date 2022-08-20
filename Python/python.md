@@ -463,6 +463,7 @@ print(output)
 
 
 ##### GUI(윈도우 프로그램 그래픽 인터페이스)
+* [GUI라이브러리](https://showering.tistory.com/150)
 * [PyQt5 Tutorial](https://wikidocs.net/book/2165)
 > py 파일을 exe 파일로 생성
 ```bash
