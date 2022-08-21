@@ -471,3 +471,5 @@ print(output)
 # 하나의 파일로 생성
 > pyinstaller -w -F 파일명.py
 ```
+
+* [외부 프로그램 호출](https://www.delftstack.com/ko/howto/python/call-external-programs-python/)
