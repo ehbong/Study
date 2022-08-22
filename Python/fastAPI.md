@@ -12,6 +12,8 @@
 
 * [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
 
+* [error 처리](https://lucky516.tistory.com/101)
+
 * [tag 활용](https://fastapi.tiangolo.com/tutorial/metadata/)
 * [swagger 페이지 접근 권한 로그인 설정](https://fastapi.tiangolo.com/advanced/security/http-basic-auth/)
 
