@@ -14,6 +14,7 @@
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
+* [좌표간 거리 계산](https://stricky.tistory.com/283)
 #### python 설치 및 연결
 ```zsh
   # python 명령어로 python3 실행하기
