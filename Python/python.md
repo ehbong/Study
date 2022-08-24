@@ -15,6 +15,7 @@
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
+* [경우의 수](https://armontad-1202.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AA%A8%EB%93%A0-%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98-%EC%B6%94%EC%B6%9C-%EA%B0%80%EB%8A%A5%ED%95%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 #### python 설치 및 연결
 ```zsh
   # python 명령어로 python3 실행하기
