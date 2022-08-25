@@ -11,6 +11,7 @@
 * [uvloop 설명](https://koreapy.tistory.com/1124)
 
 * [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
+* [request File](https://fastapi.tiangolo.com/tutorial/request-files/)
 
 * [error 처리](https://lucky516.tistory.com/101)
 
