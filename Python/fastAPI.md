@@ -9,6 +9,23 @@
 * [공식문서 CORS설정](https://fastapi.tiangolo.com/ko/tutorial/cors/)
 * [CORS 설정](https://developer-itspjc.tistory.com/m/25)
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
+* [FastAPI의 경로 설정은 순차적용](https://fastapi.tiangolo.com/ko/tutorial/path-params/#_7)
+```python 
+from fastapi import FastAPI
+
+app = FastAPI()
+
+## /users/me 보다 /users/{user_id}를 먼저 선언하면, me 가 user_id로 인식
+
+@app.get("/users/me")
+async def read_user_me():
+    return {"user_id": "the current user"}
+
+
+@app.get("/users/{user_id}")
+async def read_user(user_id: str):
+    return {"user_id": user_id}
+```
 * [uvloop 설명](https://koreapy.tistory.com/1124)
 
 * [FastAPI Event 다루기](https://www.hides.kr/1091?category=666044)
