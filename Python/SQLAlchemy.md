@@ -167,6 +167,7 @@ func.to_char(<컬럼명>, 'YYYY-MM-DD')
   ## AesEngine, AesGcmEngine
   ## 암호화 정도는 AesEngine(cbc) < AesGcmEngine(gcm)
   ## 해당 컬럼으로 조회를 하려면 AesEngine 을 사용
+  ## secretkey가 틀릴 경우 오류 발생
   from sqlalchemy_utils.types.encrypted.encrypted_type import AesEngine
 
   Base = declarative_base()
