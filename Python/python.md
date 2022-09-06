@@ -182,6 +182,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [flask 에서 백그라운드처리](https://blog.kshgroup.kr/background-jobs-with-flask/)
 * [비동기 동작이 실행중 비동기 요청이 들어올 경우 오류 발생 대처방법](https://stackoverflow.com/questions/55409641/asyncio-run-cannot-be-called-from-a-running-event-loop)
 * [FastAPI / uvicorn 호스팅 환경에서 asyncio 사용하는 방법](https://www.sysnet.pe.kr/2/0/13087?pageno=0)
+* [unsync](https://github.com/alex-sherman/unsync)
 ```python
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
