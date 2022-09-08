@@ -15,6 +15,7 @@
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
 * [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
 * [mysql query cache 설정](https://jupiny.com/2021/01/10/mysql-query-cache-disadvantage/)
+* [mysql timeout setting, sleep session 정리](https://sarc.io/index.php/mariadb/1154-sleep-session)
 
 > mysql 데드락 걸렸을때 대처
 ```sql
