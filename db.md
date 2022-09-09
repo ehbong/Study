@@ -34,6 +34,7 @@ SHOW ENGINE INNODB STATUS;
 * [PostgreSQL 쿼리 속도 개선](https://hyperconnect.github.io/2020/08/31/improve-slow-query.html)
 * [PostgreSQL 쿼리 튜닝](https://velog.io/@doohyunlm/DB-SQL-%ED%8A%9C%EB%8B%9D)
 * [postgresql AUTO INCREMENT](https://aspdotnet.tistory.com/2401)
+* [query timeout 설정](https://jojoldu.tistory.com/631)
 * [join 종류](https://venova.tistory.com/entry/SQL-PostgreSQL-Join-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 * [partitioning](https://hides.tistory.com/1040)
 * [선언적파티셔닝, 상속 파티셔닝](https://uiandwe.tistory.com/1318)
