@@ -6,3 +6,6 @@
 * [postgresql Parameters](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Appendix.PostgreSQL.CommonDBATasks.Parameters.html)
 * [postgresql 엔진 업그레이드](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html#USER_UpgradeDBInstance.PostgreSQL.MajorVersion)
 * [Aurora Serverless v2 사용](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html)
+
+
+> 파라메터 그룹은 DB내부 설정 관련 값들, 옵션 그룹은 RDS 인스턴스의 환경 구성에 관한 값을 관리
