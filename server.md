@@ -132,6 +132,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [jenkins github 연결설정](https://bcho.tistory.com/1237)
 * [CI/CD 툴 비교](https://medium.com/day34/ci-cd-tool-comparison-f710a4777852)
 * [github action cicd](https://wookim789.tistory.com/39)
+* [버전관리 규칙 Semantic versioning](https://kiwinam.com/posts/33/version-naming/)
 
 ## MSA
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
