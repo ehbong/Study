@@ -91,3 +91,6 @@ $ git tag -a 태그명 -m "메세지" : 주석을 달수 있는 태그를 만든
 $ git tag -v 태그명 : 태그의 자세한 정보(주석 포함)를 본다
 ```
 [출처 빨간색코딩](https://sjh836.tistory.com/31)
+
+### GIT TAG
+* [Release tag 사용방법] (https://ios-development.tistory.com/356)
