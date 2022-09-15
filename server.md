@@ -86,7 +86,6 @@ sudo systemctl daemon-reload
 * [에러 추적(Error Tracking) 및 로그 취합(logging aggregation) 시스템인 Sentry](https://www.lesstif.com/system-admin/error-tracking-logging-aggregation-sentry-30705079.html)
 
 ## nginx
-* [flask는 프로덕션 서버가 아닙니다.](https://build.vsupalov.com/flask-web-server-in-production/)
 * [flask and nginx](http://egloos.zum.com/mcchae/v/11149241)
 * [Nginx](https://opentutorials.org/module/384/3462)
 * [Nginx, Gunicorn(+ WSGI) 개념 이해 및 활용](https://www.opentutorials.org/module/4936/28881)
