@@ -92,6 +92,18 @@ sudo systemctl daemon-reload
 * [Nginx 설치 및 기본 환경 설정](https://kscory.com/dev/nginx/install)
 * [Nginx 캐시 설정](https://medium.com/@tunacan252/nginx%EC%9D%98-%EC%BA%90%EC%8B%9C-%EC%84%A4%EC%A0%95-2666f6dc7ab9)
 * [Nginx 마이크로 캐시](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D5-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BA%90%EC%8B%B1)
+```
+  proxy_cache_key 를 설정할때는 주의 해서 설정, 같은 호출이라고 판단하면 다른 호출에 대해 같은 결과 값을 반환
+  $scheme
+  $request_method
+  $host
+  $uri
+  $is_args
+  $args
+  $request_body
+  $content_length
+```
+* [$ 변수 목록](http://nginx.org/en/docs/varindex.html)
 * [AWS EC2 ubuntu Nginx 기본 설치가이드](https://erulabo.com/post/aws-ec2-how-to-install-nginx-server)
 * [Nginx + Gunicorn + flask 연동](https://velog.io/@yvvyoon/flask-nginx-gunicorn-1)
 * [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
