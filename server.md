@@ -103,7 +103,7 @@ sudo systemctl daemon-reload
   $request_body
   $content_length
   $remote_addr
-  $$query_string
+  $query_string
 ```
 * [$ 변수 목록](http://nginx.org/en/docs/varindex.html)
 * [AWS EC2 ubuntu Nginx 기본 설치가이드](https://erulabo.com/post/aws-ec2-how-to-install-nginx-server)
