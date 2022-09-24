@@ -61,3 +61,8 @@ SUBSTRING(<컬럼명> FROM '<정규식>')
 * [redis 설명](https://devlog-wjdrbs96.tistory.com/374)
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
 * [단계별 redis 설명](https://velog.io/@devsh/Redis-1-Redis%EB%9E%80)
+* [docker로 생성하여 연결할때 conf 파일 수정 값](https://stackoverflow.com/questions/62162222/redis-connection-refused-between-containers)
+```
+ bind 127.0.0.1 # 주석처리
+ protected-mode no # yes -> no
+```
