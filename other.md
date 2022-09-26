@@ -1,5 +1,6 @@
 # Other
 * [테크 자습서](https://techexpert.tips/)
+* [백엔드 로드맵](https://imsoncod.tistory.com/24)
 
 # markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
