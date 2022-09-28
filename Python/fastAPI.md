@@ -84,6 +84,8 @@ async def read_items():
 
 ### pydantic 
 
+> Response 할때 JSONResponse 등으로 감싸면 모델 처리가 안됨.
+
 * [form 데이터 처리 방법](https://github.com/tiangolo/fastapi/issues/2387)
 ```python
 # pydantic model
