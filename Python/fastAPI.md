@@ -11,6 +11,7 @@
 * [공식문서 CORS설정](https://fastapi.tiangolo.com/ko/tutorial/cors/)
 * [CORS 설정](https://developer-itspjc.tistory.com/m/25)
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
+
 * [FastAPI의 경로 설정은 순차적용](https://fastapi.tiangolo.com/ko/tutorial/path-params/#_7)
 ```python 
 from fastapi import FastAPI
@@ -158,7 +159,7 @@ def endpoint(param : str = None ):
 
 ```
 
-
+> post에 모델로 바디 데이터를 받을 때 값이 필수가 아니더라도 바디가 없으면 오류 발생
 
 * [모델 컬럼 길이 정의](https://stackoverflow.com/questions/61326020/how-can-i-set-max-string-field-length-constraint-in-pydantic)
 ```python
