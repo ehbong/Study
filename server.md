@@ -154,6 +154,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [MicroService and Serverless](https://waspro.tistory.com/495)
 * [MSA란](https://blog.neonkid.xyz/200?category=830544)
 * [MSA 선택의 이유(카카오 이모티콘서비스 예)](https://tech.kakao.com/2021/09/14/msa/)
+* [숨고 MSA를 위한 내부프레임워크](https://blog.soomgo.com/blog/soomgo-msa-architecture-soomgo-py/)
 
 
 ## cron
