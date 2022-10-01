@@ -2,6 +2,7 @@
 
 * [vscode key map 플러그인 소개](https://dubuholic.tistory.com/147)
 * [추천 플러그인](https://vhxpffltm.tistory.com/m/184)
+* [black 포메터 설정](https://pearlluck.tistory.com/743)
 ## git clone
 * [파이참 gitclone](https://baessi.tistory.com/116)
 * [파이참 설정 영상](https://opentutorials.org/course/3666/24539)
