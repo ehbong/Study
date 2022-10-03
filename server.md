@@ -192,3 +192,4 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 
 ## 쿠버네티스
 * [쿠버네티스 문서](https://kubernetes.io/ko/docs/home/)
+* [쿠버네티스 AWS 구축](https://litiblue.com/post/2018-03-14-kubernetesonaws/)
