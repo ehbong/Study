@@ -149,6 +149,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [CI/CD 툴 비교](https://medium.com/day34/ci-cd-tool-comparison-f710a4777852)
 * [github action cicd](https://wookim789.tistory.com/39)
 * [버전관리 규칙 Semantic versioning](https://kiwinam.com/posts/33/version-naming/)
+* [Argo CD GitOps 설치](https://nayoungs.tistory.com/entry/ArgoCD%EB%9E%80-ArgoCD-%EA%B0%9C%EC%9A%94-%EB%B0%8F-%EC%84%A4%EC%B9%98)
 
 ## MSA
 * [MicroService for AWS](https://www.slideshare.net/awskorea/3-microservice-aws-architecture-pattern-usecase)
