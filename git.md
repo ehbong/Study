@@ -94,3 +94,6 @@ $ git tag -v 태그명 : 태그의 자세한 정보(주석 포함)를 본다
 
 ### GIT TAG
 * [Release tag 사용방법] (https://ios-development.tistory.com/356)
+
+### GIT Action
+* [git action 사용법](https://zzsza.github.io/development/2020/06/06/github-action/)
