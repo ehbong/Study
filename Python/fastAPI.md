@@ -169,7 +169,7 @@ class MyPydanticModel(BaseModel):
     name: constr(max_length=10)
 ```
 
-> 웹소켓
+### 웹소켓
 * [FastAPI Websocket](https://fastapi.tiangolo.com/ko/advanced/websockets/?h=web)
 * [FastAPI Websocket 채팅방 생성](https://sdamoosavi.medium.com/chatroom-development-with-fastapi-websocket-1c96880412d7)
 * [FastAPI Websocket 토큰 추가](https://indominusbyte.github.io/fastapi-jwt-auth/advanced-usage/websocket/)
