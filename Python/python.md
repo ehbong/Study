@@ -481,6 +481,10 @@ print(output)
 * [pyscript란](https://velog.io/@taekkim/PyScript-%EB%9E%80)
 
 
+#### web push
+* [web push 샘플 코드](https://github.com/raturitechmedia/python_flask_webpush_notification)
+
+
 ##### GUI(윈도우 프로그램 그래픽 인터페이스)
 * [GUI라이브러리](https://showering.tistory.com/150)
 * [PyQt5 Tutorial](https://wikidocs.net/book/2165)
