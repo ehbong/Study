@@ -9,6 +9,7 @@
 * [REST API 규칙](https://velog.io/@gga4638/REST-API-URI-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B7%9C%EC%B9%99)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
 * [webpush 라이브러리](https://github.com/web-push-libs/web-push)
+* [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
 
 ### gRPC
 * [gRPC 공식문서](https://grpc.io/)
