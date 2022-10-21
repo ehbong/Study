@@ -177,3 +177,6 @@ class MyPydanticModel(BaseModel):
 ```python
    # connect 시 while 로 종료되지 않게 붙잡고 있어야 유지
 ```
+```python
+   # local에서는 잘되나, 서버에 반영 시 403에러 발생
+```
