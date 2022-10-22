@@ -140,7 +140,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
  proxy_set_header Connection "upgrade";
 ```
 * [flask-socketio 모듈 공식문서 Deployment 항목에 gunicorn 서버 연결 부분 참조](https://flask-socketio.readthedocs.io/en/latest/deployment.html)
-
+* [socketio channel, room 의 개념 설명](https://itseminar.tistory.com/31)
 ---
 ## 속도 개선 방법 
 * [속도 개선 코딩 방법](https://camel-it.tistory.com/140)
