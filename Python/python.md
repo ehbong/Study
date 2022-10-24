@@ -141,6 +141,10 @@ str = base64.b64decode(str_base64).decode('utf-8')
 ```
 * [flask-socketio 모듈 공식문서 Deployment 항목에 gunicorn 서버 연결 부분 참조](https://flask-socketio.readthedocs.io/en/latest/deployment.html)
 * [socketio channel, room 의 개념 설명](https://itseminar.tistory.com/31)
+```python
+ # channel은 어떤 이름을 가진 room들이 모여있는 개념이고
+ # room은 참여자들이 모여있는 하나의 공간 개념
+```
 * [python-socketio 도큐먼트](https://python-socketio.readthedocs.io/en/latest/server.html)
 ---
 ## 속도 개선 방법 
