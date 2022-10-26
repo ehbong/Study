@@ -61,7 +61,8 @@ SUBSTRING(<컬럼명> FROM '<정규식>')
 * [redis 설명](https://devlog-wjdrbs96.tistory.com/374)
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
 * [단계별 redis 설명](https://velog.io/@devsh/Redis-1-Redis%EB%9E%80)
-* [pub/sub 예제](https://snowdeer.github.io/python/2021/12/22/python-redis-pubsub-example/)
+* [pub/sub python예제](https://snowdeer.github.io/python/2021/12/22/python-redis-pubsub-example/)
+* [pub/sub 설명](http://redisgate.kr/redis/command/pubsub_intro.php)
 * [docker로 생성하여 연결할때 conf 파일 수정 값](https://stackoverflow.com/questions/62162222/redis-connection-refused-between-containers)
 ```
  bind 127.0.0.1 # 주석처리
