@@ -49,7 +49,7 @@ SHOW ENGINE INNODB STATUS;
 * [pg_cron을 활용한 배치](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/PostgreSQL_pg_cron.html)
 * [deadlock 확인 및 해결방법](https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-aurora-postgresql-query-blocked/)
 * [숫자타입 데이터 특징](https://www.devkuma.com/docs/postgresql/%EC%88%AB%EC%9E%90-%ED%98%95%EC%8B%9D-integer-decimal-double-precision-%EB%93%B1/)
-
+* [case when 조건 값](https://mine-it-record.tistory.com/418)
 * [정규식 이용 방법](https://iyabong.tistory.com/entry/DB-%EC%A0%95%EA%B7%9C%EC%8B%9D-PostgreSQL-%EC%BD%94%EB%93%9C%ED%92%88%EB%AA%85-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C-%EC%B6%94%EC%B6%9C%ED%95%98%EA%B8%B0)
 ```SQL
 # 정규식 예제
