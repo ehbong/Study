@@ -174,6 +174,7 @@ class MyPydanticModel(BaseModel):
 * [FastAPI Websocket 채팅방 생성](https://sdamoosavi.medium.com/chatroom-development-with-fastapi-websocket-1c96880412d7)
 * [FastAPI Websocket 토큰 추가](https://indominusbyte.github.io/fastapi-jwt-auth/advanced-usage/websocket/)
 * [FastAPI Websocket Db Broadcaster](https://github.com/encode/broadcaster)
+* [nginx 연결해서 websocket 연결 시 hypercorn으로 연결 시 해결](https://github.com/encode/starlette/issues/655)
 ```python
    # connect 시 while 로 종료되지 않게 붙잡고 있어야 유지
 ```
