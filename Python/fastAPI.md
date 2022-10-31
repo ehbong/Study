@@ -176,6 +176,9 @@ class MyPydanticModel(BaseModel):
 * [FastAPI Websocket Db Broadcaster](https://github.com/encode/broadcaster)
 * [nginx 연결해서 websocket 연결 시 hypercorn으로 연결 시 해결](https://github.com/encode/starlette/issues/655)
 ```python
+  worker 끼리 소켓이 공유가 안돼서, 공유할 수 있는 방법 필요(예 redis pub sub)
+```
+```python
    # connect 시 while 로 종료되지 않게 붙잡고 있어야 유지
 ```
 ```python
