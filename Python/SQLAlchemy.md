@@ -220,3 +220,10 @@ print(json.loads(df.to_json(orient='records')))
 ```
 
 
+# other
+```
+mac os13 update 후 postgresql 빌드 오류 시
+sudo ln -s /opt/homebrew/opt/postgresql@14/lib/postgresql@14/libpq.5.dylib /usr/local/lib/libpq.5.dylib
+
+```
+
