@@ -3,6 +3,7 @@
 * [Vue 공식문서](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js)
 * [Vue Cli 공식문서](https://cli.vuejs.org/guide/)
 * [모질라 내 vue 설명](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started)
+* [vue 핵심구조](https://brunch.co.kr/@clay1987/138)
 * [vscode eslint 설정](https://velog.io/@skyepodium/VS-code%EC%97%90%EC%84%9C-vue%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-eslint-%EC%A0%81%EC%9A%A9-7xjr4r2on5)
 * [emit](https://webruden.tistory.com/925)
 * [vue websocket 재연결](https://www.wenyanet.com/opensource/ko/607968839d8f407d3d356859.html)
