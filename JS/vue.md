@@ -74,7 +74,7 @@ module.exports = {
   }
 }
 ```
-
+* [페이지 별 접근권한](https://minhanpark.github.io/today-i-learned/role-in-vuerouter/)
 * [computed 와 watch 비교](https://kr.vuejs.org/v2/guide/computed.html)
 
 
