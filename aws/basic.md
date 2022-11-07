@@ -24,6 +24,7 @@
 ## WAF
 * [지역 일치 작업(특정 국가접속 허용)](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/classic-web-acl-geo-conditions.html)
 * [지역 일치 규칙문](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/waf-rule-statement-type-geo-match.html)
+* [해외 IP 차단](https://support.bespinglobal.com/ko/support/solutions/articles/73000544860--aws-waf-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%95%B4%EC%99%B8-ip-%EC%B0%A8%EB%8B%A8)
 
 
 ## EC2
