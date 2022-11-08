@@ -6,6 +6,9 @@
 * [AWS 비용절감 방법 10가지](https://aws.amazon.com/ko/blogs/korea/10-things-you-can-do-today-to-reduce-aws-costs/)
 * [AWS 비용절감 영상](https://aws.amazon.com/ko/blogs/korea/startups-six-ways-to-reduce-your-aws-bill/)
 * [saving plan vs 예약 인스턴스](https://sa-na.tistory.com/entry/AWS-%EB%B9%84%EC%9A%A9%EC%A4%84%EC%9D%B4%EA%B8%B0-%EC%98%88%EC%95%BD-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%99%80-Savings-Plans)
+```
+  보안 그룹에서 elb 상태 체크 등을 허용 하려면 subnet IP를 등록
+```
 
 ## ECS
 * [ECS 이해하기](https://tech.cloud.nongshim.co.kr/2021/08/30/%EC%86%8C%EA%B0%9C-amazon-ecs%EB%9E%80/)
