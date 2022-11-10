@@ -6,7 +6,7 @@
 * [ *, ** 의 의미](https://sshkim.tistory.com/182)
 * [ _, 언더스코어의 의미](https://doorbw.tistory.com/153)
 * [클래스 json 변환](http://jsonpickle.github.io/)
-* [split](https://mainia.tistory.com/5624)
+* [split 문자열 나누기](https://mainia.tistory.com/5624)
 * [문자열로 된 숫자 확인하는 방법](https://soooprmx.com/archives/10159)
 * [filter](https://wikidocs.net/22803)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
