@@ -39,6 +39,7 @@
 * [AES CBC 암복호화](https://mkjjo.github.io/python/2019/08/04/crypto.html)
 * [AES CBC 암복호화2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221021909030)
 * [AES Pycrytptodemo 암복호화](https://deok2kim.tistory.com/302)
+* [bcrypt로 암호화](https://24hours-beginner.tistory.com/120)
 ***
 > jwt 토큰
 * [jwt 토큰 사용법](https://juneyr.dev/2018-01-28/making-token-pyjwt)
@@ -52,7 +53,7 @@
 
 
 * [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
-* [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
+
 
 
 
@@ -71,7 +72,9 @@
    # 단순한 주석 역할 이기때문에 오류를 발생시키지는 않음
    test_func('aaa')
 ```
-* [bcrypt로 암호화](https://24hours-beginner.tistory.com/120)
+
+
+* [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
 * [.env 사용](https://blog.gilbok.com/how-to-use-dot-env-in-python/)
 ```python
    ## dotenv 모듈설치
