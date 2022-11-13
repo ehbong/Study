@@ -15,3 +15,7 @@
 # 책
 > 데이터중심 어플리케이션 설계
 * [데이터중심 어플리케이션 설계 정리 블로그](https://astrod.github.io)
+
+
+# fullstory
+* [웹 사용자 행동 추적 fullstory](https://www.fullstory.com/)
