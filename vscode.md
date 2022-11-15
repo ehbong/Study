@@ -7,4 +7,4 @@
 * [vscode 단축키](https://engineer-mole.tistory.com/204)
 
 
-* [ 에서 copilot 사용해보기](https://wooiljeong.github.io/etc/github-copilot/)
+* [vscode 에서 copilot 사용](https://wooiljeong.github.io/etc/github-copilot/)
