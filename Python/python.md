@@ -17,6 +17,7 @@
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [12가지 python 런타임](https://www.itworld.co.kr/news/132322)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
+* [가정 설정문 assert](https://wikidocs.net/21050)
 
 * [python 3.11 속도차이](https://docs.python.org/3.11/whatsnew/3.11.html)
 * [python 3.11 정식릴리즈](https://www.python.org/downloads/release/python-3110/)
