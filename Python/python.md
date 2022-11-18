@@ -22,8 +22,7 @@
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
 
-* [python 3.11 속도차이](https://docs.python.org/3.11/whatsnew/3.11.html)
-* [python 3.11 정식릴리즈](https://www.python.org/downloads/release/python-3110/)
+
 * [경우의 수 itertools](https://armontad-1202.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AA%A8%EB%93%A0-%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98-%EC%B6%94%EC%B6%9C-%EA%B0%80%EB%8A%A5%ED%95%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 #### python 설치 및 연결
 ```zsh
@@ -60,19 +59,6 @@
 
 
 
-
-
-
-* [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
-```python
-   # 변수명: 주석 = 대입 값 형태로 사용
-   test_no:int = 123
-   def test_func(param:int=0):
-   	print(param)
-
-   # 단순한 주석 역할 이기때문에 오류를 발생시키지는 않음
-   test_func('aaa')
-```
 
 
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
@@ -510,3 +496,20 @@ print(output)
 ```
 
 * [외부 프로그램 호출](https://www.delftstack.com/ko/howto/python/call-external-programs-python/)
+
+
+
+## 버전
+
+* [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
+```python
+   # 변수명: 주석 = 대입 값 형태로 사용
+   test_no:int = 123
+   def test_func(param:int=0):
+   	print(param)
+
+   # 단순한 주석 역할 이기때문에 오류를 발생시키지는 않음
+   test_func('aaa')
+```
+* [python 3.11 속도차이](https://docs.python.org/3.11/whatsnew/3.11.html)
+* [python 3.11 정식릴리즈](https://www.python.org/downloads/release/python-3110/)
