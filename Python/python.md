@@ -58,9 +58,6 @@
 * [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 
 
-
-
-
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
 * [.env 사용](https://blog.gilbok.com/how-to-use-dot-env-in-python/)
 ```python
