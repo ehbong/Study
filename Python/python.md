@@ -55,7 +55,7 @@
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 
 
-* [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
+
 
 
 * [설정값 관리 방법](https://mingrammer.com/ways-to-manage-the-configuration-in-python/)
@@ -497,7 +497,7 @@ print(output)
 
 
 ## 버전
-
+* [m1 macOS11 python 버전관리](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 * [3.6이후 지원 변수주석](https://conansjh20.tistory.com/55)
 ```python
    # 변수명: 주석 = 대입 값 형태로 사용
