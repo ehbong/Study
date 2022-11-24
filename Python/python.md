@@ -18,6 +18,7 @@
 * [12가지 python 런타임](https://www.itworld.co.kr/news/132322)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
 * [가정 설정문 assert](https://wikidocs.net/21050)
+* [추상클래스](https://wikidocs.net/16075)
 
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
