@@ -14,7 +14,9 @@
 
 * [SQLAlchemy 튜토리얼](https://riptutorial.com/ko/sqlalchemy)
 
-* [SQLAlchemy 튜토리얼 번역](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
+* [SQLAlchemy 튜토리얼 번역1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
+
+* [SQLAlchemy 튜토리얼 번역2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
 
 * [flask_sqlalchemy](https://opentutorials.org/module/3669/22070)
 
