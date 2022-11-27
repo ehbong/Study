@@ -2,6 +2,7 @@
 * [테크 자습서](https://techexpert.tips/)
 * [백엔드 로드맵](https://imsoncod.tistory.com/24)
 * [sass 란](https://www.redhat.com/ko/topics/cloud-computing/what-is-saas)
+* [개발 3대 원칙 KISS, YAGNI, DRY](https://blog.naver.com/complusblog/221163007357)
 
 # markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
