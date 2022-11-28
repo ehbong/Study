@@ -202,6 +202,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [쿠버네티스 문서](https://kubernetes.io/ko/docs/home/)
 * [쿠버네티스 AWS 구축](https://litiblue.com/post/2018-03-14-kubernetesonaws/)
 * [쿠버네티스 docker 지원 중단에 따른 대안](https://velog.io/@borab/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-docker-%EC%A7%80%EC%9B%90-%EC%A4%91%EB%8B%A8%EC%97%90-%EB%94%B0%EB%A5%B8-%EB%8C%80%EC%95%88)
+* [쿠버네티스 관련 기술정보](https://github.com/sysnet4admin/_Book_k8sInfra/tree/main/docs/k8s-stnd-arch/2022?fbclid=IwAR0cqaD042vdJj1eMJmN74dxHlvzIWWVh2wryDwsseKyUAWFenpkAtVKg8o)
 
 
 ## 메세지 브로커
