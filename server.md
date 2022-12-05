@@ -36,6 +36,7 @@
 * [nginx-prometheus-exporter](https://gurumee92.tistory.com/231)
 * [grafana dashboard labs](https://grafana.com/grafana/dashboards/)
 * [grafana alert 설정](https://ksr930.tistory.com/177)
+* [](https://velog.io/@moey920/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.-%ED%94%84%EB%A1%9C%EB%A9%94%ED%85%8C%EC%9A%B0%EC%8A%A4%EC%99%80-%EA%B7%B8%EB%9D%BC%ED%8C%8C%EB%82%98)
 
 * [프론트 모니터링 bugsnag](https://github.com/bugsnag)
 
@@ -203,6 +204,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [쿠버네티스 AWS 구축](https://litiblue.com/post/2018-03-14-kubernetesonaws/)
 * [쿠버네티스 docker 지원 중단에 따른 대안](https://velog.io/@borab/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-docker-%EC%A7%80%EC%9B%90-%EC%A4%91%EB%8B%A8%EC%97%90-%EB%94%B0%EB%A5%B8-%EB%8C%80%EC%95%88)
 * [쿠버네티스 관련 기술정보](https://github.com/sysnet4admin/_Book_k8sInfra/tree/main/docs/k8s-stnd-arch/2022?fbclid=IwAR0cqaD042vdJj1eMJmN74dxHlvzIWWVh2wryDwsseKyUAWFenpkAtVKg8o)
+* [쿠버네티스 패키지 메니저 헬름 공식](https://helm.sh/ko/)
 
 
 ## 메세지 브로커
