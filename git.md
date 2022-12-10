@@ -97,3 +97,7 @@ $ git tag -v 태그명 : 태그의 자세한 정보(주석 포함)를 본다
 
 ### GIT Action
 * [git action 사용법](https://zzsza.github.io/development/2020/06/06/github-action/)
+
+
+### GIT Page
+* [git 정적 페이지 호스팅](https://eunche.github.io/deploy/github_static_web_page_hosting/)
