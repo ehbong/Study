@@ -6,6 +6,7 @@
 * [구글 언어별 코드 작성 스타일 가이드](https://google.github.io/styleguide/)
 * [기본적인 토큰방식 SSO의 구조](https://brunch.co.kr/@sangjinkang/36)
 * [AB 테스트 방법](https://brunch.co.kr/@digitalnative/19)
+* [상속과 조합](https://unluckyjung.github.io/oop/2021/03/15/Inheritance-Coposition/)
 
 
 ## markdown
