@@ -210,3 +210,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 
 ## 메세지 브로커
 * [RabbitMQ 란?](https://azderica.github.io/00-rabbitmq/)
+
+
+## 부하테스트
+* [wrk 설치 및 간단 설명](https://www.lesstif.com/software-architect/wrk-modern-http-bench-marking-tool-106856711.html)
