@@ -7,6 +7,7 @@
 * [기본적인 토큰방식 SSO의 구조](https://brunch.co.kr/@sangjinkang/36)
 * [AB 테스트 방법](https://brunch.co.kr/@digitalnative/19)
 * [상속과 조합](https://unluckyjung.github.io/oop/2021/03/15/Inheritance-Coposition/)
+* [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
 
 
 ## markdown
