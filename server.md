@@ -9,8 +9,7 @@
 * [REST API 규칙](https://velog.io/@gga4638/REST-API-URI-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B7%9C%EC%B9%99)
 * [Rest Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
-* [webpush 라이브러리](https://github.com/web-push-libs/web-push)
-* [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
+
 
 ### gRPC
 * [gRPC 공식문서](https://grpc.io/)
@@ -41,11 +40,14 @@
 * [프론트 모니터링 bugsnag](https://github.com/bugsnag)
 
 
-
-
+### 분산처리
 * [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
 * [Server 운용 방법 5가지](https://blog.msalt.net/77)
 * [Naver 메인페이지 트래픽처리 방법](https://d2.naver.com/helloworld/6070967)
+
+
+
+
 * [Bash:_systemctl:_command_not_found 오류](https://zetawiki.com/wiki/Bash:_systemctl:_command_not_found)
 ```zsh
 ## 우분트 시스템에 자동업데이트 서비스로 인해 문제가 생길때
@@ -212,5 +214,12 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [RabbitMQ 란?](https://azderica.github.io/00-rabbitmq/)
 
 
+
 ## 부하테스트
 * [wrk 설치 및 간단 설명](https://www.lesstif.com/software-architect/wrk-modern-http-bench-marking-tool-106856711.html)
+
+
+
+## 웹푸시
+* [webpush 라이브러리](https://github.com/web-push-libs/web-push)
+* [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
