@@ -21,7 +21,7 @@
 * [가정 설정문 assert](https://wikidocs.net/21050)
 * [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
-
+* [싱글톤 예제](https://wikidocs.net/book/1)
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
 
