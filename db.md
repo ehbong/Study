@@ -69,6 +69,5 @@ SUBSTRING(<컬럼명> FROM '<정규식>')
  bind 127.0.0.1 # 주석처리
  protected-mode no # yes -> no
 ```
-
 * [Kafka와 Redis의 pub/sub 차이](https://medium.com/frientrip/pub-sub-%EC%9E%98-%EC%95%8C%EA%B3%A0-%EC%93%B0%EC%9E%90-de9dc1b9f739)
 * [Kafka 설명](https://galid1.tistory.com/793)
