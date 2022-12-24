@@ -75,3 +75,5 @@ SUBSTRING(<컬럼명> FROM '<정규식>')
 
 ## 데이터 웨어하우스
 * [OLTP, OLAP 비교](https://too612.tistory.com/511)
+* [Snowflake, BigQuery, Redshift 비교](https://giljae.medium.com/snowflake-bigquery-redshift-%EB%B9%84%EA%B5%90-5c585df450b7)
+
