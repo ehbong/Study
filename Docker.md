@@ -137,3 +137,6 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   ENV TZ=Asia/Seoul
   RUN apt-get install -y tzdata
 ```
+
+
+* [node 도커라이징](https://nodejs.org/ko/docs/guides/nodejs-docker-webapp/)
