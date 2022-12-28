@@ -181,3 +181,8 @@ var str = "abcdefghijklmnopqrstuvwxyz";
 
 ### npm
 * [npm 명령어 정리](https://velog.io/@archivvonjang/npm-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC)
+
+```bash
+# 디펜던시를 가져오는 명령어
+> npm ls --depth=0 
+```
