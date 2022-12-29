@@ -287,6 +287,7 @@ for i in range(len(array)):
   temp3 = [x for x in temp1 if x not in s] #순서 보존됨
 ```
 ##### 시간 다루기
+* [날짜 차이 계산](https://jsikim1.tistory.com/144)
 * [날짜 포메팅](https://krksap.tistory.com/1635)
 
 ```python
