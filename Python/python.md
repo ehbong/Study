@@ -288,6 +288,19 @@ for i in range(len(array)):
 ```
 ##### 시간 다루기
 * [날짜 차이 계산](https://jsikim1.tistory.com/144)
+```python
+
+# 현재 날짜
+now  = datetime.now()
+
+# 비교 대상이 되는 날짜
+date_to_compare = datetime.strptime("20221225", "%Y%m%d")
+
+date_diff = now - date_to_compare
+
+# 시간 전체를 초로 변환
+date_diff.total_seconds()
+```
 * [날짜 포메팅](https://krksap.tistory.com/1635)
 
 ```python
