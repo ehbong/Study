@@ -9,3 +9,6 @@
 
 
 > 파라메터 그룹은 DB내부 설정 관련 값들, 옵션 그룹은 RDS 인스턴스의 환경 구성에 관한 값을 관리
+
+
+* [postgresql 에서 S3로 데이터 내보내기](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/postgresql-s3-export.html)
