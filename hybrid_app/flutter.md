@@ -6,3 +6,5 @@
 
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
+
+* [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
