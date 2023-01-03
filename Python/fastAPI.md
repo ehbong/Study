@@ -5,7 +5,7 @@
 * [FastAPI sqlalchemy 연결 설정](https://dingrr.com/blog/post/python-fastapi-%EB%A1%9C-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-3%ED%99%94-mysql-%EC%97%B0%EA%B2%B0)
 * [FastAPI 유튜브 기본강의](https://www.youtube.com/watch?v=7frN5JPMsQU&list=PLr_ki3_GfpZMTSdQehJRrIwuDGOHh5LvB&index=7)
 * [FastAPI 다른 강의](https://www.youtube.com/watch?v=ktGVFmfGiGM&list=PLKy1qiqTzJteucwpykHuZyCh-HqeZXIG4&index=17)
-
+* [FastAPI 보일러플레이트 참고할만한 소스](https://github.com/teamhide/fastapi-boilerplate/tree/21ecdc5267dfdbe52720834b84b74c12a67997e8)
 * [FastAPI 시작, 종료 이벤트](https://fastapi.tiangolo.com/advanced/events/)
 * [공식문서 CORS설정](https://fastapi.tiangolo.com/ko/tutorial/cors/)
 * [CORS 설정](https://developer-itspjc.tistory.com/m/25)
