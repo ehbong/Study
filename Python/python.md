@@ -22,6 +22,20 @@
 * [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [싱글톤 예제](https://wikidocs.net/book/1)
+* [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
+```python
+# 변수 초기화를 할때 아래와 같이 작성하면 변수가 선언될 때 배열이 초기화 되어서, 실행할 때 마다 배열안에 값이 변한다.
+def test(arg, param_list=[]):
+  result.append(arg)
+  print(result)
+# 의도한 방향이 변수 값이 없을 때 빈 배열이라면 아래와 같이 수정이 필요하다.
+def test_fix(arg, param_list=None):
+  if param_list is None:
+    param_list = []
+  result.append(arg)
+  print(result)
+
+```
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
 
