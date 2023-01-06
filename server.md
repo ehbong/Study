@@ -175,6 +175,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 
 ## sysstat
 * [sysstat사용법](https://brunch.co.kr/@lars/9)
+* [ubuntu port확인방법](https://jungfo.tistory.com/93)
 
 ## homebrew
 ```zsh
