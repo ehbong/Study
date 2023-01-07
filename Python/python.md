@@ -48,6 +48,12 @@ def test_fix(arg, param_list=None):
  'True' if a == 1 else 'False'
 ```
 
+```python
+# 나누기 할 때 주의 필요
+ 10 / 5 = 5.0
+ 10 // 5 = 5
+```
+
 * [경우의 수 itertools](https://armontad-1202.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AA%A8%EB%93%A0-%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98-%EC%B6%94%EC%B6%9C-%EA%B0%80%EB%8A%A5%ED%95%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 #### python 설치 및 연결
 ```zsh
