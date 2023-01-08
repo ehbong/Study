@@ -6,6 +6,22 @@
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
 * [http 상태 코드 정리](https://www.whatap.io/ko/blog/40/)
+```
+ 200(성공) 요청 처리 성공
+ 201(등록성공) 요청을 등록하는 데 성공 주로 POST, PUT 사용 시 리턴\
+ 202(수신성공 비처리) 요청을 수신했지만 처리할 수 없음
+ 300(다증응답) 요청에 대해 여러 응답이 가능
+ 301(이동) 요청한 URI변경
+ 302(일시적이동) 요청한 URI가 일시적으로 변경
+ 400(잘못된요청) 잘못된 문법요청으로 서버가 이해할 수 없음
+ 401(미인증) 인증에 대한 정보가 없음
+ 403(미권한) 보유한 인증정보로 접근권한이 없음
+ 404(없음) 찾을 수 없는 응답
+ 500(내부서버오류) 서버오류 발생
+ 501(구현되지 않음) 메소드인식 불가
+ 502(게이트웨이 오류) 게이트웨이에서 발생한 오류
+ 504(게이트웨이 타임아웃) 제 시간에 요청을 받지 못했을 경우
+```
 * [REST API 규칙](https://velog.io/@gga4638/REST-API-URI-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B7%9C%EC%B9%99)
 * [Rest Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
