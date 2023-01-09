@@ -9,6 +9,7 @@
 * [상속과 조합](https://unluckyjung.github.io/oop/2021/03/15/Inheritance-Coposition/)
 * [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
 * [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
+* [권장되는 변수명 규칙] (https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=221846090355&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=true&from=search)
 
 
 ## markdown
