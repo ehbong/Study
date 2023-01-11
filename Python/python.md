@@ -183,6 +183,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [cython](https://cython.org/)
 ##### 멀티쓰레드 & 멀티 프로세스
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
+* [쓰레드 동기화(처리순서가 명확하게 필요할 때)](https://niceman.tistory.com/139)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
 * [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
 ```python
