@@ -12,6 +12,7 @@
 * [권장되는 변수명 규칙](https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=221846090355&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=true&from=search)
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/) 
+* [OSI 7layer 정리](https://jungeun960.tistory.com/181)
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
 
