@@ -13,6 +13,7 @@
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/) 
 * [OSI 7layer 정리](https://jungeun960.tistory.com/181)
+* [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
 
