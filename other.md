@@ -10,10 +10,15 @@
 * [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
 * [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
 * [권장되는 변수명 규칙](https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=221846090355&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=true&from=search)
+
+## 네트워크
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/) 
 * [OSI 7layer 정리](https://jungeun960.tistory.com/181)
 * [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
+* [L1, L2, L3, L4, L5, L6, L7 스위치란?](https://siahn95.tistory.com/entry/Network%EC%9E%A5%EB%B9%84-L1-L2-L3-L4-L5-L6-L7-%EC%8A%A4%EC%9C%84%EC%B9%98%EB%9E%80)
+
+
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
 
