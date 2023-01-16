@@ -13,7 +13,8 @@
 
 ## 네트워크
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
-* [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/) 
+* [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/)
+* [HTTP와 HTTPS 차이, SSL, TLS](https://beenii.tistory.com/83)
 * [OSI 7layer 정리](https://jungeun960.tistory.com/181)
 * [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [L1, L2, L3, L4, L5, L6, L7 스위치란?](https://siahn95.tistory.com/entry/Network%EC%9E%A5%EB%B9%84-L1-L2-L3-L4-L5-L6-L7-%EC%8A%A4%EC%9C%84%EC%B9%98%EB%9E%80)
