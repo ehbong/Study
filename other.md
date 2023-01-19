@@ -11,6 +11,8 @@
 * [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
 * [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
 * [권장되는 변수명 규칙](https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=221846090355&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=true&from=search)
+* [프로세스, 스레드 설명 유튜브](https://www.youtube.com/watch?v=iks_Xb9DtTM)
+* [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 
 ## 네트워크
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
