@@ -140,6 +140,7 @@ sudo systemctl daemon-reload
 * [Foward Proxy 와 Reverse Proxy 차이](https://bcp0109.tistory.com/194)
 * [nginx 프록시 패스 리다이렉션 무시](https://serverfault.com/questions/363159/nginx-proxy-pass-redirects-ignore-port)
 * [Nginx Keepalive 웹서버와 was 간의 통신 튜닝](https://jojoldu.tistory.com/322?category=777282)
+* [nginx health check module](https://github.com/yaoweibin/nginx_upstream_check_module)
 * [Nginx 로드밸런싱](https://kscory.com/dev/nginx/loadbalancer)
 * [Nginx 보안설정](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%EB%B3%B4%EC%95%887-DoS-DDoS-%EA%B3%B5%EA%B2%A9-%EB%B0%A9%EC%96%B4-%EC%84%A4%EC%A0%95)
 * [nginx 로드밸런싱 파마레터 설명](https://kamang-it.tistory.com/entry/WebServernginxnginx%EB%A1%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-%ED%95%98%EA%B8%B0)
