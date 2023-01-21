@@ -159,6 +159,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
   # nginx.conf 포트 고정(프록시 리다이렉트 무시)할때 설정 $host를 $http_host로 변경
   proxy_set_header Host $host; > proxy_set_header Host $http_host; 
 ```
+* [nginx 자주쓰는 5가지 대표기능 설정](https://wonit.tistory.com/336)
 
 
 ## CI/CD
