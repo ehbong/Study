@@ -43,7 +43,7 @@
 ```python
   from sqlalchemy import create_engine
   
-  # 연결하면서 타임존 설정하기 connect_args=={'options': '-c timezone=Asia/Seoul'}
+  # 연결하면서 기본 타임존 설정하기 connect_args=={'options': '-c timezone=Asia/Seoul'}
   engine = create_engine("postgresql://user:password@host:port/dbname", 
                           connect_args={'options': '-c timezone=Asia/Seoul'})
 ```
