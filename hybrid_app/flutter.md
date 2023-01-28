@@ -8,3 +8,5 @@
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
 
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
+
+* [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
