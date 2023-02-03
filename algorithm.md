@@ -1,5 +1,6 @@
 # algorithm
 
+* [빅어 표기법 설명](https://www.youtube.com/watch?v=6Iq5iMCVsXA)
 
 #### 길찾기 알고리즘
 * [길찾기 알고리즘(DFS, BFS, Dijkstra)](https://errorcode1001.tistory.com/10)
