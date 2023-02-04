@@ -17,6 +17,7 @@
 * [코딩 알고리즘 문제 국내 (프로그래머스)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1)
 * [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
 * [브라우저 동작원리](https://velog.io/@thyoondev/%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
+* [객체지향 SOLID원칙](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 
 ## 네트워크
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
