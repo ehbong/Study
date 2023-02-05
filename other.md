@@ -15,8 +15,6 @@
 * [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 * [코딩 알고리즘 문제 해외](https://app.codility.com/programmers/)
 * [코딩 알고리즘 문제 국내 (프로그래머스)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1)
-* [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
-* [브라우저 동작원리](https://velog.io/@thyoondev/%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
 * [객체지향 SOLID원칙](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 
 ## 네트워크
@@ -29,6 +27,8 @@
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
+* [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
+* [브라우저 동작원리](https://velog.io/@thyoondev/%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
 
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
