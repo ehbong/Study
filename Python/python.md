@@ -53,7 +53,24 @@ def test_fix(arg, param_list=None):
  10 / 5 = 5.0
  10 // 5 = 5
 ```
+```python
+ # 10 진수의 부동소수점을 2진수로 똑같이 표현할 수 없어서
+ # 실수 간의 비교는 항상 주의가 필요
+ 0.1 + 0.1 == 0.2 # False
+ 
+ # 위 표현식을 비교하려면
+ import math, sys
+ x = 0.1 + 0.1
+ math.fabs(x - 0.2) <= sys.float_info.epsilon # True
+ 
+ # math.fabs 로 수식을 절대값으로 변환해서 비교
+ # sys.float_info.epsilon에 저장된 값을 머신 엡실론(machine epsilon)이라고 부르는데, 
+ # 어떤 실수를 가장 가까운 부동소수점 실수로 반올림했을 때 상대 오차는 항상 머신 엡실론 이하
 
+ # 파이썬 3.5이상부터는 두 실수가 같은지 판단할 때 math.isclose 함수 사용
+ math.isclose(0.1 + 0.1, 0.2)  # True
+```
+* [실수간의 비교 방법](https://dojang.io/mod/page/view.php?id=2466)
 * [경우의 수 itertools](https://armontad-1202.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AA%A8%EB%93%A0-%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98-%EC%B6%94%EC%B6%9C-%EA%B0%80%EB%8A%A5%ED%95%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 #### python 설치 및 연결
 ```zsh
