@@ -54,6 +54,20 @@ def test_fix(arg, param_list=None):
  10 // 5 = 5
 ```
 ```python
+# 깊은 복사
+# 리스트
+a_list = [1, 2, 3]
+b_list = a[:]
+ 
+# 셋
+a_set = {"1", "2", "3"}
+b_set = a_set.copy()
+
+# 딕셔너리
+a_dict = {"a": 1, "b": 2}
+b_dict = a_dict.copy()
+```
+```python
  # 10 진수의 부동소수점을 2진수로 똑같이 표현할 수 없어서
  # 실수 간의 비교는 항상 주의가 필요
  0.1 + 0.1 == 0.2 # False
