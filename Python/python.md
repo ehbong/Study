@@ -235,6 +235,8 @@ str = base64.b64decode(str_base64).decode('utf-8')
  pool.close()
  pool.join()
 ```
+* [쓰레딩 컨디션 객체 예제](https://snowdeer.github.io/python/2017/11/13/python-producer-consumer-example/)
+* [Multithreading, Daemon thread, ThreadPoolExecutor 사용 방법](https://libertegrace.tistory.com/entry/Python-%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1-%EB%AC%B8%EB%B2%95-Multithreading)
 
 ##### 비동기 처리
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
