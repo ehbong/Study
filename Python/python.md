@@ -349,6 +349,15 @@ for i in range(len(array)):
   #또는
   s = set(temp2)
   temp3 = [x for x in temp1 if x not in s] #순서 보존됨
+  
+  # set으로 교집합
+  s1 & s2
+  
+  # set으로 합집합
+  s1 | s2
+  
+  # set으로 차집합
+  s1 - s2
 ```
 ##### 시간 다루기
 * [날짜 차이 계산](https://jsikim1.tistory.com/144)
