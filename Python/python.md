@@ -41,11 +41,12 @@ def test_fix(arg, param_list=None):
 
 > Counter 객체를 카우팅 하는 컬렉션 dict
 ```python
-  from collections import Counter
-  num = [1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 3, 4]
-  num_counts = Counter(num)
-  print(num_counts)
-  # Counter({5: 1, 1: 3, 2: 3, 3: 3, 4: 2})
+from collections import Counter
+
+num = [1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 3, 4]
+num_counts = Counter(num)
+print(num_counts)
+# Counter({5: 1, 1: 3, 2: 3, 3: 3, 4: 2})
 ```
 
 
