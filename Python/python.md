@@ -21,6 +21,7 @@
 * [가정 설정문 assert](https://wikidocs.net/21050)
 * [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
+* [순환 참조 문제 해결 방법 예제](https://www.pythonpool.com/python-circular-import/)
 * [싱글톤 예제](https://wikidocs.net/book/1)
 * [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
 ```python
