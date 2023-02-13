@@ -6,6 +6,7 @@
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
 * [DBeaver 에서 실행계획 보는법](http://item.gmarket.co.kr/detailview/item.asp?goodscode=2267277866)
+* [DB 옵티마이저란?](https://coding-factory.tistory.com/743)
 * [couchebase db 개념과 특징](https://azderica.github.io/02-db-nosql-couchbase/)
 * [aws db 데이터 마이그레이션](https://aws.amazon.com/ko/dms/)
 * [효과적인 nosql 활용 feat AWS](https://www.youtube.com/watch?v=8rEsuvdL17s) 
