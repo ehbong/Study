@@ -13,6 +13,10 @@
 * [connection pool 연결 지연 대기](https://engineering-skcc.github.io/cloud/tomcat/apache/DB-Pool-For-Event/)
 * [n+1문제 이슈](https://fouaaa.blogspot.com/2021/06/n1.html)
 
+
+## NoSQL
+* [데이터 모델링 형태 별 특징](https://bcho.tistory.com/665)
+
 ## mysql
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
 * [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
