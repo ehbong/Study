@@ -16,6 +16,7 @@
 
 ## NoSQL
 * [데이터 모델링 형태 별 특징](https://bcho.tistory.com/665)
+* [MongoDB 집계(그룹)](https://spidyweb.tistory.com/190)
 
 ## mysql
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
