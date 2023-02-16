@@ -480,7 +480,7 @@ date_diff.total_seconds()
 ```
 
 #### 파일다루기
-
+* [pathlib 로 경로 다루기](https://engineer-mole.tistory.com/191)
 ####### 링크만들기(동일한 파일을 여러 이름으로 사용할때 등)
 > 하드링크와 소프트 링크 차이
 > * 하드링크
