@@ -22,7 +22,7 @@
 * [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [순환 참조 문제 해결 방법 예제](https://www.pythonpool.com/python-circular-import/)
-* [싱글톤 예제](https://wikidocs.net/book/1)
+* [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 * [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
 ```python
 # 변수 초기화를 할때 아래와 같이 작성하면 변수가 선언될 때 배열이 초기화 되어서, 실행할 때 마다 배열안에 값이 변한다.
