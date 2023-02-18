@@ -22,6 +22,7 @@
 * [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [순환 참조 문제 해결 방법 예제](https://www.pythonpool.com/python-circular-import/)
+* [python 함수형프로그래밍 할 때 예제 및 장단점](https://velog.io/@keywookim/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%9C%EA%B8%B0)
 * [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 * [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
 ```python
