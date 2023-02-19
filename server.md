@@ -5,6 +5,8 @@
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
+
+> 상태 코드
 * [http 상태 코드 정리](https://www.whatap.io/ko/blog/40/)
 ```
  200(성공) 요청 처리 성공
