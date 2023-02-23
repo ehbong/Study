@@ -29,7 +29,8 @@
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
 * [브라우저 동작원리](https://velog.io/@thyoondev/%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
-* [DNS 동작원리](https://youtu.be/6tqeANy-QoY)
+* [DNS 동작원리 유튜브](https://youtu.be/6tqeANy-QoY)
+* [도메인 네임 시스템 개념, 작동 방식](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
 
