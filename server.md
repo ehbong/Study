@@ -4,6 +4,7 @@
 * [구글 검색 안되게 하기](https://ragonfly.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%97%90%EC%84%9C-%EA%B2%80%EC%83%89-%EC%95%88%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94%EB%B2%95)
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
+* [세션 동작 원리](https://thecodinglog.github.io/web/2020/08/11/what-is-session.html)
 * [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
 * [TCP 동작원리 / 흐름제어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ksg7514&logNo=220772997742)
 
