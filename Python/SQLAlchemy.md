@@ -57,8 +57,6 @@
 
 * [동적쿼리1](https://stackoverflow.com/questions/37336520/sqlalchemy-dynamic-filter)
 
-* [동적쿼리2 2022.08.08 접속안됨](https://stackoverrun.com/ko/q/10784033)
-
 * [nvl 역할을 하는 func.coalesce](https://programtalk.com/python-examples/sqlalchemy.sql.func.coalesce/)
 
 * [in 조건](https://stackoverflow.com/questions/8603088/sqlalchemy-in-clause)
