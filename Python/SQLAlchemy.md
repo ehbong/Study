@@ -48,6 +48,11 @@
                           connect_args={'options': '-c timezone=Asia/Seoul'})
 ```
 
+```python
+  # 데이터 변경 쿼리가 DB에 호출 되는 순간은 flush 를 했을 때 호출
+  # flush 후 commit, rollback, close 등이 호출 될 때까지 열린 상태로 유지 
+```
+
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
 
 * [동적쿼리1](https://stackoverflow.com/questions/37336520/sqlalchemy-dynamic-filter)
