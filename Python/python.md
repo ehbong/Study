@@ -439,6 +439,7 @@ date_diff.total_seconds()
 ##### 데코레이터
 * [파이썬 코딩 도장 데코레이터](https://dojang.io/mod/page/view.php?id=2427)
 * [데코레이터 기본 사용법](https://www.daleseo.com/python-decorators/)
+* [데코레이터 이해를 위핸 규칙](https://engineer-mole.tistory.com/181)
 ```python
   # 매개변수가 있는 데코레이터 출처 https://dojang.io/mod/page/view.php?id=2429
   def is_multiple(x):              # 데코레이터가 사용할 매개변수를 지정
