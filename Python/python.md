@@ -422,6 +422,7 @@ date_diff.total_seconds()
 * [apscheduler missed job : 에러](https://jjeongil.tistory.com/944)
 ##### 예외
 * [에러와 예외](https://docs.python.org/ko/3/tutorial/errors.html)
+* [파이썬 에러와 예외 차이, 대표적인 에러 및 예외](https://www.entity.co.kr/entry/66-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC-try-catch-finally-raise)
 ##### 예외 전이
 ```python
   # 따로 throw 없이 예외가 전이돼서 예외처리됨
