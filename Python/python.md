@@ -29,6 +29,7 @@
 * [python 가비지 컬렉터 2가지 유형](https://devbull.xyz/python-garbace-collection/)
 * [클래스 변수와 인스턴스 변수의 차이](https://velog.io/@sawol/Python#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B3%80%EC%88%98%EC%99%80-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98)
 ```python
+  # 클래스 변수는 여러 인스턴스 간에 값을 공유
   class Account:
         num_accounts = 0	# 클래스 변수
         def __init__(self, name):	# 생성자
