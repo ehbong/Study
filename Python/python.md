@@ -27,6 +27,21 @@
 * [순환 참조 문제 해결 방법 예제](https://www.pythonpool.com/python-circular-import/)
 * [python 함수형프로그래밍 할 때 예제 및 장단점](https://velog.io/@keywookim/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%9C%EA%B8%B0)
 * [python 가비지 컬렉터 2가지 유형](https://devbull.xyz/python-garbace-collection/)
+* [클래스 변수와 인스턴스 변수의 차이](https://velog.io/@sawol/Python#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B3%80%EC%88%98%EC%99%80-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98)
+```python
+  class Account:
+        num_accounts = 0	# 클래스 변수
+        def __init__(self, name):	# 생성자
+                self.name = name	# 인스턴스 변수
+                Account.num_accounts += 1
+		
+  kim = Account("kim")	# 인스턴스 생성
+  print(kim.num_accounts) # 1
+  
+  lee = Account("lee")
+
+  print(lee.num_accounts) # 2
+```
 * [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 * [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
 ```python
