@@ -14,6 +14,9 @@
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
+```python
+  # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
+```
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [12가지 python 런타임](https://www.itworld.co.kr/news/132322)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
