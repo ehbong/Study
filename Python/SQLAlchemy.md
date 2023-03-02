@@ -232,6 +232,49 @@ print(json.loads(df.to_json(orient='records')))
  
 ```
 
+# n+1 문제
+1. Eager Loading
+Eager Loading은 데이터를 로드할 때 필요한 데이터를 미리 로드하는 것입니다. 
+이를 통해 필요한 데이터를 로드하는 쿼리를 최소화할 수 있습니다. 
+SQLAlchemy에서는 joinedload 또는 subqueryload 함수를 사용하여 Eager Loading을 수행할 수 있습니다.
+
+> joinedload: Inner Join을 사용하여 관련된 데이터를 로드합니다.
+```python
+from sqlalchemy.orm import joinedload
+
+session.query(Parent).options(joinedload(Parent.children)).all()
+```
+> subqueryload: Outer Join을 사용하여 관련된 데이터를 로드합니다.
+```python
+Copy code
+from sqlalchemy.orm import subqueryload
+
+session.query(Parent).options(subqueryload(Parent.children)).all()
+```
+2. Lazy Loading
+Lazy Loading은 데이터를 로드하는 시점을 최대한 늦추는 것입니다. 
+즉, 실제로 데이터가 필요할 때까지 데이터를 로드하지 않습니다. 
+SQLAlchemy에서는 lazy 속성을 사용하여 Lazy Loading을 수행할 수 있습니다.
+
+> lazy='select': 필요할 때 관련된 데이터를 새로운 쿼리를 실행하여 로드합니다.
+```python
+from sqlalchemy.orm import lazyload
+
+session.query(Parent).options(lazyload(Parent.children, lazy='select')).all()
+```
+> lazy='joined': Inner Join을 사용하여 관련된 데이터를 로드합니다.
+```python
+from sqlalchemy.orm import lazyload
+
+session.query(Parent).options(lazyload(Parent.children, lazy='joined')).all()
+```
+> lazy='subquery': Outer Join을 사용하여 관련된 데이터를 로드합니다.
+```python
+from sqlalchemy.orm import lazyload
+
+session.query(Parent).options(lazyload(Parent.children, lazy='subquery')).all()
+```
+
 
 # other
 ```
