@@ -80,7 +80,7 @@
 > 관계를 이용한 insert 시 add 와 상관없이 부모가 commit 될때 데이터가 반영.<br>
 session.add 로 들어갈 데이터와 들어가지 않을 데이터를 구분할 수 없음<br>
 session.expunge(obj) 로 가능하지만 관계가 설정될 경우 컨트롤이 어려움<br>
-[관계 insert시 add 반영에 대한 질답](https://stackoverflow.com/questions/71456425/i-was-wondering-how-to-prevent-objects-not-added-to-sqlalchemy-from-being-commit)
+* [관계 insert시 add 반영에 대한 질답](https://stackoverflow.com/questions/71456425/i-was-wondering-how-to-prevent-objects-not-added-to-sqlalchemy-from-being-commit)
 
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
 
