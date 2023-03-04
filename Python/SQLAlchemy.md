@@ -11,21 +11,13 @@
 
 
 * [SQLAlchemy 공식사이트](https://www.sqlalchemy.org/)
-
 * [SQLAlchemy 튜토리얼](https://riptutorial.com/ko/sqlalchemy)
-
 * [SQLAlchemy 튜토리얼 번역1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
-
 * [SQLAlchemy 튜토리얼 번역2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
-
 * [flask_sqlalchemy](https://opentutorials.org/module/3669/22070)
-
 * [SQLAlchemy SQL 호출예제](https://lowelllll.github.io/til/2019/04/19/TIL-flask-sqlalchemy-orm/)
-
 * [SqlAlchemy 모델로 DB테이블 생성](https://gggggeun.tistory.com/77)
-
 * [SqlAlchemy geohash 값으로 주변 검색](https://github.com/Jd007/adaptive-geohash-sql)
-
 * [이미 있는 DB의 모델정보 가져오기 for flask](https://beomi.github.io/2017/10/20/DB-To-SQLAlchemy-Model/)
 ```bash
   # 디비 모델 정보 가져오기
@@ -54,46 +46,28 @@
 ```
 
 * [func 함수에 대해](https://item4.blog/2015-07-05/Internal-of-sqlalchemy.sql.expression.func/)
-
 * [동적쿼리1](https://stackoverflow.com/questions/37336520/sqlalchemy-dynamic-filter)
-
 * [nvl 역할을 하는 func.coalesce](https://programtalk.com/python-examples/sqlalchemy.sql.func.coalesce/)
-
 * [in 조건](https://stackoverflow.com/questions/8603088/sqlalchemy-in-clause)
-
 * [특정 컬럼만 출력](https://qastack.kr/programming/11530196/flask-sqlalchemy-query-specify-column-names)
-
 * [테이블 별칭 & 조인](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)
-
 * [Hybrid Attributes 공식문서](https://docs.sqlalchemy.org/en/13/orm/extensions/hybrid.html) 
-
 * [Hybrid Attributes를 이용한 암호화](https://spoqa.github.io/2011/12/10/sqlalchemy-hybrid-attributes.html)
-
 * [여러 DB를 사용중일때 특정 연결(엔진)을 불러올때](https://github.com/pallets/flask-sqlalchemy/issues/359)
-
 * [insert or update](https://stackoverflow.com/questions/7165998/how-to-do-an-upsert-with-sqlalchemy)
-
 * [SQLAlchemy + Graphene로 GraphQL 구현](https://blog.neonkid.xyz/254?category=656103)
-
 * [한 테이블의 여러 관계키 연결 할때 오류 해결 방법](https://stackoverflow.com/questions/44434410/sqlalchemy-multiple-foreign-key-pointing-to-same-table-same-attribute)
 
 > 관계를 이용한 insert 시 add 와 상관없이 부모가 commit 될때 데이터가 반영.<br>
 session.add 로 들어갈 데이터와 들어가지 않을 데이터를 구분할 수 없음<br>
 session.expunge(obj) 로 가능하지만 관계가 설정될 경우 컨트롤이 어려움<br>
 * [관계 insert시 add 반영에 대한 질답](https://stackoverflow.com/questions/71456425/i-was-wondering-how-to-prevent-objects-not-added-to-sqlalchemy-from-being-commit)
-
 * [SQLAlchemy의 연결 풀링 이해하기](https://spoqa.github.io/2018/01/17/connection-pool-of-sqlalchemy.html)
-
 * [비동기 처리](https://ellune.tistory.com/73)
-
 * [SQLAlchemy 세션 관리](https://planbs.tistory.com/entry/Engine%EA%B3%BC-Session-Scoped-Session)
-
 * [SQLAlchemy bulk insert](https://velog.io/@samnaka/sqlalchemy-bulk-insert)
-
 * [SQLAlchemy model 관계를 이용해서 flush 사용없이 insert](https://stackoverflow.com/questions/71285679/how-to-speed-up-python-and-sqlalchemy)
-
 * [sqlalchemy data convert dict](https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict)
-
 * [테이블데이터 객체를 dict로 변환](http://daplus.net/python-sqlalchemy-%ED%96%89-%EA%B0%9D%EC%B2%B4%EB%A5%BC-python-dict%EB%A1%9C-%EB%B3%80%ED%99%98/)
 > pandas 없이 dict로 변환
 ```python
