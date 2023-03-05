@@ -17,3 +17,86 @@
 * [Lambda rds 연결](https://dev.classmethod.jp/articles/lambda-rds-interlock/)
 
 * [Lambda vs ec2 비용 비교](https://dev.classmethod.jp/articles/amazon-ec2-vs-aws-lambda-price/)
+
+
+### 요청을 받아서 DB에 저장하는 예제
+
+```python
+import json
+import pymysql
+
+# RDS 연결 정보
+rds_host = "your_rds_host"
+name = "your_rds_username"
+password = "your_rds_password"
+db_name = "your_rds_db_name"
+
+# RDS 연결 함수
+def connect():
+    try:
+        conn = pymysql.connect(rds_host, user=name, passwd=password, db=db_name, connect_timeout=5)
+    except pymysql.MySQLError as e:
+        print("ERROR: Could not connect to MySQL instance.")
+        print(e)
+        raise e
+    
+    return conn
+
+def lambda_handler(event, context):
+    # POST 요청에서 데이터 추출
+    data = json.loads(event['body'])
+    name = data['name']
+    age = data['age']
+    
+    # RDS에 데이터 저장
+    conn = connect()
+    with conn.cursor() as cur:
+        cur.execute("INSERT INTO my_table (name, age) VALUES (%s, %s)", (name, age))
+    conn.commit()
+    conn.close()
+    
+    # 응답 생성
+    response_data = {'message': 'Data saved successfully'}
+    response = {
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'application/json'
+        },
+        'body': json.dumps(response_data)
+    }
+    
+    return response
+    
+```
+1. AWS Lambda 콘솔로 이동합니다.
+2. "함수 만들기" 버튼을 클릭합니다.
+3. "서버리스 앱 및 API" 항목에서 "함수"를 선택합니다.
+4. "새로운 함수 만들기" 버튼을 클릭합니다.
+5. 함수 이름, 런타임, 역할 등 필요한 정보를 입력합니다.
+6. "함수 생성" 버튼을 클릭합니다.
+7. 함수 코드를 "코드 입력 유형"에서 "직접 입력"으로 변경합니다.
+8. 위 코드를 붙여넣습니다.
+9. "배포" 버튼을 클릭
+
+
+### 함수 URL 에 연결
+1. AWS Management Console에서 API Gateway 서비스를 선택합니다.
+2. "REST API 생성" 버튼을 클릭합니다.
+3. "REST API"를 선택하고 "빈 API"를 선택한 후, "API 만들기" 버튼을 클릭합니다.
+4. "작업" 메뉴에서 "리소스 만들기"를 선택합니다.
+5. 리소스 이름을 입력하고 "만들기" 버튼을 클릭합니다.
+6. 만든 리소스에서 "작업" 메뉴에서 "메서드 생성"을 선택합니다.
+7. 메서드를 선택하고 "Lambda 함수"를 선택한 후, Lambda 함수 이름을 입력합니다.
+8. "작업" 메뉴에서 "메서드 요청"을 선택합니다.
+9. "HTTP 요청 본문"에서 "템플릿 추가"를 선택하고, "application/json"을 선택한 후, 다음과 같은 템플릿을 입력합니다.
+```javascript
+#set($inputRoot = $input.path('$'))
+{
+"body": $input.json('$')
+}
+```
+10. "작업" 메뉴에서 "메서드 응답"을 선택합니다.
+11. "HTTP 응답 본문"에서 "application/json"을 선택하고, 응답 JSON 형식을 입력합니다.
+12. "작업" 메뉴에서 "배포"를 선택합니다.
+13. "새로운 스테이지"를 선택하고, 스테이지 이름을 입력한 후, "배포" 버튼을 클릭합니다.
+14. 생성된 API Gateway URL을 확인합니다.
