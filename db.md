@@ -18,6 +18,7 @@
 ## NoSQL
 * [데이터 모델링 형태 별 특징](https://bcho.tistory.com/665)
 * [MongoDB 집계(그룹)](https://spidyweb.tistory.com/190)
+* [MongoDB 특징](https://inpa.tistory.com/entry/MONGO-%F0%9F%93%9A-%EB%AA%BD%EA%B3%A0%EB%94%94%EB%B9%84-%ED%8A%B9%EC%A7%95-%EB%B9%84%EA%B5%90-%EA%B5%AC%EC%A1%B0-NoSQL#%EC%8B%A0%EB%A2%B0%EC%84%B1reliability)
 
 ## mysql
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
