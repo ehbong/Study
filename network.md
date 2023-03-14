@@ -7,6 +7,7 @@
 * [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [L1, L2, L3, L4, L5, L6, L7 스위치란?](https://siahn95.tistory.com/entry/Network%EC%9E%A5%EB%B9%84-L1-L2-L3-L4-L5-L6-L7-%EC%8A%A4%EC%9C%84%EC%B9%98%EB%9E%80)
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
+* [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
