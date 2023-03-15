@@ -76,9 +76,11 @@ print(num_counts)
 > formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 
 ```
- # 3항 연산자, 자바나 자바스크립트와는 다름
+ # 3항 연산자(삼항연산자), 자바나 자바스크립트와는 다름 참의 결과가 if 앞에 나옴
  <참 결과> if <조건> else <거짓결과>
  'True' if a == 1 else 'False'
+ # 중첩할 경우 
+ 'True1' if a == 1 else 'True2' if a == 2 else 'False'
 ```
 
 ```python
