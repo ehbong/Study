@@ -350,6 +350,7 @@ strip()
 ```python
 for i in range(len(array)): 
 ```
+* [range 함수 활용](https://devpouch.tistory.com/70)
 
 ##### 배열
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
