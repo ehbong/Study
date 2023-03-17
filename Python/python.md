@@ -353,6 +353,10 @@ for i in range(len(array)):
 * [range 함수 활용](https://devpouch.tistory.com/70)
 
 ##### 배열
+```python
+  # 배열에서 인덱스를 정하는 부분에 조건식을 넣어서 0(거짓), 1(참)을 넣은 것과 동일하게 처리 가능
+  result = ['a', 'b'][ 1 == 1] # 조건이 참이므로 1 이여서 인덱스 1인 'b'
+```
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
 ```python
   # 필터 형식 검색
