@@ -356,6 +356,9 @@ for i in range(len(array)):
 ```python
   # 배열에서 인덱스를 정하는 부분에 조건식을 넣어서 0(거짓), 1(참)을 넣은 것과 동일하게 처리 가능
   result = ['a', 'b'][ 1 == 1] # 조건이 참이므로 1 이여서 인덱스 1인 'b'
+  
+  # 배열에서 쉽게 역정렬 하는 방법 [시작 index: 중료 index(미포함) : 몇개씩 + 또는 - 순서로]
+  result = ['a', 'b'][::-1]
 ```
 * [배열 검색 filter and list comprehension](https://m.blog.naver.com/wideeyed/221839555992)
 ```python
