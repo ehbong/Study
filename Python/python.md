@@ -13,6 +13,7 @@
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
+* [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 ```python
   # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
