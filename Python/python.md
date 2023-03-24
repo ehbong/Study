@@ -15,6 +15,10 @@
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
 * [문자열이 숫자로만 이루어져있는지 확인 isdigit()](https://blockdmask.tistory.com/556)
+* [키 배열로 딕셔너리 생성 dict.fromkeys()](https://velog.io/@jaylnne/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-dict.fromkeys-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%A0%95%EB%A6%AC)
+```python
+  # join 메소드의 경우 배열 뿐만 아니라 dict 자료형에 사용할 경우 키들을 합쳐서 반환
+```
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 ```python
   # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
