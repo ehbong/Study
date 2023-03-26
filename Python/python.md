@@ -25,6 +25,7 @@
   a[0], a[1] = a[1], a[0]
   a, b = b, a
 ```
+* [비트 쉬프트 연산 <<, >> ](https://heestory217.tistory.com/81)
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 ```python
   # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
