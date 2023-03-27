@@ -8,8 +8,6 @@
 * [AB 테스트 방법](https://brunch.co.kr/@digitalnative/19)
 * [기본적인 자료 구조](https://velog.io/@leobit/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0Data-Structure)
 * [상속과 조합](https://unluckyjung.github.io/oop/2021/03/15/Inheritance-Coposition/)
-* [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
-* [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
 * [권장되는 변수명 규칙](https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=221846090355&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=true&from=search)
 * [프로세스, 스레드 설명 유튜브](https://www.youtube.com/watch?v=iks_Xb9DtTM)
 * [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
@@ -37,3 +35,8 @@
 
 ## 사용자 행동 추적
 * [웹 사용자 행동 추적 fullstory](https://www.fullstory.com/)
+
+
+## chatGPT
+* [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
+* [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
