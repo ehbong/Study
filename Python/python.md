@@ -14,6 +14,7 @@
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
+* [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
 * [문자열이 숫자로만 이루어져있는지 확인 isdigit()](https://blockdmask.tistory.com/556)
 * [키 배열로 딕셔너리 생성 dict.fromkeys()](https://velog.io/@jaylnne/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-dict.fromkeys-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%A0%95%EB%A6%AC)
 ```python
