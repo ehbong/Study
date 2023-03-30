@@ -14,6 +14,7 @@
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
+* [list 음수 슬라이싱](https://pybasall.tistory.com/217)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
 ```python
   # dict 함수 활용 2차원 배열을 dict()로 감싸면 key, value 형태로 반환 가능
