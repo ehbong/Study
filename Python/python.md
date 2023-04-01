@@ -81,6 +81,11 @@ def test_fix(arg, param_list=None):
 ```
 * [defaultdict](https://dongdongfather.tistory.com/69)
 > defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
+```python
+ int_dict = defaultdict(int) # 기본 값이 0인 dict
+ int_1_dict = defaultdict(lambda: 1)  # 기본 값이 1인 dict
+ list_dict = defaultdict(list) # 기본값이 리스트 인 dict 
+```
 
 > Counter 객체를 카우팅 하는 컬렉션 dict
 ```python
