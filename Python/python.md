@@ -15,6 +15,7 @@
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
 * [list 음수 슬라이싱](https://pybasall.tistory.com/217)
+* [any, all 함수](https://blockdmask.tistory.com/430)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
