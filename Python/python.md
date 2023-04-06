@@ -18,6 +18,7 @@
 * [any, all 함수](https://blockdmask.tistory.com/430)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
+* [heapq 사용법](https://juun42.tistory.com/20)
 * [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
 ```python
