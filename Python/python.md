@@ -18,6 +18,15 @@
 * [any, all 함수](https://blockdmask.tistory.com/430)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
+* [sum 함수 활용](https://stackoverflow.com/questions/33541947/what-does-the-built-in-function-sum-do-with-sumlist)
+```python
+  # sum의 기본 활용
+  sum([1, 2, 3]) # 1 + 2 + 3 = 6
+  sum([1, 2, 3], 1) # 1 + 2+ 3 + 1 = 7
+  # sum의 추가 활용
+  sum([[1, 2], [3, 4], [5, 6]], []) # [1, 2] + [3, 4] + [5, 6] + [] = [1, 2, 3, 4, 5, 6]
+  # 뒤에 [] 추가 인자가 없으면 int가 아니라고 오류 발생 뒤에 추가 인자로 배열을 넣음으로 배열의 합으로 변환
+```
 * [heapq 사용법](https://juun42.tistory.com/20)
 * [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
