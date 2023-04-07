@@ -15,3 +15,4 @@
 * [DNS 동작원리 유튜브](https://youtu.be/6tqeANy-QoY)
 * [도메인 네임 시스템 개념, 작동 방식](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)
 * [network socket](https://libertegrace.tistory.com/entry/Network-Socket-Programming)
+* [CIDR에 대해](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-CIDR-%EC%9D%B4-%EB%AC%B4%EC%96%BC-%EB%A7%90%ED%95%98%EB%8A%94%EA%B1%B0%EC%95%BC-%E2%87%9B-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-%EA%B3%84%EC%82%B0%EB%B2%95#cidr_%EA%B3%84%EC%82%B0%EA%B8%B0)
