@@ -40,3 +40,5 @@
 ## chatGPT
 * [chatGPT 채팅으로 질문(개발 관련 질문도 가능) 등 가능한 AI 챗봇](https://chat.openai.com/chat)
 * [chatGPT 다양한 사용법 youtube](https://youtu.be/VbqbnO8n48w)
+* [copilot X 가입 등](https://choitest78.tistory.com/entry/AI-%EC%BD%94%EB%94%A9-%EB%B6%84%EC%84%9D%EA%B0%80-github-Copilot-X%EC%BD%94%ED%8C%8C%EC%9D%BC%EB%9F%BF-X-%EC%82%AC%EC%9A%A9%EB%B2%95)
+* [copilot X 간편소개 유튜브](https://youtu.be/nTmAveylPjk)
