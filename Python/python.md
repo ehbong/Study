@@ -18,6 +18,7 @@
 * [any, all 함수](https://blockdmask.tistory.com/430)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
+* [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)
 * [sum 함수 활용](https://stackoverflow.com/questions/33541947/what-does-the-built-in-function-sum-do-with-sumlist)
 ```python
   # sum의 기본 활용
