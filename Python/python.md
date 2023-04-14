@@ -16,6 +16,7 @@
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
 * [list 음수 슬라이싱](https://pybasall.tistory.com/217)
 * [any, all 함수](https://blockdmask.tistory.com/430)
+* [두개의 배열로 index 기준 dict로 만들 때 활용하는 ZIP함수](https://www.daleseo.com/python-zip/)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
 * [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)
