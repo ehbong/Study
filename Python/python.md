@@ -8,6 +8,7 @@
 * [클래스 json 변환](http://jsonpickle.github.io/)
 * [split 문자열 나누기](https://mainia.tistory.com/5624)
 * [문자열로 된 숫자 확인하는 방법](https://soooprmx.com/archives/10159)
+* [변수 스코프 지정자 global, nonlocal](https://www.daleseo.com/python-global-nonlocal/)
 * [filter 함수](https://wikidocs.net/22803)
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
