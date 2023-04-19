@@ -34,6 +34,7 @@
 ### gRPC
 * [gRPC 공식문서](https://grpc.io/)
 * [python gRPc](https://grpc.io/docs/languages/python/quickstart/)
+* [python gRpc 예제실행](https://hororolol.tistory.com/188)
 * [mac 에서 발생한 Descriptors cannot not be created directly 오류 대처](https://stackoverflow.com/questions/72441758/typeerror-descriptors-cannot-not-be-created-directly)
 * [Golang gRPC server 구축하기](https://devjin-blog.com/golang-grpc-server-1/)
 * [gRPC GIT](https://github.com/grpc)
