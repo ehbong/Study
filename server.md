@@ -39,7 +39,55 @@
 * [Golang gRPC server 구축하기](https://devjin-blog.com/golang-grpc-server-1/)
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
+```python
+ # 서버 예제 코드 및 설명
+ from concurrent import futures
+ import grpc
+ import example_pb2
+ import example_pb2_grpc
 
+ class ExampleService(example_pb2_grpc.ExampleServiceServicer):
+     # ExampleServiceServicer 클래스를 상속하며 SayHello 메서드를 구현합니다.
+     def SayHello(self, request, context):
+         # 클라이언트로부터 받은 name 값을 사용하여 응답 메시지를 만듭니다.
+         return example_pb2.HelloResponse(message="Hello, {}!".format(request.name))
+
+ # gRPC 서버 인스턴스를 만듭니다.
+ server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+
+ # 서버에 ExampleServiceServicer 인스턴스를 추가합니다.
+ example_pb2_grpc.add_ExampleServiceServicer_to_server(ExampleService(), server)
+
+ # 서버를 50051 포트로 시작합니다.
+ # [::] 은 IPv6의 모든 주소를 나타내는 표현법으로 IPv4에서는 0.0.0.0 으로 사용되는데,
+ # 해당 표기 법을 사용하번 IPv4와 IPv6 모두에서 클라이언트 요청을 처리 할 수 있다.
+ server.add_insecure_port('[::]:50051')
+ server.start()
+
+ print("Server started. Listening on port 50051.")
+ # 서버가 종료될 때까지 대기합니다.
+ server.wait_for_termination()
+```
+```python
+ # 클라이언트 예제 코드 및 설명
+ import grpc
+ import example_pb2
+ import example_pb2_grpc
+
+ def run():
+     # 'SERVER_IP_ADDRESS'에 서버의 IP 주소를 입력하여 채널을 생성합니다.
+     # 만약 서버가 구동 중이 아니거나 주소가 틀릴 경우 grpc.RpcError 예외 발생
+     with grpc.insecure_channel('SERVER_IP_ADDRESS:50051') as channel:
+         # 채널을 사용하여 Stub 인스턴스를 생성합니다.
+         stub = example_pb2_grpc.ExampleServiceStub(channel)
+         # 서버에 SayHello 메서드를 호출하고, 반환된 응답을 받습니다.
+         response = stub.SayHello(example_pb2.HelloRequest(name="John"))
+     print("Response received: " + response.message)
+
+ if __name__ == '__main__':
+     run()
+
+```
 
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
@@ -67,9 +115,6 @@
 * [채팅서버의 부하 분산 사례 slideshare](https://www.slideshare.net/JohnKim0331/ss-52091187?from_m_app=android)
 * [Server 운용 방법 5가지](https://blog.msalt.net/77)
 * [Naver 메인페이지 트래픽처리 방법](https://d2.naver.com/helloworld/6070967)
-
-
-
 
 * [Bash:_systemctl:_command_not_found 오류](https://zetawiki.com/wiki/Bash:_systemctl:_command_not_found)
 ```zsh
