@@ -88,6 +88,76 @@
      run()
 
 ```
+```python
+ # 양방향 통신 서버코드(연결 유지 특성)
+ import grpc
+ from concurrent import futures
+ import time
+
+ # pb 파일에서 생성된 모듈을 import 합니다.
+ import chat_pb2
+ import chat_pb2_grpc
+
+ class ChatServicer(chat_pb2_grpc.ChatServicer):
+     # 클라이언트가 서버로 메시지를 전송할 때 호출됩니다.
+     def Chat(self, request_iterator, context):
+         # 클라이언트로부터 받은 메시지를 출력합니다.
+         for request in request_iterator:
+             print("Client message received: " + request.message)
+
+             # 클라이언트에게 메시지를 응답으로 전송합니다.
+             yield chat_pb2.Message(message="Server received message: " + request.message)
+
+ def serve():
+     # gRPC 서버를 생성합니다.
+     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+
+     # 서비스를 gRPC 서버에 추가합니다.
+     chat_pb2_grpc.add_ChatServicer_to_server(ChatServicer(), server)
+
+     # 서버를 시작합니다.
+     server.add_insecure_port("[::]:50051")
+     server.start()
+     print("Server started. Listening on port 50051...")
+
+     # 서버가 종료되지 않도록 유지합니다.
+     try:
+         while True:
+             time.sleep(86400)
+     except KeyboardInterrupt:
+         server.stop(0)
+
+```
+```python
+ # 양방향 통신 클라이언트코드(연결 유지 특성)
+ import grpc
+
+ # pb 파일에서 생성된 모듈을 import 합니다.
+ import chat_pb2
+ import chat_pb2_grpc
+
+ def run():
+     # 서버에 연결할 gRPC 채널을 생성합니다.
+     channel = grpc.insecure_channel("localhost:50051")
+
+     # 채팅 서비스 스텁을 생성합니다.
+     stub = chat_pb2_grpc.ChatStub(channel)
+
+     # 서버에 전송할 메시지를 입력받습니다.
+     while True:
+         message = input("Enter your message: ")
+
+         # 서버에 메시지를 전송합니다.
+         response = stub.Chat(iter([chat_pb2.Message(message=message)]))
+
+         # 서버로부터 받은 응답을 출력합니다.
+         for res in response:
+             print("Server message received: " + res.message)
+
+ if __name__ == "__main__":
+     run()
+
+```
 
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
