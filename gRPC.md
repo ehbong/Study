@@ -7,10 +7,10 @@
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
 
-> proto 파일 컴파일 명령어
-> `grpc_tools.protoc` grpc_tools 패키지의 protoc 유틸리티를 사용하여 chat.proto 파일을 컴파일하는 명령어
-> `-I.` include 디렉토리를 현재 디렉토리로 설정
-> `--python_out=.` 파이썬 파일들의 출력을 현재 디렉토리로 설정
+> proto 파일 컴파일 명령어<br>
+> `grpc_tools.protoc` grpc_tools 패키지의 protoc 유틸리티를 사용하여 chat.proto 파일을 컴파일하는 명령어<br>
+> `-I.` include 디렉토리를 현재 디렉토리로 설정<br>
+> `--python_out=.` 파이썬 파일들의 출력을 현재 디렉토리로 설정<br>
 > `--grpc_python_out=.` gRPC 파이썬 코드 파일의 출력을 현재 디렉토리로 설정
 ```bash
 $ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chat.proto
