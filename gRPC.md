@@ -43,7 +43,10 @@ $ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chat.proto
  server.start()
 
  print("Server started. Listening on port 50051.")
- # 서버가 종료될 때까지 대기합니다.
+ # 서버가 종료될 때까지 대기합니다. 
+ # grpc 서버는 다수의 클라이언트 연결 요청을 처리하기 위해 계속 실행되어야 합니다. 
+ # 따라서 wait_for_termination()을 호출하여 서버가 종료될 때까지 실행을 유지하며 클라이언트 연결 요청을 수신할 수 있도록 합니다.
+ # 서버를 종료하려면 다른 스레드에서 server.stop() 메소드를 호출하여 서버를 중지
  server.wait_for_termination()
 ```
 ```python
