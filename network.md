@@ -17,3 +17,19 @@
 * [도메인 네임 시스템 개념, 작동 방식](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)
 * [network socket](https://libertegrace.tistory.com/entry/Network-Socket-Programming)
 * [CIDR에 대해](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-CIDR-%EC%9D%B4-%EB%AC%B4%EC%96%BC-%EB%A7%90%ED%95%98%EB%8A%94%EA%B1%B0%EC%95%BC-%E2%87%9B-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-%EA%B3%84%EC%82%B0%EB%B2%95#cidr_%EA%B3%84%EC%82%B0%EA%B8%B0)
+
+
+
+> 브라우저에서 www.google.com 을 검색했을 때 일어나는 반응
+브라우저에서 "www.google.com"을 검색하면 다음과 같은 단계를 거쳐서 동작합니다.
+
+1. 브라우저는 사용자가 입력한 URL인 "www.google.com"을 받아들입니다.
+2. 브라우저는 이 URL을 해석하고, 해당 웹사이트의 IP 주소를 찾아야 합니다. 이를 위해 DNS(Domain Name System) 서버에 "www.google.com"이라는 호스트명에 대한 IP 주소를 요청합니다.
+   이 전에 브라우저는 DNS캐시를 검색해서 캐시 정보를 확인하고 없으면 DNS서버에 요청합니다.
+2.1.   DNS 서버는 CNAME 레코드를 확인해서 CDN 정보가 있다면 해당 IP를 반환합니다.
+3. 브라우저는 DNS 서버로부터 받은 IP 주소를 사용하여 해당 웹사이트의 서버와 TCP/IP 연결(3-way handshake)을 시도합니다. 이를 통해 브라우저는 해당 서버로 요청(request)을 보낼 수 있습니다.
+4. 서버와의 연결이 성공적으로 이루어지면, 브라우저는 서버로부터 HTML, CSS, JavaScript 등의 웹 페이지 리소스를 요청합니다.
+5. 서버는 이러한 리소스를 브라우저에 전송합니다.
+6. 브라우저는 이 리소스를 받아 렌더링(화면에 표시)합니다.
+7. 브라우저는 사용자가 요청한 페이지와 연관된 모든 리소스를 받을 때까지 이러한 단계를 반복합니다.
+8. 최종적으로 사용자는 검색 페이지를 볼 수 있습니다.
