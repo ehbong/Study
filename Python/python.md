@@ -667,6 +667,8 @@ print(output)
 > pyinstaller -w -F 파일명.py
 ```
 
+* [python으로 웹앱을 한번에 만들기 gradio](https://gradio.app/)
+
 * [외부 프로그램 호출](https://www.delftstack.com/ko/howto/python/call-external-programs-python/)
 
 
