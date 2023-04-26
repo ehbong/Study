@@ -20,8 +20,7 @@
 
 
 
-> 브라우저에서 www.google.com 을 검색했을 때 일어나는 반응
-브라우저에서 "www.google.com"을 검색하면 다음과 같은 단계를 거쳐서 동작합니다.
+> 브라우저에서 www.google.com 을 검색했을 때 동작 순서
 
 1. 브라우저는 사용자가 입력한 URL인 "www.google.com"을 받아들입니다.
 2. 브라우저는 이 URL을 해석하고, 해당 웹사이트의 IP 주소를 찾아야 합니다. 이를 위해 DNS(Domain Name System) 서버에 "www.google.com"이라는 호스트명에 대한 IP 주소를 요청합니다.
