@@ -12,6 +12,7 @@
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [주 사용 port 번호 정리](https://ciscoking.tistory.com/12)
+* [이메일 프로토콜 정리 SMTP, POP3, IMAP](https://post.naver.com/viewer/postView.naver?volumeNo=26957131&memberNo=2521903)
 * [VPN 의 구조와 원리](https://www.youtube.com/watch?v=6w1F6qnPQiE&t=6s)
 * [브라우저 동작원리](https://velog.io/@thyoondev/%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
 * [DNS 동작원리 유튜브](https://youtu.be/6tqeANy-QoY)
