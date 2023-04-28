@@ -4,6 +4,7 @@
 * [python gRpc 예제실행](https://hororolol.tistory.com/188)
 * [mac 에서 발생한 Descriptors cannot not be created directly 오류 대처](https://stackoverflow.com/questions/72441758/typeerror-descriptors-cannot-not-be-created-directly)
 * [Golang gRPC server 구축하기](https://devjin-blog.com/golang-grpc-server-1/)
+* [뱅크샐러드 grpc 적용기](https://blog.banksalad.com/tech/production-ready-grpc-in-golang/)
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
 
