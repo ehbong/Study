@@ -13,6 +13,7 @@
 > `-I.` include 디렉토리를 현재 디렉토리로 설정<br>
 > `--python_out=.` 파이썬 파일들의 출력을 현재 디렉토리로 설정<br>
 > `--grpc_python_out=.` gRPC 파이썬 코드 파일의 출력을 현재 디렉토리로 설정
+> `chat.proto` proto 파일명
 ```bash
 $ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chat.proto
 ```
