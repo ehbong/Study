@@ -9,6 +9,7 @@
 * [IP, Gateway, subnet에 대한 기본적인 이해](https://medium.com/pocs/tcp-ip-%EC%9D%B4%EB%A1%A0-ip-%EC%A3%BC%EC%86%8C-%EC%84%9C%EB%B8%8C%EB%84%B7-%EB%A7%88%EC%8A%A4%ED%81%AC-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B8%B0%EB%B3%B8-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4-ccd6d832711e)
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
 * [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+* [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [주 사용 port 번호 정리](https://ciscoking.tistory.com/12)
