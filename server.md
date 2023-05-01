@@ -27,7 +27,7 @@
  504(게이트웨이 타임아웃) 제 시간에 요청을 받지 못했을 경우
 ```
 * [REST API 규칙](https://velog.io/@gga4638/REST-API-URI-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B7%9C%EC%B9%99)
-* [Rest Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
+* [REST API, Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
 
 
