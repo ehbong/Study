@@ -5,6 +5,7 @@
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [세션 동작 원리](https://thecodinglog.github.io/web/2020/08/11/what-is-session.html)
+* [프로세스, 서비스(데몬) 차이](https://inpa.tistory.com/entry/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8D%B0%EB%AA%AC-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%95%EB%A6%AC)
 * [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
 * [TCP 동작원리 / 흐름제어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ksg7514&logNo=220772997742)
 
