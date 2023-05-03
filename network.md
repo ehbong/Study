@@ -10,6 +10,7 @@
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
 * [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 * [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)
+* [TCP 제어플래그 종류](https://cezacx2.tistory.com/1256)
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [주 사용 port 번호 정리](https://ciscoking.tistory.com/12)
