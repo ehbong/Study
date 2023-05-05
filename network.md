@@ -2,6 +2,9 @@
 
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/)
+* [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
+* [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
+* [TCP 동작원리 / 흐름제어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ksg7514&logNo=220772997742)
 * [HTTP와 HTTPS 차이, SSL, TLS](https://beenii.tistory.com/83)
 * [OSI 7layer 정리](https://jungeun960.tistory.com/181)
 * [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
