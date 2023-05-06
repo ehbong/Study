@@ -1,6 +1,7 @@
 # 네트워크
 
 * [HTTP 동작과정](https://jess-m.tistory.com/17)
+* [HTTP request, response 구조](https://hahahoho5915.tistory.com/62)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/)
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
