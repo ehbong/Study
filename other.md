@@ -15,7 +15,7 @@
 * [코딩 알고리즘 문제 국내 (프로그래머스)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1)
 * [객체지향 SOLID원칙](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 * [정규식 생성 라이브러리](https://github.com/VerbalExpressions)
-
+* [Web-Worker에-대해서](https://velog.io/@choi5798/%EC%9B%B9-%EC%9B%8C%EC%BB%A4Web-Worker%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 
 ## markdown
 * [마크 다운 문법 설명](https://ansohxxn.github.io/blog/markdown/)
