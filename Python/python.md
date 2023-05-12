@@ -4,6 +4,7 @@
 * [python 문법](https://wikidocs.net/145)
 * [python 버전별 새로운 기능](https://docs.python.org/3.11/whatsnew/index.html)
 * [pep8 python 코딩 스타일 가이드](https://ultrakain.gitbooks.io/python/content/chapter1/coding-style-pep8.html)
+* [python DB인터페이스 DB-API 공식문서](https://peps.python.org/pep-0249/)
 * [ *, ** 의 의미](https://sshkim.tistory.com/182)
 * [ _, 언더스코어의 의미](https://doorbw.tistory.com/153)
 * [클래스 json 변환](http://jsonpickle.github.io/)
