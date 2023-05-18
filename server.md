@@ -40,7 +40,7 @@
   
 * [ubuntu 프로세스 관리 supervisor 설치와 사용법](https://devlog.jwgo.kr/2016/11/07/how-to-use-supervisor-in-one-minute/)
 
-### 모니터링
+### APM 모니터링
 * [모니터링 Prometheus and Grafana](https://essem-dev.medium.com/%ED%94%84%EB%A1%9C%EB%A9%94%ED%85%8C%EC%9A%B0%EC%8A%A4%EC%99%80-%EA%B7%B8%EB%9D%BC%ED%8C%8C%EB%82%98%EB%A1%9C-%EA%B0%9C%EB%B0%9C-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%ED%95%98%EA%B8%B0-8942aea724b3)
 * [도커 컴포즈 활용 Prometheus and Grafana 설치](https://danawalab.github.io/common/2020/03/16/Common-Prometheus.html)
 * [nginx-prometheus-exporter](https://gurumee92.tistory.com/231)
@@ -48,8 +48,10 @@
 * [grafana alert 설정](https://ksr930.tistory.com/177)
 * [프로메테우스와 그라파나](https://velog.io/@moey920/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.-%ED%94%84%EB%A1%9C%EB%A9%94%ED%85%8C%EC%9A%B0%EC%8A%A4%EC%99%80-%EA%B7%B8%EB%9D%BC%ED%8C%8C%EB%82%98)
 * [에러 추적(Error Tracking) 및 로그 취합(logging aggregation) 시스템인 Sentry](https://www.lesstif.com/system-admin/error-tracking-logging-aggregation-sentry-30705079.html)
+* [Sentry 도입기 from Line](https://engineering.linecorp.com/ko/blog/log-collection-system-sentry-on-premise)
 * [프론트 모니터링 bugsnag 공식](https://www.bugsnag.com/)
 * [프론트 모니터링 bugsnag git](https://github.com/bugsnag)
+
 
 
 ### 분산처리
