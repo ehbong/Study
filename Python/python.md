@@ -32,6 +32,17 @@
   sum([[1, 2], [3, 4], [5, 6]], []) # [] + [1, 2] + [3, 4] + [5, 6] = [1, 2, 3, 4, 5, 6]
   # 뒤에 [] 추가 인자가 없으면 int가 아니라고 오류 발생 뒤에 추가 인자로 배열을 넣음으로 배열의 합으로 변환
 ```
+```python
+  # 무한대 표현 방법
+  float('inf') # 양의 무한대
+  float('-inf') # 음의 무한대
+  
+  # math 활용 
+  import math
+  math.inf # 양의 무한대
+  -math.inf # 음의 무한대
+  
+```
 * [heapq 사용법](https://juun42.tistory.com/20)
 * [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
