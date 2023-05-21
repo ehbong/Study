@@ -4,6 +4,8 @@
 
 * [Kruskal 알고리즘 최소신장 트리](https://chanhuiseok.github.io/posts/algo-33/)
 
+* [이분 탐색 알고리즘](https://wayhome25.github.io/cs/2017/04/15/cs-16/)
+
 #### 길찾기 알고리즘
 * [길찾기 알고리즘(DFS, BFS, Dijkstra)](https://errorcode1001.tistory.com/10)
 * [python 예제 DFS, BFS](https://cyc1am3n.github.io/2019/04/26/bfs_dfs_with_python.html)
