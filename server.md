@@ -5,7 +5,7 @@
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
 * [세션 동작 원리](https://thecodinglog.github.io/web/2020/08/11/what-is-session.html)
 * [프로세스, 서비스(데몬) 차이](https://inpa.tistory.com/entry/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8D%B0%EB%AA%AC-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%95%EB%A6%AC)
-
+* [시스템 설계에 대해](https://velog.io/@lshn1007/System-Archi-1-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%88%98%EC%97%90-%EB%94%B0%EB%A5%B8-%EA%B7%9C%EB%AA%A8%EC%9D%98-%ED%99%95%EC%9E%A5%EC%84%B1)
 
 > 상태 코드
 * [http 상태 코드 정리](https://www.whatap.io/ko/blog/40/)
