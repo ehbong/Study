@@ -59,7 +59,8 @@
 * [insert or update](https://stackoverflow.com/questions/7165998/how-to-do-an-upsert-with-sqlalchemy)
 * [SQLAlchemy + Graphene로 GraphQL 구현](https://blog.neonkid.xyz/254?category=656103)
 * [한 테이블의 여러 관계키 연결 할때 오류 해결 방법](https://stackoverflow.com/questions/44434410/sqlalchemy-multiple-foreign-key-pointing-to-same-table-same-attribute)
-
+* [backref, back_populates 설명](https://yujuwon.tistory.com/entry/PYTHON-sqlAlchemy-%EA%B4%80%EA%B3%84-DB-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+* [backref, back_populates 등 관계설정 공식문서 내용](https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html)
 > 관계를 이용한 insert 시 add 와 상관없이 부모가 commit 될때 데이터가 반영.<br>
 session.add 로 들어갈 데이터와 들어가지 않을 데이터를 구분할 수 없음<br>
 session.expunge(obj) 로 가능하지만 관계가 설정될 경우 컨트롤이 어려움<br>
