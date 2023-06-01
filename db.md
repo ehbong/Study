@@ -20,6 +20,10 @@
 * [MongoDB 집계(그룹)](https://spidyweb.tistory.com/190)
 * [MongoDB 특징](https://inpa.tistory.com/entry/MONGO-%F0%9F%93%9A-%EB%AA%BD%EA%B3%A0%EB%94%94%EB%B9%84-%ED%8A%B9%EC%A7%95-%EB%B9%84%EA%B5%90-%EA%B5%AC%EC%A1%B0-NoSQL#%EC%8B%A0%EB%A2%B0%EC%84%B1reliability)
 
+## Elastic Search
+* [Elastic Search 공식](https://www.elastic.co/kr/elasticsearch/)
+* [Elastic Search 기본 설명 및 장단점](https://jaemunbro.medium.com/elastic-search-%EA%B8%B0%EC%B4%88-%EC%8A%A4%ED%84%B0%EB%94%94-ff01870094f0)
+
 ## mysql
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
 * [mysql 세부 설정](https://happist.com/577204/db-%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C-mysql-%EC%B5%9C%EC%A0%81%ED%99%94)
