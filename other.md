@@ -15,6 +15,7 @@
 * [코딩 알고리즘 문제 국내 (프로그래머스)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1)
 * [객체지향 SOLID원칙](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 * [정규식 생성 라이브러리](https://github.com/VerbalExpressions)
+* [뮤텍스, 세마포어 차이](https://heeonii.tistory.com/14)
 * [DDD + 육각형 설계](https://velog.io/@roo333/%EC%A7%80%EC%86%8D-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%ED%8C%A8%ED%84%B4-Hexagonal-Architecture)
 
 #### Web-Worker
