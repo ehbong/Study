@@ -211,7 +211,7 @@ print(json.loads(df.to_json(orient='records')))
 
 # n+1 문제
 > N+1 Problem은 쿼리 1번으로 N건의 데이터를 가져왔는데 원하는 데이터를 얻기 위해 이 N건의 데이터를 데이터 수 만큼 반복해서 2차적으로 쿼리를 수행하는 문제
-* [N+1 문제 및 sqltap 을 이용한 모니터링] (https://velog.io/@neos960518/FastAPI-SQLAlchemy-%EB%A1%9C-N1-%EC%BF%BC%EB%A6%AC-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
+* [N+1 문제 및 sqltap 을 이용한 모니터링](https://velog.io/@neos960518/FastAPI-SQLAlchemy-%EB%A1%9C-N1-%EC%BF%BC%EB%A6%AC-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
 1. Eager Loading
 Eager Loading은 데이터를 로드할 때 필요한 데이터를 미리 로드하는 것입니다. 
 이를 통해 필요한 데이터를 로드하는 쿼리를 최소화할 수 있습니다. 
