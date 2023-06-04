@@ -11,6 +11,7 @@
 * [CORS 설정](https://developer-itspjc.tistory.com/m/25)
 * [FastAPI 블로그](https://lucky516.tistory.com/86?category=1060055)
 * [uvicorn, fastapi 비동기 메커니즘 이해](https://m.blog.naver.com/pjt3591oo/222772705407)
+* [FastAPI DI, Depends 활용](https://lucky516.tistory.com/105)
 * [FastAPI의 경로 설정은 순차적용](https://fastapi.tiangolo.com/ko/tutorial/path-params/#_7)
 ```python 
 from fastapi import FastAPI
