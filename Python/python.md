@@ -259,7 +259,8 @@ str_base64.decode('utf-8')
 str = base64.b64decode(str_base64).decode('utf-8')
 
 ```
-
+##### Generator
+* [Generator 개념 및 활용](https://velog.io/@jewon119/TIL30.-Python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0Generator-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
 ##### yield
 > 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
 * [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
