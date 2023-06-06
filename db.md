@@ -13,7 +13,7 @@
 * [효과적인 nosql 활용 feat AWS](https://www.youtube.com/watch?v=8rEsuvdL17s) 
 * [connection pool 연결 지연 대기](https://engineering-skcc.github.io/cloud/tomcat/apache/DB-Pool-For-Event/)
 * [n+1문제 이슈](https://fouaaa.blogspot.com/2021/06/n1.html)
-
+* [트랜잭션의 격리 수준(isolation Level)이란?](https://nesoy.github.io/articles/2019-05/Database-Transaction-isolation)
 
 ## NoSQL
 * [데이터 모델링 형태 별 특징](https://bcho.tistory.com/665)
