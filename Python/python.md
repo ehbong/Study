@@ -20,6 +20,7 @@
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
 * [list 음수 슬라이싱](https://pybasall.tistory.com/217)
 * [any, all 함수](https://blockdmask.tistory.com/430)
+* [특수 매개변수 위치전용 매개변수](https://velog.io/@easttwave/python-%EB%8C%80%EC%9E%85-%ED%91%9C%ED%98%84%EC%8B%9D-%EC%9C%84%EC%B9%98-%EC%A0%84%EC%9A%A9-%EB%A7%A4%EA%B0%9C-%EB%B3%80%EC%88%98)
 * [두개의 배열로 index 기준 dict로 만들 때 활용하는 ZIP함수](https://www.daleseo.com/python-zip/)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
 * [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
