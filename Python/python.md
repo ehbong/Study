@@ -329,6 +329,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 
 ##### 비동기 처리
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
+* [asyncio의 이해와 graceful shutdown](https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/)
 * [asyncio 사용하기](https://dojang.io/mod/page/view.php?id=2469)
 * [비동기 프로그래밍 동작 원리 (asyncio)](https://it-eldorado.tistory.com/159?category=749661)
 * [비동기 프로그래밍 정리](https://velog.io/@heyoni/python-asyncio-1)
