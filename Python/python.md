@@ -413,6 +413,12 @@ strip()
  'abc'.find('a) # >>> 0 #인덱스를 반환 없을 경우 -1
 ````
 
+### Typing
+* [공식문서 상 Typing](https://python.flowdas.com/library/typing.html)
+* [Typing 기초](https://sjquant.tistory.com/68)
+* [Typing 심화](https://sjquant.tistory.com/69)
+
+
 ##### 반복문 인덱스 구하기
 ```python
 for i in range(len(array)): 
