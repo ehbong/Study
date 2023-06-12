@@ -87,7 +87,7 @@ async def read_items():
 
 > Response 할때 JSONResponse 등으로 감싸면 모델 처리가 안됨.
 * [JSONResponse 사용에 대한 공식문서](https://fastapi.tiangolo.com/advanced/response-directly/)
-
+* [쿼리 매개변수 및 문자열 유효성 검사](https://fastapi.tiangolo.com/ko/tutorial/query-params-str-validations/#__tabbed_1_1)
 * [form 데이터 처리 방법](https://github.com/tiangolo/fastapi/issues/2387)
 ```python
 # pydantic model
