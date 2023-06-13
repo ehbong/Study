@@ -417,6 +417,40 @@ strip()
 * [공식문서 상 Typing](https://python.flowdas.com/library/typing.html)
 * [Typing 기초](https://sjquant.tistory.com/68)
 * [Typing 심화](https://sjquant.tistory.com/69)
+```python
+# typing.Union 하나의 함수의 인자에 여러 타입이 사용될 수 있을 때
+from typing import Union
+
+def print_param(p: Union[str, bytes, None]) -> str:
+  print(p)
+  return p
+
+# typing.Optional 특정 타입 또는 None 일때 사용
+from typing import Optional
+def print_param(p: Optional[str]) -> str:
+  print(p)
+  return p
+# 3.10 버전부터 | 형태 지원 
+def print_param(p: str | None) -> str:
+  ...
+
+# typing.TypedDict 딕셔너리의 경우 다양한 타입의 value가 있을 때 TypedDict를 상속받아서 클래스로 만들어서 사용
+class Person(TypedDict):
+  name: str
+  age: int
+  gender: str
+def check_person(person: Person)->  int:
+  ...
+
+# 3.7 버전부터 dataclass 를 사용 가능
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+  name: str
+  age: int
+  gender: str
+```
 
 
 ##### 반복문 인덱스 구하기
