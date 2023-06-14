@@ -11,6 +11,22 @@
 ```python
   # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
 ```
+* [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
+* [가정 설정문 assert](https://wikidocs.net/21050)
+* [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
+```python
+# 변수 초기화를 할때 아래와 같이 작성하면 변수가 선언될 때 배열이 초기화 되어서, 실행할 때 마다 배열안에 값이 변한다.
+def test(arg, param_list=[]):
+  result.append(arg)
+  print(result)
+# 의도한 방향이 변수 값이 없을 때 빈 배열이라면 아래와 같이 수정이 필요하다.
+def test_fix(arg, param_list=None):
+  if param_list is None:
+    param_list = []
+  result.append(arg)
+  print(result)
+
+```
 
 ### 문자열과 데이터 처리
 * [split 문자열 나누기](https://mainia.tistory.com/5624)
@@ -71,7 +87,24 @@ strip()
 * [heapq 사용법](https://juun42.tistory.com/20)
 * [list 음수 슬라이싱](https://pybasall.tistory.com/217)
 * [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
+* [python 함수형프로그래밍 할 때 예제 및 장단점](https://velog.io/@keywookim/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%9C%EA%B8%B0)
+* [defaultdict](https://dongdongfather.tistory.com/69)
+> defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
+```python
+ int_dict = defaultdict(int) # 기본 값이 0인 dict
+ int_1_dict = defaultdict(lambda: 1)  # 기본 값이 1인 dict
+ list_dict = defaultdict(list) # 기본값이 리스트 인 dict 
+```
 
+> Counter 객체를 카우팅 하는 컬렉션 dict
+```python
+from collections import Counter
+
+num = [1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 3, 4]
+num_counts = Counter(num)
+print(num_counts)
+# Counter({5: 1, 1: 3, 2: 3, 3: 3, 4: 2})
+```
 
 ### 제어 흐름
 * [Case 문 형태인 match](https://docs.python.org/ko/3/tutorial/controlflow.html#match-statements)
@@ -93,6 +126,9 @@ strip()
 ### 클래스와 객체
 * [클래스 json 변환](http://jsonpickle.github.io/)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
+* [추상클래스](https://wikidocs.net/16075)
+* [클래스 변수와 인스턴스 변수의 차이](https://velog.io/@sawol/Python#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B3%80%EC%88%98%EC%99%80-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98)
+* [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 
 
 ### 컨텍스트 관리
@@ -101,12 +137,8 @@ strip()
 
 
 ### 기타
-
 * [python 버전별 새로운 기능](https://docs.python.org/3.11/whatsnew/index.html)
-
 * [python DB인터페이스 DB-API 공식문서](https://peps.python.org/pep-0249/)
-
-
 * [키 배열로 딕셔너리 생성 dict.fromkeys()](https://velog.io/@jaylnne/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-dict.fromkeys-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%A0%95%EB%A6%AC)
 ```python
   # join 메소드의 경우 배열 뿐만 아니라 dict 자료형에 사용할 경우 키들을 합쳐서 반환
@@ -117,18 +149,13 @@ strip()
   a[0], a[1] = a[1], a[0]
   a, b = b, a
 ```
-
-* [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [12가지 python 런타임](https://www.itworld.co.kr/news/132322)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
 * [python 자잘한 팁 모음](https://towardsdatascience.com/100-helpful-python-tips-you-can-learn-before-finishing-your-morning-coffee-eb9c39e68958)
-* [가정 설정문 assert](https://wikidocs.net/21050)
-* [추상클래스](https://wikidocs.net/16075)
 * [효율적인 메모리 관리 예제](https://deepwelloper.tistory.com/130)
 * [순환 참조 문제 해결 방법 예제](https://www.pythonpool.com/python-circular-import/)
-* [python 함수형프로그래밍 할 때 예제 및 장단점](https://velog.io/@keywookim/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%9C%EA%B8%B0)
 * [python 가비지 컬렉터 2가지 유형](https://devbull.xyz/python-garbace-collection/)
-* [클래스 변수와 인스턴스 변수의 차이](https://velog.io/@sawol/Python#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B3%80%EC%88%98%EC%99%80-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98)
+
 ```python
   # 클래스 변수는 여러 인스턴스 간에 값을 공유
   class Account:
@@ -144,38 +171,9 @@ strip()
 
   print(lee.num_accounts) # 2
 ```
-* [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
-* [기본 매개변수 초기화 특징](http://suhanlee.github.io/2016/python-parameter.html)
-```python
-# 변수 초기화를 할때 아래와 같이 작성하면 변수가 선언될 때 배열이 초기화 되어서, 실행할 때 마다 배열안에 값이 변한다.
-def test(arg, param_list=[]):
-  result.append(arg)
-  print(result)
-# 의도한 방향이 변수 값이 없을 때 빈 배열이라면 아래와 같이 수정이 필요하다.
-def test_fix(arg, param_list=None):
-  if param_list is None:
-    param_list = []
-  result.append(arg)
-  print(result)
 
-```
-* [defaultdict](https://dongdongfather.tistory.com/69)
-> defaultdict(<자료형>) 형식으로 dict 키의 값이 없을 때 default 값을 지정 가능
-```python
- int_dict = defaultdict(int) # 기본 값이 0인 dict
- int_1_dict = defaultdict(lambda: 1)  # 기본 값이 1인 dict
- list_dict = defaultdict(list) # 기본값이 리스트 인 dict 
-```
 
-> Counter 객체를 카우팅 하는 컬렉션 dict
-```python
-from collections import Counter
 
-num = [1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 3, 4]
-num_counts = Counter(num)
-print(num_counts)
-# Counter({5: 1, 1: 3, 2: 3, 3: 3, 4: 2})
-```
 
 
 > 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
