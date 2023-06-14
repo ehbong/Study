@@ -1,31 +1,48 @@
 # Python
 
+### Python 공식 문서 및 문법
 * [Python 공식문서](https://docs.python.org/ko/3/)
 * [python 문법](https://wikidocs.net/145)
-* [python 버전별 새로운 기능](https://docs.python.org/3.11/whatsnew/index.html)
 * [pep8 python 코딩 스타일 가이드](https://ultrakain.gitbooks.io/python/content/chapter1/coding-style-pep8.html)
-* [python DB인터페이스 DB-API 공식문서](https://peps.python.org/pep-0249/)
 * [ *, ** 의 의미](https://sshkim.tistory.com/182)
-* [ _, 언더스코어의 의미](https://doorbw.tistory.com/153)
-* [클래스 json 변환](http://jsonpickle.github.io/)
+* [바다코끼리 연산자 := 에 대한 설명](https://bio-info.tistory.com/120)
+* [비트 쉬프트 연산 <<, >> ](https://heestory217.tistory.com/81)
+* [is None 과 == None의 차이](https://blog.metafor.kr/162)
+```python
+  # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
+```
+
+### 문자열과 데이터 처리
 * [split 문자열 나누기](https://mainia.tistory.com/5624)
 * [문자열로 된 숫자 확인하는 방법](https://soooprmx.com/archives/10159)
+* [문자열이 숫자로만 이루어져있는지 확인 isdigit()](https://blockdmask.tistory.com/556)
+```python
+# 문자열치환
+replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) 
+```
+* [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
+* [re 모듈 활용](https://velog.io/@ednadev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-re%EB%AA%A8%EB%93%88)
+```python
+# 앞뒤 공백제거
+strip() 
+```
+````python
+# 문자열 검색
+ 'abc'.index('a) # >>> 0 #인덱스를 반환 없을 예
+ 'abc'.find('a) # >>> 0 #인덱스를 반환 없을 경우 -1
+````
+### 변수와 스코프
 * [변수 스코프 지정자 global, nonlocal](https://www.daleseo.com/python-global-nonlocal/)
+* [ _, 언더스코어의 의미](https://doorbw.tistory.com/153)
+
+### 함수와 람다 표현식
 * [filter 함수](https://wikidocs.net/22803)
-* [Case 문 형태인 match](https://docs.python.org/ko/3/tutorial/controlflow.html#match-statements)
-* [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
-* [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
-* [async with 문 사용법](https://soooprmx.com/async-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EB%A7%A4%EB%8B%88%EC%A0%80/)
-* [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
-* [list 음수 슬라이싱](https://pybasall.tistory.com/217)
 * [any, all 함수](https://blockdmask.tistory.com/430)
 * [특수 매개변수 위치전용 매개변수](https://velog.io/@easttwave/python-%EB%8C%80%EC%9E%85-%ED%91%9C%ED%98%84%EC%8B%9D-%EC%9C%84%EC%B9%98-%EC%A0%84%EC%9A%A9-%EB%A7%A4%EA%B0%9C-%EB%B3%80%EC%88%98)
 * [두개의 배열로 index 기준 dict로 만들 때 활용하는 ZIP함수](https://www.daleseo.com/python-zip/)
 * [Counter 함수 객체의 구성원들의 수를 dict로 반환](https://www.daleseo.com/python-collections-counter/)
-* [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
-* [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)
 * [sum 함수 활용](https://stackoverflow.com/questions/33541947/what-does-the-built-in-function-sum-do-with-sumlist)
 ```python
   # sum의 기본 활용
@@ -44,17 +61,52 @@
   import math
   math.inf # 양의 무한대
   -math.inf # 음의 무한대
-  
 ```
-* [heapq 사용법](https://juun42.tistory.com/20)
-* [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
 * [map 함수 사용법 및 예제](https://hbase.tistory.com/404)
 ```python
   # dict 함수 활용 2차원 배열을 dict()로 감싸면 key, value 형태로 반환 가능
   [['a', 1]['b', 2]]  
 ```
-* [바다코끼리 연산자 := 에 대한 설명](https://bio-info.tistory.com/120)
-* [문자열이 숫자로만 이루어져있는지 확인 isdigit()](https://blockdmask.tistory.com/556)
+* [양방향 큐 deque](https://chaewonkong.github.io/posts/python-deque.html)
+* [heapq 사용법](https://juun42.tistory.com/20)
+* [list 음수 슬라이싱](https://pybasall.tistory.com/217)
+* [우선순위 큐와 힙큐(PriorityQueue & heapq) 비교](https://slowsure.tistory.com/130)
+
+
+### 제어 흐름
+* [Case 문 형태인 match](https://docs.python.org/ko/3/tutorial/controlflow.html#match-statements)
+
+
+### 반복문과 이터레이션
+* [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
+* [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)
+##### Generator
+* [Generator 개념 및 활용](https://velog.io/@jewon119/TIL30.-Python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0Generator-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
+* [iterator, Generator 쉬운 설명](https://velog.io/@sawol/Python#iterable-%EA%B3%BC-iterator)
+##### yield
+> 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
+* [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
+* [제너레이터와 yield](https://dojang.io/mod/page/view.php?id=2412)
+
+
+
+### 클래스와 객체
+* [클래스 json 변환](http://jsonpickle.github.io/)
+* [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
+
+
+### 컨텍스트 관리
+* [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+* [async with 문 사용법](https://soooprmx.com/async-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EB%A7%A4%EB%8B%88%EC%A0%80/)
+
+
+### 기타
+
+* [python 버전별 새로운 기능](https://docs.python.org/3.11/whatsnew/index.html)
+
+* [python DB인터페이스 DB-API 공식문서](https://peps.python.org/pep-0249/)
+
+
 * [키 배열로 딕셔너리 생성 dict.fromkeys()](https://velog.io/@jaylnne/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-dict.fromkeys-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%A0%95%EB%A6%AC)
 ```python
   # join 메소드의 경우 배열 뿐만 아니라 dict 자료형에 사용할 경우 키들을 합쳐서 반환
@@ -65,11 +117,7 @@
   a[0], a[1] = a[1], a[0]
   a, b = b, a
 ```
-* [비트 쉬프트 연산 <<, >> ](https://heestory217.tistory.com/81)
-* [is None 과 == None의 차이](https://blog.metafor.kr/162)
-```python
-  # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
-```
+
 * [dataclass 사용법](https://sunow.tistory.com/entry/Python-dataclass-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95)
 * [12가지 python 런타임](https://www.itworld.co.kr/news/132322)
 * [좌표간 거리 계산](https://stricky.tistory.com/283)
@@ -261,13 +309,7 @@ str_base64.decode('utf-8')
 str = base64.b64decode(str_base64).decode('utf-8')
 
 ```
-##### Generator
-* [Generator 개념 및 활용](https://velog.io/@jewon119/TIL30.-Python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0Generator-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
-* [iterator, Generator 쉬운 설명](https://velog.io/@sawol/Python#iterable-%EA%B3%BC-iterator)
-##### yield
-> 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
-* [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
-* [제너레이터와 yield](https://dojang.io/mod/page/view.php?id=2412)
+
 
 ##### 웹소켓 socketio
 * [Using Websockets with Python](https://medium.com/koko-networks/using-websockets-with-python-4396e54d36e6)
@@ -396,22 +438,7 @@ While something:
 > 설치한 특정 모듈의 메소드를 수정해서 사용하고 싶을때 사용가능하다.
 * [상속 & 메소드 오버라이딩](https://ordo.tistory.com/30)
 #### 문자열
-##### 문자열치환
-```python 
-replace(old, new, [count]) -> replace("찾을값", "바꿀값", [바꿀횟수]) 
-```
-* [정규표현식 활용](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
-* [re 모듈 활용](https://velog.io/@ednadev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-re%EB%AA%A8%EB%93%88)
 
-##### 앞뒤 공백제거
-```python 
-strip() 
-```
-##### 문자열 검색
-````python
- 'abc'.index('a) # >>> 0 #인덱스를 반환 없을 예
- 'abc'.find('a) # >>> 0 #인덱스를 반환 없을 경우 -1
-````
 
 ### Typing
 * [공식문서 상 Typing](https://python.flowdas.com/library/typing.html)
