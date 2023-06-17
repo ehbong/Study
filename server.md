@@ -240,3 +240,4 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 ## 웹푸시
 * [webpush 라이브러리](https://github.com/web-push-libs/web-push)
 * [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
+* [SSE(Server-Sent Events) 푸시(웹푸시와는 다름)를 별도 추가 기술 없이 동작하는 방법](https://hamait.tistory.com/792)
