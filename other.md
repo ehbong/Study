@@ -17,6 +17,7 @@
 * [정규식 생성 라이브러리](https://github.com/VerbalExpressions)
 * [뮤텍스, 세마포어 차이](https://heeonii.tistory.com/14)
 * [DDD + 육각형 설계](https://velog.io/@roo333/%EC%A7%80%EC%86%8D-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%ED%8C%A8%ED%84%B4-Hexagonal-Architecture)
+* [우선순위 Queue, Heap](https://velog.io/@jun_/Algorithm-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90Priority-Queue%EC%99%80-%ED%9E%99Heap)
 
 #### Web-Worker
 * [Web Workers API 공식문서](https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API/Using_web_workers)
