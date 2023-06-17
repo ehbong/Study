@@ -241,3 +241,43 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [webpush 라이브러리](https://github.com/web-push-libs/web-push)
 * [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
 * [SSE(Server-Sent Events) 푸시(웹푸시와는 다름)를 별도 추가 기술 없이 동작하는 방법](https://hamait.tistory.com/792)
+```python
+from fastapi import FastAPI, Response
+from starlette.responses import StreamingResponse
+from time import sleep
+
+app = FastAPI()
+
+@app.get("/events")
+async def events():
+    async def event_generator():
+        # 이벤트 메시지 생성
+        yield "data: Event 1\n\n"
+        sleep(1)
+        yield "data: Event 2\n\n"
+        sleep(1)
+        yield "data: Event 3\n\n"
+    
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
+```
+```javascript
+if (!!window.EventSource) {
+  var source = new EventSource('events');
+} else {
+  // Result to xhr polling :(
+}
+source.addEventListener('message', function(e) {
+  console.log(e.data);
+}, false);
+
+source.addEventListener('open', function(e) {
+  // Connection was opened.
+}, false);
+
+source.addEventListener('error', function(e) {
+  if (e.readyState == EventSource.CLOSED) {
+    // Connection was closed.
+  }
+}, false);
+```
+
