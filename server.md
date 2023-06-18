@@ -241,6 +241,7 @@ least_time - 연결수가 가자 적으면서 평균 응답시간이 가장 적�
 * [webpush 라이브러리](https://github.com/web-push-libs/web-push)
 * [webpush vapid키 얻는 법](https://stackoverflow.com/questions/62861030/how-to-get-vapid-public-key-and-vapid-private-key-for-django-webpush-implementat)
 * [SSE(Server-Sent Events) 푸시(웹푸시와는 다름)를 별도 추가 기술 없이 동작하는 방법](https://hamait.tistory.com/792)
+* [web socket과 sse의 차이점](https://surviveasdev.tistory.com/entry/%EC%9B%B9%EC%86%8C%EC%BC%93-%EA%B3%BC-SSEServer-Sent-Event-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
 ```python
 from fastapi import FastAPI, Response
 from starlette.responses import StreamingResponse
