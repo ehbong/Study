@@ -356,6 +356,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [쓰레드 동기화(처리순서가 명확하게 필요할 때)](https://niceman.tistory.com/139)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
 * [병렬처리할때 공용으로 사용할 변수를 정의할때 multiprocessing.Manager()](https://docs.python.org/ko/3/library/multiprocessing.html)
+* [Process, pool](https://m.blog.naver.com/qbxlvnf11/221558779545)
 ```python
  # 멀티 프로세스(함수에 매개변수 넣는 형태의 목록을 프로세스를 여러개 생성에서 병렬로처리) 
  # sqlAlcemy를 사용해서 db.session.commit() 을 바깥에서 할 경우 실제로는 커밋되지 않음(세션을 공유하지않음)
