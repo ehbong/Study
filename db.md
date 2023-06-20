@@ -5,7 +5,23 @@
 * [index 장단 및 생성전략](https://coding-factory.tistory.com/746)
 * [B-tree 에 대한 설명 유튜브](https://youtu.be/bqkcoSm_rCs)
 * [B-tree, B+tree 차이](https://ssocoit.tistory.com/217)
-
+* [파티셔닝, 샤딩, 레플리케이션 설명](https://youtu.be/P7LqaEO-nGU)
+```markdown
+ * partitioning
+   DB 데이터 저장공간을 분리하는 방법
+   1. vertical partitioning
+      * 컬럼을 기준으로 테이블을 나누는 방식(정규화, 데이터가 많은 컬럼을 분리 등)
+   2. horizontal partitioning
+      * 로우를 기준으로 테이블을 나누는 방식
+      * 특정 컬럼을 기준으로 잡고 해시함수 또는 범위를 기준으로 데이터를 나눔 비지니스 모델에서
+        가장많이 사용되는 데이터를 사용하는 키(파티션키)로 선정 필요
+      * 데이터를 잘 균등하게 분배될 수 있도록 하는 것도 중요
+      * 해시함수를 활용한 파티셔닝은 한번 파티셔닝 후 파티션 추가가 어려움
+ * sharding
+   각 파티션들을 서로 다른 DB서버에 저장해서 부하분산을 하는 방법
+ * replication
+   주와 부 DB서버를 생성해서 DB장애 대응 및 부하 분산을 하는 방법
+```
 * [단계별 정규화](https://minimax95.tistory.com/entry/%EC%A0%95%EA%B7%9C%ED%99%94Normalization-%EA%B0%9C%EB%85%90%EA%B3%BC-%EA%B8%B0%EB%B3%B8-%EA%B3%BC%EC%A0%95)
 * [SQL query 튜닝](https://cornswrold.tistory.com/87)
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
