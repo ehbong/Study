@@ -5,6 +5,8 @@
 * [index 장단 및 생성전략](https://coding-factory.tistory.com/746)
 * [B-tree 에 대한 설명 유튜브](https://youtu.be/bqkcoSm_rCs)
 * [B-tree, B+tree 차이](https://ssocoit.tistory.com/217)
+
+### 분산처리
 * [파티셔닝, 샤딩, 레플리케이션 설명](https://youtu.be/P7LqaEO-nGU)
 ```markdown
  * partitioning
@@ -24,6 +26,10 @@
 ```
 * [단계별 정규화](https://minimax95.tistory.com/entry/%EC%A0%95%EA%B7%9C%ED%99%94Normalization-%EA%B0%9C%EB%85%90%EA%B3%BC-%EA%B8%B0%EB%B3%B8-%EA%B3%BC%EC%A0%95)
 * [SQL query 튜닝](https://cornswrold.tistory.com/87)
+
+
+* [stored function](https://youtu.be/I1jjR58Rzic)
+* [stored procedure](https://youtu.be/I1jjR58Rzic)
 * [무료 ERD ERDCLOUD](https://www.erdcloud.com/)
 * [DB네이밍 팁](https://jang8584.tistory.com/35)
 * [DBeaver 에서 실행계획 보는법](http://item.gmarket.co.kr/detailview/item.asp?goodscode=2267277866)
