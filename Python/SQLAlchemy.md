@@ -44,6 +44,7 @@
 
 ```python
   # 데이터 변경 쿼리가 DB에 호출 되는 순간은 flush 를 했을 때 호출
+  # 변경된 데이터는 DB 트랜젝션 버퍼에 저장 이후 commit 또는 rollback 등으로 상태 반영 여부를 결정
   # flush 후 commit, rollback, close 등이 호출 될 때까지 열린 상태로 유지 
 ```
 
