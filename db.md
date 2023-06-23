@@ -40,6 +40,33 @@
 * [connection pool 연결 지연 대기](https://engineering-skcc.github.io/cloud/tomcat/apache/DB-Pool-For-Event/)
 * [n+1문제 이슈](https://fouaaa.blogspot.com/2021/06/n1.html)
 * [트랜잭션의 격리 수준(isolation Level)이란?](https://nesoy.github.io/articles/2019-05/Database-Transaction-isolation)
+* [transaction isolation level 유튜브 설명](https://youtu.be/bLLarZTrebU)
+```markdown
+1. 이상현상
+ * dirty read
+   하나의 트랜젝션에서 같은 데이터를 2번 읽어오는 와중에 다른 트랜젝션에서 커밋되지 않은 데이터 변경으로 인해
+   다른 데이터가 반환됨
+ * nonrepeatable read
+   하나의 트랜젝션에서 같은 데이터를 2번 읽어오는 와중에 다른 트랜젝션의 데이터 변경 커밋으로 인해
+   다른 데이터가 반환됨
+ * phantom read
+   하나의 트랜젝션의 조건에 데이터를 2번 읽어오는 와중에 다른 트랜젝션의 데이터 변경 커밋으로 인해
+   조건에 맞는 데이터가 변경 됨
+   ex) A=10 >> 1건, 다른트랜젝션에서 데이터 변경, A=10 >> 2건
+2. isolation level
+   대응 단계가 높을 수록 동시성이 떨어져서 데이터베이스 처리속도에 영향있음
+ 1. read uncommitted
+   위의 이상현상 3개를 전부 허용
+ 2. read committed
+   drity read 만 허용하지 않음
+ 3. repeatable read
+   drity read, nonrepeatable read를 허용하지 않음
+ 4. serializable
+   모든 이상현상을 허용하지 않음
+ ** snapshot isolation 위 대응 단계와 별개의 단계
+   트랜젝션 시작지점에서 snapshot을 찍어서 해당 시점 기준 데이터를 가져와서 반환함
+   같은 데이터를 2개이상의 트랜젝션이 변경요청 할 경우 먼저 commit된 데이터만 반영되고, 이후는 반영되지 않음
+```
 
 ## NoSQL
 * [데이터 모델링 형태 별 특징](https://bcho.tistory.com/665)
