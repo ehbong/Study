@@ -76,6 +76,7 @@
 ## Elastic Search
 * [Elastic Search 공식](https://www.elastic.co/kr/elasticsearch/)
 * [Elastic Search 기본 설명 및 장단점](https://jaemunbro.medium.com/elastic-search-%EA%B8%B0%EC%B4%88-%EC%8A%A4%ED%84%B0%EB%94%94-ff01870094f0)
+* [Elastic Search와 MySQL 연동](https://m.blog.naver.com/olpaemi/221644176875)
 
 ## mysql
 * [mysql 암복호화 AES_ENCRYPT & AES_DECRYPT](https://stricky.tistory.com/330)
