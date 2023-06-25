@@ -526,6 +526,12 @@ for i in range(len(array)):
   # set으로 차집합
   s1 - s2
 ```
+```python
+  # 2차원 배열을 생성할 때 주의할 점
+  a_list = [['a']] * 5   # a_list 는 ['a']를 복사하므로 배열에 대한 참조로 같은 배열이 복사됨(주소참조) 값을 바꿀경우 모든 값 변경
+  b_list = [['a'] for i in range(5)]  # b_list 서로 다른 배열로 생성
+```
+
 ##### 시간 다루기
 * [날짜 차이 계산](https://jsikim1.tistory.com/144)
 ```python
