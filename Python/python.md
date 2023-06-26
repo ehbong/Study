@@ -7,6 +7,7 @@
 * [ *, ** 의 의미](https://sshkim.tistory.com/182)
 * [바다코끼리 연산자 := 에 대한 설명](https://bio-info.tistory.com/120)
 * [비트 쉬프트 연산 <<, >> ](https://heestory217.tistory.com/81)
+* [python 의 함수 인자 전달방식 call by assignment](https://velog.io/@yun9yu/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-Call-by-reference-Call-by-value)
 * [is None 과 == None의 차이](https://blog.metafor.kr/162)
 ```python
   # is 는 id() 값을 비교(할당된 메모리 주소를 비교), == 는 값 자체를 비교
@@ -527,7 +528,8 @@ for i in range(len(array)):
   s1 - s2
 ```
 ```python
-  # 2차원 배열을 생성할 때 주의할 점
+  # 배열 안에 데이터를 넣고 해당 값을 복사 생성할 때 주의할 점
+  # 배열 안에 넣는 데이터가 자료형이 변경가능한 데이터(list, dict, 등)라면 * 로 하면 call by reference 여서 주의 필요
   a_list = [['a']] * 5   # a_list 는 ['a']를 복사하므로 배열에 대한 참조로 같은 배열이 복사됨(주소참조) 값을 바꿀경우 모든 값 변경
   b_list = [['a'] for i in range(5)]  # b_list 서로 다른 배열로 생성
 ```
