@@ -253,6 +253,8 @@ app = FastAPI()
 async def events():
     async def event_generator():
         # 이벤트 메시지 생성
+        # "data:" 이 부분이 필수 값
+        # 개행은 \n 마지막행은 \n\n 두번 포함
         yield "data: Event 1\n\n"
         sleep(1)
         yield "data: Event 2\n\n"
