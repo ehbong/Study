@@ -8,6 +8,7 @@
 * [ES6 문법정리](https://velog.io/@decody/ES6-Sheetsheet)
 * [class 접근자 프로퍼티](https://velog.io/@bigbrothershin/JavaScript-%EC%A0%91%EA%B7%BC%EC%9E%90-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0-getter-setter)
 * [변수 변경 탐지하기](https://www.zerocho.com/category/JavaScript/post/5a6578a3c994bd001ba0f9d9)
+* [javascript set(중복불가능한 순서가 없는 배열)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)
 * [Object.defineProperty()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 ```javascript
 var someObj = {};
