@@ -31,3 +31,19 @@ const person1:Person = new Person("Maddison", 21);
 const person2: any = new (Person as any)("Maddison", 21);
 
 ```
+
+```typescript
+// 모듈을 import 할 때 @ 표시 루트 경로는 tsconfig.json 안에
+// paths 값 안에 특정 경로를 별칭으로 등록할 때 사용할 수 있음
+// @가 아닌 다른 것을 사용할 수 있지만 관습적으로 @를 사용
+// tsconfig.json 예
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  }
+} 
+import HttpStatusCodes from '@src/constants/HttpStatusCodes';
+```
