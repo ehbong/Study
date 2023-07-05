@@ -41,7 +41,7 @@ const person2: any = new (Person as any)("Maddison", 21);
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "src/*": ["./src/*"]
+      "@src/*": ["src/*"]
     }
   }
 } 
