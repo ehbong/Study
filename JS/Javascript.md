@@ -213,3 +213,7 @@ var str = "abcdefghijklmnopqrstuvwxyz";
 # 디펜던시를 가져오는 명령어
 > npm ls --depth=0 
 ```
+
+
+### 테스트 
+* [mocking 과 spyOn](https://www.daleseo.com/jest-fn-spy-on/)
