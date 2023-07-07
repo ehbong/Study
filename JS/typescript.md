@@ -6,6 +6,31 @@
 
 * [TyepScript 환경설정 및 시작하기](https://mine-it-record.tistory.com/578)
 
+```typescript
+// declare 명령어는 자바스크립트 작성된 라이브러리를 타입스크립트에 사용할 때
+// TypeScript에서 컴파일 될 때 타입이슈로 문제가 생기는 걸 방지하기 위해 사용.
+// 사용 예
+// 외부 라이브러리의 타입 참조
+declare module 'library-name' {
+  export function someFunction(): void;
+  export const someValue: number;
+  // ...
+}
+
+// 현재 스코프에 존재하지 않는 변수, 함수, 클래스 등의 타입 선언
+declare const globalVariable: string;
+declare function customFunction(arg: number): string;
+declare class MyClass {
+  // ...
+}
+
+// 사용 예시
+globalVariable = 'Hello'; // 외부 변수 사용
+const result = customFunction(42); // 외부 함수 호출
+const instance = new MyClass(); // 외부 클래스 인스턴스 생성
+
+```
+
 ### 이슈
 ```javascript
 // typesciprt 에서 console.log 오류 발생 시
