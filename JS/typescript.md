@@ -6,6 +6,7 @@
 
 * [TyepScript 환경설정 및 시작하기](https://mine-it-record.tistory.com/578)
 * [Declare, Ambient-Module](https://bum-developer.tistory.com/entry/TypeScript-Declare-Ambient-Module)
+* [Never 타입](https://ui.toast.com/posts/ko_20220323)
 
 ```typescript
 // declare 명령어는 자바스크립트 작성된 라이브러리를 타입스크립트에 사용할 때
