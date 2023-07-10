@@ -5,7 +5,7 @@
 * [TypeScript 가이드북](https://yamoo9.gitbook.io/typescript/)
 * [TyepScript 환경설정 및 시작하기](https://mine-it-record.tistory.com/578)
 * [Never 타입](https://ui.toast.com/posts/ko_20220323)
-  
+* [ts-node 타입스크립트 파일을 별도의 컴파일 없이 자동 컴파일하여 실행 시켜주는 라이브러리](https://github.com/TypeStrong/ts-node)
 * [Declare, Ambient-Module](https://bum-developer.tistory.com/entry/TypeScript-Declare-Ambient-Module)
 
 ```typescript
