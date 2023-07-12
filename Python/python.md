@@ -132,6 +132,33 @@ print(num_counts)
 > 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
 * [yield 이해하기](https://tech.ssut.me/what-does-the-yield-keyword-do-in-python/)
 * [제너레이터와 yield](https://dojang.io/mod/page/view.php?id=2412)
+```
+# 제너레이터 중첩
+# 제너레이터 함수를 yield from 을 통해 중첩
+# 중첩 할경우
+# 1. sub_generator 를 다 소화할 때까지 3회 반복
+# 2. 4 출력
+# 3. sub_generator2 를 다 소화할 때까지 3회 반복
+# 4. 5 출력 과 같은 방식으로 진행
+
+def sub_generator():
+    yield 1
+    yield 2
+    yield 3
+
+
+def sub_generator2():
+    yield 'A'
+    yield 'B'
+    yield 'C'
+
+
+def main_generator():
+    yield from sub_generator()
+    yield 4
+    yield from sub_generator2()
+    yield 5
+```
 
 
 
