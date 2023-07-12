@@ -173,6 +173,21 @@ def main_generator():
 ### 컨텍스트 관리
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [async with 문 사용법](https://soooprmx.com/async-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EB%A7%A4%EB%8B%88%EC%A0%80/)
+```python
+# with 은 리소스 관리를 위해 사용
+# 다음은 비동기적으로 네트워크 요청을 보내는 제너레이터 함수
+async def fetch_url_async(url):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            yield await response.text()
+# 실행 순서 및 생명주기
+# 1. async with aiohttp.ClientSession() as session 를 실행하여 Http 클라이언트 세션 생성(__aenter__() 생성A)
+# 2. async with session.get(url) as response 생성된 클라이언트 세션을 이용해서 Http요청을 보내고 (__aenter__() 생성B)
+# 3. await response.text() 응답 데이터를 받아오고 yield 를 통해 데이터 반환
+# 4. async with aiohttp.ClientSession() as session 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 로 클로즈B)
+# 5. async with session.get(url) as response 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 클로즈A)
+```
+
 
 
 ### 기타
