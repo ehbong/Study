@@ -28,6 +28,41 @@ def test_fix(arg, param_list=None):
   print(result)
 
 ```
+##### type
+> * type 은 모든 클래스의 metaclass
+> * type(object): object의 타입을 반환
+> * type(name, bases, dict): 새로운 클래스 생성
+>   * name: 클래스이름
+>   * bases: 상속받는 클래스들의 튜플
+>   * dict: 속성과 메소드를 담은 dict
+```python
+# 클래스 생성 예제
+MyClass = type('MyClass', (object,), {'x': 1, 'y': 2})
+```
+> * type.__call__() 이 클래스를 생성하는 메서드이자, 모든 클래스는 type의 인스턴스  
+>   클래스 내에서 __call__메서드를 따로 정의하지 않으면 type.__call__메서드가 동작  
+>   type.__call__이 클래스를 선언하는 메소드지만 type을 상속받을 경우 자식의 환경에 영향을 받아
+>   super().__call__은 type이 클래스(타입의 인스턴스)를 반환하듯이 인스턴스를 반환
+```python
+# 메타클래스로 new 와 call 을 지정했을 때
+# my_instance_a = MyClassA() 에 반환 된 것은 call 에서 생성한 인스턴스
+# 동작순서가 new > call
+class MyMetaClassA(type):
+    def __new__(cls, name, bases, attrs):
+        print('Creating instance of MyClass(__new__)')
+        return super().__new__(cls, name, bases, attrs)
+
+    def __call__(cls, *args, **kwargs):
+        print('Creating instance of MyClass(__call__)')
+        instance = super().__call__(*args, **kwargs)
+        return instance
+class MyClassA(metaclass=MyMetaClassA):
+    pass
+my_instance_a = MyClassA()
+
+```
+
+
 
 ### GIL(Global Interpreter Lock)
 > * CPython에서 사용되는 메로리 관리 방식, GIL은 한번에 하나의 스레드만 파이썬 바이트코드를 실행할 수 있도록 제한
