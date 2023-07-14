@@ -507,6 +507,10 @@ for element in some_list:
 result = [x for x in large_list if some_filter(x)]
 ```
 * [List comprehension 2중 for문](https://velog.io/@yejin20/TILList-comprehension-%EC%A4%91%EC%B2%A9)
+```python
+a = [i for i in range(5)] # 리스트 생성
+b = (i for i in range(5)) # generator 생성
+```
 ###### 외부 라이러리를 변수에 담아 사용
 ```python
 import random #wrong
