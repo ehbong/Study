@@ -509,7 +509,7 @@ result = [x for x in large_list if some_filter(x)]
 * [List comprehension 2중 for문](https://velog.io/@yejin20/TILList-comprehension-%EC%A4%91%EC%B2%A9)
 ```python
 a = [i for i in range(5)] # 리스트 생성
-b = (i for i in range(5)) # generator 생성
+b = (i for i in range(5)) # generator 생성, 다만 일반적인 generator와 다르게 지연평가 하지 않고 모든 데이터를 메모리에 저장
 ```
 ###### 외부 라이러리를 변수에 담아 사용
 ```python
