@@ -61,8 +61,51 @@ class MyClassA(metaclass=MyMetaClassA):
 my_instance_a = MyClassA()
 
 ```
+> type.__mro__ 에 대해
+```python
+# __mro__(Method Resolution Order) 메서드 결정 순서
+# 아래 소스에서 d.foo()는 과연 어떤 클래스의 foo메서드를 실행하게 될지 순서를 반환
+# 1. 자식 클래스는 부모 클래스 보다 앞에 위치
+# 2. 부모 클래스의 순서는 상속 시에 지정한 순서와 일치(클래스 D 선언 시 B, C 순서로 정의 했기 때문에 B가 먼저 위치)
+# 3. 모든 부모 클래스는 한 번씩만 배치
+# 4. object 클래스는 가장 마지막에 위치
+class A:
+    def foo(self):
+        print("A")
 
+class B(A):
+    def foo(self):
+        print("B")
 
+class C(A):
+    def foo(self):
+        print("C")
+
+class D(B, C):
+    pass
+
+d = D()
+d.foo()
+# D.mro() or type.mro(D)
+# [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
+```
+> type 과 object의 관계에 대해
+```python
+# 모든 클래스의 부모는 object, 모든 객체의 타입도 object
+# 모든 클래스의 메타클래스는 type, object의 메타클래스는 type
+# type은 object의 상속을 받고 object는 type읭 객체
+isinstance (type, object) # type은 object의 인스턴스인가? True
+isinstance (object, type) # object는 type의 인스턴스인가? True
+issubclass (type, object) # type은 object의 서브클래스인가? True
+issubclass (object, type) # object는 type의 서브클래스인가? False
+```
+> type과 object가 서로가 서로를 필요로 하는 관계라면 생성될 수 없을 텐데 어떻게 생성될까?  
+> ex) object가 없으면 type이 상속받을 수 없고, type이 없으면 object는 메타클래스로 type을 지정할 수 없다.  
+> object와 type은 python에 가장 기본이 되는 내장 객체이며, 이는 python 인터프리터가 실행되기전에 C언어에서 구현된다.  
+> 1. PyObject가 정의되며 PyObject는 모든 객체를 나타내며 타입과 참조 카운트 등의 정보를 가지고 모든 객체의 최상위 구조체
+> 2. PyTypeObject가 정의되며 PyTypeObject는 PyObject를 상속받고, 클래스의 이름, 속성, 메소드, 부모 클래스 등의 정보를 가지고 type이 PyTypeObject의 python 구현체
+> 3. PyBaseObject_Type가 정의되면 PyTypeObject의 상속을 받고, object클래스에 특화된 정보를 가지며, object가 PyBaseObject_Type의 python 구현체
+> 즉 python의 object class는 PyBaseObject_Type의 구현체이며, type class는 PyTypeObject의 구현체, 그리고 모든 객체는 PyObject의 구현체입니다.
 
 ### GIL(Global Interpreter Lock)
 > * CPython에서 사용되는 메모리 관리 방식, GIL은 한번에 하나의 스레드만 파이썬 바이트코드를 실행할 수 있도록 제한
