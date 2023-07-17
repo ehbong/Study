@@ -87,7 +87,7 @@ class D(B, C):
 d = D()
 d.foo()
 # D.mro() or type.mro(D)
-# [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
+# [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
 ```
 > type 과 object의 관계에 대해
 ```python
