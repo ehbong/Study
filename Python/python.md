@@ -93,7 +93,7 @@ d.foo()
 ```python
 # 모든 클래스의 부모는 object, 모든 객체의 타입도 object
 # 모든 클래스의 메타클래스는 type, object의 메타클래스는 type
-# type은 object의 상속을 받고 object는 type읭 객체
+# type은 object의 상속을 받고 object는 type의 객체
 isinstance (type, object) # type은 object의 인스턴스인가? True
 isinstance (object, type) # object는 type의 인스턴스인가? True
 issubclass (type, object) # type은 object의 서브클래스인가? True
