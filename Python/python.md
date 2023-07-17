@@ -29,7 +29,7 @@ def test_fix(arg, param_list=None):
 
 ```
 ##### type
-> * type 은 모든 클래스의 metaclass
+> * type 은 모든 클래스의 부모인 object의 metaclass, 즉 모든 클래스의 메타클래스가 type
 > * type(object): object의 타입을 반환
 > * type(name, bases, dict): 새로운 클래스 생성
 >   * name: 클래스이름
@@ -92,7 +92,7 @@ d.foo()
 > type 과 object의 관계에 대해
 ```python
 # 모든 클래스의 부모는 object, 모든 객체의 타입도 object
-# 모든 클래스의 메타클래스는 type, object의 메타클래스는 type
+# 모든 클래스의 메타클래스는 type, 그 이유는 object의 메타클래스가 type이고, object가 모든 클래스의 부모
 # type은 object의 상속을 받고 object는 type의 객체
 isinstance (type, object) # type은 object의 인스턴스인가? True
 isinstance (object, type) # object는 type의 인스턴스인가? True
