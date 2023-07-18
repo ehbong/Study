@@ -19,13 +19,6 @@
 * [DDD + 육각형 설계](https://velog.io/@roo333/%EC%A7%80%EC%86%8D-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%ED%8C%A8%ED%84%B4-Hexagonal-Architecture)
 * [우선순위 Queue, Heap](https://velog.io/@jun_/Algorithm-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90Priority-Queue%EC%99%80-%ED%9E%99Heap)
 
-### 운영체제
-* [인터럽트, 시스템 콜](https://velog.io/@klm03025/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C)
-* [프로세스, 스레드 설명 유튜브](https://www.youtube.com/watch?v=iks_Xb9DtTM)
-* [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
-#### 동시성 제어
-* [뮤텍스, 세마포어 차이](https://heeonii.tistory.com/14)
-  
 #### Web-Worker
 * [Web Workers API 공식문서](https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API/Using_web_workers)
 * [Web-Worker에-대해서](https://velog.io/@choi5798/%EC%9B%B9-%EC%9B%8C%EC%BB%A4Web-Worker%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
