@@ -1,0 +1,27 @@
+# OS
+* [인터럽트, 시스템 콜](https://velog.io/@klm03025/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C)
+* [프로세스, 스레드 설명 유튜브](https://www.youtube.com/watch?v=iks_Xb9DtTM)
+* [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+
+> Process  
+> 프로그램이 실행되는 상태 최소 1개의 thread 를 가짐
+> Process 생명주기
+> 1. 프로세스 생성을 위한 공간을 할당하고 PCB(Process Control Block)를 생성 및 초기화하며, 실제메모리를 가상화한 가상메모리를 할당받음
+>    이때 PCB의 프로세스 상태값을 New로 초기화
+> 2. 프로세스 초기화, 코드, 데이터, 스택 등 초기메모리 영역 설정 및 프로그램카운터가 첫 명령어 주소를 가르키도록 설정
+> 3. 초기화가 완료되면 프로세스 상태를 Ready로 변경하고, Ready Queue에 등록
+> 4. 순서가 되면 프로세스가 실행되고 상태를 Running으로 변경
+> 5. 시간 할당량이 지나면 Ready상태로 변경, 입출력 요청이 발생하면 Wait 상태가 되었다가, 끝나면 Ready상태로 변경
+     (입출력 요청 때 NonBlock일 경우 Wait 없이 계속실행)
+> 6. Ready Queue에 다시 등록되었다가, 순서가 되면 다시 실행되고 모든 작업이 완료되면 프로세스가 종료
+     운영체제는 PCB를 삭제하고, 할당한 가상메모리를 해제, 종료 코드는 부모프로세스에게 전달
+
+
+
+
+> Thread
+> 프로그램을 CPU에서 처리하기 위한 단위
+
+  
+#### 동시성 제어
+* [뮤텍스, 세마포어 차이](https://heeonii.tistory.com/14)
