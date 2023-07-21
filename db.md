@@ -124,6 +124,15 @@ SHOW ENGINE INNODB STATUS;
 # 정규식 예제
 SUBSTRING(<컬럼명> FROM '<정규식>')
 ```
+> 조건부 인덱스
+```sql
+-- 아래 SQL처럼 조건부로 인덱스를 작성 가능
+-- 조건부 인덱스의 경우 일정구간만 인덱싱해서 인덱싱 비용 절감
+-- 인덱스에서 제외된 컬럼 값이 자주 변경되면 인덱스 관리 비용이 상승함
+CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
+```
+* [PostgreSQL Replication 설명](https://feellikeghandi.tistory.com/18)
+
 
 ## 인메모리 DB
 * [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
