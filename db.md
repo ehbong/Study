@@ -39,6 +39,23 @@
 * [효과적인 nosql 활용 feat AWS](https://www.youtube.com/watch?v=8rEsuvdL17s) 
 * [connection pool 연결 지연 대기](https://engineering-skcc.github.io/cloud/tomcat/apache/DB-Pool-For-Event/)
 * [n+1문제 이슈](https://fouaaa.blogspot.com/2021/06/n1.html)
+```python
+ # 주로 orm 을 사용하여 데이터를 불러올 때 발생하며, 반복문 등으로 데이터를 불러올 때 발생
+from sqlalchemy.orm import sessionmaker
+
+Session = sessionmaker(bind=engine)
+session = Session()
+   
+# 사용자 목록을 가져옴
+users = session.query(User).all()
+   
+# 각 사용자별로 주문 목록을 가져옴
+for user in users:
+    # 사용자별 주문을 n개 만큼 select 쿼리를 실행해서 부하를 발생시킴 
+    orders = user.orders
+# join을 사용해서 대응
+
+```
 * [트랜잭션의 격리 수준(isolation Level)이란?](https://nesoy.github.io/articles/2019-05/Database-Transaction-isolation)
 * [transaction isolation level 유튜브 설명](https://youtu.be/bLLarZTrebU)
 ```markdown
