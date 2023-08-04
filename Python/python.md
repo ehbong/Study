@@ -203,8 +203,15 @@ print(num_counts)
 ### 반복문과 이터레이션
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)
+```python
+   # 이터레이터 객체를 자를 때 사용하는 함수
+   itertools.islice(iterable, 시작index, 종료index(바로 앞 index에서 절삭), 간격(필수 값 X))
+```
 ##### Generator
 * [Generator 개념 및 활용](https://velog.io/@jewon119/TIL30.-Python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0Generator-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
+> #### 제너레이터가 일반 이터레이터와 다른 점
+> * yield 키워드를 사용해 다른 이터레이터에서 사용하는 next 함수 동작을 커스터마이징 가능
+> * 피보나치 수열 같은 무한한 시퀀스 생성 가능
 * [iterator, Generator 쉬운 설명](https://velog.io/@sawol/Python#iterable-%EA%B3%BC-iterator)
 ##### yield
 > 함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정
