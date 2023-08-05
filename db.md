@@ -168,7 +168,7 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 ## 메시지 브로커
 * [Kafka 설명](https://galid1.tistory.com/793)
 * [Kafka 주요개념 및 용어](https://ifuwanna.tistory.com/487)
-
+* [Kafka 유튜브 설명](https://youtu.be/0Ssx7jJJADI)
 
 ## 데이터 웨어하우스
 * [OLTP, OLAP 비교](https://too612.tistory.com/511)
