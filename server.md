@@ -52,7 +52,7 @@
 * [Sentry 도입기 from Line](https://engineering.linecorp.com/ko/blog/log-collection-system-sentry-on-premise)
 * [프론트 모니터링 bugsnag 공식](https://www.bugsnag.com/)
 * [프론트 모니터링 bugsnag git](https://github.com/bugsnag)
-
+* [scouter](https://developercc.tistory.com/30)
 
 
 ### 분산처리
