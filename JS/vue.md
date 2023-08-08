@@ -77,6 +77,15 @@ module.exports = {
 * [페이지 별 접근권한](https://minhanpark.github.io/today-i-learned/role-in-vuerouter/)
 * [computed 와 watch 비교](https://kr.vuejs.org/v2/guide/computed.html)
 
+##### Quasar
+> vue.js기반 오픈소스 프레임워크
+> * Material Design을 기본 지원
+> * tree-shakable 를 통해 사용하지 않는 함수를 제거해 코드 최적화
+> * 데스크톱 및 모바일 브라우저 환경 지원
+> * SPA, SSR 등 각 빌드 모드 지원
+* [Quasar 공식문서](https://quasar.dev/start/quick-start)
+* [vue 프로젝트 생성 및 기본 사용법](https://godffs.tistory.com/3306)
+
 
 #### nuxtjs
 * [nuxtjs공식](https://nuxtjs.org/)
