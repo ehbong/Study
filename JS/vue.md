@@ -84,6 +84,7 @@ module.exports = {
 > * 데스크톱 및 모바일 브라우저 환경 지원
 > * SPA, SSR 등 각 빌드 모드 지원
 * [Quasar 공식문서](https://quasar.dev/start/quick-start)
+> 공식 문서 검색을 통해 grid, button 등 사용법을 검색해서 사용
 * [vue 프로젝트 생성 및 기본 사용법](https://godffs.tistory.com/3306)
 
 
