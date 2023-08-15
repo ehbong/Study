@@ -30,6 +30,42 @@
 * [REST API, Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
 
+> Cookie 보안  
+> * HttpOnly: 자바스크립트 접근을 제한
+
+```javascript
+// 서버에서 쿠키 생성 (Node.js와 Express 예제)
+res.cookie('sessionID', 'abcdef', { httpOnly: true });
+```
+> * Secure: https 환경에서만 전송
+
+```javascript
+// 서버에서 쿠키 생성 (Node.js와 Express 예제)
+res.cookie('sessionID', 'abcdef', { secure: true });
+```
+
+> * SmaeSite: CSRF 공격 방지를 위해 외부 도메인 요청 차단
+
+```javascript
+// 서버에서 쿠키 생성 (Node.js와 Express 예제)
+res.cookie('sessionID', 'abcdef', { sameSite: 'strict' });
+```
+
+> * Expiration (Max-Age): 유효기간 설정
+
+```javascript
+// 서버에서 쿠키 생성 (Node.js와 Express 예제)
+res.cookie('sessionID', 'abcdef', { maxAge: 3600000 }); // 1시간 유효
+```
+
+> * Domain 및 Path 설정: 특정 주소에서만 쿠키 접근
+
+```javascript
+// 서버에서 쿠키 생성 (Node.js와 Express 예제)
+res.cookie('sessionID', 'abcdef', { domain: '.example.com', path: '/app' });
+```
+----
+
 
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
