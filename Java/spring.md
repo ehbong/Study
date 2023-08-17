@@ -9,3 +9,4 @@
 
 
 #### JPA
+* [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
