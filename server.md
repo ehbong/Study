@@ -2,6 +2,7 @@
 
 * [SSL 인증서 생성,사설 인증서 생성](https://namjackson.tistory.com/24)
 * [구글 검색 안되게 하기](https://ragonfly.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%97%90%EC%84%9C-%EA%B2%80%EC%83%89-%EC%95%88%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94%EB%B2%95)
+* [인증 인가 시스템(쿠키, 세션, 토큰)](https://dev.gmarket.com/45)
 * [DNS A레코드, CNAME 차이](https://dev.plusblog.co.kr/30)
 * [세션 동작 원리](https://thecodinglog.github.io/web/2020/08/11/what-is-session.html)
 * [프로세스, 서비스(데몬) 차이](https://inpa.tistory.com/entry/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8D%B0%EB%AA%AC-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%95%EB%A6%AC)
