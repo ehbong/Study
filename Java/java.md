@@ -1,7 +1,8 @@
 # JAVA
 
 > JRE(Java Runtime Environment): 자바 실행 환경
-> * JVM, 표준 클래스 라이브러리  
+> * JVM, 표준 클래스 라이브러리
+
 > JDK(Java Development Kit): 자바 개발 키트
 > * JRE, 컴파일러, 디버거 등의 개발도구
 
