@@ -7,6 +7,25 @@
 * [maven 의존성 라이브러리 검색](https://central.sonatype.com/?smo=true)
 
 
+### Bean
+> 스프링 IoC(Inversion of Control) 컨테이너에 의해서 관리되는 자바 객체   
+> 객체의 의존성, 라이프사이클을 관리   
+> 스코프 관리(singleton, protoType)
+
+> ***주요 어노테이션***   
+> 명시적으로 차이가 있을 뿐 동일한 역할을 하는 어노테이션
+> * @Component : 일반 컴포넌트
+> * @Service: 비지니스 로직을 담당하는 서비스 클래스
+> * @Repository: 데이터 엑세스 레이어 클래스 DAO클래스에 사용
+> * @Controller: 웹 요청을 처리하는 컨트롤러 클래스  
+
+> 위와 다른 역할을 하는 어노테이션
+> * @Configuration: 설정 클래스
+> * @Bean: @Configuration 어노테이션이 사용된 클래스 내에서 메소드에 사용되는 어노테이션. ***메소드의 리턴 클래스***를 Bean으로 등록하는 어노테이션
+> * @Autowired: 의존성 주입을 위해 사용되는 어노테이션, 생성자, 메소드, 필드에 의존성을 자동 주입
+> * @Qualifier: 동일한 클래스를 상속받은 여러개 클래스 중에 의존성을 명시적으로 지정해야 할 때 사용, 주입할 클래스 옆에 @Qualifier(MyServiceA) Myservice 와 같은 형식
+> * @Primary: 동일한 클래스를 상속받은 여러개 클래스 중에 기본이 되는 클래스를 지정할 때 사용
+
 
 #### JPA
 * [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
