@@ -18,7 +18,7 @@
 
 * [maven 기본 세팅](https://byul91oh.tistory.com/304)
 
-* [멀티스레드 예제](https://withhamit.tistory.com/522)
+
 
 * [동시성이슈 해결](https://thalals.tistory.com/370)
 
@@ -62,3 +62,36 @@
 > * String: 짧은 문자열 결합에 사용(+ 로 결합할 때 마다 메모리 복사가 이루어져서, GC의 부하가 발생)
 > * StringBuilder: 스레드의 안전여부와 상관없이 사용할 때 사용(메모리 복사를 하지 않음, 메소드 내부 변수 등)
 > * StringBuffer: 스레드에 안전이 필요하거나 필요한지 모를 때 사용(메모리 복사 하지 않음, 클래스의 Static 문자열 또는 싱글톤 클래스의 문자열 등)
+
+
+### 멀티스레드
+* [멀티스레드 예제](https://withhamit.tistory.com/522)
+> Thread 클래스
+> * 스레드를 직접적으로 생성하고 제어하는 클래스
+> * start 메소드를 호출하여 스레드를 실행
+> * 상속 받아서 run 메소드를 오버라이드 해서 새로운 동작을 구현할 수 있음
+```java
+class MyThread extends Thread {
+    @Override
+    public void run() {
+        // 스레드 동작을 정의
+    }
+}
+```
+> Runnable 인터페이스
+> * Thread 클래스를 상속받지 않고 스레드를 사용하기 위한 인터페이스
+> * 인터페이스 구현체 클래스를 생성하고 run 메소드를 오버라이드 해서 새로운 동작을 구현할 수 있음
+> * Thread 클래스의 생성자에 매개변수로 전달해서 스레드 객체를 생성할 수 있음
+```java
+class MyRunnable implements Runnable {
+    @Override
+    public void run() {
+        // 스레드 동작을 정의
+    }
+}
+
+// 스레드 생성 및 실행
+Thread thread = new Thread(new MyRunnable());
+thread.start();
+
+```
