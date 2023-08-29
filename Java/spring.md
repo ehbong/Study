@@ -8,11 +8,11 @@
 
 ### Container
 > 객체(Bean)들을 포함하고 관리하는 스프링의 관리자 개념
-##### BeanFactory
+##### ㄴ BeanFactory
 > 스프링의 기본 컨테이너  
 > * Bean 객체를 관리하는 컨테이너
 > * Bean의 생성, 관리, 의존성 주입의 역할
-##### ApplicationContext
+##### ㄴ ApplicationContext
 > BeanFactory를 상속받아 확장 구현된 컨테이너
 > * BeanFactory 대신 사용
 > * Bean관리 뿐 아니라 다국어 처리, 리소스 로딩, 이벤트 발행/구현 등 추가 기능 제공
