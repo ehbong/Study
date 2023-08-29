@@ -6,10 +6,21 @@
 > maven
 * [maven 의존성 라이브러리 검색](https://central.sonatype.com/?smo=true)
 
+### Container
+> 객체(Bean)들을 포함하고 관리하는 스프링의 관리자 개념
+##### BeanFactory
+> 스프링의 기본 컨테이너  
+> * Bean 객체를 관리하는 컨테이너
+> * Bean의 생성, 관리, 의존성 주입의 역할
+##### ApplicationContext
+> BeanFactory를 상속받아 확장 구현된 컨테이너
+> * BeanFactory 대신 사용
+> * Bean관리 뿐 아니라 다국어 처리, 리소스 로딩, 이벤트 발행/구현 등 추가 기능 제공
+
 
 ### Bean
 > 스프링 IoC(Inversion of Control) 컨테이너에 의해서 관리되는 자바 객체   
-> 객체의 의존성, 라이프사이클을 관리   
+> 컨테이너를 통해 객체의 의존성, 라이프사이클을 관리   
 > 스코프 관리(singleton, protoType)
 
 > ***주요 어노테이션***   
