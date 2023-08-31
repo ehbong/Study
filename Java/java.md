@@ -37,6 +37,7 @@
 
 #### Garbage Collector: 가비지 컬렉터
 > 힙 영역에 사용하지 않는 데이터를 제거
+* [가비지 컬렉션 알고리즘 및 메모리 관리](https://www.programmersought.com/article/4905216600/)
 
 
 
