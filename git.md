@@ -4,6 +4,7 @@
 * [깃허브 강좌 상](https://www.youtube.com/watch?v=FXDjmsiv8fI&t=38s)
 * [깃허브 강좌 하](https://www.youtube.com/watch?v=GaKjTjwcKQo)
 * [브랜치 종류 설명](https://mylko72.gitbooks.io/git/content/branch/branch_type.html)
+* [깃 명령어 설명](https://youtube.com/playlist?list=PLpzDq-W37heTVW8lrWo8DVLi33BRVwICo&si=nZWDYXeqXuh0uX-P)
 
 ### 기본 명령어
 > 버전=커밋ID
@@ -32,10 +33,11 @@ $ git diff 버전1..버전2 : 버전1과 버전2 간의 차이점을 비교할 �
 $ git diff : git add하기 전(작업디렉터리)과 add한 후(index)의 파일 내용을 비교할 때
 
 $ git reset --soft 버전 : 저장소만 이전 버전으로 돌아감
+$ git reset --mixed 버전 : 저장소를 이전 버전으로 돌아가고 이후는 남음(따로 옵션을 지정하지 않음 디폴트)
 $ git reset --hard 버전 : 작업디렉터리까지 이전 버전으로 돌아감
 $ git reset --hard ORIG_HEAD : 실수로 리셋을 한경우 이전으로 돌아감
 
-$ git revert 버전 : 버전의 커밋을 취소한 내용을 새로운 버전으로 만드는 명령
+$ git revert 버전 : 버전의 커밋을 취소한 내용을 새로운 버전의 커밋으로 만드는 명령
 
 $ git branch : branch 목록보기, *있는게 현재 브랜치
 $ git branch 이름 : 이름으로 branch 생성
@@ -43,10 +45,14 @@ $ git branch 이름 : 이름으로 branch 생성
 $ git checkout 브랜치명 : 현재 브랜치에서 브랜치명으로 이동
 $ git checkout 버전 : 현재 브랜치에서 특정 버전으로 직접 이동
 
+$ git branch 브랜치명 : 현재 시점의 브랜치 생성
+$ git branch 브랜치명 커밋hash : 특정 시점으로 브랜치 생성
 $ git branch -d 브랜치명 : 브랜치명 삭제
 $ git branch -D 브랜치명 : 브랜치명 강제삭제
 $ git branch -b 브랜치명 : 브랜치만들고 바로 checkout
 $ git branch -m 브랜치명A 브랜치명B : 브랜치명을 A에서 B로 바꾼다
+
+$ git switch 브랜치명 : 선택된 브랜치를 특정 브랜치로 변경
 
 $ git log --branches(모든 브랜치를 보여준다) --decorate --graph(라인으로 표시) --oneline(커밋한줄로 표현)
 $ git log 브랜치1..브랜치2 : 브랜치1에는 없고 브랜치2에는 있는 것을 비교해서 보여준다
