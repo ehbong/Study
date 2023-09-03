@@ -165,5 +165,7 @@ class MyRunnable implements Runnable {
 // 스레드 생성 및 실행
 Thread thread = new Thread(new MyRunnable());
 thread.start();
-
+// 스레드 작업이 끝날 떄 까지 대기
+// 대기 하지 않으면 메인스레드가 먼저 종료 시, 스레드 작업 완료를 보장하지 않음
+thread.join();
 ```
