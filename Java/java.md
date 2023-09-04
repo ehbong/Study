@@ -50,13 +50,11 @@
 
 * [maven 기본 세팅](https://byul91oh.tistory.com/304)
 
-
-
 * [동시성이슈 해결](https://thalals.tistory.com/370)
 
 * [DI, IOC 간단 설명](https://velog.io/@gillog/Spring-DIDependency-Injection)
 
-> java가 call by value 인 이유
+#### JAVA 가 call by value 인 이유
 > * 원시 타입은 매개변수로 전달 시 스택영역에 메소드 단위 케이스에 복사해서 전달
 > * 참조 타입은 매개변수로 전달 시 참조 주소 값을 복사해서 들어가서, 주소 값 영역을 공유하지는 않음  
     따라서 참조 타입을 전달했을 때, 해당 객체를 직접 수정하면 기존 객체에도 영향이 가지만  
