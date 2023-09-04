@@ -140,7 +140,12 @@
 > * 재사용성과 유연성 증가: 다양한 타입을 수용할 수 있음 
 
 
-
+### Exception
+> CheckedException : 컴파일 처리 예외(IOException, SQLException...)  
+> * 예외가 발생할 수 있는 상황을 미리 예측하고, 이에 대한 처리를 강제
+> * Checked Exception을 던지거나 처리하지 않으면 컴파일 오류가 발생
+> UnCheckedException: 런타임 처리 예외(NullPointException, ArrayIndexOutOfBoundsException...)
+> * 예외 처리를 강제하지 않으며, 개발자의 실수나 프로그램 논리 오류로 인해 발생
 
 
 ### 리플렉션
