@@ -144,8 +144,10 @@
 > CheckedException : 컴파일 처리 예외(IOException, SQLException...)  
 > * 예외가 발생할 수 있는 상황을 미리 예측하고, 이에 대한 처리를 강제
 > * Checked Exception을 던지거나 처리하지 않으면 컴파일 오류가 발생
+> * Exception 클래스를 상속받은 클래스 중 RuntimeException 클래스를 상속받지 않은 모든 Exception 
 > UnCheckedException: 런타임 처리 예외(NullPointException, ArrayIndexOutOfBoundsException...)
 > * 예외 처리를 강제하지 않으며, 개발자의 실수나 프로그램 논리 오류로 인해 발생
+> * RuntimeException 클래스를 상속받은 모든 Exception
 
 
 ### 리플렉션
