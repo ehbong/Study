@@ -2,6 +2,14 @@
 
 * [스프링 부트 쉽게 환경 설정하기](https://start.spring.io/)
 
+> 스프링의 주요 개념
+> |대상|설명|
+> |----|----|
+> |DI(Dependency injection)|클래스 간 의존성을 주입해서 결합도를 낮춤|객체 참조|
+> |IOC(Inversion of Control|의존성 관리를 위해 객체를 빈으로 생성하고 관리하는 컨테이너|
+> |AOP(Aspect-Oriented Programming)|미들 웨어 처럼 공통로직을 분리해서 필요한 시점에 적용|
+> |PSA(Portable Service Abstraction)|서비스를 추상화 해서 비슷한 기능을 가진 라이브러리를 일관 된 방식으로 사용|
+
 ### 의존성 관리
 > maven
 * [maven 의존성 라이브러리 검색](https://central.sonatype.com/?smo=true)
