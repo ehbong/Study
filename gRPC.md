@@ -7,6 +7,16 @@
 * [뱅크샐러드 grpc 적용기](https://blog.banksalad.com/tech/production-ready-grpc-in-golang/)
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
+  
+|특징|설명|
+|----|----|
+|protocal Buffer 기반 직렬화|이진 직렬화를 제공해서 데이터 교환이 빠름|
+|Cross-Language|다양한 프로그래밍 언어 지원|
+|HTTP/2 기반|헤더압축, 다중화, 이진데이터 전송 등 지원|
+|양방향 스트리밍|양방향 스트림 전송|
+|보안|SSL/TLS 통신 암호화|
+
+
 
 > proto 파일 컴파일 명령어<br>
 > `grpc_tools.protoc` grpc_tools 패키지의 protoc 유틸리티를 사용하여 chat.proto 파일을 컴파일하는 명령어<br>
