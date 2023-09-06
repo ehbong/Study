@@ -3,7 +3,7 @@
 
 * [객체지양 디자인패턴 유튜브](https://www.youtube.com/watch?v=lJES5TQTTWE)
 * [싱글톤 패턴](https://woowacourse.github.io/javable/post/2020-11-07-singleton/)
-* [팩토리 패턴](https://jdm.kr/blog/180)
+* [팩토리 메소드 패턴](https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%ED%8C%A9%ED%86%A0%EB%A6%AC-%EB%A9%94%EC%84%9C%EB%93%9CFactory-Method-%ED%8C%A8%ED%84%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90)
 * [추상 팩토리 패턴](https://gmlwjd9405.github.io/2018/08/08/abstract-factory-pattern.html)
 * [전략 패턴](https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html)
 * [전략 패턴 유튜브 설명](https://youtu.be/63miHKtooo4)
