@@ -146,6 +146,17 @@ sudo systemctl daemon-reload
 
 
 ## nginx
+> Nginx 특징
+> * 웹서버: 정적 파일 서빙 및 WAS 연동 처리
+> * 역방향프록시: 서버 앞에 프록시 서버를 두어서 클라이언트 요청을 중계(정방향프록시는 클라이언트 앞에서 요청을 중계)
+>   * 로드밸런싱: 트래픽을 분배
+>   * 보안: 클라이언트가 서버의 IP를 직접적으로 알 수 없음, IP기반 인증 및 엑세스 제어 등 기능
+>   * SSL/TLS 종단점: WAS서버가 부담하는 SSL/TLS 암호화 트래픽을 처리해서 부담 감소
+>   * 캐싱: 정적파일 및 동적 파일 캐싱
+>   * 가상 호스팅: 같은 IP주소로 들어오는 여러개의 도메인에 대해 구분하여 중계
+> * HTTP/2 지원: 로딩 단축 및 성능향상
+> * 로그 및 모니터링: 웹서버 동작에 대해 로그 기능 
+
 * [flask and nginx](http://egloos.zum.com/mcchae/v/11149241)
 * [Nginx](https://opentutorials.org/module/384/3462)
 * [Nginx, Gunicorn(+ WSGI) 개념 이해 및 활용](https://www.opentutorials.org/module/4936/28881)
