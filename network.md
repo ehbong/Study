@@ -4,17 +4,11 @@
 * [HTTP request, response 구조](https://hahahoho5915.tistory.com/62)
 * [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/)
 * [Network 기초 유튜브강의](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
-* [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
-* [TCP 동작원리 / 흐름제어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ksg7514&logNo=220772997742)
 * [HTTP와 HTTPS 차이, SSL, TLS](https://beenii.tistory.com/83)
 * [OSI 7layer 정리](https://jungeun960.tistory.com/181)
 * [네트워크 기초 이론 유튜브](https://youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
 * [L1, L2, L3, L4, L5, L6, L7 스위치란?](https://siahn95.tistory.com/entry/Network%EC%9E%A5%EB%B9%84-L1-L2-L3-L4-L5-L6-L7-%EC%8A%A4%EC%9C%84%EC%B9%98%EB%9E%80)
 * [IP, Gateway, subnet에 대한 기본적인 이해](https://medium.com/pocs/tcp-ip-%EC%9D%B4%EB%A1%A0-ip-%EC%A3%BC%EC%86%8C-%EC%84%9C%EB%B8%8C%EB%84%B7-%EB%A7%88%EC%8A%A4%ED%81%AC-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B8%B0%EB%B3%B8-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4-ccd6d832711e)
-* [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
-* [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
-* [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)
-* [TCP 제어플래그 종류](https://cezacx2.tistory.com/1256)
 * [HTTP & HTTPS 패킷](https://velog.io/@fhwmqkfl/TILHTTP-HTTPS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Packet)
 * [URL, URI, URN 차이](https://www.elancer.co.kr/blog/view?seq=74)
 * [주 사용 port 번호 정리](https://ciscoking.tistory.com/12)
@@ -26,8 +20,14 @@
 * [network socket](https://libertegrace.tistory.com/entry/Network-Socket-Programming)
 * [CIDR에 대해](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-CIDR-%EC%9D%B4-%EB%AC%B4%EC%96%BC-%EB%A7%90%ED%95%98%EB%8A%94%EA%B1%B0%EC%95%BC-%E2%87%9B-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-%EA%B3%84%EC%82%B0%EB%B2%95#cidr_%EA%B3%84%EC%82%B0%EA%B8%B0)
 
-
-
+### TCP
+* [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
+* [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+* [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)
+* [TCP 제어플래그 종류](https://cezacx2.tistory.com/1256)
+* [TCP 송/수신 원리](https://youtu.be/K9L9YZhEjC0)
+* [TCP 동작원리 / 흐름제어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ksg7514&logNo=220772997742)
+  
 > 브라우저에서 www.google.com 을 검색했을 때 동작 순서
 
 1. 브라우저는 사용자가 입력한 문자열이 쿼리인지 URL인지 구분 후, URL인 "www.google.com"을 받아들입니다.
