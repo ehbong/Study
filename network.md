@@ -21,6 +21,11 @@
 * [CIDR에 대해](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-CIDR-%EC%9D%B4-%EB%AC%B4%EC%96%BC-%EB%A7%90%ED%95%98%EB%8A%94%EA%B1%B0%EC%95%BC-%E2%87%9B-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-%EA%B3%84%EC%82%B0%EB%B2%95#cidr_%EA%B3%84%EC%82%B0%EA%B8%B0)
 
 ### TCP
+> * 인터넷계층의 특징인 데이터의 오류 및 순서를 보장하지 않아 이를 보완한 것이 TCP
+> * 연결 지향이므로, 연결 및 유지 비용 발생(실제로 연결된 것이 아닌 연결된 것처럼 동작하는 것)
+>   * 연결 및 연결 해제를 위해 3way handshake, 4way handshake 를 수행
+>   * 데이터를 확인하기 위해 헤더에 패킷 일련번호, 확인 응답 등을 추가
+>   * 연결 유지를 하려면 Keep-Alive 설정을 통해 Keep-Alive 패킷을 주기적으로 전송
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
 * [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 * [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)
