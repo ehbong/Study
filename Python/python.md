@@ -251,7 +251,37 @@ def main_generator():
 * [클래스 json 변환](http://jsonpickle.github.io/)
 * [\_\_init\_\_.py 사용 이유](https://mmjourney.tistory.com/14)
 * [추상클래스](https://wikidocs.net/16075)
-* [클래스 변수와 인스턴스 변수의 차이](https://velog.io/@sawol/Python#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B3%80%EC%88%98%EC%99%80-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98)
+> 클래스 변수와 인스턴스 변수
+> * 인스턴스 생성 없이 값을 요청 가능
+> * 클래스 변수는 클래스의 인스턴스 끼리 값을 공유
+```python
+class ClassA:
+  class_v = 0  # 클래스 변수
+  def __init__(self, instance_v):
+	self.instance_v = instance_v # 인스턴스 변수
+        ClassA.class_v += 1 # 클래스 변수 값 증가
+print(ClassA.class_v) # 0 # 인스턴스 생성 없이 값 확인
+
+obj1 = ClassA(2)
+obj2 = ClassA(3)
+
+print(obj1.instance_v) # 2 인스턴스 변수는 독립적
+print(obj2.instance_v) # 3
+print(obj1.class_v) # 2 # 클래스 변수는 공유
+print(obj2.class_v) # 2
+```
+> 클래스 메서드와 인스턴스 메서드
+> * 클래스 메서드는 객체 생성 없이 실행가능
+> * @classmethod 데코레이터를 메서드 위에 붙여서 선언
+> * 첫번째 매개변수로 cls를 받고 cls를 통해 클래스 변수, 메서드에 접근
+> * 클래스 변수와 메서드는 클래스가 선언되거나 import 될 때 메모리에 로드
+```python
+class MyClass:
+    @classmethod
+    def my_class_method(cls, arg1, arg2):
+        # 클래스 메서드 내용
+
+```
 * [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 
 
