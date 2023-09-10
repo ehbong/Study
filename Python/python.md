@@ -149,24 +149,26 @@ class TestClass():
     def __init__(self) -> None:
 
         self.class_v += 1 # 인스턴스 변수 + 1
-
+        # 위 코드는 실제로는 아래와 같이 계산 됨
+        # self.class_v += 1 > self.class_v = self.class_v + 1
+        # python에서 대입하는 변수를 찾는 순서
+        # 1. 같은 이름의 인스턴스 변수를 찾음
+        # 2. 1에 없으면 같은 이름의 클래스 변수에 찾음(현재 상황)
+        # 3. 부모 클래스에서 같은 이름의 클래스 변수를 찾음
+        # 4. 찾을 수 없을 때 같은 이름의 변수를 임의 생성
         TestClass.class_v += 1 # 클래스 변수 + 1
 
-print(TestClass.class_v) # 0
-
-  
+print(TestClass.class_v) # 클래스 변수 값 0
 
 class_a = TestClass()
-
 class_b = TestClass()
-
   
+# 실제 동작은 인스턴스 변수 + 1 이 된게 아닌 클래스 변수 + 1이 된 상황
+# 따라 첫번째 호출 떄는 0 + 1, 두번째 호출 때는 1 + 1의 값을 출력
+print(f'class_a.class_v = {class_a.class_v}') # 인스턴스 변수 값 1
+print(f'class_b.class_v = {class_b.class_v}') # 인스턴스 변수 값 2?
 
-print(f'class_a.class_v = {class_a.class_v}') # 1
-
-print(f'class_b.class_v = {class_b.class_v}') # 2?
-
-print(TestClass.class_v) # 2
+print(TestClass.class_v) # 클래스 변수 값 2
 ```
 
 ### 함수와 람다 표현식
