@@ -140,6 +140,34 @@ strip()
 ### 변수와 스코프
 * [변수 스코프 지정자 global, nonlocal](https://www.daleseo.com/python-global-nonlocal/)
 * [ _, 언더스코어의 의미](https://doorbw.tistory.com/153)
+> 클래스 변수와 인스턴스 변수가 동일 이름일 때 발생할 수 있는 현상  
+```python
+class TestClass():
+
+    class_v = 0 # 클래스 변수
+
+    def __init__(self) -> None:
+
+        self.class_v += 1 # 인스턴스 변수 + 1
+
+        TestClass.class_v += 1 # 클래스 변수 + 1
+
+print(TestClass.class_v) # 0
+
+  
+
+class_a = TestClass()
+
+class_b = TestClass()
+
+  
+
+print(f'class_a.class_v = {class_a.class_v}') # 1
+
+print(f'class_b.class_v = {class_b.class_v}') # 2?
+
+print(TestClass.class_v) # 2
+```
 
 ### 함수와 람다 표현식
 * [filter 함수](https://wikidocs.net/22803)
