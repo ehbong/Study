@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "46dee04a55935468",
+        "id": "c7e72dbd71bea59b",
         "type": "tabs",
         "children": [
           {
-            "id": "0e92a447c43879be",
+            "id": "6d6c0f9d23806eb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "gRPC.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "gRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "gRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "gRPC.md"
+              }
             }
           }
         ]
@@ -138,8 +146,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "faba18a1373df630",
+  "active": "6d6c0f9d23806eb0",
   "lastOpenFiles": [
+    "kubernetes.md",
+    "mantis.md",
+    "network.md",
+    "OS.md",
+    "other.md",
+    "Refactoring.md",
+    "server.md",
+    "vscode.md",
+    "gRPC.md",
+    "db.md",
+    "algorithm.md",
+    "AI.md",
     "무제 폴더"
   ]
 }
