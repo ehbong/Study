@@ -112,3 +112,9 @@ pip install <라이브러리> -t .
 > 	3. python을 감싸는 폴더를 임의의 이름으로 생성해서 넣고 해당 폴더 압축
 > 	4. lambda 의 layer(계층) 메뉴에서 생성 후 파일 업로드
 > 	5. lambda 함수에 layer 연결
+
+
+####CORS 설정
+* API Gateway 의 리소스 메뉴에서 설정
+* Lambda 함수의 리턴 헤더에 설정 추가 : Access-Control-Allow-Origin
+
