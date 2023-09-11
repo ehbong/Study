@@ -114,7 +114,7 @@ pip install <라이브러리> -t .
 > 	5. lambda 함수에 layer 연결
 
 
-####CORS 설정
+##### CORS 설정
 * API Gateway 의 리소스 메뉴에서 설정
 * Lambda 함수의 리턴 헤더에 설정 추가 : Access-Control-Allow-Origin
 
