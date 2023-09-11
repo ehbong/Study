@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/python.md",
+                "file": "aws/AWS_Lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python.md",
+                "file": "aws/AWS_Lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python.md",
+                "file": "aws/AWS_Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/python.md"
+                "file": "aws/AWS_Lambda.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "6d6c0f9d23806eb0",
   "lastOpenFiles": [
+    "aws/AWS_Lambda.md",
+    "Python/python.md",
     "gRPC.md",
     "kubernetes.md",
     "mantis.md",
