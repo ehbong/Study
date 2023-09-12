@@ -118,3 +118,4 @@ pip install <라이브러리> -t .
 * API Gateway 의 리소스 메뉴에서 설정
 * Lambda 함수의 리턴 헤더에 설정 추가 : Access-Control-Allow-Origin
 
+

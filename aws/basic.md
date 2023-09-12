@@ -110,3 +110,8 @@
 3. 메인 도메인에 레코드 생성, 레코드 이름은 서브도메인명, 레코드 유형 NS, 값은 2번에서 복사한 NS값을 넣음
 4. 서브도메인 호스팅 영역에 레코드 생성해서 대상 연결 및 SSL 설정
 5. 서브도메인에서는 일부 레코드는 추가 되지 않음 
+
+
+
+* [DynamoDB 사용을 위한 boto3 공식문서](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/dynamodb.html)
+
