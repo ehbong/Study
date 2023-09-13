@@ -7,5 +7,40 @@
 
 * [기초문법](https://gyurious.tistory.com/42)
 
+#### 자료형
+> 숫자 타입
+> * uint, uint8, uint16, uint32, uint64
+> 	* 부호가 없는 int 
+> 	* 뒤에 숫자는 크기(bit)
+> 	* uint는 실행환경에 맞춰 크기 변화(32bit 면 uint32, 64bit면 uint64)
+> 	* 기본 값 0
+> * int, int8, int16, int32, int64
+> 	* integer
+> 	* 뒤에 숫자는 크기(bit)
+> 	* int는 실행환경에 맞춰 크기 변화
+> 	* 기본 값 0
+> *  float32, float64
+> 	* 실수자료형
+> 	* 뒤에 숫자는 크기(bit)
+> 	* 기본 값 0.0
+> * byte
+> 	* uint8 의 별칭 타입
+> * rune
+> 	* 한글자를 나타내는 자료형
+> 	* 한글자가 3byte이상이 필요함
+> 	* int32 의 별칭 타입
+> 기타
+> * bool
+> 	* true or false
+> 	* 8bit(1byte) 크기
+> 	* 기본 값 false
+> * string
+> 	* 유니코드를 지원하는 바이트의 배열
+> 	* 불변형으로 생성된 문자열은 수정될 수 없고, 수정하려면 새로 생성됨
+> 	* 문자열 리터럴이 같을 경우 복사 생성하지 않고 공유
+> 	* 기본 값 ""
+
+
+
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
