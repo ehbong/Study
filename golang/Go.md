@@ -53,8 +53,11 @@
 ```go
     // const 로 선언
     // const 상수명 자료형 = 대입 값
-	const PI int = 3.14
-	
+	const FloatPI float64 = 3.14
+
+	// 타입을 지정하지 않을 경우 사용할 때 결정 됨
+	const PI = 3.14
+    var a int = PI * 100
 	// 괄호로 일괄 선언 가능
 	// iota 는 괄호 안 몇번째 선언된 상수인지 반환 초기값 0
 	// 선언 생략하면 앞에 값 기준으로 선언 
