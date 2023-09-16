@@ -137,7 +137,7 @@ for ; x < 10; x++ {
 for x < 10{
 	x++
 }
-
+var intA [5] int6
 ```
 > * label 이 존재
 ```go
