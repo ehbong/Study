@@ -26,7 +26,7 @@
 > 	* 실수자료형
 > 	* 뒤에 숫자는 크기(bit)
 > 	* 기본 값 0.0
-> 	* 지수부(10의 몇승인지 표현), 소수부(정수로 표현된 수치)로 표현됨 
+> 	* 지수부(10의 몇승인지 표현), 가수부(분수)로 표현됨 
 > 	* 소수부 크기로 인해 32는 7자리, 64는 15자리 까지만 표현 가능
 > * byte
 > 	* uint8 의 별칭 타입
@@ -57,7 +57,8 @@
 
 	// 타입을 지정하지 않을 경우 사용할 때 결정 됨
 	const PI = 3.14
-    var a int = PI * 100
+    var a int = PI * 100 // 결과 값이 소숫점이 생기면 오류 발생
+    var b int = FloatPI * 100 // 컴파일 에러 발생
 	// 괄호로 일괄 선언 가능
 	// iota 는 괄호 안 몇번째 선언된 상수인지 반환 초기값 0
 	// 선언 생략하면 앞에 값 기준으로 선언 
@@ -68,6 +69,90 @@
 	    Yellow
     )
 ```
+
+
+#### 조건문
+> if
+> * 조건 실행 전 초기화 가능
+```go
+// if 초기화 ; 조건 {}
+// 초기화 변수의 스코프가 제한
+// if에서 초기화 한 변수는 else 에서도 사용
+if a := 1; a >= 1{
+	fmt.Print(a)
+}
+```
+> switch case
+> * 값을 기준으로 조건을 나눌 때
+> * break를 생략해도 기본값으로 동작
+> * 뒤로도 진행하고 싶으면 fallthrough 추가
+```go
+a := 5
+switch a {
+	case 1:
+		fmt.Println("1 입니다.")
+	case 2:
+		fmt.Println("2 입니다.")
+	case 3:
+		fmt.Println("3 입니다.")
+		fallthrough // 다음 case도 진행
+	default:
+	    fmt.Println("없는 수 입니다.")
+} 
+```
+> * True를 사용해서 case 에 조건을 줄 수 있음(if 문 사용 권장)
+```go
+a := 5
+switch true {
+	case a > 5:
+		fmt.Println("5초과 입니다.")
+	case a > 3:
+		fmt.Println("3초과 입니다.")
+	case a > 1:
+		fmt.Println("1초과 입니다.")
+	default:
+	    fmt.Println("1이하 입니다.")
+} 
+```
+>*\ if 문 처럼 초기화 블록 사용 가능
+
+#### 반복문
+> for
+> * while 문이 없이 for 문만 존재
+```go
+// 조건 반복문
+tf := true
+for tf {
+}
+// 무한 방복문 
+for {
+}
+// 기본 반복문
+for i:=0; i < 10; i ++ {
+}
+// 인덱스 외부 변수 반복문
+x := 0
+for ; x < 10; x++ {
+}
+for x < 10{
+	x++
+}
+```
+> * label 이 존재
+```go
+// label 을 사용해서 break 시 특정 반복문까지 중지 시킬 수 있다.
+//  
+i : = 0
+LabelName:
+for i < 10{
+	for j:=0; j < 10; j++{
+		if 특정조건{
+			break LabelName
+		}
+	} 
+}
+```
+
 
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
