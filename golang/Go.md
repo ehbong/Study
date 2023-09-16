@@ -137,7 +137,7 @@ for ; x < 10; x++ {
 for x < 10{
 	x++
 }
-var intA [5] int6
+var intA [5] int64 = [5]int64{3, 2, 1, }
 ```
 > * label 이 존재
 ```go
