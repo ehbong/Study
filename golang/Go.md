@@ -138,6 +138,7 @@ for x < 10{
 	x++
 }
 // range 사용
+// i는 
 var intA [5] int64 = [5]int64{3, 2, 1, 4, 5}
 for i, v := range intA {
 	fmt.Println(i, v)
