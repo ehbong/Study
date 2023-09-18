@@ -265,7 +265,8 @@ stringHeader1 := *(*[2]uintptr)(unsafe.Pointer(&s1))
 len([]rune(str))
 
 // utf8.RuneCountInString 함수 사용
-
+import "unicode/utf8"
+j
 ```
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
