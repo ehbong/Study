@@ -221,6 +221,44 @@ type Student struct {
 > * 클래스가 없이 객체 지향을 구현을 위해 사용
 
 
+#### 문자열
+> 선언
+```go
+    // 한줄 표시, 개행문자 등 특수문자 삽입 가능
+	str1 := "동해 물과\n 백두산이"
+	// 개행 등을 반영한 결과 값 저장
+	str2 := `동해 물과
+	         백두산이`
+```
+> 특징
+> * 불변형
+```go
+var str string = "Hello World"
+str = "How are you?" // 전체 바꾸기 가능(실제로는 기존 데이터와 별개로 복사해서 저장)
+str[2] = 'a' // 일부 변경은 불가능 오류 발생
+
+// 자바와 동일하게 string을 + 연산으로 결합할 경우 계속 새로운 메모리에 저장
+// 이에 해당 작업 실행 시 string 을 그대로 사용하면 메모리 낭비 및 gc 작업 증가
+// strings.Builder 사용, 내부적으로 slice 로 동작(동적 배열)
+var builder strings.Builder
+
+builder.WriteRune('A') // 한글자 추가 Rune 자료형
+builder.WriteString("BCDEFG") // 문자열 추가
+
+builder.String() // string 으로 변환
+```
+> * 참조형(포인터가 가르키는 8바이트 헤더)
+> 	* 문자열 데이터의 실제 주소 data
+> 	* 바이트 길이 len
+```go
+// data 와 len 확인 방법
+var s1 string = "hello"
+// 현재 권장 되지 않는 방법
+// stringHeader1 := *(*relect.StringHeader)(unsafe.Pointer(&s1))
+// 대체 방법
+stringHeader1 := *(*[2]uintptr)(unsafe.Pointer(&s1))
+```
+> * len(str)  을 통해 길이 확인 시 바이트 크기 반환
 
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
