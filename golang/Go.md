@@ -261,8 +261,10 @@ stringHeader1 := *(*[2]uintptr)(unsafe.Pointer(&s1))
 > * len(str)  을 통해 길이 확인 시 바이트 크기 반환
 ```go
 // 문자열의 문자 길이 확인 하는 방법 1
-// rune 자료형의 배열로 만들어서 배열의 길이를 
+// rune 자료형의 배열로 만들어서 배열의 길이를 확인하는 방법
 len([]rune(str))
+
+// utf8.RuneCountInString
 ```
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
