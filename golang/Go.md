@@ -260,7 +260,8 @@ stringHeader1 := *(*[2]uintptr)(unsafe.Pointer(&s1))
 ```
 > * len(str)  을 통해 길이 확인 시 바이트 크기 반환
 ```go
-// 
+// 문자열의 문자 길이 확인 하는 방법
+len([]rune(str))
 ```
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
