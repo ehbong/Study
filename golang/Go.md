@@ -266,7 +266,7 @@ len([]rune(str))
 
 // utf8.RuneCountInString 함수 사용
 import "unicode/utf8"
-j
+utf8.RuneCountInString(str)
 ```
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
