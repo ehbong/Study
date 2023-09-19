@@ -37,7 +37,20 @@ a.b++;
 
 > const vs Object.freeze
 ```javascript
-const 
+const obj = {name: "kim"}
+// 오류 발생 const는 새로운 값의 대입을 저지
+obj = {name: "messi"}
+// 하지만 오브젝트의 내부 값 변경은 허용
+obj.name = "messi"
+
+var obj2 = {name: "kim", arr: [1, 2, 3]}
+Object.freeze(obj2)
+// 오류는 발생하지 않지만 변경되지 않음
+obj2.name = "messi"
+// 하지만 내부 값이 참조형 데이터의 경우 변경 가능
+obj2.arr.push(4)
+// 다른 값을 대입 가능, 다른 값 대입 시 freeze는 풀림
+obj2 = {name: "kim"}
 ```
 
 * [ES2015 proxy](https://www.zerocho.com/category/EcmaScript/post/57ca5f053316f61500c4f902)
