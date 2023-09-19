@@ -35,6 +35,10 @@ someObj.valA++;
 a.b++;
 ```
 
+> const vs Object.freeze
+```javascript
+const 
+```
 
 * [ES2015 proxy](https://www.zerocho.com/category/EcmaScript/post/57ca5f053316f61500c4f902)
 ##### web component
