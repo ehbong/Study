@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/java.md",
+                "file": "kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f747138f696d6c13",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/java.md",
+                "file": "kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/java.md",
+                "file": "kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/java.md"
+                "file": "kubernetes.md"
               }
             }
           }
@@ -148,6 +149,9 @@
   },
   "active": "b5a0de13bf65905d",
   "lastOpenFiles": [
+    "Docker.md",
+    "kubernetes.md",
+    "Java/java.md",
     "golang/Go.md",
     "other.md",
     "OS.md",
@@ -161,7 +165,6 @@
     "aws/s3.md",
     "Python/python.md",
     "gRPC.md",
-    "kubernetes.md",
     "mantis.md",
     "network.md",
     "Refactoring.md",
