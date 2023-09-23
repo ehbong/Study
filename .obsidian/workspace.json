@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/Go.md",
+                "file": "Java/java.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "f8b7c581e64e9466",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f747138f696d6c13",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/Go.md",
+                "file": "Java/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/Go.md",
+                "file": "Java/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/Go.md"
+                "file": "Java/java.md"
               }
             }
           },
@@ -168,12 +156,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f8b7c581e64e9466",
+  "active": "b5a0de13bf65905d",
   "lastOpenFiles": [
-    "kubernetes.md",
-    "Docker.md",
+    "Java/spring.md",
     "Java/java.md",
     "golang/Go.md",
+    "kubernetes.md",
+    "Docker.md",
     "other.md",
     "OS.md",
     "JS/Javascript.md",
