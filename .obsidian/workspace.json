@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8b7c581e64e9466",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,6 +140,16 @@
                 "file": "golang/Go.md"
               }
             }
+          },
+          {
+            "id": "64048cbcceb1d281",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -147,7 +168,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b5a0de13bf65905d",
+  "active": "f8b7c581e64e9466",
   "lastOpenFiles": [
     "kubernetes.md",
     "Docker.md",
