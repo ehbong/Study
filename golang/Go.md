@@ -285,5 +285,34 @@ len([]rune(str))
 import "unicode/utf8"
 utf8.RuneCountInString(str)
 ```
+
+
+#### 모듈 및 패키지
+> 패키지 : 같은 폴더 안에 있는 파일 집합
+> 필드, 메서드, 구조체 등 선언 시 이름에 따른 허용 범위
+```go
+// 시작이 대문자로 생성될 경우 외부 패키지에서 사용 가능
+// 구조체 내부에서도 소문자면 외부 패키지 사용 안됨
+type Student struct {
+	Name string
+	Age int
+	score int
+}
+
+// 대문자는 외부 패키지 접근 허용
+var Ratio int
+// 소문자는 같은 패키지 내에서 사용(같은 파일이 아닌 패키지 단위)
+var testType int
+
+// 메서드도 위와 동일
+func aMethod(){}
+func Amethod(){}
+```
+> init 메서드가 있으면 패키지가 import 될 때 한번만 실행
+```go
+func init(){
+	// 특정 필드 초기화 등 실행
+}
+```
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
