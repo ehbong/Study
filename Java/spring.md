@@ -46,6 +46,10 @@
 > * @Primary: 동일한 클래스를 상속받은 여러개 클래스 중에 기본이 되는 클래스를 지정할 때 사용
 
 
+#### 빌드 자동화, 의존성 관리 도구
+* io.spring.dependency-management : ㅎㄱ
+
+
 #### JPA
 * [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
 
