@@ -172,6 +172,7 @@
 > 동적으로 클래스 멤버를 사용, 변경이 필요할 때 사용  
 > 런타임 시점에 클래스 분석이 필요해서 성능 이슈가 발생할 수 있음
 * [리플렉션 코드 설명](https://hudi.blog/java-reflection/)
+* [리플렉션, 스프링 DI 동작에 대해](https://velog.io/@suyeon-jin/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98-%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98-DI%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EA%B1%B8%EA%B9%8C)
 
 ### 멀티스레드
 * [멀티스레드 예제](https://withhamit.tistory.com/522)
