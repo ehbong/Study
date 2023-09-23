@@ -172,6 +172,8 @@
 > 동적으로 클래스 멤버를 사용, 변경이 필요할 때 사용  
 > 런타임 시점에 클래스 분석이 필요해서 성능 이슈가 발생할 수 있음
 ```java
+// 리플렉션은 컴파일 시점에 결정되지 않은 동적 대상에 대해,
+// 런타임 시점에 지정해서 실행하도록 기능 제공
 public class Book{
 	public void read(){
 		System.out.println("read Book")
@@ -179,11 +181,20 @@ public class Book{
 }
 public class Main{
 	public static void main(String[] arg) throws ClassNotFoundException, ...{
-		Class myBookClass = Class.forName("MyBook");  
-  
-Object obj = myBookClass.newInstance();  
-Method m = myBookClass.getDeclaredMethod("write", null);  
-m.invoke(obj, null);
+		// 일반적인 클래스 인스턴스 생성 방법
+		// 어떤 클래스 인스턴스를 생성할지 코드 작성 단계에 알고 있음
+		Book objBook = new Book();
+		// 리플렉션을 이용한 클래스 및 인스턴스 생성 방법
+		// Book이란 클래스 name은 동적으로 변경 할 수 있음
+		Class bookClass = Class.forName("Book");  
+		// 이 단계에서 컴파일 단계에서는 obj는 Object로 인식해서
+		// Book 클래스의 인스턴스 임에도 obj.read() 로 메소드를 실행하도록 코드를 작성할 수 없음
+		// 하지만 런타임 시점에 JVM에서 obj가 Book 클래스의 인스턴스임을 확인
+		Object obj = bookClass.newInstance();
+		// m Book 클래스의 read 메소드 참조를 넣음
+		Method m = bookClass.getDeclaredMethod("read", null);  
+		// obj가 Book 클래스의 인스턴스임을 알고 있는 JVM 이 read 메소드를 실행
+		m.invoke(obj, null);
 	}
 }
 
