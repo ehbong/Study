@@ -318,7 +318,7 @@ func init(){
 #### 각종 기본 API
 ###### math
 > rand
-> * 난수 시퀀스를 가지고 있어서 매번 같은 순서로 난수를 생성
+> * <span style="color:red">난수 시퀀스</span>를 가지고 있어서 매번 같은 순서로 난수를 생성
 > * Seed 를 사용해서 이를 보완
 ```go
 // 아래와 같이 사용했었으나 버전이 올라가면서 권장 방법이 변경
@@ -328,7 +328,9 @@ randNum := rand.Intn(100)
 source := rand.NewSource(time.Now().UnixNano()) 
 newSeed := rand.New(source)
 randNum = newSeed.Intn(100)
-
+// 변경 된 이유
+// 1. rand.NewSource 를 통해 난수 시퀀스를 먼저 획득, 이로 예측 불가능한 것에 대해 테스트가 가능
+// 2. 스레드로부터 안전하게 동작
 ```
 > * rand.Intn(n) : 0~n-1 사이의 값 생성
 
