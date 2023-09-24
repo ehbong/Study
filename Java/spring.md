@@ -46,8 +46,8 @@
 > * @Primary: 동일한 클래스를 상속받은 여러개 클래스 중에 기본이 되는 클래스를 지정할 때 사용
 
 
-#### 빌드 자동화, 의존성 관리 도구
-* io.spring.dependency-management : ㅎㄱ
+#### 빌드 자동화, 의존성 관리 도구(Maven, Gradle)
+* io.spring.dependency-management : Gradle 플러그인, Gradle에서 BOM(Bill of Materials)을 사용해 버전을 명시하지 않아도 최적화된 버전을 제공
 
 
 #### JPA
