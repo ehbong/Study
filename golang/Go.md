@@ -314,5 +314,23 @@ func init(){
 	// 특정 필드 초기화 등 실행
 }
 ```
+
+#### 각종 기본 API
+###### math
+> rand
+> * 난수 시퀀스를 가지고 있어서 매번 같은 순서로 난수를 생성
+> * Seed 를 사용해서 이를 보완
+```go
+// 아래와 같이 사용했었으나 버전이 올라가면서 권장 방법이 변경
+seed := rand.Seed(seed int64)
+// 바뀐 방법
+source := rand.NewSource(time.Now().UnixNano()) 
+newSeed := rand.New(source)
+
+```
+> * rand.Intn(n) : 0~n-1 사이의 값 생성
+
+
+
 ### orm
 * [gorm 공식 페이지](https://gorm.io/docs/)
