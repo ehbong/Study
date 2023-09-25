@@ -11,7 +11,44 @@
 >      * 하나의 메서드가 다양한 클래스 인스턴스를 반환 가능
 >      * 이 기능을 통해 매개변수에 맞는 적절한 클래스 인스턴스를 반환 가능
 > 5. 정적 팩토리 메서드 작성 시점에 반환 클래스가 없어도 이후에 추가 가능
-> 	 * 인터페이스를 통해 규격화(service interface)하고, 인터페이스 구현 클래스(provider service)로 다양한 서비스를 추가
+> 	 * 인터페이스를 통해 규격화(service interface)하고, 인터페이스 구현 클래스(provider service)로 다양한 서비스를 추가에 대응
+```java
+// 인터페이스 정의
+public interface Plugin {
+    void performAction();
+}
+
+// 인터페이스 구현 클래스 정의(다양한 구현 클래스 추가 가능)
+public class SamplePlugin implements Plugin {
+    @Override
+    public void performAction() {
+        System.out.println("SamplePlugin is performing an action.");
+    }
+}
+
+
+import java.util.ServiceLoader;
+
+public class PluginFactory {
+    public static Plugin createPlugin() {
+		// 팩토리 메서드에서 구현 클래스가 뭔지 몰라도 ServiceLoader를 통해
+		// 인터페이스의 구현 클래스를 모두 불러와서 조건에 맞게 선택 가능
+        ServiceLoader<Plugin> serviceLoader = ServiceLoader.load(Plugin.class);
+        for (Plugin plugin : serviceLoader) {
+            return plugin; // Return the first implementation found
+        }
+        
+        throw new IllegalStateException("No implementations of Plugin found.");
+    }
+    
+    public static void main(String[] args) {
+	    // 사용측에서는 동일한 방식으로, 상황에 맞는 구현 클래스를 사용가능
+        Plugin plugin = PluginFactory.createPlugin();
+        plugin.performAction();
+    }
+}
+
+```
 > 단점
 > * 개발자가 팩토리 메서드 명칭이 무엇인지 직관적으로 알기 어려움
 > 	* 메서드 명을 약속을 통해 규격화 필요
