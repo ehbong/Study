@@ -17,4 +17,48 @@
 > 	* 메서드 명을 약속을 통해 규격화 필요
 #### i.2 생성자에 매개변수가 많으면 빌더 고려
 > * 매개변수 중 필수요소 구분 및 매개변수의 요소가 많아서 생성자 오버로딩으로 구현이 힘들때
->    빌더 클래스(내부클래스)를 만들어서  
+>    빌더 클래스(내부클래스)를 만들어서 이를 대응
+```java
+public class Student {
+	private final int age;
+	private final String name;
+	private final String hobby;
+	private final String specialty;
+	private final int grade;
+	//...
+	public static class Builder{
+		// 필수 값
+		private final int age;
+		private final String name;
+		private final int grade;
+		// 선택 값 (기본 값으로 초기화)
+		private final String hobby = "";
+		private final String specialty = "";
+		// 생성자에서 필수 값 수집
+		public Builder(int age, String name, int grade){
+			this.age = age;
+			this.name = name;
+			this.grade = grade;
+		}
+		public Builder hobby(String value){
+			this.hobby = value;
+		}
+		public Builder specialty(String value){
+			this.specalty = value;
+		}
+		public Student build(){
+			return new Student(this);
+		}
+	}
+	private Student(Builder b){
+		age = b.age;
+		name = b.name;
+		grade = b.grade;
+		hobby = b.hobby;
+		specialty = b.specialty;
+	}
+}
+
+// 사용 방법
+Student student = Student.Builder()
+``` 
