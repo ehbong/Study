@@ -40,16 +40,22 @@ public class Student {
 			this.name = name;
 			this.grade = grade;
 		}
+		// 각 매개변수를 setter 로 구현
+		// 자기자신을 리턴해서 a().b().c() 처럼 메서드 연쇄 구현
 		public Builder hobby(String value){
 			this.hobby = value;
+			return this;
 		}
 		public Builder specialty(String value){
 			this.specalty = value;
+			return this;
 		}
+		// 빌드 메서드로 Builder 클래스를 매개변수로 생성자 호출
 		public Student build(){
 			return new Student(this);
 		}
 	}
+	// 생성자를 private로 구현해서 외부에서 호출 막음
 	private Student(Builder b){
 		age = b.age;
 		name = b.name;
@@ -60,5 +66,5 @@ public class Student {
 }
 
 // 사용 방법
-Student student = Student.Builder()
+Student student = Student.Builder(15, "tom", 3).hobby("music").build();
 ``` 
