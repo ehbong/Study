@@ -139,5 +139,10 @@ Stirng b = "string";
 #### i.9 자원 사용을 해제 할 때 try-with-resource 사용
 > try catch finally 의 경우 finally에서 오류가 나면 문제 발생
 ```java
-try ()
+// try 문구 뒤에 소괄호를 통해 자원 사용 객체를 선언
+// 
+try (InputStream ins = new FileInputStream(src);
+	OutputString ots = new FileOutputStream(dsrc)) {
+	....
+	}
 ```
