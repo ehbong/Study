@@ -151,5 +151,9 @@ try (InputStream ins = new FileInputStream(src);
 > 클래스의 인스턴스는 재정의 하지않으면 자기 자신과만 같음.
 > 이 때 equals 를 재정의해서 값이 같을 때 같게 인식하도록 동작 가능
 > 잘못 수정하면 equals 메서드를 사용하는 다른 동작에도 영향을 끼침
-> 규약
->  
+> 규약(모든 규약은 null이 아님을 전제함, null 과의 비교는 false)
+> 	* x.equals(x) true
+> 	* x.equals(y) == y.equals(x) true
+> 	* x == y, x == z, 두개가 true 면 z == y true
+> 	* 반복해서 실행해도 늘 true 또는 false
+> 	* 
