@@ -144,7 +144,7 @@ strip()
 ```python
 class TestClass():
 
-    class_v = 0 # 클래스 변수
+    class_v = 0 # 클래스 변수 (자바의 static 변수와 비슷한 역할)
 
     def __init__(self) -> None:
 
