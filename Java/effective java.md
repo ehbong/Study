@@ -105,3 +105,16 @@ public class Student {
 // 사용 방법
 Student student = Student.Builder(15, "tom", 3).hobby("music").build();
 ``` 
+
+#### i.3
+#### i.4 인스턴스화를 막는 방법
+> 정적 메서드와 필드만 사용할 경우
+> private 생성자를 선언해 인스턴스화를 막음
+> 클래스 막고 싶다면 생성자 안에서 예외 던짐
+```java
+public class Student {
+	private Student(){
+		throw new AssertionError();
+	}
+}
+```
