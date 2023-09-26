@@ -140,7 +140,7 @@ Stirng b = "string";
 > try catch finally 의 경우 finally에서 오류가 나면 문제 발생
 ```java
 // try 문구 뒤에 소괄호를 통해 자원 사용 객체를 선언
-// 
+// 아래 괄호안에 들어갈 클래스의 AutoCloseable 인터페이스를 구현 close 메서드 @Override필요
 try (InputStream ins = new FileInputStream(src);
 	OutputString ots = new FileOutputStream(dsrc)) {
 	....
