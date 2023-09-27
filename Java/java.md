@@ -235,3 +235,28 @@ thread.start();
 // 대기 하지 않으면 메인스레드가 먼저 종료 시, 스레드 작업 완료를 보장하지 않음
 thread.join();
 ```
+
+
+###### Supplier
+> 자바스크립트의 함수를 인자로 전달하는 것처럼 메소드 자체를 전달하기 위해 자바8 부터 도입된 기능
+> java.util.function.Supplier
+```java
+import java.util.function.Supplier;
+
+public class Main {
+    public static void main(String[] args) {
+        // 제네릭에는 메소드가 리턴하는 자료형
+        // 클래스명::메소드명 문법은 클래스 안에 메소드를 참조하겠다는 문법
+        Supplier<Integer> supplier = Main::calculateValue;
+
+        // 메소드를 아래와 같은 방식으로 .get() 하는 순간 실행
+        int result = supplier.get();
+        System.out.println("Result: " + result);
+    }
+
+    private static int calculateValue() {
+        return 42;
+    }
+}
+
+```
