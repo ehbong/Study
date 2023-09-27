@@ -107,7 +107,21 @@ Student student = Student.Builder(15, "tom", 3).hobby("music").build();
 ``` 
 
 #### i.3 싱글톤을 만드는 방법
-
+```java
+// public static final 필드로 클래스 초기화 시 호출 후, 재 생성을 막음
+public class Singleton1 {  
+    public static final Singleton1 instance = new Singleton1();  
+    private Singleton1(){}  
+}
+// 
+public class Singleton2 {   
+    private static Singleton2 INSTANCE = new Singleton2();  
+    private Singleton2(){}
+    public static Singleton2 getInstance(){  
+        return INSTANCE;  
+    }  
+}
+```
 #### i.4 인스턴스화를 막는 방법
 > 정적 메서드와 필드만 사용할 경우
 > private 생성자를 선언해 인스턴스화를 막음
@@ -115,6 +129,7 @@ Student student = Student.Builder(15, "tom", 3).hobby("music").build();
 ```java
 public class Student {
 	private Student(){
+		// 특정 조건을 사용
 		throw new AssertionError();
 	}
 }
