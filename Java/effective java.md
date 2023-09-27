@@ -106,7 +106,8 @@ public class Student {
 Student student = Student.Builder(15, "tom", 3).hobby("music").build();
 ``` 
 
-#### i.3
+#### i.3 싱글톤을 만드는 방법
+
 #### i.4 인스턴스화를 막는 방법
 > 정적 메서드와 필드만 사용할 경우
 > private 생성자를 선언해 인스턴스화를 막음
