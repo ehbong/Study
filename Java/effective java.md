@@ -113,7 +113,9 @@ public class Singleton1 {
     public static final Singleton1 instance = new Singleton1();  
     private Singleton1(){}  
 }
-// 
+// 정적팩토리 방식
+// private static 으로 필드 선언 후, 메서드를 통해 참조
+// 메서드 부분을 수정해서 추후 변경 사항에도 유연하게 대처
 public class Singleton2 {   
     private static Singleton2 INSTANCE = new Singleton2();  
     private Singleton2(){}
