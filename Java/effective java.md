@@ -153,10 +153,10 @@ Stirng b = "string";
 
 #### i.7 사용이 끝난 객체 참조를 해제해라
 > 배열이나, Map등을 사용할 때, 사용하지 않는 객체를 null처리 해주지 않으면 계속 메모리를 점유한다.
-#### i.8
+#### i.8  
 
 #### i.9 자원 사용을 해제 할 때 try-with-resource 사용
-> try catch finally 의 경우 finally에서 오류가 나면 문제 발생
+ > try catch finally 의 경우 finally에서 오류가 나면 문제 발생
 ```java
 // try 문구 뒤에 소괄호를 통해 자원 사용 객체를 선언
 // 아래 괄호안에 들어갈 클래스의 AutoCloseable 인터페이스를 구현 close 메서드 @Override필요
