@@ -184,4 +184,5 @@ try (InputStream ins = new FileInputStream(src);
 > 	* x == y, x == z, 두개가 true 면 z == y true
 > 	* 반복해서 실행해도 늘 true 또는 false
 
-#### i.11 equals 를 재정의 했다면 hashCode
+#### i.11 equals 를 재정의 했다면 hashCode 도 규약에 맞게 수정필요
+> 
