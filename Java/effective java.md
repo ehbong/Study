@@ -192,7 +192,6 @@ try (InputStream ins = new FileInputStream(src);
 > * equals 에서 사용하는 값이 변경되지 않으면 반복호출에도 일관된 값 유지(단 어플리케이션이 재 실행되면 값이 달라져도 상관 없음)
 > * equals에서 true라면 같은 값을 반환
 > * equals에서 다르다고 무조건 다른값을 반환할 필요는 없지만, 해시테이블의 성능이 저하(hashCode가 같은지 판단하고 eqauls로 다시 확인하기 때문에, and연산 특성상 hashCode가 같으면 2번 확인이 필요)
-> 재정의 방법
 ```java
 
 
