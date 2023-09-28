@@ -153,9 +153,15 @@ Stirng b = "string";
 
 #### i.7 사용이 끝난 객체 참조를 해제해라
 > 배열이나, Map등을 사용할 때, 사용하지 않는 객체를 null처리 해주지 않으면 계속 메모리를 점유한다.
-#### i.8 finallizer 와 cleaner 사용을 피해라
-> Object 클래스의 메서드였던 finallizer 는 자바 9부터 지원하지 않음
-> 
+#### i.8 finallize 와 cleaner 사용을 피해라
+> Object 클래스의 메서드였던 finallize 는 자바 9부터 지원하지 않음
+> 9 부터는  Cleaner 클래스가 사용 됨
+> 단점
+> * 수행 시점 및 수행 여부를 보장할 수 없다.
+> * 동작  중 발생한 예외가 무시 된다.(finallize 의 경우)
+> * 해당 동작이 gc 과정 중 일어나기 때문에 추가적인 작업으로 인해 성능 저하가 발생 가능
+> 그럼에도 사용 한다면
+> * 사용자가 자원을 사용하고 닫지 않을 것을 대비 용도 
 
 #### i.9 자원 사용을 해제 할 때 try-with-resource 사용
  > try catch finally 의 경우 finally에서 오류가 나면 문제 발생
@@ -177,4 +183,5 @@ try (InputStream ins = new FileInputStream(src);
 > 	* x.equals(y) == y.equals(x) true
 > 	* x == y, x == z, 두개가 true 면 z == y true
 > 	* 반복해서 실행해도 늘 true 또는 false
-> 	* 
+
+#### i.11 equals 를 재정의 했다면 hashCode
