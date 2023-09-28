@@ -153,7 +153,9 @@ Stirng b = "string";
 
 #### i.7 사용이 끝난 객체 참조를 해제해라
 > 배열이나, Map등을 사용할 때, 사용하지 않는 객체를 null처리 해주지 않으면 계속 메모리를 점유한다.
-#### i.8  
+#### i.8 finallizer 와 cleaner 사용을 피해라
+> Object 클래스의 메서드였던 finallizer 는 자바 9부터 지원하지 않음
+> 
 
 #### i.9 자원 사용을 해제 할 때 try-with-resource 사용
  > try catch finally 의 경우 finally에서 오류가 나면 문제 발생
