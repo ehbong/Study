@@ -188,11 +188,51 @@ try (InputStream ins = new FileInputStream(src);
 > hashCode 메서드는 HashMap, HashSet 같은 컬렉션의 원소로 사용될 때 사용되는 메서드
 > 해당 컬렉션에서는 hashCode와 equals를 통해 값을 구분
 > 따라서 hashCode가 제대로 동작하지 않으면 중복이 의도한 대로 검증되지 않음
+> 
 > 규약
 > * equals 에서 사용하는 값이 변경되지 않으면 반복호출에도 일관된 값 유지(단 어플리케이션이 재 실행되면 값이 달라져도 상관 없음)
 > * equals에서 true라면 같은 값을 반환
 > * equals에서 다르다고 무조건 다른값을 반환할 필요는 없지만, 해시테이블의 성능이 저하(hashCode가 같은지 판단하고 eqauls로 다시 확인하기 때문에, and연산 특성상 hashCode가 같으면 2번 확인이 필요)
+> 
+> 예제코드
+> 다음과 같이 작성하면, 다른 인스턴스라도 값이 같으면 같다고 판단
 ```java
-
+public class HashCodeEx {  
+	private String name;  
+	private int age;  
+	  
+	private float floatValue;  
+	  
+	public HashCodeEx(String name, int age, float floatValue) {  
+		this.name = name;  
+		this.age = age;  
+		this.floatValue = floatValue;  
+	}  
+	// equals 를 만들 때, 사용할 값들을 직접비교  
+	@Override  
+	public boolean equals(Object obj) {  
+		if(this == obj) {  
+			return true;  
+		}  
+		if(!(obj instanceof HashCodeEx)){  
+			return false;  
+		}  
+		HashCodeEx hce = (HashCodeEx) obj;  
+			if (hce.name.equals(this.name)  
+				&& hce.age == this.age  
+				&& hce.floatValue == this.floatValue) {  
+				return true;  
+			}  
+		return false;  
+	}  
+	// 기본형들은 컬렉션 클래스의 hashCode를 사용  
+	@Override  
+	public int hashCode() {  
+		int result = name.hashCode();  
+		result = 31 * result + Integer.hashCode(age);  
+		result = 31 * result + Float.hashCode(floatValue);  
+		return result;  
+	}  
+}
 
 ```
