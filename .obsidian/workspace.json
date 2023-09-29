@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "golang/Go.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "9a5656b3202fb7e2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "golang/Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "golang/Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/effective java.md"
+                "file": "golang/Go.md"
               }
             }
           },
@@ -167,19 +156,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9a5656b3202fb7e2",
+  "active": "dd1c730515d18ad3",
   "lastOpenFiles": [
-    "Java/java.md",
-    "Java/effective java.md",
-    "Python/python.md",
+    "golang/fiber.md",
     "golang/Go.md",
+    "Java/effective java.md",
+    "Java/java.md",
+    "Python/python.md",
     "Java/spring.md",
     "kubernetes.md",
     "Docker.md",
     "other.md",
     "OS.md",
     "JS/Javascript.md",
-    "golang/fiber.md",
     "aws/basic.md",
     "aws/rds.md",
     "aws/AWS_Lambda.md",
