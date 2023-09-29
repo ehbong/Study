@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a5656b3202fb7e2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +167,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dd1c730515d18ad3",
+  "active": "9a5656b3202fb7e2",
   "lastOpenFiles": [
     "Java/java.md",
     "Java/effective java.md",
