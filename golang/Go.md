@@ -396,6 +396,28 @@ studentPtr := &Student{17, 'james'}
 studentPtr.info()  // "james, 17"
 
 ```
+
+#### interface
+> 추상 메서드 그룹 타입
+> * 추상 메서드들을 가지고 있는 타입
+> 기본 문법
+```go
+// 인스턴스 선언
+type bird interface {
+	fly string()
+	walk string()
+	move(distance int)	
+}
+
+// 구현
+type duck struct {
+	state string
+}
+
+func (d *duck) fly(){
+	
+}
+```
 #### 각종 기본 API
 ###### math
 > rand
