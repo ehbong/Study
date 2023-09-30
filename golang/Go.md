@@ -404,29 +404,34 @@ studentPtr.info()  // "james, 17"
 ```go
 // 인스턴스 선언
 type bird interface {
-	fly()
-	walk()
-	move(distance int)	
+	Fly()
+	Walk()
+	Move(distance int)	
 }
 
 // 구현
-type duck struct {
+type Duck struct {
 	state string
 }
 
-func (d *duck) fly(){
+func (d *Duck) fly(){
 	d.state = "날았"
 }
 
-func (d *duck) walk(){
+func (d *Duck) walk(){
 	d.state = "걸었"
 }
-func (d *duck) move(distance int){
+func (d *Duck) move(distance int){
+	if d.state == "" {
+		d.Walk()
+	}
 	fmt.Printf("오리가 %dm만큼 %s습니다.\n", distance, d.state)
 }
 
 func main(){
-	var b bird = duck{"걸었"}
+	// 인터페이스에 구현체를 대입할 때는 포인터 타입으로 대입
+	// 
+	var b bird = &Duck{}
 	b.move(100)
 	b.fly()
 	b.move(200)
