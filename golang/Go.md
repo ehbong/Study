@@ -414,14 +414,14 @@ type Duck struct {
 	state string
 }
 
-func (d *Duck) fly(){
+func (d *Duck) Fly(){
 	d.state = "날았"
 }
 
-func (d *Duck) walk(){
+func (d *Duck) Walk(){
 	d.state = "걸었"
 }
-func (d *Duck) move(distance int){
+func (d *Duck) Move(distance int){
 	if d.state == "" {
 		d.Walk()
 	}
@@ -430,14 +430,17 @@ func (d *Duck) move(distance int){
 
 func main(){
 	// 인터페이스에 구현체를 대입할 때는 포인터 타입으로 대입
-	// 
+	// 포인터 타입으로 대입하지 않으면 구조체 자체가 복사됨
 	var b bird = &Duck{}
-	b.move(100)
-	b.fly()
-	b.move(200)
+	b.Move(100) 
+	b.Fly()
+	b.Move(200)
 }
 
 ```
+> 주의 사항
+> * 오버로딩을 지원하지 않음: 매개변수의 갯수 및 타입이 다르더라도 같은 이름의 메서드를 선언할 수 없음
+> * 이름이 반드시 필요: _ 와 같은 이름을 생략한 메서드는 선언할 수 없음
 #### 각종 기본 API
 ###### math
 > rand
