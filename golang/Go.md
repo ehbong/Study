@@ -415,8 +415,23 @@ type duck struct {
 }
 
 func (d *duck) fly(){
-	
+	d.state = "날았"
 }
+
+func (d *duck) walk(){
+	d.state = "걸었"
+}
+func (d *duck) move(distance int){
+	fmt.Printf("오리가 %dm만큼 %s습니다.\n", distance, d.state)
+}
+
+func main(){
+	var b bird = duck{"걸었"}
+	b.move(100)
+	b.fly()
+	b.move(200)
+}
+
 ```
 #### 각종 기본 API
 ###### math
