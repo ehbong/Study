@@ -404,8 +404,8 @@ studentPtr.info()  // "james, 17"
 ```go
 // 인스턴스 선언
 type bird interface {
-	fly string()
-	walk string()
+	fly()
+	walk()
 	move(distance int)	
 }
 
