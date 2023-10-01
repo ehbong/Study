@@ -236,3 +236,6 @@ public class HashCodeEx {
 }
 
 ```
+
+#### i.12 toString 을 재정의 해라
+> toString 을 재정의 하지 않으면 
