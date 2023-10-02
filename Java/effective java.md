@@ -270,7 +270,8 @@ x.clone().equals(x)
 
 #### i.15 클래스와 멤버의 접근 권한은 최소화해라
 > 접근 제한은 최대한 보수적으로, 최소한의 권한을 주고 필요에 따라 확장한다.
-> 널널한 접근 제한은 사용자 측에 자유를 부여하고 이는 의도치 않은 동작 발생 가능성을 높임
+> * 널널한 접근 제한은 사용자 측에 자유를 부여하고 이는 의도치 않은 동작 발생 가능성을 높임
+> * public 클래스의 필드는 되도록 public가 아니여야 한다. 
 ```java
 	// 접근 제한자를 넓게 사용 했을 때 발생할 수 있는 이슈
 	public class Account{
@@ -284,6 +285,8 @@ x.clone().equals(x)
 	Account ac = new Account();
 	ac.accountNo = "00000000000000";
 ```
-> [접근제한자](https://github.com/ehbong/Study/blob/main/Java/java.md#%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90)
-> 톱레벨 class 는 public 과 default(package-private) 둘만 가능
-> 
+> * [접근제한자](https://github.com/ehbong/Study/blob/main/Java/java.md#%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90)
+> * 톱레벨 class 는 public 과 default(package-private) 둘만 가능
+> * 상속 받은 하위 클래스는 접근 제어를 더 좁게는 할 수 없다.
+>  
+>    final로 선언되었다 하더라도 
