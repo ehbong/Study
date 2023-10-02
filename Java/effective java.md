@@ -239,13 +239,13 @@ public class HashCodeEx {
 
 #### i.12 toString 을 재정의 해라
 > Object의 기본 toString 메서드는 클래스의 정보를 제대로 알려주는 경우가 거의 없다.
-> - 클래스이름@16진수 해시코드 형식으로 반환한다.
-> toString 메서드는 클래스 내부에 의미있는 값들을 간결하고 읽기 쉬운 형태로 반환 해야한다.
-> 구체적인 포맷을 가진 경우나, 포맷이 없는 경우 모두 의도가 명확해야 한다.
+> * 클래스이름@16진수 해시코드 형식으로 반환한다.  
+> * toString 메서드는 클래스 내부에 의미있는 값들을 간결하고 읽기 쉬운 형태로 반환 해야한다.
+> * 구체적인 포맷을 가진 경우나, 포맷이 없는 경우 모두 의도가 명확해야 한다.
 
 #### i.13 clone 재정의는 주의 하라
-> Object의 clone 메서드를 재정의 하려면 CloneNotSupportedException 예외를 던져야 한다.
-> CloneNotSupportedException 예외를 던지지 않으려면 Cloneable 인터페이스를 구현해야 한다.
+> Object의 clone 메서드를 재정의 하려면 CloneNotSupportedException 예외를 던져야 한다.  
+> CloneNotSupportedException 예외를 던지지 않으려면 Cloneable 인터페이스를 구현해야 한다.  
 > 규칙
 ```java
 // clone으로 생성된 인스턴스는 새로 생성된 인스턴스여야 한다
