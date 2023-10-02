@@ -285,8 +285,10 @@ x.clone().equals(x)
 	Account ac = new Account();
 	ac.accountNo = "00000000000000";
 ```
+> * public 클래스는 public static final 필드 외에는 어떤 public 필드도 가져서는 안된다.
+> * final로 선언되었다 하더라도 가변 객체인 경우 참조 주소가 바뀌지 못할 뿐, 내부 값은 바뀔 수 있다.
 > * [접근제한자](https://github.com/ehbong/Study/blob/main/Java/java.md#%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90)
 > * 톱레벨 class 는 public 과 default(package-private) 둘만 가능
 > * 상속 받은 하위 클래스는 접근 제어를 더 좁게는 할 수 없다.
->  
->    final로 선언되었다 하더라도 
+> * 자바 9 에서 모듈 시스템으로 접근을 제한할 수 있다.
+> * 내부 클래스를 생성할 때는 static으로 작성해야 숨은참조(내부 클래스의 사용으로 외부 클래스가 GC 대상이 되지 못하는 것) 이슈를 방지할 수 있다.
