@@ -271,5 +271,19 @@ x.clone().equals(x)
 #### i.15 클래스와 멤버의 접근 권한은 최소화해라
 > 접근 제한은 최대한 보수적으로, 최소한의 권한을 주고 필요에 따라 확장한다.
 > 널널한 접근 제한은 사용자 측에 자유를 부여하고 이는 의도치 않은 동작 발생 가능성을 높임
+```java
+	// 접근 제한자를 넓게 사용 했을 때 발생할 수 있는 이슈
+	public class Account{
+		// 특정 형식이 필요한 문자열 "0000-0000-00000";
+		public String accountNo;
+		public String setAccountNo(String accountNo){
+			// 형식에 맞는 지 확인하고 형식에 맞게 대입
+		}
+	}
+	// 접근 제한자를 공개로 해놓은 경우, 원하지 않는 형태의 값 변경 발생
+	Account ac = new Account();
+	ac.accountNo = "00000000000000";
 ```
-```
+> [접근제한자](https://github.com/ehbong/Study/blob/main/Java/java.md#%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90)
+> 톱레벨 class 는 public 과 default(package-private) 둘만 가능
+> 
