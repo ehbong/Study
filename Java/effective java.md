@@ -320,14 +320,36 @@ x.clone().equals(x)
 #### i.18 상속보다 컴포지션을 사용하라.
 > 이미 구현된 클래스를 상속하는 것을 피해라.
 > * 혼자 개발하거나, 충분히 공유(문서화 등)가 된 상황이 아니라면, 상속을 피해라.  
-> * 다른 패키지에 있는 클래스를 상속하는 것을 피해라.
+> * 다른 패키지에 있는 클래스를 상속하는 것을 피해라.  
 > 문제점
 > * 메서드와 다르게 상속은 캡슐화를 깨뜨린다.  
->    상위 클래스의 변경이 하위 클래스 동작에 문제를 발생시킬 수 있다.  
-> 	   * 상위 클래스에서 메서드 추가 시, 하위 클래스의 메서드와 이름이 같고, 반환 타입이 다르면 컴파일 에러가 발생한다.
-> 	   * 하위 클래스 영향을 고려해서 상위 클래스 수정이 어렵다. 
-> 	   * 상위 클래스의 메서드를 사용할 때 내부동작을 이해하지 못하면 예상치 못한 동작이 발생한다.
+> 	* 상위 클래스의 변경이 하위 클래스 동작에 문제를 발생시킬 수 있다.  
+> 	* 상위 클래스에서 메서드 추가 시, 하위 클래스의 메서드와 이름이 같고, 반환 타입이 다르면 컴파일 에러가 발생한다.
+> 	* 하위 클래스 영향을 고려해서 상위 클래스 수정이 어렵다.
+> 	* 상위 클래스의 메서드를 호출할 때 내부동작을 이해하지 못하면 예상치 못한 동작이 발생한다.
 ```java
-
+public class InstrumentedHashSet<E> extends HashSet<E> {  
+	private int addCount = 0;  
+	// 기타 내용
+	@Override  
+	public boolean add(E e) {  
+		addCount++;  
+		return super.add(e);  
+	}  
+	  
+	@Override  
+	public boolean addAll(Collection<? extends E> c) {  
+		addCount += c.size();  
+		return super.addAll(c);
+		// super.addAll(c) 의 내부 동작
+		// addAll 메서드가 내부적으로 add 메서드를 호출한다.
+		// 즉 addAll 호출 시 의도한 addCount가 아닌 2배의 수가 저장된다.
+		// boolean modified = false;   
+		// for (E e : c)  
+		// 	 if (add(e))  
+		//		modified = true;  
+		// return modified;  
+	}
+}
 ```
 > * 
