@@ -328,8 +328,8 @@ async def fetch_url_async(url):
 # 1. async with aiohttp.ClientSession() as session 를 실행하여 Http 클라이언트 세션 생성(__aenter__() 생성A)
 # 2. async with session.get(url) as response 생성된 클라이언트 세션을 이용해서 Http요청을 보내고 (__aenter__() 생성B)
 # 3. await response.text() 응답 데이터를 받아오고 yield 를 통해 데이터 반환
-# 4. async with aiohttp.ClientSession() as session 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 로 클로즈B)
-# 5. async with session.get(url) as response 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 클로즈A)
+# 4. async with session.get(url) as response 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 로 클로즈B)
+# 5. async with aiohttp.ClientSession() as session 에서 생성한 비동기 컨텍스트 매니저를 리소스 정리 (__aexit__() 클로즈A)
 ```
 
 
