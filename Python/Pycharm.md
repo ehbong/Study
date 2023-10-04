@@ -34,3 +34,11 @@ F12 : 메서드 정의로 이동
 Ctrl + w : 구역 설정
 Alt + Shift + E : 커서 또는 선택된 영역 코드 실행 결과 보기
 ```
+
+> python path를 인식 못할 때 경로 지정 방법
+```bash
+# path 확인
+echo $PYTHONPATH
+# path 지정
+export PYTHONPATH=$PYTHONPATH:<경로: venv 사용 시 프로젝트경로/venv/lbi/python버전/site-packages >
+```

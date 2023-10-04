@@ -229,7 +229,6 @@ print(num_counts)
 ### 제어 흐름
 * [Case 문 형태인 match](https://docs.python.org/ko/3/tutorial/controlflow.html#match-statements)
 
-
 ### 반복문과 이터레이션
 * [enumerate 반복문 적용시 인덱스와 객체 둘다 필요할때](https://wikidocs.net/16045)
 * [itertools 의 각 함수 설명](https://velog.io/@davkim1030/Python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-product-itertools)

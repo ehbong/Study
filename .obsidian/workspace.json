@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Python/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/effective java.md"
+                "file": "Python/python.md"
               }
             }
           },
@@ -158,11 +158,12 @@
   },
   "active": "d9940b5f5ce878b0",
   "lastOpenFiles": [
+    "Python/Pycharm.md",
+    "Python/python.md",
     "Java/effective java.md",
     "Java/java.md",
     "golang/Go.md",
     "golang/fiber.md",
-    "Python/python.md",
     "Java/spring.md",
     "kubernetes.md",
     "Docker.md",
@@ -183,7 +184,6 @@
     "vscode.md",
     "db.md",
     "algorithm.md",
-    "AI.md",
     "무제 폴더"
   ]
 }
