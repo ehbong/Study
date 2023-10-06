@@ -377,5 +377,26 @@ public interface Student {
 }
 ```
 > 디폴트 메서드 주의점
-> * 디폴트 메서드는 구현 측과 합의되지 않은 추가다. 즉 어떤 문제르
-> 
+> * 디폴트 메서드는 구현 측과 합의되지 않은 추가다.
+> * 즉 어떤 구현체에서 문제를 발생 시킬지 예측하기 어렵다.
+> * 
+```java
+public interface Human {
+    public default void a(){  
+          // 내용 생략
+    }  
+}
+class Parent{
+	private void a(){
+		// 구현
+	}
+}
+class Child extends Parent implements Human {	
+}
+
+Child c = new Child();
+c.a(); // 실행 시 오류 발생
+// 자바의 메서드 검색 순서는 자신>부모클래스>인터페이스 이므로
+// 부모클래스의 접근제한자가 private이므로 오류 발새
+```
+
