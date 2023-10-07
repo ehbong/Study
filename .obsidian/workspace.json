@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Java/java.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Java/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/effective java.md",
+                "file": "Java/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/effective java.md"
+                "file": "Java/java.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "d9940b5f5ce878b0",
   "lastOpenFiles": [
-    "Java/java.md",
     "Java/effective java.md",
+    "Java/java.md",
     "Python/python.md",
     "Python/Pycharm.md",
     "golang/Go.md",
