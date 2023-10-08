@@ -441,8 +441,30 @@ List list = new ArrayList();
 > 제네릭의 타입은 컴파일 시 소거된다.
 > 가변인수와 함께 사용될 때 다양한 오류를 발생시킨다.
 ```java
-
+public class GenericVarargs {  
+	// 가변인수로 제네릭 List를 전달 했을 때
+    public static void dangerous(List<String>...strLists) {  
+        List<Integer> intList = List.of(42);  
+        Object[] objs = strLists;
+        // 다음과 같이 힙 저장 공간에 덮어써질 경우
+        objs[0] = intList;  
+        // 꺼내는 순간(런타임)에 힙 저장공간에 데이터가 
+        // 타입이 맞지 않아서 ClassCastException 예외 발생
+        String s = strLists[0].get(0);  
+    }  
+  
+    public static void main(String[] args) {  
+        GenericVarargs.dangerous(List.of("abc"));  
+    }  
+}
 ``` 
+> 그럼에도 사용이 필요한 경우  
+> 신뢰할 수 있게 작성한 후  
+> @SafeVarargs 어노테이션으로 경고를 제거하라
+> @SafeVarargs : 제네릭 가변 인자 메서드의 안정성을 보장한다고 명시하는 어노테이션
+> 신뢰할 수 있게 작성하는 방법
+> * 가변매개변수(varargs)에는 아무것도 저장하지 않는다.(대입 금지)
+> * 
 #### i.33	타입 안전 이종 컨테이너를 고려하라
 #### i.34	int 상수 대신 열거 타입을 사용하라
 #### i.35	ordinal 메서드 대신 인스턴스 필드를 사용하라
