@@ -467,6 +467,19 @@ public class GenericVarargs {
 > * 통제가 불가능하다면 반환하지 않는다.
 #### i.33	타입 안전 이종 컨테이너를 고려하라
 #### i.34	int 상수 대신 열거 타입을 사용하라
+> 상수를 나열할 때 단점과 열거 타입의 특징
+> * 상수 필드를 나열하는 것은 각각에 값에 연관성을 만들기 어렵다.
+> * 필드가 가진 값이 같으면 같은 값으로 인식 된다.
+```java
+// 아래 두가지 항목은 다른 의미지만 같은 값으로 인식된다.
+private static final int APPLE_FUJI = 0;
+private static final int ORANGE_NAVEL = 0;
+// 이름 앞에 전치사가 APPLE 이라는 것을 제외하면 묶을 방도가 없다.
+// APPLE이 뭐가 있는지 몇개 있는지 확인하려면, 리플렉션을 사용하거나 추가작업이 들어간다.
+private static final int APPLE_PIPPIN = 1;
+```
+> * 자바의 열거타입 <span style="color:red;">enum은 클래스 이며, 상수는 각각 자신의 인스턴스를 만들어 public static final 필드로 공개</span>된다.
+> * 자바의 열거타입은 싱글턴 패턴
 #### i.35	ordinal 메서드 대신 인스턴스 필드를 사용하라
 #### i.36	비트 필드 대신 EnumSet을 사용하라
 #### i.37	ordinal 인덱싱 대신 EnumMap을 사용하라
