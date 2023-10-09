@@ -484,10 +484,21 @@ private static final int APPLE_PIPPIN = 1;
 > * 열거타입은 필드나 메서드도 추가 된다. 열거 값에 공통적으로 사용되는 값 또는 메서드를 선언해서 사용할 수 있다.
 > * 열거타입 이름을 toString, 목록을 values 메서드를 통해 제공한다.
 #### i.35	ordinal 메서드 대신 인스턴스 필드를 사용하라
-> ordianl: enum에 있는 해당 상수가 몇 번째 위치인지 반환하는  메서드.
+> ordinal: enum에 있는 해당 상수가 몇 번째 위치인지 반환하는  메서드.
 > * 이 메서드는 상수의 순서를 바꾸거나 하면 오류를 발생시킨다.
-> * 그 외에도 갑
-> 
+> * 중간 값을 비울 수 없다.
+```java
+// ordinal 메서드를 사용하기 위해 값을 따로 지정하지 않음
+// 순서가 절대적이고, 중간에 빈 값이 있으면 문제가 발생한다(현재 7이 없다.)
+public enum NumberEng {
+	ONE, TWO, THREE, FOUR, FIVE, SIX, EIGHT, NINE, TEN
+}
+// 인스턴스 필드를 이용한 방법
+// 각각 값이 있기 때문에 중간에 필요 없으면 값을 빼거나, 순서를 변경할 수 있다.
+public enum NumberEng {
+	ONE(1), TWO(2), THREE(3), FOUR(4), FIVE(5), SIX(6), SEVEN(7), EIGHT(8), NINE(9), TEN(10)
+}
+```
 #### i.36	비트 필드 대신 EnumSet을 사용하라
 #### i.37	ordinal 인덱싱 대신 EnumMap을 사용하라
 #### i.38	확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라
