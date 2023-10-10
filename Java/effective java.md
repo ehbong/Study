@@ -547,7 +547,19 @@ public @interface Test {}
 #### i.53	가변인수는 신중히 사용하라
 #### i.54	null이 아닌, 빈 컬렉션이나 배열을 반환하라
 > * 객체의 값이 비어 있을 경우 null을 반환하면 사용 측에서 null에 대응하는 코드를 추가 작성해야한다.
-> * 
+> * null이 아닌 빈 컬렉션이나 배열을 반환하고, 성능 측 이슈가 생긴다면, 불변객체 또는 미리 생성해 놓은 객체를 반환해라
+```java
+// Collections.emptyList 는 비어 있는 불변 리스트를 반환한다.
+public List<Cheese> getCheeses) {
+	return cheesesInStock.isEmpty() ? Collections.emptyList() 
+		: new ArrayList(cheesesInStock);
+}
+// 미리 생성해 놓은 객체 활용(static으로 선언 했기 때문에 객체마다 복사 생성되지 않는다.)
+private static final Cheese[] EMPTY_CHESE_ARAY = new Cheese[0);
+public Cheese[] getCheeses() {
+	return cheesesInStock.toAray(EMPTY_CHEESE_ARRAY) ;
+}
+```
 #### i.55	옵셔널 반환은 신중히 하라
 #### i.56	공개된 API 요소에는 항상 문서화 주석을 작성하라
 #### i.57	지역변수의 범위를 최소화하라
