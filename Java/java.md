@@ -170,9 +170,14 @@ String strValue = getValue("Hello");
 > * @Resource: 자바 지원, 이름, 타입에 맞게 연결  
     @Resource(name='aClass'): 명시적인 name 값이 있을 때 이름 기준 연결, 없으면 타입 기준 연결
 
+#### Error
+> 시스템의 비정상적인 동작으로 발생한 경우
+> * OutofMemoryError : 메모리 부족
+> * StackOverflowError : 스택공간 부족
+> 위 vm 에러 외에 [링크 참고](https://docs.oracle.com/javase/8/docs/api/java/lang/Error.html)
 ### Exception
 > CheckedException : 컴파일 처리 예외(ClassNotFoundException, IOException, SQLException...)  
-> * 예외가 발생할 수 있는 상황을 미리 예측하고, 이에 대한 처리를 강제
+> * 예외가 발생할 수 있는 상황을 미리 예측하고, 이에 대한 처리를 강제(try catch 를 강제)
 > * Checked Exception을 던지거나 처리하지 않으면 컴파일 오류가 발생
 > * Exception 클래스를 상속받은 클래스 중 RuntimeException 클래스를 상속받지 않은 모든 Exception 
 > UnCheckedException: 런타임 처리 예외(NullPointException, ArrayIndexOutOfBoundsException...)
