@@ -171,7 +171,7 @@ String strValue = getValue("Hello");
     @Resource(name='aClass'): 명시적인 name 값이 있을 때 이름 기준 연결, 없으면 타입 기준 연결
 
 ### Exception
-> CheckedException : 컴파일 처리 예외(IOException, SQLException...)  
+> CheckedException : 컴파일 처리 예외(ClassNotFoundException, IOException, SQLException...)  
 > * 예외가 발생할 수 있는 상황을 미리 예측하고, 이에 대한 처리를 강제
 > * Checked Exception을 던지거나 처리하지 않으면 컴파일 오류가 발생
 > * Exception 클래스를 상속받은 클래스 중 RuntimeException 클래스를 상속받지 않은 모든 Exception 
