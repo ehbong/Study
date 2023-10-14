@@ -630,12 +630,40 @@ for(long i = 0; i <= Integer.MAX_VALUE; i++){
 String student = name + "#" + i.next();
 ```
 #### i.63	문자열 연결은 느리니 주의하라
+> String 은 불변 객체므로 + 연산 시 메모리 복제가 반복적으로 생긴다.
+> StringBuilder, StringBuffer(스레드 안전) 를 사용해라.
 #### i.64	객체는 인터페이스를 사용해 참조하라
+> 객체를 생성할 때 인터페이스타입으로 선언하면 유연성이 증가한다.
+```java
+// 좋은예. 인터페이스를타입으로사용했다.
+Set<Son> sonSet = new LinkedHashSet<>();
+// 나쁜예. 클래스를타입으로사용했다!
+LinkedHashset<Son> sonset = new LinkedHashset<>():
+```
+> 단, 인터페이스 기능 외에 추가 기능이 있는 클래스의 경우 클래스타입으로 생성한다.
+
 #### i.65	리플렉션보다는 인터페이스를 사용하라
+> 리플렉션 기능은 강력하지만, 단점도 많다.
+> * 컴파일 시 타입 검사가 동작하지 않는다.
+> * 코드 복잡도가 상승한다.
+> * 성능이 저하된다.
+> 단점을 최소화 하기 위해 객체 생성에만 사용하고.  
+> 생성한 객체를 이용할 때는 적절한 인터페이스나 상위 클래스로 형변환해서 사용해야 한다.
+
 #### i.66	네이티브 메서드는 신중히 사용하라
 #### i.67	최적화는 신중히 하라
+> 성능 최적화를 위해, 좋은 구조를 깨지 마라.
 #### i.68	일반적으로 통용되는 명명 규칙을 따르라
+---
+|식별자타입|규칙|
+|----|----|
+|패키지와 모듈|도메인 거꾸로 작성|
+|클래스와 인터페이스|첫글자 대문자|
+|메서드와 필드|첫글자 소문자|
+|상수 필드|전체 대문자 스네이크케이스|
+|타입 매개변수|임의 타입(T), 컬렉션원소(E), 맵(K, V), 메서드 반환 타입(R)|
 #### i.69	예외는 진짜 예외 상황에만 사용하라
+
 #### i.70	복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라
 #### i.71	필요 없는 검사 예외 사용은 피하라
 #### i.72	표준 예외를 사용하라
@@ -645,6 +673,41 @@ String student = name + "#" + i.next();
 #### i.76	가능한 한 실패 원자적으로 만들라
 #### i.77	예외를 무시하지 말라
 #### i.78	공유 중인 가변 데이터는 동기화해 사용하라
+```java
+// volatile 를 사용하면 최적화없이 반드시 메모리에서 다시 읽게 명령한다.
+// priavte static volatile boolean stopRequested;
+// 다만 동기화를 보장할 수 없다.
+// 1번 스레드에서 변경 작업 중 2번 스레드 접근 시 변경되기 전의 데이터를 얻을 수있다.
+// ++ 연산자 같은 경우 a = a + 1 이기 때문에 실제 작업은 한단계가 아니다.
+private static boolean stopRequested;
+
+// synchronized 사용으로 동기화
+private static synchronized void requestStop(){  
+	stopRequested = true;  
+}  
+  
+private static synchronized boolean isStopRequested(){  
+	return stopRequested;  
+}  
+  
+public static void main(String[] args) throws InterruptedException {  
+	Thread backgroudThread = new Thread(()-> {  
+		int i = 0;
+		// while (!stopRequested) // 원래 라면 synchronized 없이도 동작할 것 같지만
+		// hoistring 최적화 기법으로 다음과 같이 변경된다.
+		// if(!stopRequested)
+		//   while(true)
+		//     i++;
+		// 즉 synchronized 나 volatile 를 사용한다.
+		while (!isStopRequested()) // synchronized 종료 여부 확인
+			i++;  
+	});  
+	backgroudThread.start();  
+	TimeUnit.SECONDS.sleep(1);  // 1초 지연 
+	// stopRequested = true; 로 변경하고 
+	requestStop();  // 종료
+}
+```
 #### i.79	과도한 동기화는 피하라
 #### i.80	스레드보다는 실행자, 태스크, 스트림을 애용하라
 #### i.81	wait와 notify보다는 동시성 유틸리티를 애용하라
