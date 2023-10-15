@@ -131,6 +131,17 @@
 > * StringBuffer: 스레드에 안전이 필요하거나 필요한지 모를 때 사용(메모리 복사 하지 않음, 클래스의 Static 문자열 또는 싱글톤 클래스의 문자열 등)
 
 ### 컬렉션
+> Collection
+> 	* List
+> 		* LinkedList : 연결 리스트
+> 		* Stack : 스택 자료 구조
+> 		* Vector : 동기화 보장 배열 
+> 		* ArrayList : 배열
+> 	* Set
+> 		* HashSet : 순서 보장 하지 않는 set
+> 		* SortedSet: 순서 Set
+> 	* Map
+> 		* Hashtable:
 > HashSet 에서 중복을 비교할 때, 객체의 hashCode, equals 메소드로 확인을 하기 때문에,  
 > 동일한 값을 가지는 객체를 저장하지 않으려면 두 메소드를 override 해서 구현하면 된다.
 
