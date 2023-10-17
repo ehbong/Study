@@ -158,6 +158,16 @@
 > |Vector|thread safe ArrayList|ArrayList와 비슷한 장단점 가짐, synchronized사용|단일 스레드에서 ArrayList보다 성능이 느림|스레드로부터 안전이 필요할 때|
 > |LinkedList|이중연결리스트|요소 삽입 및 삭제 빠름, 엑세스 시간 느림, 반복 엑세스 느림, 메모리 소비 많음|요소의 삽입 및 삭제가 빈번할 경우|
 
+#### HashMap
+> HashMap의 구현 원리
+> 1. key와 value를 가진 클래스를 만든다.(HashMap 클래스 안에 Map.Entry<K,V> 의 구현체 Node클래스)
+> 2. LinkedList<Node<K,V>>[] 형태의 배열을 만든다.
+> 3. 해시버킷의 크기(배열의 크기) 기본 값으로 배열을 초기화 한다.
+> 4. hash 메서드를 만들고, 해시 값 범위를 해비버킷 크기를 초과하지 않게 작성한다.
+> 5. 값을 넣을 때
+> 	1. hash 코드를 구해서 위에 작성한 배열의 index로 넣어서, 배열에 값이 있느지 확인 한다.
+> 	2. 배열에 값이 없으면 new LinkedList<Node<K,V>>() 를 통해 새로운 연결리스트를 만든다.
+> 	3. 해당 연결리스트에 new Node<K, v>(key, value); 형태로 add한다.
 
 ### 제네릭  
 > 제네릭 사용 이유  
