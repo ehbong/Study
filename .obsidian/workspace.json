@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,7 +157,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9940b5f5ce878b0",
+  "active": "73d81089d9ef61e8",
   "lastOpenFiles": [
     "Java/other.md",
     "Java/effective java.md",

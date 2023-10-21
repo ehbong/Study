@@ -195,6 +195,12 @@ CPU 구조
 > 	* 입출력 장치의 상태를 폴링(polling)방식을 사용해서 확인: 주기적으로 상태확인
 > * 인터럽트 기반 입출력
 > 	* 폴링 방식이 아닌 장치 컨트롤러가 CPU에 요청을 보내서 상태변경을 확인
-> 	* PIC(programmable interrupt controller)를 통해 우선순위를 결정해서 CPU에 전달. 
-> 	  NMI(Non-Maskable Interrupt)는 처리하지 않음
-> * DMA 입출력
+> 	* PIC(programmable interrupt controller)를 통해 우선순위를 결정해서 CPU에 전달.  
+> 	  NMI(Non-Maskable Interrupt)는 처리하지 않음: 심각한 하드웨어 오류
+> * DMA(Direct Memory Access) 입출력
+> 	* CPU를 거치지 않고 입출력장치가 메로리에 접근하는 방식
+> 	* DMA 컨트롤러 필요
+> 		* CPU에게 입출력 작업을 위탁받아서 대신 처리
+> 		* 완료 시 인터럽트를 통해 CPU에 알림
+> 		* CPU와 시스템 버스를 같이 사용하기 때문에, 상황에 따라 피해 사용하거나 사용을 공지하고 사용
+> 		* 입출력 용 입출력 버스를 사용해서 입출력 장치 간의 사용은 별도의 버스를 사용(PCI, PCI express)
