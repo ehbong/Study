@@ -8,5 +8,17 @@
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
 
 
+
+#### Dart
+> 변수
+> * var: 초기 값으로 자료형이 결정
+> * dynamic: 자료형이 대입된 자료형에 따라 지속 변화
+
+> 자료형
+> * int: 64비트 보다 크지 않은 정수 값 -2^63~2^63-1 까지(웹에서는 -2^53~2^53-1)
+> * double: 64비트 부동 소수점 숫자
+> * num: int와 double의 상위 개념, 둘다 허용
+> * String: 문자열
+
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
