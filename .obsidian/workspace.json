@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS.md",
+                "file": "hybrid_app/flutter.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS.md",
+                "file": "hybrid_app/flutter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS.md",
+                "file": "hybrid_app/flutter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS.md"
+                "file": "hybrid_app/flutter.md"
               }
             }
           },
@@ -157,8 +156,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "73d81089d9ef61e8",
+  "active": "d9940b5f5ce878b0",
   "lastOpenFiles": [
+    "CS.md",
     "Java/other.md",
     "Java/effective java.md",
     "Java/java.md",
@@ -184,7 +184,6 @@
     "gRPC.md",
     "mantis.md",
     "network.md",
-    "Refactoring.md",
     "무제 폴더"
   ]
 }
