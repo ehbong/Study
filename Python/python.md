@@ -321,8 +321,19 @@ class MyClass:
 
 ```
 * [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
+> 변수와 객체의 생명 주기
+```python
+# 변수 선언 및 값 변경 예제
+list1 = [1, 2, 3]
+# 1. int class instance 1, 2, 3이 생성 되고 참조카운트 0으로 초기화
+# 2. List class instance 가 생성되고 참조 카운트 0으로 초기화
+# 3. List class instance와 int class instance 1,2,3 을 연결하고 1,2,3 의 참조카운트를 1로 변경
+# 4. list1 식별자 생성하고 List class instance 와 연결하면서 참조카운트를 1로 변경
+list2 = list1
+# 5. list2 식별자 생성하고 list1 이 가르키고 있는 List class instance와 연결하면서 참조카운트르 
+list1[0] = 100
 
-
+```
 #### NameSpace
 > 변수나 함수, 클래스의 이름과 참조하는 객체 또는 메모리주소를 저장하는 테이블(매핑구조)
 > * 식별자의 충돌을 방지
