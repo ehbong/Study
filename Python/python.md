@@ -330,9 +330,13 @@ list1 = [1, 2, 3]
 # 3. List class instance와 int class instance 1,2,3 을 연결하고 1,2,3 의 참조카운트를 1로 변경
 # 4. list1 식별자 생성하고 List class instance 와 연결하면서 참조카운트를 1로 변경
 list2 = list1
-# 5. list2 식별자 생성하고 list1 이 가르키고 있는 List class instance와 연결하면서 참조카운트르 
+# 5. list2 식별자 생성하고 list1 이 가르키고 있는 List class instance와 연결하면서 참조카운트를 2로 변경 
 list1[0] = 100
-
+# 6. int class instance 100이 생성 되고 참조카운트 0으로 초기화
+# 7. List class instance의 0번째 인덱스에 100과 연결되고 참조카운트 1로 변경
+# 8. int class instance 1의 참조카운트가 0으로 변경되면서 GC 대상이 됨
+# 9. 스코프를 벗어나서 list1, 2 식별자가 더이상 사용되지 않으면 List의 참조카운트가 0으로 변경
+# 10. List가 사라지면서 int class instance 도 참조카운트가 0으로 변경 되고 GC 대상이 됨
 ```
 #### NameSpace
 > 변수나 함수, 클래스의 이름과 참조하는 객체 또는 메모리주소를 저장하는 테이블(매핑구조)
@@ -404,9 +408,6 @@ async def fetch_url_async(url):
 ```
 
 
-
-
-
 > 서버간 세션을 유지하기 위해서는 리스폰스에서 쿠키 값을 꺼내서 그 쿠키 값을 헤더에 넣어서 보내주면 유지가능(브라우저에서는 자동으로 이루어지는 부분)
 > formData 를 만들때는 바디는 string 형식으로 a=1&b=2&c=3 식으로 데이터를 보내고 헤더에 폼형식을 넣어서 보냄.
 
@@ -422,6 +423,9 @@ async def fetch_url_async(url):
 # 나누기 할 때 주의 필요
  10 / 5 = 5.0
  10 // 5 = 5
+ # // 사용으로 소숫점 아래를 삭제할 때, 작은 수로 변환됨
+ # 아래 값은 -3.33333333... 이지만 소숫점 버림이 아닌 -3과 -4 중에 작은 수로 변환 됨
+ 10 // -3 = -4 
  
 # 제곱근 표현
  10 ** 0.5
