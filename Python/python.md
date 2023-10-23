@@ -323,6 +323,19 @@ class MyClass:
 * [싱글톤 예제](https://codechacha.com/ko/python-singleton/)
 
 
+#### NameSpace
+> 변수나 함수, 클래스의 이름과 참조하는 객체 또는 메모리주소를 저장하는 테이블(매핑구조)
+> * 식별자의 충돌을 방지
+> * 네임스페이스의 식별자와 매칭되지 않은 객체는 참조 카운트가 0이 되므로 GC의 대상
+```python
+x = 1 # x식별자에 1이라는 int class 인스턴스 객체 주소가 연결
+y = 2 # y식별자에 2라는 int class 인스턴스 객체 주소가 연결
+x = y # x식별자에 2라는 int class 인스턴스 객체 주소가 연결
+# 1의 값을 가진 int class 인스턴스 객체는 연결된 식별자가 없으므로 gc 대상
+
+```
+
+
 ### 컨텍스트 관리
 * [with 문 사용법](https://velog.io/@zkffhtm6523/Python-With%EB%AC%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 * [async with 문 사용법](https://soooprmx.com/async-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EB%A7%A4%EB%8B%88%EC%A0%80/)
@@ -906,7 +919,6 @@ os.path.isdir(path)
 
 ##### 다른 언어 파일 다루기
 * [java 다루기 jPype](https://jpype.readthedocs.io/en/latest/quickguide.html)
-
 
 ##### command 라인 다루기
 * [shell 명령어](https://codechacha.com/ko/python-run-shell-script/)
