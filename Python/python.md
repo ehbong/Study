@@ -169,6 +169,15 @@ print(f'class_a.class_v = {class_a.class_v}') # 인스턴스 변수 값 1
 print(f'class_b.class_v = {class_b.class_v}') # 인스턴스 변수 값 2?
 
 print(TestClass.class_v) # 클래스 변수 값 2
+
+def a: 
+	a = 0
+	if a == 0:
+	  b = 0
+	print(a)
+	print(b)
+# 둘다 동작
+# 자바스크립트의 var와 비슷하게 def 함수 안에서 전역으로 동작한다.
 ```
 
 ### 함수와 람다 표현식
@@ -778,17 +787,7 @@ date_diff.total_seconds()
 ```
 * [pandas 예제](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
 
-##### 변수 스코프
-```python
-  def a: 
-    a = 0
-    if a == 0:
-      b = 0
-    print(a)
-    print(b)
-  # 둘다 동작
-  # 자바스크립트의 var와 비슷하게 def 함수 안에서 전역으로 동작한다.
-```
+
 ##### 특정 시간마다 실행(스케줄러)
 * [특정시간마다 실행](https://tre2man.tistory.com/188)
 * [apscheduler 기본 사용법](https://hello-bryan.tistory.com/216)
