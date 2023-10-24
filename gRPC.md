@@ -17,6 +17,25 @@
 |보안|SSL/TLS 통신 암호화|
 
 
+#### proto 파일 작성
+> syntax: 문법 및 grpc 버전 지정
+```proto
+syntax = "proto3";
+```
+> message: 주고 받는 데이터의 형태 및 구조 정의
+```proto
+message MyMessage { 
+	string name = 1; 
+	int32 age = 2; 
+}
+```
+> service: gpc를 통해 상호작용하기 위한 메소드 정의
+```proto
+service MyService { 
+	rpc 메서드명 (param message) returns (return message);
+	rpc GetData (MyRequest) returns (MyResponse); 
+}
+```
 
 > proto 파일 컴파일 명령어<br>
 > `grpc_tools.protoc` grpc_tools 패키지의 protoc 유틸리티를 사용하여 chat.proto 파일을 컴파일하는 명령어<br>
