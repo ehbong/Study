@@ -18,7 +18,7 @@
 
 
 #### proto 파일 작성
-> syntax: 문법 및 grpc 버전 지정
+> syntax: 문법 및 grpc 버전 지정([proto3 버전 작성 공식문서](https://protobuf.dev/programming-guides/proto3/))
 ```proto
 syntax = "proto3";
 ```
