@@ -19,7 +19,7 @@
 > pubspec.yaml
 > * 메타데이터를 담은 파일
 > 각 플랫폼 이름의 폴더(ios, android, macos, windows)
-> 
+> * 배포를 위한 파일들
 #### Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
