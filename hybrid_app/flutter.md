@@ -7,8 +7,19 @@
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
 
+###### Widgets
+> stateless widgets
+> * 변화가 없고, 상태가 없는 위젯
+> stateful widgets
+> * 모양과 상태가 변경되는 위젯
+> widget tree
+> * widget들을 부모,자식 관계로 엮은 구조
 
-
+###### 기본 파일 구조
+> pubspec.yaml
+> * 메타데이터를 담은 파일
+> 각 플랫폼 이름의 폴더(ios, android, macos, windows)
+> 
 #### Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
