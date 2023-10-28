@@ -31,22 +31,29 @@
 > * num: int와 double의 상위 개념, 둘다 허용
 > * String: 문자열
 
-###### 생성자
+###### 메서드
 > 특정 매개변수만 받고 싶을 때
 ```dart
-Class Person {
-	String name;
-	int age;
-	String sex;
+class Person {
+	String name = '';
+	int age = 0;
+	String sex = '';
 	// {} 괄호로 감싸면 특정 매개변수만 입력 가능
-	Person({String name, int age, String sex}){
-		this.name = name;
+	Person(String name, {int age = 0, String sex = 'male'}){
+	  this.name = name;
 		this.age = age;
 		this.sex = sex;
 	}
 }
-// : 을 사용해서 키:값 형태로 전달
-p1 = new Person(age: 10)
+
+
+void main() {
+  // : 을 사용해서 키:값 형태로 전달
+  Person p1 = new Person('tom',age: 10);
+  print(p1.age);
+  print(p1.sex);
+}
+
 
 ```
 ## 무료강의
