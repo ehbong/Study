@@ -45,6 +45,7 @@ $ git branch 이름 : 이름으로 branch 생성
 $ git checkout 브랜치명 : 현재 브랜치에서 브랜치명으로 이동
 $ git checkout 버전 : 현재 브랜치에서 특정 버전으로 직접 이동
 
+$ git branch -a : 전체 브랜치 보기
 $ git branch 브랜치명 : 현재 시점의 브랜치 생성
 $ git branch 브랜치명 커밋hash : 특정 시점으로 브랜치 생성
 $ git branch -d 브랜치명 : 브랜치명 삭제
