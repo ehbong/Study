@@ -31,5 +31,23 @@
 > * num: int와 double의 상위 개념, 둘다 허용
 > * String: 문자열
 
+###### 생성자
+> 특정 매개변수만 받고 싶을 때
+```dart
+Class Person {
+	String name;
+	int age;
+	String sex;
+	// {} 괄호로 감싸면 특정 매개변수만 입력 가능
+	Person({String name, int age, String sex}){
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+}
+// : 을 사용해서 키:값 형태로 전달
+p1 = new Person(age: 10)
+
+```
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
