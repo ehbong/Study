@@ -36,6 +36,39 @@
 > * num: int와 double의 상위 개념, 둘다 허용
 > * String: 문자열
 
+> 상속, 구현, 기능추가
+> * class and extends : 클래스와 상속 (다중 상속 불가)
+```dart
+class A {} // 부모
+class B extends A {} // 자식 
+```
+> * abstract class and implements : 추상 클래스 와 구현 (다중 구현 가능)
+```dart
+abstract class MyInterface1 {
+  void method1();
+}
+
+abstract class MyInterface2 {
+  void method2();
+}
+
+class MyClass implements MyInterface1, MyInterface2 {
+  @override
+  void method1() {
+    // 구현
+  }
+  @override
+  void method2() {
+    // 구현
+  }
+}
+
+```
+> * mixin and with : 기능 추가(다중 기능 추가 가능)
+```dart
+mixin Logging { 
+	void log(String message) { print('로그: $message'); } } class Dog with Logging { String name; Dog(this.name); void bark() { log('$name가 멍멍 짖습니다.'); } }
+```
 ###### 함수
 > 특정 매개변수만 받고 싶을 때
 ```dart
