@@ -67,7 +67,17 @@ class MyClass implements MyInterface1, MyInterface2 {
 > * mixin and with : 기능 추가(다중 기능 추가 가능)
 ```dart
 mixin Logging { 
-	void log(String message) { print('로그: $message'); } } class Dog with Logging { String name; Dog(this.name); void bark() { log('$name가 멍멍 짖습니다.'); } }
+	void log(String message) { 
+		print('로그: $message'); 
+	} 
+} 
+class Dog with Logging { 
+	String name; 
+	Dog(this.name); 
+	void bark() { 
+		log('$name가 멍멍 짖습니다.'); // mixin 으로 with 한 메서드를 사용
+	} 
+}
 ```
 ###### 함수
 > 특정 매개변수만 받고 싶을 때
