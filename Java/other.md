@@ -29,3 +29,5 @@
 > * 영속(Managed): 영속성 컨텍스트에 등록 된 객체(1차 캐시에 등록된 상태)  
 > * 준영속(Detached): 영속성 컨텍스트에 관리되다가 분리된 상태(detach, clear 메서드 실행, 수정이 필요하지 않거나, 메모리관리 등의 이유로 분리한 상태)  
 > * 삭제(Removed): 영속 데이터의 삭제를 위한 상태(EntityManager.remove())
+
+* [Hibernate Basic Types DB 데이터 타입과 매칭되는 객체 데이터 타입](https://docs.jboss.org/hibernate/orm/5.5/userguide/html_single/Hibernate_User_Guide.html#basic)
