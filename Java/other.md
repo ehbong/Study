@@ -30,4 +30,12 @@
 > * 준영속(Detached): 영속성 컨텍스트에 관리되다가 분리된 상태(detach, clear 메서드 실행, 수정이 필요하지 않거나, 메모리관리 등의 이유로 분리한 상태)  
 > * 삭제(Removed): 영속 데이터의 삭제를 위한 상태(EntityManager.remove())
 
+> Transient : 엔티티의 필드 중 영속화 하지 않는 필드에 사용(DB 에 저장하지 않는 필드)
+```java
+@Transient
+String LastName; // 어노테이션으로 적용
+transient String firstName; // 키워드로 적용
+``` 
+
+> 데이터 타입
 * [Hibernate Basic Types DB 데이터 타입과 매칭되는 객체 데이터 타입](https://docs.jboss.org/hibernate/orm/5.5/userguide/html_single/Hibernate_User_Guide.html#basic)
