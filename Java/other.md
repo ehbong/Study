@@ -34,7 +34,7 @@
 ```java
 @Transient
 String LastName; // 어노테이션으로 적용
-transient String firstName; // 키워드로 적용
+transient public String firstName; // 키워드로 적용
 ``` 
 
 > 데이터 타입
