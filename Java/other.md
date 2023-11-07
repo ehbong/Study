@@ -1,12 +1,13 @@
 
-#### Lombok
+## Lombok
 > 어노테이션으로 반복코드를 줄여주는 라이브러리
 * [공식 안내](https://projectlombok.org/features/)
 
-#### JPA
+## JPA
 > java ORM기술을 사용하는 인터페이스
 > * Hibernate, OpenJPA 등이 JPA의 구현체
 > * JDBC드라이버를 통해 DB와 상호작용
+* [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
 
 ###### 영속성 컨텍스트(PersistenceContext)
 > 구성요소
@@ -42,3 +43,5 @@ transient public String firstName; // 키워드로 적용
 
 > 데이터 타입
 * [Hibernate Basic Types DB 데이터 타입과 매칭되는 객체 데이터 타입](https://docs.jboss.org/hibernate/orm/5.5/userguide/html_single/Hibernate_User_Guide.html#basic)
+
+

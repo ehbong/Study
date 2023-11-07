@@ -49,11 +49,9 @@
 #### 빌드 자동화, 의존성 관리 도구(Maven, Gradle)
 * io.spring.dependency-management : Gradle 플러그인, Gradle에서 BOM(Bill of Materials)을 사용해 버전을 명시하지 않아도 최적화된 버전을 제공
 
-
-#### JPA
-* [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
-
-
+#### JpaRepository
+> Spring Data JPA 에서 제공하는 인터페이스
+> * 기존 JPA 의 Entity Manger 등의 역할을 포함해 CRUD 기능들을 쉽게 사용하도록 개선 된 인터페이스
 
 ### 스케줄링
 * [스케줄링 예제](https://spring.io/guides/gs/scheduling-tasks/)
