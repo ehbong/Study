@@ -29,7 +29,8 @@ def test_fix(arg, param_list=None):
 
 ```
 ##### type
-> * type 은 모든 클래스의 부모인 object의 metaclass, 즉 모든 클래스의 메타클래스가 type
+> * type 은 모든 클래스의 부모인 object의 metaclass, 즉 모든 클래스의 메타클래스가 type  
+>   type의 역할
 > * type(object): object의 타입을 반환
 > * type(name, bases, dict): 새로운 클래스 생성
 >   * name: 클래스이름
@@ -63,6 +64,9 @@ class MyClassA(metaclass=MyMetaClassA):
 my_instance_a = MyClassA()
 
 ```
+> 메타클래스(metaclass)
+> * python 의 모든 것은 객체이고, 클래스 선언도 객체
+> * 메타클래스의 인스턴스가 클래스 선언, 즉 클래스를 만드는 클래스가 메타클래스
 > 메타클래스 활용 예제
 ```python
 class Singleton(type):    # type을 상속받음
