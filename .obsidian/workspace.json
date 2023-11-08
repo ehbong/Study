@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Python/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/spring.md"
+                "file": "Python/python.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "d9940b5f5ce878b0",
   "lastOpenFiles": [
-    "Java/other.md",
+    "Python/Flask.md",
+    "Python/fastAPI.md",
     "Java/spring.md",
+    "Java/other.md",
     "Java/java.md",
     "hybrid_app/flutter.md",
     "gRPC.md",
@@ -194,8 +196,6 @@
     "aws/AWS_Lambda.md",
     "aws/efs.md",
     "aws/elb.md",
-    "aws/s3.md",
-    "mantis.md",
     "무제 폴더"
   ]
 }
