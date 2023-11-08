@@ -51,8 +51,7 @@ my_class = MyClass() # 인스턴스 생성
 # MyClassA 를 클래스 선언 할 때, 메타클래스의 __new__, __init__ 이 실행되면서
 # 메타클래스의 인스턴스로 MyClassA 클래스 선언 객체를 생성한다.
 # MyClassA() 를 실행했을 때, MyClassA는 메타클래스의 인스턴스이므로,
-# 메타클래스의 __call__ 를 실행해서 
-# MyClassA 클래스의 객체를 생성한다.
+# 메타클래스의 __call__ 를 실행해서 MyClassA 클래스의 객체를 생성한다.
 # 그 이후 MyClass 내에 __new__, __init__ 이 호출 된다.
 class MyMetaClassA(type):
     def __new__(cls, name, bases, attrs):
@@ -278,7 +277,7 @@ print(num_counts)
 ```
 ##### Generator
 * [Generator 개념 및 활용](https://velog.io/@jewon119/TIL30.-Python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0Generator-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
-> #### 제너레이터가 일반 이터레이터와 다른 점
+> 제너레이터가 일반 이터레이터와 다른 점
 > * yield 키워드를 사용해 다른 이터레이터에서 사용하는 next 함수 동작을 커스터마이징 가능
 > * 피보나치 수열 같은 무한한 시퀀스 생성 가능
 * [iterator, Generator 쉬운 설명](https://velog.io/@sawol/Python#iterable-%EA%B3%BC-iterator)
@@ -368,6 +367,40 @@ list1[0] = 100
 # 8. int class instance 1의 참조카운트가 0으로 변경되면서 GC 대상이 됨
 # 9. 스코프를 벗어나서 list1, 2 식별자가 더이상 사용되지 않으면 List의 참조카운트가 0으로 변경
 # 10. List가 사라지면서 int class instance 도 참조카운트가 0으로 변경 되고 GC 대상이 됨
+```
+> 객체를 메서드처럼 사용
+> * 객체를 () 로 호출 시 내부에 \_\_call\_\_() 함수가 동작
+```python
+# 객체 호출 사용 예제
+# 1. 객체에 상태에 따라 동작하는 함수로 사용
+class Adder:
+	def __init__(self, n):
+		self.n = n
+	
+	def __call__(self, x):
+		return self.n + x
+
+plus_3 = Adder(3) # 초기화 때 인스턴스에 특정 값을 저장해서 인스턴스
+
+print(plus_3(4)) # Outputs: 7
+
+# 2. 데코레이터로 사용
+# 데코레이터로 사용 시, 해당 함수가 호출할 때 __call__ 이 호출
+# init 은 데코레이터가 붙은 메서드가 선언될 때 실행
+class Logger:
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        print(f"Calling function {self.func.__name__}")
+        return self.func(*args, **kwargs)
+
+@Logger
+def add(a, b):
+    return a + b
+
+result = add(2, 3)  # add 함수를 래핑하여 호출될 때 로깅을 추가
+
 ```
 #### NameSpace
 > 변수나 함수, 클래스의 이름과 참조하는 객체 또는 메모리주소를 저장하는 테이블(매핑구조)
