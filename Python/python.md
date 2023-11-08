@@ -47,12 +47,13 @@ my_class = MyClass() # 인스턴스 생성
 >   type.__call__이 클래스를 선언하는 메소드지만 type을 상속받을 경우 자식의 환경에 영향을 받아
 >   super().__call__은 type이 클래스(타입의 인스턴스)를 반환하듯이 인스턴스를 반환
 ```python
-# 실행 순서 __new__ > __init__ > __call__
+# 실행 순서 __new__ > __init__ > __call__(인스턴스가 호출 될 때 사용)
 # MyClassA 를 클래스 선언 할 때, 메타클래스의 __new__, __init__ 이 실행되면서
 # 메타클래스의 인스턴스로 MyClassA 클래스 선언 객체를 생성한다.
-# MyClassA() 를 실행했을 때, 메타클래스의 __call__ 를 실행해서
+# MyClassA() 를 실행했을 때, MyClassA는 메타클래스의 인스턴스이므로,
+# 메타클래스의 __call__ 를 실행해서 
 # MyClassA 클래스의 객체를 생성한다.
-# 그 이후 MyClass 내에 __new__, __init__
+# 그 이후 MyClass 내에 __new__, __init__ 이 호출 된다.
 class MyMetaClassA(type):
     def __new__(cls, name, bases, attrs):
         print('metaclass __new__')
