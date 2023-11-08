@@ -37,7 +37,9 @@ def test_fix(arg, param_list=None):
 >   * dict: 속성과 메소드를 담은 dict
 ```python
 # 클래스 생성 예제
+# type('클래스명', (상속받는 클래스들의 튜플), {필드와 메소드를 담은 dict})
 MyClass = type('MyClass', (object,), {'x': 1, 'y': 2})
+my_class = MyClass() # 인스턴스 생성
 ```
 > * type.__call__() 이 클래스를 생성하는 메서드이자, 모든 클래스는 type의 인스턴스  
 >   클래스 내에서 __call__메서드를 따로 정의하지 않으면 type.__call__메서드가 동작  
@@ -59,6 +61,10 @@ class MyMetaClassA(type):
 class MyClassA(metaclass=MyMetaClassA):
     pass
 my_instance_a = MyClassA()
+
+```
+> 메타클래스 활용 예제
+```python
 
 ```
 > type.__mro__ 에 대해
