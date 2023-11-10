@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/python.md"
+                "file": "CS.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "d9940b5f5ce878b0",
   "lastOpenFiles": [
+    "Python/python.md",
     "Python/Flask.md",
     "Python/fastAPI.md",
     "Java/spring.md",
@@ -182,7 +183,6 @@
     "db.md",
     "designPattern.md",
     "algorithm.md",
-    "Python/python.md",
     "Python/Pycharm.md",
     "golang/Go.md",
     "golang/fiber.md",
