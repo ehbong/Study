@@ -695,6 +695,10 @@ unfuture1 = unsync_async()
 unfuture2 = unsync_async()
 print(unfuture1.result() + unfuture2.result())
 ```
+
+
+
+
 ###### . 연산 사용을 줄임
 ```python
 # 모듈을 import 해서 내부 함수를 사용하는 것보다
