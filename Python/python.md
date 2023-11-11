@@ -681,6 +681,9 @@ str = base64.b64decode(str_base64).decode('utf-8')
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
 ```
+
+
+
 > 이벤트 루프가 사용중이여서 오류 발생할 때
 * [unsync](https://github.com/alex-sherman/unsync)
 ```python
