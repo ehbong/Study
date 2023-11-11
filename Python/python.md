@@ -675,7 +675,6 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [비동기 프로그래밍 정리](https://velog.io/@heyoni/python-asyncio-1)
 * [비동기 request처리](https://item4.blog/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 * [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
-* [flask 에서 백그라운드처리](https://blog.kshgroup.kr/background-jobs-with-flask/)
 * [비동기 동작이 실행중 비동기 요청이 들어올 경우 오류 발생 대처방법](https://stackoverflow.com/questions/55409641/asyncio-run-cannot-be-called-from-a-running-event-loop)
 * [FastAPI / uvicorn 호스팅 환경에서 asyncio 사용하는 방법](https://www.sysnet.pe.kr/2/0/13087?pageno=0)
 ```python

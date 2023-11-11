@@ -9,6 +9,7 @@
   # 기본 호스트를 지정, 포트는 바꿀경우 아래와 같이 추가
   app.run(host='0.0.0.0', port='5000')
 ```
+* [flask 에서 백그라운드처리](https://blog.kshgroup.kr/background-jobs-with-flask/)
 ## mysql for flask
 * [mac mysql 설치](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
 * [venv 에서 mysql 경로 못찾을때](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
