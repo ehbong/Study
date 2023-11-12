@@ -677,6 +677,12 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [async/await 기초 코루틴과 테스크](https://kdw9502.tistory.com/6)
 * [비동기 동작이 실행중 비동기 요청이 들어올 경우 오류 발생 대처방법](https://stackoverflow.com/questions/55409641/asyncio-run-cannot-be-called-from-a-running-event-loop)
 * [FastAPI / uvicorn 호스팅 환경에서 asyncio 사용하는 방법](https://www.sysnet.pe.kr/2/0/13087?pageno=0)
+
+> asyncio 용어
+> * 코루틴(Coroutines):  async def 키워드를 사용해서 정의한 함수 객체
+> * 태스크(Tasks): 코루틴 객체를 이벤트 루프에 등록하는 단위
+> * 이벤트루프(Event Loop): 스레드 마다 1개씩 가지고 있으며, 이벤트를 처리하는 루프  
+>   태스크를 스케줄링하고, I/O 작업을 만나면 다른 태스크를 실행시켜서 동시성 작업실행
 ```python
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
