@@ -907,7 +907,7 @@ date_diff.total_seconds()
 # 의도를 명확하게 하고 사용해야함
 try:
 	# 내용
-except:
+except:  # BaseException
 	# 예외처리
 
 # 아래와 같이 명확하게 지정필요
