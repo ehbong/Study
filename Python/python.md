@@ -895,6 +895,27 @@ date_diff.total_seconds()
 * [try, except, else finally 기본 사용법](https://devpouch.tistory.com/85)
 * [예외 처리 raise, assert 등 활용](https://sikaleo.tistory.com/119)
 * [try finally 동작순서](https://stackoverflow.com/questions/19805654/python-try-finally-block-returns)
+```python
+# except 뒤에 어떤 예외를 처리할지 생략하면
+# 최상위 클래스인 BaseException 으로 처리
+# BaseException 내부 클래스(Exception 제외)
+# SystemExit: sys.exit() 함수로 발생
+# KeyboardInterrupt: Ctrl+c 로 발생
+# GeneratorExit: 제너레이터나 코루틴을 종료 시킬 시 발생
+# StopIteration, StopAsyncIteration: 동기 또는 비동기 이터레이터를 중지 시킬 때 발생
+# BaseException 에는 사용자가 의도한 종료 시그널 등이 있기 떄문에
+# 의도를 명확하게 하고 사용해야함
+try:
+	# 내용
+except:
+	# 예외처리
+
+# 아래와 같이 명확하게 지정필요
+try:
+	# 내용
+except Exception as e:
+	# 예외처리
+```
 ##### 예외 전이
 ```python
   # 따로 throw 없이 예외가 전이돼서 예외처리됨
