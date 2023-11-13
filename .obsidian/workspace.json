@@ -11,8 +11,12 @@
             "id": "c3272ce64fc90b19",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS.md"
+              }
             }
           },
           {
@@ -150,6 +158,8 @@
   },
   "active": "c3272ce64fc90b19",
   "lastOpenFiles": [
+    "db.md",
+    "other.md",
     "Python/python.md",
     "Java/other.md",
     "CS.md",
@@ -160,7 +170,6 @@
     "hybrid_app/flutter.md",
     "gRPC.md",
     "Java/effective java.md",
-    "db.md",
     "designPattern.md",
     "algorithm.md",
     "Python/Pycharm.md",
@@ -168,7 +177,6 @@
     "golang/fiber.md",
     "kubernetes.md",
     "Docker.md",
-    "other.md",
     "OS.md",
     "JS/Javascript.md",
     "aws/basic.md",
