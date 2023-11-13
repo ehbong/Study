@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5827eb898ef8f315",
+        "id": "36f9149b31031cd2",
         "type": "tabs",
         "children": [
           {
-            "id": "48cbfc4844922b6a",
+            "id": "c3272ce64fc90b19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/python.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/python.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,7 +148,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "48cbfc4844922b6a",
+  "active": "c3272ce64fc90b19",
   "lastOpenFiles": [
     "Python/python.md",
     "Java/other.md",
