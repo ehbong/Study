@@ -211,6 +211,8 @@ def a:
 ```
 
 ### 함수와 람다 표현식
+##### 프레임 (frame)
+
 * [filter 함수](https://wikidocs.net/22803)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
 * [divmod(), 두 숫자를 나누어 몫과 나머지를 tuple 로 반환](https://technote.kr/259)
