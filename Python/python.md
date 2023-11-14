@@ -212,6 +212,12 @@ def a:
 
 ### 함수와 람다 표현식
 ##### 프레임 (frame)
+> 프레임은 다음과 같은 정보를 가짐
+> * 함수의 실행 정보를 가진 객체
+> * 호출 스택(Call Stack): 함수가 호출되면 스택에 프레임이 추가되고, 종료되면 제거
+> * 값 스택(Value Stack): 임시 변수 저장 스택
+> * 지역 변수: 함수 내 정의된 변수 저장공간
+> * 마지막 바이트 코드 명령어
 
 * [filter 함수](https://wikidocs.net/22803)
 * [lambda 함수(js에 화살표 함수랑 비슷)](https://wikidocs.net/64)
@@ -669,7 +675,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [쓰레딩 컨디션 객체 예제](https://snowdeer.github.io/python/2017/11/13/python-producer-consumer-example/)
 * [Multithreading, Daemon thread, ThreadPoolExecutor 사용 방법](https://libertegrace.tistory.com/entry/Python-%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1-%EB%AC%B8%EB%B2%95-Multithreading)
 
-##### 비동기 처리
+##### 비동기
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
 * [asyncio의 이해와 graceful shutdown](https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/)
 * [asyncio 사용하기](https://dojang.io/mod/page/view.php?id=2469)
@@ -681,11 +687,17 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [FastAPI / uvicorn 호스팅 환경에서 asyncio 사용하는 방법](https://www.sysnet.pe.kr/2/0/13087?pageno=0)
 
 > asyncio 용어
-> * 코루틴(Coroutines):  async def 키워드를 사용해서 정의한 함수를 호출하여 생성하는 객체  
->   특정 시점에 자신의 실행과 관련된 상태를 자체 저장하고 관리하며, 실행을 중단, 복원 할 수 있는 함수
-> * 태스크(Tasks): 코루틴 객체를 이벤트 루프에 등록하는 단위,   
->   코루틴의 실행을 추적하고, 완료 시 결과를 저장
-> * 이벤트루프(Event Loop): 스레드 마다 1개씩 가지고 있으며, 이벤트를 처리하는 루프  
+###### 코루틴(Coroutines):  
+> * async def 키워드를 사용해서 정의한 함수를 호출하여 생성하는 객체  
+> * 특정 시점에 자신의 실행과 관련된 상태를 자체 저장하고 관리하며, 실행을 중단, 복원 할 수 있는 함수
+> * 제너레이터 기반(yield from)
+> * 스레드 상태와 같이 프레임 객체를 포함
+> * 프레임이 기억하는 실행 인덱스로, 중단 및 재개에 활용 
+> * 프레임이 저장하는 지역 변수로 상태를 유지 
+###### 태스크(Tasks)
+> * 코루틴 객체를 이벤트 루프에 등록하는 단위, 코루틴의 실행을 추적하고, 완료 시 결과를 저장
+###### 이벤트루프(Event Loop)
+> * 스레드 마다 1개씩 가지고 있으며, 이벤트를 처리하는 루프  
 >   태스크를 스케줄링하고, I/O 작업이나 타이머와 같은 블로킹 연산을 만나면  
 >   다른 태스크로 제어를 넘겨서 동시성을 구현
 ```python
