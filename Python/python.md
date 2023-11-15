@@ -715,7 +715,7 @@ from fastapi import FastAPI
 import asyncio  
 app = FastAPI()  
   
-  
+    
 @app.get('/aio_func_test')  
 async def aio_func_test():
 
