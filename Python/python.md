@@ -708,6 +708,34 @@ str = base64.b64decode(str_base64).decode('utf-8')
 
 
 > 이벤트 루프가 사용중이여서 오류 발생할 때
+> * asyncio.run 함수는 이벤트루프를 생성하고, 실행하기 때문에  
+>    이미 이벤트 루프가 생성 되어 있는 경우 충돌이 발생  [공식문서 링크](https://docs.python.org/3/library/asyncio-runner.html#id1)
+```python
+from fastapi import FastAPI  
+import asyncio  
+app = FastAPI()  
+  
+  
+@app.get('/aio_func_test')  
+async def aio_func_test():
+
+# 이렇게 사용 시 충돌 발생
+asyncio.run(my_func)
+
+# 이미 실행 중인 루프에 테스크를 추가하는 방법
+task1 = asyncio.create_task(my_func())  
+await task1
+
+return "test"  
+  
+  
+async def my_func():  
+await asyncio.sleep(1)  
+print('my_func print')  
+return "my_value"
+```
+
+> * 모듈을 이용해서 이벤트 루프 충돌을 피하는 방법
 * [unsync](https://github.com/alex-sherman/unsync)
 ```python
 from unsync import unsync
