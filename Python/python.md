@@ -704,18 +704,17 @@ str = base64.b64decode(str_base64).decode('utf-8')
   ## 시간 딜레이 추가
   await asyncio.sleep(<초>) 
 ```
-
 ###### 스트림(Stream)
 > 소켓 통신을 구현한 고수준 API(비동기, 논블로킹)
-
-###### 록(lock)
+###### 록(lock)[링크](https://docs.python.org/ko/3/library/asyncio-sync.html#lock)
 > * 이벤트 루프에 존재하는 코루틴 사이에 동기화를 제공 
 > * 스레드에 안전하지 않음
-
-###### 이벤트(Event)
+###### 이벤트(Event)[링크](https://docs.python.org/ko/3/library/asyncio-sync.html#event)
 > * 이벤트 발생 시 태스크에 이벤트를 알림
 > * set, clear 함수로 내부 플로그를 관리
 > * wait 함수로 플래그가 set 함수의 호출을 대기
+###### Condition
+> * Event와 Lcok을 결합한 객체
 
 > 이벤트 루프가 사용중이여서 오류 발생할 때
 > * asyncio.run 함수는 이벤트루프를 생성하고, 실행하기 때문에  
