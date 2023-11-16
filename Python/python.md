@@ -705,7 +705,8 @@ str = base64.b64decode(str_base64).decode('utf-8')
   await asyncio.sleep(<초>) 
 ```
 
-
+###### 스트림(Stream)
+> 소켓 통신을 구현한 고수준 API(비동기, 논블로킹)
 
 > 이벤트 루프가 사용중이여서 오류 발생할 때
 > * asyncio.run 함수는 이벤트루프를 생성하고, 실행하기 때문에  
