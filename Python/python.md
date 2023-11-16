@@ -657,7 +657,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 ```
 ##### 확장모듈 생성
 * [cython](https://cython.org/)
-##### 멀티쓰레드 & 멀티 프로세스
+### 멀티쓰레드 & 멀티 프로세스
 * [멀티쓰레드 & 멀티 프로세스](https://monkey3199.github.io/develop/python/2018/12/04/python-pararrel.html)
 * [쓰레드 동기화(처리순서가 명확하게 필요할 때)](https://niceman.tistory.com/139)
 * [멀티프로세싱 예제](https://doorbw.tistory.com/205)
@@ -675,7 +675,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [쓰레딩 컨디션 객체 예제](https://snowdeer.github.io/python/2017/11/13/python-producer-consumer-example/)
 * [Multithreading, Daemon thread, ThreadPoolExecutor 사용 방법](https://libertegrace.tistory.com/entry/Python-%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1-%EB%AC%B8%EB%B2%95-Multithreading)
 
-##### 비동기
+### 비동기
 * [비동기 처리 asyncio](https://www.daleseo.com/python-asyncio/)
 * [asyncio의 이해와 graceful shutdown](https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/)
 * [asyncio 사용하기](https://dojang.io/mod/page/view.php?id=2469)
@@ -686,7 +686,7 @@ str = base64.b64decode(str_base64).decode('utf-8')
 * [비동기 동작이 실행중 비동기 요청이 들어올 경우 오류 발생 대처방법](https://stackoverflow.com/questions/55409641/asyncio-run-cannot-be-called-from-a-running-event-loop)
 * [FastAPI / uvicorn 호스팅 환경에서 asyncio 사용하는 방법](https://www.sysnet.pe.kr/2/0/13087?pageno=0)
 
-> asyncio 용어
+#### Asyncio
 ###### 코루틴(Coroutines):  
 > * async def 키워드를 사용해서 정의한 함수를 호출하여 생성하는 객체  
 > * 특정 시점에 자신의 실행과 관련된 상태를 자체 저장하고 관리하며, 실행을 중단, 복원 할 수 있는 함수
@@ -707,6 +707,10 @@ str = base64.b64decode(str_base64).decode('utf-8')
 
 ###### 스트림(Stream)
 > 소켓 통신을 구현한 고수준 API(비동기, 논블로킹)
+
+록(lock)
+> * 이벤트 루프에 존재하는 코루틴 사이에 동기화를 제공 
+> * 스레드에 안전하지 않음
 
 > 이벤트 루프가 사용중이여서 오류 발생할 때
 > * asyncio.run 함수는 이벤트루프를 생성하고, 실행하기 때문에  
