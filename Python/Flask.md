@@ -16,7 +16,7 @@
 
 #### zappa
 > 파이썬 서버리스 환경(AWS Lambda + API Gateway) 설정 및 배포 라이브러리
-* [](https://github.com/zappa/Zappa)
+* [zappa 공식문서](https://github.com/zappa/Zappa)
 * [zappa 로 serverless 구현](https://tech.junhabaek.net/zappa%EC%99%80-github-action%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-django-application-aws-%EB%B0%B0%ED%8F%AC-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-15604ed6bbcc)
 
 
