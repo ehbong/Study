@@ -14,6 +14,10 @@
 * [mac mysql 설치](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
 * [venv 에서 mysql 경로 못찾을때](https://stackoverflow.com/questions/15314791/django-error-vertualenv-environmenterror-mysql-config-not-found)
 
+#### zappa
+* [zappa 로 serverless 구현](https://tech.junhabaek.net/zappa%EC%99%80-github-action%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-django-application-aws-%EB%B0%B0%ED%8F%AC-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-15604ed6bbcc)
+
+
 ## 
 * [request 받기](https://stackoverrun.com/ko/q/11370200)
 * [requests 모듈 외부 주소 호출](https://m.blog.naver.com/wideeyed/221586482884)
