@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python.md",
+                "file": "CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/python.md"
+                "file": "CS.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "c3272ce64fc90b19",
   "lastOpenFiles": [
+    "Python/python.md",
     "CS.md",
     "db.md",
     "other.md",
-    "Python/python.md",
     "Java/other.md",
     "Python/Flask.md",
     "Python/fastAPI.md",
