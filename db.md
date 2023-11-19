@@ -171,10 +171,29 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 * [Kafka와 Redis의 pub/sub 차이](https://medium.com/frientrip/pub-sub-%EC%9E%98-%EC%95%8C%EA%B3%A0-%EC%93%B0%EC%9E%90-de9dc1b9f739)
 
 ## 메시지 브로커
+###### Kafka
 * [Kafka 설명](https://galid1.tistory.com/793)
 * [Kafka 주요개념 및 용어](https://ifuwanna.tistory.com/487)
 * [Kafka 유튜브 설명](https://youtu.be/0Ssx7jJJADI)
-
+> 프로듀서(Producer)
+> * 메시지 생산자
+> * 데이터를 토픽(Topic)이란 단위로 분류하고 전송
+> 컨슈머(Consumer)
+> * 메시지 소비자
+> * 컨슈머 그룹에 속함
+> * 한개의 파티션은 컨슈머 그룹의 하나의 컨슈머만 연결 가능
+> 토픽(Topic)
+> * 데이터가 저장되는 카테고리
+> * 프로듀서를 통해 데이터를 받으며, 컨슈머(Consumer)에게 메시지를 전달
+> * 1개 이상의 파티션으로 나뉘어짐
+> 파티션(Partition)
+> * 토픽의 물리적 저장단위
+> * 1개 이상의 브로커에 분산 저장
+> * append-only(설정에 따라 일정 시간이 지난 뒤 삭제)
+> 브로커(Broker)
+> * 데이터를 저장, 관리하는 역할
+> 주키퍼(ZooKeeper)
+> * 브로커의 상태, 토픽 구성 컨슈머 그룹 정보등을 관리
 ## 데이터 웨어하우스
 * [OLTP, OLAP 비교](https://too612.tistory.com/511)
 * [Snowflake, BigQuery, Redshift 비교](https://giljae.medium.com/snowflake-bigquery-redshift-%EB%B9%84%EA%B5%90-5c585df450b7)
