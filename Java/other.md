@@ -45,7 +45,10 @@ transient public String firstName; // 키워드로 적용
 * [Hibernate Basic Types DB 데이터 타입과 매칭되는 객체 데이터 타입](https://docs.jboss.org/hibernate/orm/5.5/userguide/html_single/Hibernate_User_Guide.html#basic)
 
 ##### QueryDSL
->쿼리를 자바 코드를 사용해, 쿼리를 체이닝방식으로 작성하는 라이브러리
+>쿼리를 자바 코드를 사용해, 쿼리를 체이닝방식으로 작성하는 라이브러리  
+>장점  
+>*  복잡한 쿼리 가능 
+>단점
 >* JPA 1차 캐시를 활용할 수 없음
 ```java
 // 예제
