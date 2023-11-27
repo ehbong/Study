@@ -204,6 +204,10 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 > * consumer.close() 호출 또는 세션이 끊겼을 때 발생(명시적 종료 및 Heartbeat 미전송에 따른 세션 타임 아웃)
 > * 데이터 유실 및 중복 발생 가능(commitSync 또는 추가적인 방법 필요)
 
+컨슈머 랙(Consumer lag)
+> 토픽의 마지막 오프셋과 컨슈머 마지막 커밋 오프셋의 차
+> * 컨슈머 랙이 쌓이면, 프로듀서의 이벤트 발행보다 컨슈머의 이벤트 처리가 늦다는 의미
+
 옵션
 > ***Consumer Option***
 > enable.auto.commit(true/false)
