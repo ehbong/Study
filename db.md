@@ -199,6 +199,11 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 > 주키퍼(ZooKeeper)
 > * 브로커의 상태, 토픽 구성 컨슈머 그룹 정보등을 관리
 
+리밸런스(rebalance)
+> 컨슈머 그룹의 파티션 소유권 변경이 발생할 때 발생
+> * consumer.close() 호출 또는 세션이 끊겼을 때 발생(명시적 종료 및 Heartbeat 미전송에 따른 세션 타임 아웃)
+> * 데이터 유실 및 중복 발생 가능(commitSync 또는 추가적인 방법 필요)
+
 옵션
 > ***Consumer Option***
 > enable.auto.commit(true/false)
@@ -211,7 +216,8 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 > 		* 커밋이 완료될 때 까지 block(가장 느림)
 > 		* poll 메서드로 반환된 마지막 레코드의 오프셋을 커밋하거나, 특정 오프셋 지정 커밋
 > 	* commitAsync(): 비동기 커밋
-> 		* 중복 및 순서
+> 		* 중복이 발생 가능(네트워크 문제로 이전 offset보다 이후 offset이 먼저 커밋될 떄)
+> 		* 레코드 처리 순서를 보장하지 못함(처리 순서가 중요한 서비스에서는 사용 제한)
 > 
 ## 데이터 웨어하우스
 * [OLTP, OLAP 비교](https://too612.tistory.com/511)
