@@ -199,8 +199,20 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 > 주키퍼(ZooKeeper)
 > * 브로커의 상태, 토픽 구성 컨슈머 그룹 정보등을 관리
 
-오프셋 커밋
-> auto commit
+옵션
+> ***Consumer Option***
+> enable.auto.commit(true/false)
+> * true: 일정간격(auto.commit.interval.ms). poll() 메서드 호출시 자동 commit
+> 	* 속도가 빠름
+> 	* 중복 또는 유실이 발생할 수 있음(중복/유실이 허용되지 않는 곳에서는 사용 금지)
+> * flase: 직접 커밋 메서드를 호출
+> 	* commitSync(): 동기 커밋
+> 		* 레코드 처리 순서 보장
+> 		* 커밋이 완료될 때 까지 block(가장 느림)
+> 		* poll 메서드로 반환된 마지막 레코드의 오프셋을 커밋하거나, 특정 오프셋 지정 커밋
+> 	* commitAsync(): 비동기 커밋
+> 		* 중복 및 순서
+> 
 ## 데이터 웨어하우스
 * [OLTP, OLAP 비교](https://too612.tistory.com/511)
 * [Snowflake, BigQuery, Redshift 비교](https://giljae.medium.com/snowflake-bigquery-redshift-%EB%B9%84%EA%B5%90-5c585df450b7)

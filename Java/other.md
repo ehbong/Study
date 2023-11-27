@@ -73,8 +73,8 @@ spring:
             group-id: testgroup  
             auto-offset-reset: earliest  
             key-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
-# 값을 스트링으로만 사용 시  
-#            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
+			# 값을 스트링으로만 사용 시  
+			# value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
             # 값을 모델 등 특정 형태로 사용 시
             value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer  
         producer:  
