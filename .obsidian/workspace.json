@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network.md",
+                "file": "vscode.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network.md",
+                "file": "vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network.md",
+                "file": "vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network.md"
+                "file": "vscode.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "5feb4221684ef235",
   "lastOpenFiles": [
+    "server.md",
+    "Refactoring.md",
+    "other.md",
+    "network.md",
+    "kubernetes.md",
+    "gRPC.md",
+    "git.md",
+    "figma.md",
+    "Docker.md",
+    "designPattern.md",
+    "db.md",
+    "CS.md",
+    "algorithm.md",
+    "AI.md",
+    "Java/effective java.md",
     "Java/other.md",
     "Java/java.md",
-    "db.md",
     "Python/Other.md",
     "Python/fastAPI.md",
     "Python/Flask.md",
     "Python/Pycharm.md",
     "Python/python.md",
-    "CS.md",
-    "other.md",
     "Java/spring.md",
     "hybrid_app/flutter.md",
-    "gRPC.md",
-    "Java/effective java.md",
-    "designPattern.md",
-    "algorithm.md",
     "golang/Go.md",
     "golang/fiber.md",
-    "kubernetes.md",
-    "Docker.md",
-    "OS.md",
-    "JS/Javascript.md",
-    "aws/basic.md",
-    "aws/rds.md",
-    "aws/AWS_Lambda.md",
-    "aws/efs.md",
     "무제 폴더"
   ]
 }
