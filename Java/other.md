@@ -61,34 +61,3 @@ List<User> users = new JPAQueryFactory(entityManager)
     .fetch();
 ```
 
-#### Kafka
-> 카프카 설정
-```yml
-# applicaion.yml
-# Kafka configuration  
-spring:  
-    kafka:  
-        bootstrap-servers: localhost:9092  
-        consumer:  
-            group-id: testgroup  
-            auto-offset-reset: earliest  
-            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
-			# 값을 스트링으로만 사용 시  
-			# value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
-            # 값을 모델 등 특정 형태로 사용 시
-            value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer  
-        producer:  
-            key-serializer: org.apache.kafka.common.serialization.StringSerializer
-            # 값을 모델 등 특정 형태로 사용 시  
-            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-        # 역직렬화 시 패키지를 신용하도록 설정(없으면 오류 발생)      
-        properties:  
-            spring:  
-                json:  
-                    trusted:  
-                        packages: '*'  
-  
-message:  
-    topic:  
-        name: test
-```

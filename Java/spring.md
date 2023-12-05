@@ -55,3 +55,80 @@
 
 ### 스케줄링
 * [스케줄링 예제](https://spring.io/guides/gs/scheduling-tasks/)
+
+
+
+#### Kafka
+> 카프카 설정
+```yml
+# applicaion.yml
+# Kafka configuration  
+spring:  
+    kafka:  
+        bootstrap-servers: localhost:9092  
+        consumer:  
+            group-id: testgroup  
+            auto-offset-reset: earliest  
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
+			# 값을 스트링으로만 사용 시  
+			# value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
+            # 값을 모델 등 특정 형태로 사용 시
+            value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer  
+        producer:  
+            key-serializer: org.apache.kafka.common.serialization.StringSerializer
+            # 값을 모델 등 특정 형태로 사용 시  
+            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        # 역직렬화 시 패키지를 신용하도록 설정(없으면 오류 발생)      
+        properties:  
+            spring:  
+                json:  
+                    trusted:  
+                        packages: '*'  
+  
+message:  
+    topic:  
+        name: test
+```
+
+
+> 스프링 카프카 컨슈머 예제
+```java
+@Service  
+public class KafkaConsumer {  
+	// KafkaListener 어노테이션 사용
+	// topics 또는 topicPattern(정규식) 을 사용해서 수신할 토픽 지정
+	// groupId 컨슈머 그룹 식별자
+	// concurrency 리스너 컨테이너 수(스레드로 병렬처리)
+	// 그 밖에 id: 리스너 고유 식별자, properties: 카프카 속성 등
+    @KafkaListener(topics = "${message.topic.name}", groupId = "${spring.kafka.consumer.group-id}", concurrency = "3")  
+    public void consume(ConsumerRecord<String, MyMessage> message) throws IOException {  
+        String key = message.key();  
+        MyMessage value = message.value();  
+		System.out.printf("Consumed message : %s, %s, %n", key, value.toString());  
+    }  
+}
+```
+> 스프링 카프카 프로듀서 예제
+```java
+@Service  
+public class KafkaProducer {  
+  
+    @Value(value= "${message.topic.name}")  
+    private String topicName;
+	// org.springframework.kafka.core.KafkaTemplate 를 import 해서
+	// 생성자를 통해 의존성 주입
+	// 메시지 형태를 제네릭을 통해 정의
+    private final KafkaTemplate<String, MyMessage> kafkaTemplate;  
+    @Autowired  
+    public KafkaProducer(KafkaTemplate<String, MyMessage> kafkaTemplate) {  
+        this.kafkaTemplate = kafkaTemplate;  
+    }  
+	
+    public void sendMessage(String key, String value) {  
+        System.out.printf("Produced message: %s, %s%n", key, value);  
+        MyMessage message = new MyMessage(Instant.now().toEpochMilli(), value);  
+        // kafkaTemplate.send 메서드를 이용해서 브로커에 메시지 전달
+        kafkaTemplate.send(topicName, key, message);  
+    }  
+}
+```
