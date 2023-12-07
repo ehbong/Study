@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/java.md",
+                "file": "other.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/java.md",
+                "file": "other.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/java.md",
+                "file": "other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/java.md"
+                "file": "other.md"
               }
             }
           },
@@ -158,11 +158,11 @@
   },
   "active": "c61974e02cf2f39e",
   "lastOpenFiles": [
+    "Java/java.md",
     "무제 파일.canvas",
     "2023-12-05.md",
     "Java/spring.md",
     "Java/other.md",
-    "Java/java.md",
     "Docker.md",
     "vscode.md",
     "server.md",
