@@ -2,8 +2,6 @@
 
 * [flutter 위젯 튜토리얼](https://www.youtube.com/playlist?list=PLIKnSA4GMR4NXpNdCtJOL0BhWcxX_BBHJ)
 * [입문자를 위한 강의](https://www.youtube.com/watch?v=Yt-DjG5b4iA&list=PLnIaYcDMsScxP2Nl8pEbmI__wkF0YVu0a)
-* [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
-* [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
 
@@ -123,5 +121,42 @@ void main() {
 
 
 ```
+
+
+#### Getx
+* [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
+* [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
+> Navigation
+```dart
+// 홈 위젯으로 이동
+Get.to(Home());
+// main.dart, getPages 에 등록해 놓은 설정값에 따라 이동
+Get.toNamed('/');
+// 뒤로 이동
+Get.back();
+// 이전화면 없이 이동(로그인 화면 등)
+Get.off(Home());
+// 이전 경로 모두 삭제 이동(회원가입 등)
+Get.offAll(Home());
+
+
+
+// main.dart 등록 예시
+@override  
+Widget build(BuildContext context) {  
+  return GetMaterialApp(  // GetX 사용을 위해 MaterialApp 에서 변경
+    title: 'flutterApp',  
+    initialRoute: '/',  
+    initialBinding: InitBinding(),  
+    getPages: [  
+      GetPage(name: '/', page: () => const App()),  
+    ],  
+  );  
+}
+```
+
+
+
+
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)

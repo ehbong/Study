@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "other.md",
+                "file": "hybrid_app/flutter.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "other.md",
+                "file": "hybrid_app/flutter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "other.md",
+                "file": "hybrid_app/flutter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "other.md"
+                "file": "hybrid_app/flutter.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "c61974e02cf2f39e",
   "lastOpenFiles": [
+    "other.md",
     "Java/java.md",
     "무제 파일.canvas",
     "2023-12-05.md",
@@ -167,7 +168,6 @@
     "vscode.md",
     "server.md",
     "Refactoring.md",
-    "other.md",
     "network.md",
     "kubernetes.md",
     "gRPC.md",
