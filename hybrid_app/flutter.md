@@ -138,8 +138,16 @@ Get.back();
 Get.off(Home());
 // 이전 경로 모두 삭제 이동(회원가입 등)
 Get.offAll(Home());
-
-
+// 인자 값 전달 
+Get.to(Home(), arguments: 'hello GetX');
+Get.arguments // 사용 측(문자열)
+Get.to(Home(), arguments: {'value': 'hello GetX'});
+Get.arguments['value'] // 사용 측(맵)
+Get.to(Home(), arguments: User(name: 'kim');
+(Get.arguments as User).name // 사용 측(특정 클래스)
+// url 로 값 전달 시
+Get.toNamed('/user/1234')
+Get.parameters['uid'] // ? 를 사용한 쿼리 파라메터도 같은 방식으로 사용
 
 // main.dart 등록 예시
 @override  
@@ -149,7 +157,8 @@ Widget build(BuildContext context) {
     initialRoute: '/',  
     initialBinding: InitBinding(),  
     getPages: [  
-      GetPage(name: '/', page: () => const App()),  
+      GetPage(name: '/', page: () => const App()),
+      GetPage(name: '/user/:uid', page: () => const UserPage()),  
     ],  
   );  
 }
