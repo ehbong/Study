@@ -130,9 +130,11 @@ String? b; // null 일 수 있음을 명시적으로 선언
 a = b.toUpperCase(); // b 가 null 일 수 있으므로 오류 발생
 a = b!.toUpperCase(); // ! 는 값이 null 이 아님을 명시
 late String c; // 나중에 초기화 하겠다는 것을 명시
+// late 를 사용할 경우 사용 시점에 초기화
+late String d = someFunc(); // 이렇게 선언할 경우 변수 사용 시점에 someFunc가 실행됨
 ```
 
-#### Getx
+#### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
 > Navigation
