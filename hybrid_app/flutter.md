@@ -122,6 +122,15 @@ void main() {
 
 ```
 
+> Null safety(dart 2.12 이상
+> * 클래스 내에 선언된 변수는 null이 될 수 없음
+```dart
+String a; // 오류
+String? b; // null 일 수 있음을 명시적으로 선언
+a = b.toUpperCase(); // b 가 null 일 수 있으므로 오류 발생
+a = b!.toUpperCase(); // ! 는 값이 null 이 아님을 명시
+late String c; // 나중에 초기화 하겠다는 것을 명시
+```
 
 #### Getx
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
