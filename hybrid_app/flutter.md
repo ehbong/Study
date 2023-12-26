@@ -134,6 +134,40 @@ late String c; // 나중에 초기화 하겠다는 것을 명시
 late String d = someFunc(); // 이렇게 선언할 경우 변수 사용 시점에 someFunc가 실행됨
 ```
 
+###### 비동기
+> Future, Stream 으로 두가지의 형태가 존재
+> * Future : 한번의 응답을 하는 경우
+> * Stream : 지속적인 응답이 필요한 경우
+```dart
+// 비동기로 값을 리턴하는 함수
+Future<int> f(int s) async {
+  await Future.delayed(Duration(seconds: s));
+  print('');
+  return s;
+}
+
+// void 면 상관없으나,
+// 비동기로 처리된 값을 받아야 한다면 아래와 같이 처리
+void main() async {
+  // 이렇게 처리할 경우 await 가 비동기의 종료를 기다려서 동기처리 됨
+  await f(3);
+  await f(5);
+  await f(2);
+
+  List<Future<int>> futures = [
+    f(3),
+    f(5),
+    f(2),
+  ];
+  // 동시 처리되어야 할 객체를 Future.wait를 사용해서 동시 처리되도록 설정
+  // future seconds : 2, 3, 5 순서대로 출력 됨
+  List<int> results = await Future.wait(futures);
+  print(results); // [3, 5, 2]
+}
+
+```
+
+
 #### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
