@@ -23,6 +23,15 @@
 > * 메타데이터를 담은 파일(버전 정보, 의존성, static 파일 경로 등)
 > 각 플랫폼 이름의 폴더(ios, android, macos, windows)
 > * 배포를 위한 파일들
+> /lib
+> * main.dart 파일을 포함한 flutter 파일이 작성되는 디렉토리
+> * 내부적으로 page, controller, components 등 구분 가능
+> /ios, /android, 등
+> * 각각 플랫폼에 맞는 설정 등이 포함된 디렉토리
+> /assets
+> * static 파일들 저장 경로(이미지 파일 등)
+
+
 # Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
