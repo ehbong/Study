@@ -41,7 +41,17 @@
 > 5. android studio 사용 시 open editor 로 수정 창열고, add Locale 버튼 클릭 해서 지원 국가 추가 후 명칭 입력
 > 6. 아닐 경우 values-ko 폴더 생성 후 strings.xml 파일 생성해서 똑같이 작성하고 app_name 안쪽에 한글 명 입력
 > 
-> 
+> ios
+> 1. xcode 실행 해서 ios/Runner.xcworkspace 파일로 프로젝트 열기
+> 2. project > Runner 선택해서 info에 Localizations 추가(추가 실패 시 시뮬레이터 설치 여부 확인)
+> 3. 왼쪽 메뉴에서 Runner 아래 New Group으로 Localization 폴더 생성
+> 4. New File 로 InfoPlist.strings 파일 생성(파일 이름 대소문자 주의)
+> 5. 파일 선택된 상태에서 우측 Localize... 버튼 클릭 후 팝업에서 korean 선택후 Localize 버튼 클릭
+> 6. 우측에 추가된 Korean 체크
+> 7. 왼쪽에 InfoPlist 아래 InfoPlist(Korean), InfoPlist(English) 추가 확인
+> 8. 각각 선택 후"CFBundleDisplayName" = "지정할 앱이름 각각의 언어로 작성"
+> 9. 우측 목록에서 Runner 아래 Info.plist 선택 후
+> 10. Bundle display name 항목을 제거
 
 
 # Dart
