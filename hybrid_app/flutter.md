@@ -32,6 +32,18 @@
 > * static 파일들 저장 경로(이미지 파일 등)
 
 
+###### 타이틀 로컬라이징
+> android
+> 1. android/app/src/main/AndroidManifest.xml 파일 검색
+> 2. application label 값 수정 로컬 라이징을 위해 변수 지정 @string/app_name
+> 3. android/app/src/main/res/values/ 폴더안에 strings.xml 파일 생성
+> 4. resources 태그 생성 후 안에 string 태그 네임은 app_name 태그 안에 지정할 앱 이름 지정
+> 5. android studio 사용 시 open editor 로 수정 창열고, add Locale 버튼 클릭 해서 지원 국가 추가 후 명칭 입력
+> 6. 아닐 경우 values-ko 폴더 생성 후 strings.xml 파일 생성해서 똑같이 작성하고 app_name 안쪽에 한글 명 입력
+> 
+> 
+
+
 # Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
