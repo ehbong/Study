@@ -37,11 +37,10 @@
 > * WidgetsBindingObserver 클래스를 with 으로 mixin 받아서  
 >   didChangeAppLifecycleState 메서드 오버라이드를 통해 상태 변화 감지  
 > 상태별 설명
-> * detached: 
+> * detached: 종료 상태
 > * resumed: 활성화 상태, 화면에 표시 및 화면조작이 가능한 상태
-> * inactive: 비활성화된 상태, 백그라운드 또는 다른앱으로 전환(전화가 왔을 때 등)
-> * hidden:
-> * paused: 일시정지 상태, 백그라운드에 있지만 리소스 소비할 수 있는 상태
+> * inactive: 비활성화된 상태, 백그라운드 또는 다른앱으로 전환(전화가 왔을 때 등), 화면에 UI 표시 중
+> * paused: 일시정지 상태, 백그라운드에 있지만 리소스 소비할 수 있는 상태, 화면에 UI 보이지 않음
 
 
 
