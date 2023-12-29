@@ -31,6 +31,19 @@
 > /assets
 > * static 파일들 저장 경로(이미지 파일 등)
 
+###### 라이프사이클
+> 앱의 상태 별 라이프 사이클  
+> * AppLifecycleState enum 값으로 구분
+> * WidgetsBindingObserver 클래스를 with 으로 mixin 받아서  
+>   didChangeAppLifecycleState 메서드 오버라이드를 통해 상태 변화 감지  
+> 상태별 설명
+> * detached: 
+> * resumed: 활성화 상태, 화면에 표시 및 화면조작이 가능한 상태
+> * inactive: 비활성화된 상태, 백그라운드 또는 다른앱으로 전환(전화가 왔을 때 등)
+> * hidden:
+> * paused: 일시정지 상태, 백그라운드에 있지만 리소스 소비할 수 있는 상태
+
+
 
 ###### 타이틀 로컬라이징
 > android
