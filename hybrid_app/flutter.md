@@ -71,6 +71,10 @@
 > 9. 우측 목록에서 Runner 아래 Info.plist 선택 후
 > 10. Bundle display name 항목을 제거
 
+###### Drawing based animation
+* [Rive]()
+* [Lott]
+
 
 # Dart
 > 변수
