@@ -72,8 +72,8 @@
 > 10. Bundle display name 항목을 제거
 
 ###### Drawing based animation
-* [Rive]()
-* [Lott]
+> * [Rive](https://rive.app/)
+> * [Lottie](https://lottiefiles.github.io/lottie-docs/)
 
 
 # Dart
