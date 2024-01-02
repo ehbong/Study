@@ -221,7 +221,23 @@ void main() async {
 ```
 ###### [extension](https://dart.dev/language/extension-methods)
 > Dart 2.7 버전부터 도입된 기능으로 기존 클래스에 새로운 기능을 추가할 때 사용
-> * 
+> * 상속 등으로 가능하지만 조금 더 직관적으로 변경 가능
+> * 동적 유형에서는 확장 메서드 호출 불가
+```dart
+// 선언 방법
+// extension <명칭> on <추가할 클래스>{}
+// 
+}
+extension NumberParsing on String {
+  int parseInt() {
+    return int.parse(this);
+  }
+  // ···
+}
+
+dynaic d = '2';
+d.parseInt() // Runtime exception: NoSuchMethodError
+```
 
 #### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
