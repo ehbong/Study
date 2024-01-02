@@ -219,7 +219,9 @@ void main() async {
 }
 
 ```
-
+###### [extension](https://dart.dev/language/extension-methods)
+> Dart 2.7 버전부터 도입된 기능으로 기존 클래스에 새로운 기능을 추가할 때 사용
+> * 
 
 #### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
