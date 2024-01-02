@@ -222,10 +222,12 @@ void main() async {
 ###### [extension](https://dart.dev/language/extension-methods)
 > Dart 2.7 버전부터 도입된 기능으로 기존 클래스에 새로운 기능을 추가할 때 사용
 > * 상속 등으로 가능하지만 조금 더 직관적으로 변경 가능
-> * 동적 유형에서는 확장 메서드 호출 불가
+> * 동적 유형에서는 extension 메서드 호출 불가
+> * var 로 선언한 추론형에서는 사용 가능
+> * 이름 없는 확장도 가능하지만, 이름이 없으면 메서드명 충돌을 해결하기 어려움
 ```dart
 // 선언 방법
-// extension <명칭> on <추가할 클래스>{}
+// extension <명칭> on <타입>{}
 // 
 }
 extension NumberParsing on String {
