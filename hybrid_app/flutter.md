@@ -268,6 +268,29 @@ dynaic d = '2';
 d.parseInt() // Runtime exception: NoSuchMethodError
 ```
 
+###### 특별한 연산자
+> cascade
+```dart
+// 오브젝트를 반환하는 경우 .. 을 통해서 오브젝트의 결과 값에 접근이 가능하다.
+// cascade 연산자 사용할 때
+var paint = Paint()
+  ..color = Colors.black
+  ..strokeCap = StrokeCap.round
+  ..strokeWidth = 5.0;
+// 일반적인 방법  
+var paint = Paint();
+paint.color = Colors.black;
+paint.strokeCap = StrokeCap.round;
+paint.strokeWidth = 5.0;
+```
+> spread
+```dart
+// 컬렉션을 병합 추가할 때 사용
+var list = [1, 2, 3];
+var list2 = [0, ...list]; //[0, 1, 2, 3]
+var list3 = [0, ...?list]; // list가 빈값일 수 있으면 ? 를 추가
+```
+
 #### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
