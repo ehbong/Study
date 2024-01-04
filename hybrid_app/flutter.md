@@ -5,6 +5,24 @@
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
 
+###### [버전 관리(FVM)](https://fvm.app/)
+> flutter 버전 관리 툴
+> fvm설치
+```bash
+# mac
+brew tap leoafarias/fvm # brew 에 서드파티 레파지토리 추가
+brew install fvm # fvm 설치
+```
+> 명령어
+```bash
+# 플러터 설치
+fvm install {version}
+# 특정 버전 사용
+fvm use {version}
+# 버전 목록 조회
+fvm list 
+```
+
 ###### Widgets
 > stateless widgets
 > * 변화가 없고, 상태가 없는 위젯
