@@ -42,6 +42,14 @@
 > * inactive: 비활성화된 상태, 백그라운드 또는 다른앱으로 전환(전화가 왔을 때 등), 화면에 UI 표시 중
 > * paused: 일시정지 상태, 백그라운드에 있지만 리소스 소비할 수 있는 상태, 화면에 UI 보이지 않음
 
+###### 앱 종료 방법 비교
+> dart:io > exit(0);
+> * 운영체제에 프로세스 종료를 요청해서 앱을 강제종료
+> * 프로그래밍 생명 주기를 무시하고 종료(AppLifecycleState)
+> flutter/services > SystemNavigator.pop(); 
+> * 현재 화면을 닫고 이전화면으로 돌아감, 첫번째 화면이라면 앱을 종료
+> * 뒤로가기 를 수행할 때 실행 프로그래밍 생명 주기를 수행(AppLifecycleState)
+
 ###### [factory](https://dart-ko.dev/language/constructors#factory-%EC%83%9D%EC%84%B1%EC%9E%90)
 >새로운 인스턴스를 생성하고 싶지 않을때 사용하는 생성자 키워드
 >* 싱글톤 패턴으로 동작
@@ -74,6 +82,7 @@
 ###### Drawing based animation
 > * [Rive](https://rive.app/)
 > * [Lottie](https://lottiefiles.github.io/lottie-docs/)
+
 
 
 # Dart
