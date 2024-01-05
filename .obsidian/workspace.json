@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "elixir/Elixir.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "elixir/Elixir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "elixir/Elixir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hybrid_app/flutter.md"
+                "file": "elixir/Elixir.md"
               }
             }
           },
@@ -158,9 +158,11 @@
   },
   "active": "50931b3775466757",
   "lastOpenFiles": [
+    "hybrid_app/flutter.md",
+    "elixir/Elixir.md",
+    "elixir",
     "무제 파일.canvas",
     "2024-01-03.md",
-    "hybrid_app/flutter.md",
     "other.md",
     "Java/java.md",
     "2023-12-05.md",
@@ -183,7 +185,6 @@
     "Java/effective java.md",
     "Python/Other.md",
     "Python/fastAPI.md",
-    "Python/Flask.md",
-    "무제 폴더"
+    "Python/Flask.md"
   ]
 }
