@@ -100,6 +100,7 @@ sum.(1, 2) # 3
 ```
 > * 함수 작성 블럭 fn..end 안에 여러개의 매개변수 타입과 반환 값을 가질 수 있다.
 > * 매개변수의 값, 형태에 따라 맞는 패턴이 호출 된다.
+> * 단 하나의 함수 선언안에서 매개변수의 수는 같아야한다.
 ```elixir
 find_zero = fn
   0, 0 -> "둘다 0"
@@ -112,4 +113,25 @@ find_zero(0, 3) # 첫번째가 0
 find_zero("a", 0) # 두번째가 0
 find_zero("a", "b") # 0이 없음
 find_zero(0, 0) # 둘다 0
+```
+###### 함수 특징
+> 클로저
+> * 함수는 자신이 선언될 때 환경을 기억한다.
+```elixir
+greeter = fn name ->
+  fn -> "Hello #{name}" end
+end
+
+tom = greeter.name('Tom') # 바깥의 함수가 이 순간 종료되지만 안에 내부함수가 값을 기억한다.
+tom.() # Hello Tom
+```
+>함수 파라메터 고정
+>* 핀 연산자(^)를 사용한 것처럼 변수를 고정시킬 수 있다.
+```elixir
+greeter = fn name, greeting ->
+	fn
+		(^name) -> "#{greeting} #{name}"
+		(_) -> "I don't know you"
+	end
+end
 ```
