@@ -125,13 +125,30 @@ end
 tom = greeter.name('Tom') # 바깥의 함수가 이 순간 종료되지만 안에 내부함수가 값을 기억한다.
 tom.() # Hello Tom
 ```
->함수 파라메터 고정
+>함수 매개변수 고정
 >* 핀 연산자(^)를 사용한 것처럼 변수를 고정시킬 수 있다.
 ```elixir
 greeter = fn name, greeting ->
 	fn
-		(^name) -> "#{greeting} #{name}"
+		# ^name 으로 지정할 경우 바깥 함수의 name 값을 기억한다.
+		# ("Tom") -> "#{greeting} #{name}" 처럼 하드코딩한 것과 같이 동작한다.
+		(^name) -> "#{greeting} #{name}" 
 		(_) -> "I don't know you"
 	end
 end
+
+name_check = greeter.("Tom", "Hello")
+name_check.("Tom") # Hello Tom
+name_check.("Jack") # I don't know you
+```
+>& 표기법
+>* 짧은 단축함수를 작성하는 방법
+```elixir
+# & + 리턴값의 형태 또는 함수 + &1, &2 매개변수의 순서
+# &(&1 + 1) 일반적인 함수 형태
+# &abs(&1) 특정 함수를 호출하는 형태
+# &[&1...&2] 리턴 값이 리스트인 형태
+sum = &(&1 + &2)
+sum(1, 2) # 3
+
 ```
