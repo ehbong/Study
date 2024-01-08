@@ -247,9 +247,27 @@ void main() async {
 
 ```
 
-###### 병렬처리
+###### 병렬처리[(Isolate)](https://dart-ko.dev/language/concurrency#isolate-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D)
 >Isolate: 다트에서 사용하는 병렬처리의 작업 단위
->* 
+>* 웹 플랫폼을 제외한 다트 플랫폼에서 지원
+>* 다트 코드는 스레드가 아닌 isolate의 내부에서 실행
+>* 다트는 main isolate가 있고, 필요 시 isolate를 추가해서 사용
+>* isolate는 멀티프로세스 형태(독립적인 메모리와 이벤트 루프)의 다트 런타임에서 실행되는 경량 스레드
+```dart
+void main() async {
+  // 데이터 읽기.
+  final jsonData = await Isolate.run(_readAndParseJson);
+
+  // 데이터 사용.
+  print('Number of JSON keys: ${jsonData.length}');
+}
+
+Future<Map<String, dynamic>> _readAndParseJson() async {
+  final fileData = await File(filename).readAsString();
+  final jsonData = jsonDecode(fileData) as Map<String, dynamic>;
+  return jsonData;
+}
+```
 
 
 ###### [extension](https://dart.dev/language/extension-methods)
