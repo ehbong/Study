@@ -246,6 +246,12 @@ void main() async {
 }
 
 ```
+
+###### 병렬처리
+>Isolate: 다트에서 사용하는 병렬처리의 작업 단위
+>* 
+
+
 ###### [extension](https://dart.dev/language/extension-methods)
 > Dart 2.7 버전부터 도입된 기능으로 기존 클래스에 새로운 기능을 추가할 때 사용
 > * 상속 등으로 가능하지만 조금 더 직관적으로 변경 가능
