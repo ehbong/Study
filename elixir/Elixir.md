@@ -155,19 +155,31 @@ sum(1, 2) # 3
 
 > |> 파이프 연산자
 > * 앞의 함수의 리턴 값을 다음 함수의 첫번째 파라메터로 제공하는 문법
+> * 파이프연산자를 사용할 때는 파라메터에 괄호가 필수
 ```elixir
 // 파이프 연산자 없는 코드
-// 각
+// 각각의 결과 값을 변수에 담아서 전달
 other = other_function()
 new = new_function(other)
 baz_r = baz(new)
 bar_r = bar(baz_r)
 foo_r = foo(bar_r)
 // 또는
+// 함수의 실행 순서가 안쪽에서부터 바깥쪽으로 진행되므로 가독성이 나쁨
 foo(bar(baz(new_function(other_function()))))
 
 
 // 파이프 연산자 코드
 // 함수의 실행 순서대로 나열
 other_function() |> new_function() |> baz() |> bar() |> foo()
+```
+
+> import 문법
+> * 문법
+```elixir
+// 기본 문법
+import 모듈이름
+
+// 특정 함수만 불러올 때
+imp
 ```
