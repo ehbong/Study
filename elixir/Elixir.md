@@ -152,3 +152,22 @@ name_check.("Jack") # I don't know you
 sum = &(&1 + &2)
 sum(1, 2) # 3
 ```
+
+> |> 파이프 연산자
+> * 앞의 함수의 리턴 값을 다음 함수의 첫번째 파라메터로 제공하는 문법
+```elixir
+// 파이프 연산자 없는 코드
+// 각
+other = other_function()
+new = new_function(other)
+baz_r = baz(new)
+bar_r = bar(baz_r)
+foo_r = foo(bar_r)
+// 또는
+foo(bar(baz(new_function(other_function()))))
+
+
+// 파이프 연산자 코드
+// 함수의 실행 순서대로 나열
+other_function() |> new_function() |> baz() |> bar() |> foo()
+```
