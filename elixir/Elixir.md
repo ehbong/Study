@@ -200,3 +200,21 @@ alias My.Other.Module.Runner
 // 또는 
 alias My.Other.Module.{Parser, Runner}
 ```
+>모듈 속성
+>* 모듈에 포함하고 있는 일종의 상수(컴파일 시점에 정해진 값)와 비슷한 설정 값
+>* 같은 이름의 속성 값을 여러번 설정할 수 있다.
+>* 같은 이름의 속성 값을 여러번 살정할 경우 정의될 당시의 값을 기억한다.
+```elixir
+@name value
+
+// attr 이라는 속성이 2번 선언되고, 사용됐다.
+defmodule Example do
+	@attr "one"
+	def first, do: @attr
+	@attr "two"
+	def second, do: @attr
+end
+// 실행 시 second 함수는 선언 당시의 attr 값인 two를
+// first 함수는 선언 당시의 attr 값인 one 을 기억해서 출력한다.
+IO.puts("Example.second: #{Example.second}, Example.first: #{Example.first}")
+```
