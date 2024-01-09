@@ -181,5 +181,22 @@ other_function() |> new_function() |> baz() |> bar() |> foo()
 import 모듈이름
 
 // 특정 함수만 불러올 때
-imp
+// only: 이후에 불러올 함수를 키,값 형식의 리스트로 작성
+// 키는 함수 이름, 값은 함수의 인자 값 개수
+import List, only: [last: 1]
+
+// 특정 함수를 제외하고 불러올 때
+// except: 특정 함수를 제외할 때
+import List, except: [last: 1]
+```
+>* alias : import 를 짧게 줄여 쓰는 방식
+```elixir
+// 기본 문법
+alias My.Other.Module.Parser, as: Parser
+alias My.Other.Module.Runner, as: Runner
+// 단축 문법
+alias My.Other.Module.Parser
+alias My.Other.Module.Runner
+// 또는 
+alias My.Other.Module.{Parser, Runner}
 ```
