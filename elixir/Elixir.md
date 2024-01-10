@@ -107,6 +107,14 @@ tf # falsee
 %{ n => flase } = %{ 1 => true, 2 => false}
 n # 에러발생
 ```
+>	* 패턴의 키를 변수로 사용할 경우 ^ 핀 연산자를 사용해야 한다.
+```elixir
+data = %{name: "Tom", state: "Tx", likes: "Elixir"}
+for key <- [:name, :likes] do
+  %{^key => value} = data # 핀 연산자 없이 Key로 변경하면 오류 발생
+  value
+end
+```
 >* 바이너리: 이진 데이터를 표현하는 데 사용되는 자료형 <<데이터>> 형식으로 표기
 >   <<데이터::size(비트수)>> 와 같이 데이터의 크기도 지정 가능
 >* 날짜와 시간: 1.3 이후 생긴 날짜와 시간을 다루는 타입
