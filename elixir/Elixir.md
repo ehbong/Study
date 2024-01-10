@@ -97,6 +97,16 @@ Map.hash_key? person2, :name # true
 Map.pop person2, :age # { 10, %{name: "Tom", weight: 80}} {추출 값, 제외한 맵}
 Map.equal? person, person2 # false
 ```
+
+>	* 패턴 매칭은 키를 바인딩 하지는 않는다.
+```elixir
+# 값은 패턴 매칭에서 바인딩 된다
+%{ 2 => tf } = %{ 1 => true, 2 => false}
+tf # falsee
+# 키는 패턴 매칭에서 바인딩 되지 않는다.
+%{ n => flase } = %{ 1 => true, 2 => false}
+n # 에러발생
+```
 >* 바이너리: 이진 데이터를 표현하는 데 사용되는 자료형 <<데이터>> 형식으로 표기
 >   <<데이터::size(비트수)>> 와 같이 데이터의 크기도 지정 가능
 >* 날짜와 시간: 1.3 이후 생긴 날짜와 시간을 다루는 타입
