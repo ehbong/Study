@@ -72,6 +72,7 @@ List.replace_at([1,2,3], 2, "num") # [1, 2, "num"]
 
 # 키로 접근하기
 # List.keyfind(리스트, 값, 값의 index, 없을 경우 대체 출력 값)
+# 값이 없을 경우 nil 또는 대체 값
 List.keyfind([{:name, "Tom"}], "Tom", 1)
 ```
 >* 맵: 키 값으로 이루어진 자료형
@@ -84,9 +85,14 @@ List.keyfind([{:name, "Tom"}], "Tom", 1)
 # 선언 및 키에 접근
 person = %{"name"=>"Tom"}
 person["name"] # 값이 없을 경우 nil 반환
-person2 = %{name: "Tom"}
+person2 = %{name: "Tom", age: 10, sex: "M"} # "" 없이 작성하면 아톰 키로 인식
 person2[:name] # 키가 아톰일 경우 앞에 : 를 표기
 person2.name # . 을 통해 접근 가능, 단 점을 통해 호출할 경우 없으면 오류 발생
+# Map 모듈 사용
+Map.keys person2 # [:name, :age, :sex]
+Map.values person2 # ["Tom", 10, "M"]
+Map.drop person2, [:sex] # %{name: "Tom", age: 10}
+Map.put person2, :
 ```
 >* 바이너리: 이진 데이터를 표현하는 데 사용되는 자료형 <<데이터>> 형식으로 표기
 >   <<데이터::size(비트수)>> 와 같이 데이터의 크기도 지정 가능
