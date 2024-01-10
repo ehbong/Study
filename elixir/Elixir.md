@@ -92,7 +92,10 @@ person2.name # . 을 통해 접근 가능, 단 점을 통해 호출할 경우 �
 Map.keys person2 # [:name, :age, :sex]
 Map.values person2 # ["Tom", 10, "M"]
 Map.drop person2, [:sex] # %{name: "Tom", age: 10}
-Map.put person2, :
+Map.put person2, :weight, 80 # %{name: "Tom", age: 10, weight: 80}
+Map.hash_key? person2, :name # true
+Map.pop person2, :age # { 10, %{name: "Tom", weight: 80}} {추출 값, 제외한 맵}
+Map.equal? person, person2 # false
 ```
 >* 바이너리: 이진 데이터를 표현하는 데 사용되는 자료형 <<데이터>> 형식으로 표기
 >   <<데이터::size(비트수)>> 와 같이 데이터의 크기도 지정 가능
