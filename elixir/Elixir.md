@@ -115,6 +115,14 @@ for key <- [:name, :likes] do
   value
 end
 ```
+>	* 불변객체 이기 때문에 일반적인 패턴 매칭으로 값이 바인딩 되지 않는다.
+```elixir
+report = %{owner: %{name: "Dave"}, serverity: 1}
+report.serverity = 2 # 에러 발생
+new_report = Map.put(report, :serverity, 2) # 새 맵을 생성해서 값을 변경
+new_report2 = put_in(report.owner.name, "Tom") # 같은방식의 다른문법
+new_report3 = update_in(report.owner.name, &("My name is " <> &1)) # 새맵을 생성 후 함수를 넣어서 변경
+```
 >* 바이너리: 이진 데이터를 표현하는 데 사용되는 자료형 <<데이터>> 형식으로 표기
 >   <<데이터::size(비트수)>> 와 같이 데이터의 크기도 지정 가능
 >* 날짜와 시간: 1.3 이후 생긴 날짜와 시간을 다루는 타입
