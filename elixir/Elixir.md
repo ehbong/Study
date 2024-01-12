@@ -275,3 +275,12 @@ end
 // first 함수는 선언 당시의 attr 값인 one 을 기억해서 출력한다.
 IO.puts("Example.second: #{Example.second}, Example.first: #{Example.first}")
 ```
+
+>컴프리헨션
+>* 문법
+```elixir
+result = for 이터레이터 또는 필터... [, into: 값], do: 반환 값
+for x <- [1, 2, 3], do: x + 1 # [2, 3, 4]
+for x <- [1, 2, 3], x > 1, do: x # [2, 3] 이터레이터 뒤에 조건이 같이 있는 경우
+for x <- [1, 2, 3], y <- [3, 2, 1], do: x+y # [4, 4, 4] 2개의 이터레이터가 있는 경우
+```
