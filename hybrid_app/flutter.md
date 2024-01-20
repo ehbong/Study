@@ -365,7 +365,7 @@ Widget build(BuildContext context) {
 > 	 * 플러터 엔진 및 서비스와 플러그인 사용을 초기화 하는 메서드
 > 	 * 주로 main 함수에서 실행되며, 주로 네이티브 환경이 필요한 라이브러리 초기화 시 필요
 > 	 * 구성요소
-> 		 1. `ServicesBinding` 플랫폼 메시지를 수신하고 처리하는 기능 지원
+> 		 1. `ServicesBinding` 플러그인을 초기화하고 서브시스템 접근 제어 및 관리하며, 플랫폼 메시지를 수신하고 처리하는 역할
 > 		 2. `PaintingBinding` 이미지 디코딩 및 이미지 캐시, 폰트 관리.
 > 		 3. `RenderBinding` 렌더 트리 관리
 > 		 4. `WidgetBinding` 위젯 트리 관리
