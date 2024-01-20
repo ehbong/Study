@@ -4,7 +4,6 @@
 * [입문자를 위한 강의](https://www.youtube.com/watch?v=Yt-DjG5b4iA&list=PLnIaYcDMsScxP2Nl8pEbmI__wkF0YVu0a)
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
-
 ###### [버전 관리(FVM)](https://fvm.app/)
 > flutter 버전 관리 툴
 > fvm설치
@@ -360,6 +359,19 @@ Widget build(BuildContext context) {
 #### [Isar](https://isar.dev/)
 >로컬 DB
 >* NoSQL DB
+
+#### 기타
+> WidgetsFlutterBinding.ensureInitialized 함수
+> 	 * 플러터 엔진 및 서비스와 플러그인 사용을 초기화 하는 메서드
+> 	 * 주로 main 함수에서 실행되며, 주로 네이티브 환경이 필요한 라이브러리 초기화 시 필요
+> 	 * 구성요소
+> 		 1. `ServicesBinding` 플랫폼 메시지를 수신 대기하고 들어오는 메시지(BinaryMessenger)에 대한 처리기로 전달합니다.
+> 		 2. `PaintingBinding` 는 페인팅 라이브러리에 대한 바인딩을 담당합니다.
+> 		 3. `RenderBinding` 렌더 트리를 Flutter 엔진에 바인딩합니다.
+> 		 4. `WidgetBinding` 위젯 트리를 Flutter 엔진에 바인딩합니다.
+> 		 5. `SchedulerBinding` 는 애니메이션, 타이머, 비동기 작업 등의 스케줄링을 관리
+> 		 6. `SemanticsBinding` 시맨틱 레이어와 Flutter 엔진을 바인딩합니다.
+> 		 7. `GestureBinding` 는 제스처 이벤트를 처리하는 역할
 
 
 ## 무료강의
