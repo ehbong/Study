@@ -81,7 +81,17 @@
 * 6바이트로 앞에 3바이트는 OUI(조직 고유 식별자) 이고, 뒤에 3바이트는 조직에서 부여한 식별자
 >Frame
 * 데이터 링크 계층에서 MAC 주소 기반으로 데이터를 주고 받기 위한 단위
-* 프리엠블
+* 구성요소
+	* Preamble(7byte): 데이터의 시작을 알리는 공간
+	* Start of Frame Delimeter(1byte): 10101011로 이루어진 다음 필드가 목적지 주소임을 알리는 공간
+	* Destination MAC Address(6byte): 목적지 MAC 주소
+	* Source MAC Address(6byte): 도착지 MAC 주소
+	* Type or Length(2byte): 데이터의 크기 및 종류 정의
+	* Data / Payload (46~1500byte): 데이터 공간, 상위 계층의 프로토콜로부터 받은 데이터를 캡슐화 해서 포함, 데이터가 46보다 작을 경우 뒤에 0으로 패딩이 생성
+	* Frame Check Sequence(4byte): DA+SA+Length+Data 의 영역을 계산해서 오류 체크 할 수 있는 값이 있는 공간
+
+
+  
 ---
 ### MTU
 > MTU 조정이 필요한 경우<br>
