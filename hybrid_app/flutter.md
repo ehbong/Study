@@ -380,9 +380,12 @@ Widget build(BuildContext context) {
 > 24.01.25
 > * flutter_background_service 라이브러리 사용 중에 사용된 어노테이션
 ```dart
-//
 @pragma('vm:entry-point')
 ```
+> * [vm:entry-point 에 대한 공식문서 내용](https://github.com/dart-lang/sdk/blob/master/runtime/docs/compiler/aot/entry_point_pragma.md)
+> * [vm:entry-point 스택오버플로의 답변 내용](https://stackoverflow.com/questions/64314719/what-does-pragmavmprefer-inline-mean-in-flutter)
+> * 이해한 내용 요약
+> 	* Dart 에서 컴파일 시, 최적화를 위해 
 
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
