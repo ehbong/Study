@@ -377,6 +377,12 @@ Widget build(BuildContext context) {
 >* 디바이스 내에 로컬 저장공간에 간단한 데이터를 저장하기 위해 사용하는 key,value 형식의 라이브러리
 >* 동기화 기능을 제공하지 않으므로, 다중 isolate 상황에서는 한쪽에서 변경된 값을 다른 isolate에도 바로 반영되지 않음
 
+> 24.01.25
+> * flutter_background_service 라이브러리 사용 중에 사용된 어노테이션
+```dart
+//
+@pragma('vm:entry-point')
+```
 
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
