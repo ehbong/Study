@@ -385,7 +385,7 @@ Widget build(BuildContext context) {
 > * [vm:entry-point 에 대한 공식문서 내용](https://github.com/dart-lang/sdk/blob/master/runtime/docs/compiler/aot/entry_point_pragma.md)
 > * [vm:entry-point 스택오버플로의 답변 내용](https://stackoverflow.com/questions/64314719/what-does-pragmavmprefer-inline-mean-in-flutter)
 > * 이해한 내용 요약
-> 	* Dart 에서 컴파일 시, 최적화를 위해 
+> 	* Dart 에서 컴파일 시, Tree Shaking 을 통해 사용되지 않는 코드를 제거하는 최적화 과정에서 호출되지 않는 함수를 명시적으로 제거하지 않고 유지하기 위해 사용
 
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
