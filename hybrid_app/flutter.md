@@ -387,5 +387,9 @@ Widget build(BuildContext context) {
 > * 이해한 내용 요약
 > 	* Dart 에서 컴파일 시, Tree Shaking 을 통해 사용되지 않는 코드를 제거하는 최적화 과정에서 호출되지 않는 함수를 명시적으로 제거하지 않고 유지하기 위해 사용
 
+>24.01.26
+>* flutter_ringtone_player 라이브러리 설치 후 checkdebugduplicateclasses 에러 발생
+>	* android/build.gradle 파일 내에 ext.kotlin_version 버전을 올려서 해결
+
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
