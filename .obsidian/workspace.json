@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hybrid_app/flutter.md",
-                "mode": "source",
+                "file": "Python/python.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "Python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "Python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hybrid_app/flutter.md"
+                "file": "Python/python.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "021ddf6fd04ac3c3",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "Python/python.md",
     "hybrid_app/flutter.md",
     "elixir/Elixir.md",
     "elixir",
-    "무제 파일.canvas",
     "2024-01-03.md",
     "other.md",
     "Java/java.md",
@@ -183,8 +184,6 @@
     "algorithm.md",
     "AI.md",
     "Java/effective java.md",
-    "Python/Other.md",
-    "Python/fastAPI.md",
-    "Python/Flask.md"
+    "Python/Other.md"
   ]
 }
