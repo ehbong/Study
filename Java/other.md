@@ -2,6 +2,22 @@
 ## Lombok
 > 어노테이션으로 반복코드를 줄여주는 라이브러리
 * [공식 안내](https://projectlombok.org/features/)
+```java
+// final 필드 또는 초기화 되지 않은 모든 필드를 가져와서 주입하는 생성자를 생성
+// Spring의 경우 생성자 의존성 주입을 받을 수 있음
+@RequiredArgsConstructor
+class MemberService{
+	final MemberRepository memberRepository;
+	
+	// @RequiredArgsConstructor 어노테이션을 통해
+	// 아래처럼 생성자를 작성한 것과 동일한 효과
+	void MemberService(MemberRepository mr){
+		this.memberRepository = mr;
+	}
+
+}
+
+```
 
 ## JPA
 > java ORM기술을 사용하는 인터페이스
