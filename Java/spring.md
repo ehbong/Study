@@ -132,3 +132,8 @@ public class KafkaProducer {
     }  
 }
 ```
+
+
+#### 이슈 및 조치 정리
+>* 컨트롤러에서 @PathVariable 어노테이션 사용 시 path에 :id 와 같은 문법 사용하면 id를 값으로 인식하지 못해서 오류 발생
+>	* {id}로 수정하여 문제 해결
