@@ -73,6 +73,32 @@ docker -v <공유하고자 하는 호스트 시스템 디렉토리 절대 경로
   docker build -t <이미지이름> <도커파일경로 같은 디렉토리면 .>
   
 ```
+
+>Docker ubuntu의 systemctl 명령어 사용 방법
+>* docker 로 ubuntu에서 systemctl 실행 시  
+>  System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down 오류 발생
+>* init 시스템을 systemd 로 지정필요
+```
+# Dockerfile
+FROM ubuntu:20.04
+
+# systemd를 사용하려면 아래의 환경 변수 설정이 필요합니다.
+ENV container docker
+
+# 패키지 업데이트와 systemd 설치
+RUN apt-get update && apt-get install -y systemd
+
+# 컨테이너를 완전한 systemd 환경으로 설정
+CMD ["/lib/systemd/systemd"]
+```
+>* daemon에 권한 부여 필요
+```bash
+# 도커 이미지 생성 
+docker build -t my_ubuntu_image .
+# 권한 부여 후 실행
+docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup -d my_ubuntu_image
+```
+
 * [RUN, CMD, ENTRYPOINT의 차이](https://nirsa.tistory.com/66)
 * [YAML 문법](https://subicura.com/k8s/prepare/yaml.html#%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8)
 * [YAML TO JSON](https://onlineyamltools.com/convert-yaml-to-json)
