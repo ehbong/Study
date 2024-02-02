@@ -5,6 +5,7 @@
 * [깃허브 강좌 하](https://www.youtube.com/watch?v=GaKjTjwcKQo)
 * [브랜치 종류 설명](https://mylko72.gitbooks.io/git/content/branch/branch_type.html)
 * [깃 명령어 설명](https://youtube.com/playlist?list=PLpzDq-W37heTVW8lrWo8DVLi33BRVwICo&si=nZWDYXeqXuh0uX-P)
+* [Commit message Rules](https://junhyunny.github.io/information/github/git-commit-message-rule/)
 
 ### 기본 명령어
 > 버전=커밋ID
