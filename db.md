@@ -157,7 +157,7 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 
 
 ## 인메모리 DB
-* [redis](https://aws.amazon.com/ko/elasticache/what-is-redis/)
+* [redis 공식문서](https://redis.io/docs/about/)
 * [redis 설명](https://devlog-wjdrbs96.tistory.com/374)
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
 * [단계별 redis 설명](https://velog.io/@devsh/Redis-1-Redis%EB%9E%80)
