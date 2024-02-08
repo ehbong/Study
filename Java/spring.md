@@ -56,7 +56,11 @@
 ### 스케줄링
 * [스케줄링 예제](https://spring.io/guides/gs/scheduling-tasks/)
 
-
+#### Webflux
+* [공식문서](https://docs.spring.io/spring-framework/reference/web/webflux.html)
+> * 비동기 및 이벤트 기반 어플리케이션 개발을 위한 모듈
+> * Servlet API을 사용하지 않고, Reactive Streams API 기반으로 동작
+> * 대규모 동시 요청 또는 실시간 대응이 필요한 어플리케이션을 위해 사용
 
 #### Kafka
 > 카프카 설정
