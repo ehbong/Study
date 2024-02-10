@@ -21,6 +21,18 @@ fvm use {version}
 # 버전 목록 조회
 fvm list 
 ```
+#### 앱 빌드
+> 안드로이드
+```bash
+# 기본 빌드 방법
+flutter build apk
+# 플랫폼 지정 빌드 방법
+flutter build apk --target-platform android-arm64
+# 릴리즈 모드 빌드
+flutter build apk --release
+```
+
+
 
 ###### Widgets
 > stateless widgets
