@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f3be1cccba825f1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +146,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -156,7 +169,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "021ddf6fd04ac3c3",
+  "active": "0f3be1cccba825f1",
   "lastOpenFiles": [
     "other.md",
     "Refactoring.md",
