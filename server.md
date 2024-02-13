@@ -67,6 +67,16 @@ res.cookie('sessionID', 'abcdef', { domain: '.example.com', path: '/app' });
 ```
 ----
 
+###### 브라우저 캐시
+>* ETag: 수정을 확인할 수 있는 버전 등을 저장해서 수정 여부에 따라 캐시를 사용하는 헤더
+>	1. 요청을 받으면 서버가 수정을 구분할 수 있는 값을 헤더에 ETag 키로 담아 반환 
+>	2. 브라우저가 서버에서 ETag를 받고, 저장
+>	3. 같은 요청 발생 시 헤더에 if-none-match 키로 ETag 값을 실어서 서버에 요청
+>	4. 서버는 if-none-match 값을 확인해서 수정 여부를 알 수 있는 값과 비교해서 같으면 304 코드를 반환, 아니면 새로운 값을 200으로 반환
+>* Last-Modified: 
+
+
+```
 
 > SSH 접속시 RSA 공유키 충돌문제 REMOTE HOSt IDENTIFICATION HAS CHANGED
 ```zsh
