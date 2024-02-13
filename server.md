@@ -73,7 +73,11 @@ res.cookie('sessionID', 'abcdef', { domain: '.example.com', path: '/app' });
 >	2. 브라우저가 서버에서 ETag를 받고, 저장
 >	3. 같은 요청 발생 시 헤더에 if-none-match 키로 ETag 값을 실어서 서버에 요청
 >	4. 서버는 if-none-match 값을 확인해서 수정 여부를 알 수 있는 값과 비교해서 같으면 304 코드를 반환, 아니면 새로운 값을 200으로 반환
->* Last-Modified: 
+>* Last-Modified: 마지막 수정 날짜를 기록해서 비교하여 캐시
+>	1. 요청을 받으면 서버는 마지막 수정 시간을 헤더에 Last-Modified 키로 담아 반환
+>	2. 브라우저가 서버에서 Last-Modified를 받고 저장
+>	3. 같은 요청 발생 시 헤더에 if-modified-since 키로 Last-Modified 값을 실어서 서버에 요청
+>	4. 서버는 if-modified-since 값과 수정시간을 비교해서 같으면 304코드를 반환, 아니면 새로운 값과 200을 반환
 
 
 ```
