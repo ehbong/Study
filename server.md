@@ -67,7 +67,7 @@ res.cookie('sessionID', 'abcdef', { domain: '.example.com', path: '/app' });
 ```
 ----
 
-###### 브라우저 캐시
+###### [브라우저 캐시](https://www.rfc-editor.org/rfc/rfc2068#section-14.9)
 >* ETag: 수정을 확인할 수 있는 버전 등을 저장해서 수정 여부에 따라 캐시를 사용하는 헤더
 >	1. 요청을 받으면 서버가 수정을 구분할 수 있는 값을 헤더에 ETag 키로 담아 반환 
 >	2. 브라우저가 서버에서 ETag를 받고, 저장
@@ -78,6 +78,12 @@ res.cookie('sessionID', 'abcdef', { domain: '.example.com', path: '/app' });
 >	2. 브라우저가 서버에서 Last-Modified를 받고 저장
 >	3. 같은 요청 발생 시 헤더에 if-modified-since 키로 Last-Modified 값을 실어서 서버에 요청
 >	4. 서버는 if-modified-since 값과 수정시간을 비교해서 같으면 304코드를 반환, 아니면 새로운 값과 200을 반환
+>* Cache-Control: 캐시를 어떻게 처리할 것인 가를 지정
+>	 * no-cache: 캐시 사용 전 서버에 유효성 검사 필요(위의 Etag, Last-Modified 등을 이용해 검증)
+>	 * no-store: 응답을 캐싱하지않음
+>	 * max-age: 초 단위로 응답을 캐싱할 시간을 지정(변경하지 않을 파일도 최대 1년을 권장)
+>	   이 경우 파일 변경 시, 파일이름 변경 등을 통해 캐싱을 회피
+>	 * immutable: 리소스가 변경되지 않음
 
 
 ```
