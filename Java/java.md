@@ -194,6 +194,60 @@ Integer intValue = getValue(12);
 String strValue = getValue("Hello");
 ```
 
+### enum (열거형)
+> 서로 관련된 상수를 선언하기 위한 자료형
+```java
+// 기본 사용
+enum Type1 {
+ TYPE_A, TYPE_B, TYPE_C
+}
+// 값 포함하여 선언
+enum Type2 {
+	TYPE_A(100), TYPE_B(200), TYPE_C(300);
+	
+	public final int value;
+	
+	Type2(int value){
+		this.value = value;
+	}
+}
+// 값 사용
+Type2.TYPE_A.value // 100
+
+// 추상 메서드 사용
+enum Type3 {
+	TYPE_A(100) {
+		@override
+		long sum(int someValue){
+			return value + someValue;
+		}
+	},
+	TYPE_B(200) {
+		@override
+		long sum(int someValue){
+			return value + someValue;
+		}
+	},
+	TYPE_C(300) {
+		@override
+		long sum(int someValue){
+			return value + someValue;
+		}
+	};
+	public final int value;
+	// 생성자
+	Type2(int value){
+		this.value = value;
+	}
+	// 추상 메서드
+	abstract long sum(int someValue);
+}
+
+// 값 사용
+Type3.Type_A.sum(200) // 300
+
+```
+
 
 ### 의존성 주입
 #### 의존성 주입 어노테이션
