@@ -188,7 +188,7 @@
 public <T> T getValue(T input){
 	return input;
 }
-// Object로 선언 됐지만, 아래와 같이 입력 매개변수에 맞춰서 
+// Object로 선언 됐지만, 아래와 같이 입력 매개변수에 맞춰서
 // 제네릭의 타입추론 기능으로 자동으로 형변환
 Integer intValue = getValue(12);
 String strValue = getValue("Hello");
