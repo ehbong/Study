@@ -159,8 +159,71 @@ CREATE INDEX my_index ON my_table (my_column) WHERE my_column >= 100;
 ## 인메모리 DB
 * [redis 공식문서](https://redis.io/docs/about/)
 * [redis 설명](https://devlog-wjdrbs96.tistory.com/374)
+```bash
+# cli 명령어
+# 진입
+redis-cli
+# 원격 진입
+redis-cli -h 호스트 -p 포트
+
+# string 키, 값 입출력
+# set <키> <값>, get <키>
+set a 1
+get a
+
+# 키 배열을 순환해서 반환
+# keys 명령어는 한번에 모든 키를 찾아 반환하므로
+# 동작하는 동안 시스템이 멈춤
+# scan은 iterater 방식으로 스케줄링되어
+# 사용 권장
+# 0일 경우 전체 반복 스캔
+# 자세한 내용은 https://redis.io/commands/scan/ 참고
+scan 0
+# Set 유형의 요소 반환
+sscan key 0
+# 해시맵 유형의 요소 반환
+hscan key 0 
+# Sorted set 유형의 요소 반환
+zscan key 0
+
+# 리스트 자료형 https://redis.io/docs/data-types/lists/
+# 왼쪽으로 데이터 삽입
+lpush key value
+# 오른쪽으로 데이터 삽입
+rpush key value
+
+# 왼쪽, 오른쪽 데이터 추출(추출된 데이터 제거)
+lpop key
+rpop key
+
+# set 자료형 https://redis.io/docs/data-types/sets/
+# 데이터 삽입
+# 한칸씩 간격을 추가해서 하나이상의 데이터를 삽입
+sadd key value value2 value3 ...
+# 해당 set에 있는 객체를 반환
+smembers key
+# 해당 값이 있는 지 확인 있으면 1 없으면 0
+sismember key value
+# 값 수 반환
+scard key
+# 정해진 수만큼 값 추출(추출된 데이터 제거)
+spop key count
+
+
+# hesh map 자료형 https://redis.io/docs/data-types/hashes/
+# 데이터 삽입
+hset key 내부key value
+# 데이터 조회
+hget key 내부key
+# 내부 key 수 반환
+hlen key
+# 내부 key 모두 반환
+hkeys key
+# 내부 value 모두 반환
+hvals key
+
+```
 * [Python에서 Redis를 사용](https://soyoung-new-challenge.tistory.com/117)
-* [단계별 redis 설명](https://velog.io/@devsh/Redis-1-Redis%EB%9E%80)
 * [pub/sub python예제](https://snowdeer.github.io/python/2021/12/22/python-redis-pubsub-example/)
 * [pub/sub 설명](http://redisgate.kr/redis/command/pubsub_intro.php)
 * [docker로 생성하여 연결할때 conf 파일 수정 값](https://stackoverflow.com/questions/62162222/redis-connection-refused-between-containers)

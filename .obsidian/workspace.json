@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "server.md",
+                "file": "db.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "server.md",
+                "file": "db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "server.md",
+                "file": "db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "server.md"
+                "file": "db.md"
               }
             }
           },
@@ -160,11 +160,13 @@
   },
   "active": "021ddf6fd04ac3c3",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "db.md",
+    "server.md",
     "hybrid_app/flutter.md",
     "other.md",
     "Refactoring.md",
     "designPattern.md",
-    "db.md",
     "Java/spring.md",
     "hybrid_app/react_native.md",
     "Java/effective java.md",
@@ -178,7 +180,6 @@
     "2023-12-05.md",
     "Docker.md",
     "vscode.md",
-    "server.md",
     "network.md",
     "kubernetes.md",
     "gRPC.md",
@@ -186,7 +187,6 @@
     "figma.md",
     "CS.md",
     "algorithm.md",
-    "AI.md",
-    "Python/Other.md"
+    "AI.md"
   ]
 }
