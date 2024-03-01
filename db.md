@@ -166,6 +166,11 @@ redis-cli
 # 원격 진입
 redis-cli -h 호스트 -p 포트
 
+# 레플리카 설정 방법
+replicaof 호스트 포트
+# 레플리카 정보 확인
+INFO replication
+
 # string 키, 값 입출력
 # set <키> <값>, get <키>
 set a 1
