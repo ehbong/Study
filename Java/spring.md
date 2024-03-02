@@ -45,6 +45,87 @@
 > * @Qualifier: 동일한 클래스를 상속받은 여러개 클래스 중에 의존성을 명시적으로 지정해야 할 때 사용, 주입할 클래스 옆에 @Qualifier(MyServiceA) Myservice 와 같은 형식
 > * @Primary: 동일한 클래스를 상속받은 여러개 클래스 중에 기본이 되는 클래스를 지정할 때 사용
 
+> ***빈 등록 방법*** 
+> * [XML에 명시적으로 등록](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html)
+> * 컴포넌트 스캔을 통해 등록
+>    spring-boot 의 경우 @SpringBootApplication 어노테이션에 @ComponentScan 어노테이션이 포함되어 xml 설정 없이 컴포넌트 스캔
+```xml
+<beans ...>
+  <context:component-scan base-package="대상패키지" />
+</beans>
+```
+
+### [Aop](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/aop.html)
+>Aspect-Oriented Programming: 관점 지향 프로그래밍  
+>여러 서비스에 공통적으로 적용되는 횡단 관심사에 대해 분리해서 적용하는 방법  
+>대표적인 사용사례: 로깅, 트랜잭션 등
+
+>***설정 방법***
+>* XML
+```xml
+<!-- Aspect xml 예제 -->  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xmlns:aop="http://www.springframework.org/schema/aop"  
+xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans.xsd  
+http://www.springframework.org/schema/aop  
+http://www.springframework.org/schema/aop/spring-aop.xsd">  
+  
+<!-- Aspect bean -->  
+<bean id="loggingAspect" class="com.example.LoggingAspect" />  
+  
+<!-- Target bean -->  
+<bean id="myService" class="com.example.MyService" />  
+  
+<!-- AOP configuration -->  
+<aop:config>  
+<aop:aspect id="logAspect" ref="loggingAspect"> 
+<!-- point cut 은 적용 대상 -->  
+<aop:pointcut id="serviceMethods" expression="execution(* com.example.MyService.*(..))" />  
+<aop:before method="logBefore" pointcut-ref="serviceMethods" />  
+<aop:after method="logAfter" pointcut-ref="serviceMethods" />  
+</aop:aspect>  
+</aop:config>  
+  
+</beans>
+```
+> [pointcut 작성 방법 8.2.2 Declaring an aspect 참조](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/aop.html)
+>* 어노테이션
+```yaml
+# 디펜던시 등록
+dependencies {  
+	implementation 'org.springframework.boot:spring-boot-starter-aop'  
+}
+```
+```java 
+package com.example.myapp;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+// @Aspect 어노테이션으로 aop 등록
+// Component 로 빈 등록
+@Aspect 
+@Component
+public class LoggingAspect {
+	// pointcut 설정 Around 외에 Before, After 등을 사용
+    @Around("execution(* com.example.myapp..*(..))")
+    public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+        long start = System.currentTimeMillis();
+
+        Object proceed = joinPoint.proceed();
+
+        long executionTime = System.currentTimeMillis() - start;
+
+        System.out.println(joinPoint.getSignature() + " executed in " + executionTime + "ms");
+
+        return proceed;
+    }
+}
+```
 
 #### 빌드 자동화, 의존성 관리 도구(Maven, Gradle)
 * io.spring.dependency-management : Gradle 플러그인, Gradle에서 BOM(Bill of Materials)을 사용해 버전을 명시하지 않아도 최적화된 버전을 제공
