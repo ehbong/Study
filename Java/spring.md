@@ -66,6 +66,13 @@ public class appConfig {}
 >여러 서비스에 공통적으로 적용되는 횡단 관심사에 대해 분리해서 적용하는 방법  
 >대표적인 사용사례: 로깅, 트랜잭션 등
 
+>***구성 요소***
+>* 어드바이스: 적용 시점 또는 상황
+>* 조인포인트: 적용 대상의 메소드 호출 지점 또는필드 값
+>* 포인트카드: 적용 대상 필터
+>   [pointcut 작성 방법 8.2.2 Declaring an aspect 참조](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/aop.html)
+
+
 >***설정 방법***
 >* XML
 ```xml
@@ -96,7 +103,6 @@ http://www.springframework.org/schema/aop/spring-aop.xsd">
   
 </beans>
 ```
-> [pointcut 작성 방법 8.2.2 Declaring an aspect 참조](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/aop.html)
 >* 어노테이션
 ```yaml
 # 디펜던시 등록
@@ -117,7 +123,13 @@ import org.springframework.stereotype.Component;
 @Aspect 
 @Component
 public class LoggingAspect {
-	// pointcut 설정 Around 외에 Before, After, AfterReturn, AfterThrowing 등을 사용
+	// 
+	// Around: 메소드를 실행 전후
+	// Before: 메소드 실행 전
+	// After: 메소드 실행이 실패, 성공과 관게 없이 후
+	// AfterReturning: 메소드 성공 후
+	// AfterThrowing: 메소드 예외 발생 후
+	// 위 어노테이션의 내부 값 pointcut: 적용 대상 
     @Around("execution(* com.example.myapp..*(..))")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
