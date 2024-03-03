@@ -117,7 +117,7 @@ import org.springframework.stereotype.Component;
 @Aspect 
 @Component
 public class LoggingAspect {
-	// pointcut 설정 Around 외에 Before, After 등을 사용
+	// pointcut 설정 Around 외에 Before, After, AfterReturn, AfterThrowing 등을 사용
     @Around("execution(* com.example.myapp..*(..))")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
