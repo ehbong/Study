@@ -143,6 +143,9 @@ public class LoggingAspect {
 ### 스케줄링
 * [스케줄링 예제](https://spring.io/guides/gs/scheduling-tasks/)
 
+### [Spel](https://docs.spring.io/spring-framework/reference/core/expressions.html)
+* [SpEL 사용법](https://amy-it.tistory.com/102)
+
 #### Webflux
 * [공식문서](https://docs.spring.io/spring-framework/reference/web/webflux.html)
 > * 비동기 및 이벤트 기반 어플리케이션 개발을 위한 모듈
