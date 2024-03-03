@@ -47,13 +47,15 @@
 
 > ***빈 등록 방법*** 
 > * [XML에 명시적으로 등록](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html)
-> * 컴포넌트 스캔을 통해 등록
->    spring-boot 의 경우 @SpringBootApplication 어노테이션에 @ComponentScan 어노테이션이 포함되어 xml 설정 없이 컴포넌트 스캔
+
 ```xml
 <beans ...>
   <context:component-scan base-package="대상패키지" />
 </beans>
 ```
+> * 컴포넌트 스캔을 통해 등록
+>    spring-boot 의 경우 @SpringBootApplication 어노테이션에 @ComponentScan 어노테이션이 포함되어 xml 설정 없이 컴포넌트 스캔
+
 
 ### [Aop](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/aop.html)
 >Aspect-Oriented Programming: 관점 지향 프로그래밍  
