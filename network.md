@@ -36,6 +36,7 @@
 >   * 연결 및 연결 해제를 위해 3way handshake, 4way handshake 를 수행
 >   * 데이터를 확인하기 위해 헤더에 패킷 일련번호, 확인 응답 등을 추가
 >   * 연결 유지를 하려면 Keep-Alive 설정을 통해 Keep-Alive 패킷을 주기적으로 전송
+>   * 스트림 지향이라하며, 실제로는 세그먼트단위의 단건 전송이지만, 수신 측에서 이를 연결해 하나의 파일 또는 데이터 스트림으로 완성
 * [TCP/IP 프로토콜과 패킷 교환 방식](https://better-together.tistory.com/110)
 * [TCP/UDP 차이](https://velog.io/@hidaehyunlee/TCP-%EC%99%80-UDP-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 * [TCP 연결과 해제](https://brunch.co.kr/@dreaminz/5)

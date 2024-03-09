@@ -158,6 +158,28 @@ public class LoggingAspect {
 ### [Spel](https://docs.spring.io/spring-framework/reference/core/expressions.html)
 * [SpEL 사용법](https://amy-it.tistory.com/102)
 
+### 뷰 리졸버 설정
+```java
+// 소스에서 빈으로 등록해서 설정
+@Bean
+public ViewResolver viewResolver(){
+	InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+	resolver.setPrefix("/WEB-INF/views/");
+	resolver.setSuffix(".jsp");
+	// jstl 사용 시
+	resolver.setViewClass(org.springframework.web.servlet.view.JstlView.class);
+	return resolver;
+}
+```
+```xml
+<bean id="veiwResolver"
+	  class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+	  p:prefix="/WEB-INF/views/"
+	  p:suffix=".jsp"
+	  p:viewClass="org.springframework.web.servlet.view.JstlView.class"
+	  />
+```
+
 #### Webflux
 * [공식문서](https://docs.spring.io/spring-framework/reference/web/webflux.html)
 > * 비동기 및 이벤트 기반 어플리케이션 개발을 위한 모듈
