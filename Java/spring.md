@@ -188,7 +188,13 @@ public ViewResolver viewResolver(){
 
 
 #### SpringSecurity
-* [공식문서]()
+* [공식문서](https://docs.spring.io/spring-security/reference/index.html)
+>* 인증, 권한 부여 및 일반적인 공격에 대한 보호 제공
+>* 기본 설정은 모든 접근에 대해 로그인 후 접근하도록 처리
+>* config 파일을 작성해서 인증 및 권한 통제
+>* [요청승인에 관한 메서드](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#authorize-requests)
+
+
 #### Kafka
 > 카프카 설정
 ```yml
