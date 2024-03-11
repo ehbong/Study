@@ -193,6 +193,9 @@ public ViewResolver viewResolver(){
 >* 기본 설정은 모든 접근에 대해 로그인 후 접근하도록 처리
 >* config 파일을 작성해서 인증 및 권한 통제
 >* [요청승인에 관한 메서드](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#authorize-requests)
+>	* `hasRole`, `hasAuthority` 의 차이는 역할과 권한의 차이
+>		* 관리자 역할을 가진사람한테 허용(hasRole)
+>		* A라는 사람한테 read 권한 허용(hasAuthority)
 
 
 #### Kafka
