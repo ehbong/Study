@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Java/java.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Java/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/spring.md",
+                "file": "Java/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/spring.md"
+                "file": "Java/java.md"
               }
             }
           },
@@ -160,6 +160,10 @@
   },
   "active": "021ddf6fd04ac3c3",
   "lastOpenFiles": [
+    "Java/effective java.md",
+    "Java/java.md",
+    "Java/other.md",
+    "Java/spring.md",
     "db.md",
     "Untitled.canvas",
     "server.md",
@@ -167,11 +171,7 @@
     "other.md",
     "Refactoring.md",
     "designPattern.md",
-    "Java/spring.md",
     "hybrid_app/react_native.md",
-    "Java/effective java.md",
-    "Java/java.md",
-    "Java/other.md",
     "Python/python.md",
     "무제 파일.canvas",
     "elixir/Elixir.md",
