@@ -160,6 +160,9 @@
   },
   "active": "021ddf6fd04ac3c3",
   "lastOpenFiles": [
+    "Rust/Rust.md",
+    "Rust/Untitled.md",
+    "Rust",
     "Java/effective java.md",
     "Java/java.md",
     "Java/other.md",
@@ -186,7 +189,6 @@
     "git.md",
     "figma.md",
     "CS.md",
-    "algorithm.md",
-    "AI.md"
+    "algorithm.md"
   ]
 }
