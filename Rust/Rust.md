@@ -5,8 +5,18 @@
 ### 자료형
 
 ##### shadowing
-> 같은 이름의 변수가 반복적으로 선언되었을 때 기존 변수가 사라지는 것이 아닌, 숨어있는 상황
-```
+> 같은 이름의 변수가 반복해서 선언되었을 때 기존 변수가 사라지는 것이 아닌, 숨어있는 상황
+```rust
+fn main() {
+    let my_number = 8;
+    println!("{}", my_number); // 8
+    {
+        let my_number = 9.2; // 같은 이름 변수 선언
+        println!("{}", my_number) // 9.2
+    }
+    // 괄호안에 변수가 소멸되면서 기존에 선언했던 값이 출력 
+    println!("{}", my_number); // 8
+}
 ```
 
 ### Reference
