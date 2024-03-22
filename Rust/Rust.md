@@ -37,3 +37,22 @@ fn main() {
     println!("{}", my_number);
 }
 ```
+>* 함수 호출 시
+```rust
+fn print_country(country_name: String) {
+    println!("{}", country_name);
+}
+
+fn print_country2(country_name: &String) {
+    println!("{}", country_name);
+}
+
+fn main() {
+    let country = String::from("Austria");
+    print_country(country); // 값으로 넘길 경우 소유권이 함수로 넘어감
+    print_country(country); // 앞의 호출에서 변수가 소멸되어 호출 불가
+}
+
+
+
+```
