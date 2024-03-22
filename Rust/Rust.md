@@ -49,8 +49,11 @@ fn print_country2(country_name: &String) {
 
 fn main() {
     let country = String::from("Austria");
+    let country2 = String::from("Korea");
     print_country(country); // 값으로 넘길 경우 소유권이 함수로 넘어감
-    print_country(country); // 앞의 호출에서 변수가 소멸되어 호출 불가
+    print_country(country); // 앞의 호출이 종료되며 변수가 소멸되어 호출 불가
+	print_country2(&country2); // 참조로 할 경우 여러번 호출 가능(가변 참조도 가능)
+	print_country2(&country2);
 }
 
 
