@@ -3,6 +3,9 @@
 * [easyRust 문서](https://dhghomon.github.io/easy_rust/Chapter_0.html)
 
 ### 자료형
+##### Copy Type
+> * 값의 소유권 이전 없이 복사가 이루어지는 타입
+> * 기본타입들에 해당(정수, 소수, 부울 등)
 
 ##### shadowing
 > 같은 이름의 변수가 반복해서 선언되었을 때 기존 변수가 사라지는 것이 아닌, 숨어있는 상황

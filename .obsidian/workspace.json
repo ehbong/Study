@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/java.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/java.md",
+                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/java.md",
+                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/java.md"
+                "file": "Rust/Rust.md"
               }
             }
           },
@@ -160,11 +160,11 @@
   },
   "active": "021ddf6fd04ac3c3",
   "lastOpenFiles": [
+    "Java/java.md",
     "Rust/Rust.md",
     "Rust/Untitled.md",
     "Rust",
     "Java/effective java.md",
-    "Java/java.md",
     "Java/other.md",
     "Java/spring.md",
     "db.md",
