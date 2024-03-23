@@ -373,7 +373,10 @@ Widget build(BuildContext context) {
 >* NoSQL DB
 
 
-#### freezd
+#### [freezd](https://github.com/rrousselGit/freezed/blob/master/resources/translations/ko_KR/README.md)
+>모델을 정의할 때 필요한 코드 생성기
+
+
 
 #### 기타
 > WidgetsFlutterBinding.ensureInitialized 함수
