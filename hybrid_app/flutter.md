@@ -372,6 +372,9 @@ Widget build(BuildContext context) {
 >로컬 DB
 >* NoSQL DB
 
+
+#### freezd
+
 #### 기타
 > WidgetsFlutterBinding.ensureInitialized 함수
 > 	 * 플러터 엔진 및 서비스와 플러그인 사용을 초기화 하는 메서드
