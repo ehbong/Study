@@ -373,8 +373,10 @@ Widget build(BuildContext context) {
 >* NoSQL DB
 
 
-#### [freezd](https://github.com/rrousselGit/freezed/blob/master/resources/translations/ko_KR/README.md)
->모델을 정의할 때 필요한 코드 생성기
+#### [freezed](https://github.com/rrousselGit/freezed/blob/master/resources/translations/ko_KR/README.md) & [json_serializable](https://pub.dev/packages/json_serializable)
+>* freezed : 모델을 정의할 때 필요한 코드 생성기
+>	* [freezed](https://www.youtube.com/watch?v=i5p6wXLAX7I) 사용법 영상
+>* json_serializable : toJson, fromJson 코드 생성기 
 
 
 
