@@ -369,7 +369,7 @@ Widget build(BuildContext context) {
 
 
 #### [Isar](https://isar.dev/)
->로컬 DB
+>로컬 DB 
 >* NoSQL DB
 
 
