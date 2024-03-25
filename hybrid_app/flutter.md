@@ -113,11 +113,18 @@ flutter build apk --release
 > * [Lottie](https://lottiefiles.github.io/lottie-docs/)
 
 
+#### WebView
+* [webview_flutter 공식 플러그인](https://pub.dev/packages/webview_flutter)
+>공식 플러그인이므로, 추후 지원 및 업데이트 보장 
+* [flutter_inappwebview 서드파티 플러그인](https://pub.dev/packages/flutter_inappwebview)
+>다양한 옵션 제공  
+>* iOS WKUIDelegate(웹페이지 UI 메소드) 지원
+
 
 # Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
-> * dynamic: 자료형이 대입된 자료형에 따라 지속 변화
+> * dynamic: 자료형이 대입 된 자료형에 따라 지속 변화
 
 > final 과 const 
 > * 둘다 한번 값을 대입하면 변경할 수 없는 상수
