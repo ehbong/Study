@@ -196,6 +196,32 @@ public ViewResolver viewResolver(){
 >	* `hasRole`, `hasAuthority` 의 차이는 역할과 권한의 차이
 >		* 관리자 역할을 가진사람한테 허용(hasRole)
 >		* A라는 사람한테 read 권한 허용(hasAuthority)
+>* [계층적 권한](https://docs.spring.io/spring-security/reference/servlet/authorization/architecture.html#authz-hierarchical-roles)
+>	* 권한이 계층 형일 경우 계층의 상하 관계를 정의하고 적용
+```java
+// 계층 구조 정의
+@Bean 
+static RoleHierarchy roleHierarchy() { 
+	RoleHierarchyImpl hierarchy = new RoleHierarchyImpl();
+	hierarchy.setHierarchy("ROLE_ADMIN > ROLE_STAFF\n" + 
+		"ROLE_STAFF > ROLE_GUEST"); 
+	return hierarchy; 
+}
+// 계층 구조로 단순화 해서 접근 권한을 정의
+@Bean 
+public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{ 
+	http .csrf((auth) -> auth.disable()); 
+	http .authorizeHttpRequests((auth) -> auth
+	 .requestMatchers("/login").permitAll() 
+	 .requestMatchers("/").hasAnyRole("GUEST") // GUEST 이상 권한이면 허용
+	 .requestMatchers("/manager").hasAnyRole("STAFF") // STAFF 이상 "
+	 .requestMatchers("/admin").hasAnyRole("ADMIN")  // ADMIN 만 허용
+	 .anyRequest().authenticated()); 
+	http .formLogin((auth) -> auth.loginPage("/login") 
+	 .loginProcessingUrl("/loginProc") .permitAll() ); 
+	return http.build(); 
+}
+```
 
 
 #### Kafka
