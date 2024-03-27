@@ -371,3 +371,13 @@ public class Main {
 }
 
 ```
+
+
+###### DataSource
+> 데이터베이스와 연결 및 커넥션 관리, 트랜젝션 및 예외 처리를 위한 공통 인터페이스
+> * [설정 방법](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.data-access.configure-custom-datasource)
+> * 구현체
+> 	* HikariDataSource: 경량화된 커넥션 풀 제공(설정이 다소 복잡)  
+> 	   스프링부트2.0 이후 기본 커넥션 풀
+> 	* Apache Commons DBCP: 범용적인 데이터베이스 지원(고급기능 부족)
+> 	* Tomcat JDBC Pool: tomcat 서버와 호환성이 좋으며 안정적, 성능은 hikari보다 다소 부족

@@ -19,6 +19,9 @@ class MemberService{
 
 ```
 
+
+
+
 ## JPA
 > java ORM기술을 사용하는 인터페이스
 > * Hibernate, OpenJPA 등이 JPA의 구현체
