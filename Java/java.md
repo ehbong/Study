@@ -381,3 +381,6 @@ public class Main {
 > 	   스프링부트2.0 이후 기본 커넥션 풀
 > 	* Apache Commons DBCP: 범용적인 데이터베이스 지원(고급기능 부족)
 > 	* Tomcat JDBC Pool: tomcat 서버와 호환성이 좋으며 안정적, 성능은 hikari보다 다소 부족
+> * 스프링에서 @EnableAutoConfiguration 을 통해 기본적인 설정을 대신할 수 있음  
+>     (프로퍼티 파일 기준 설정)  
+> 	* 복잡한 설정이 필요할 경우 Bean을 구성해서 추가설정 필요
