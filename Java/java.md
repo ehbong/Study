@@ -381,6 +381,8 @@ public class Main {
 > 	   스프링부트2.0 이후 기본 커넥션 풀
 > 	* Apache Commons DBCP: 범용적인 데이터베이스 지원(고급기능 부족)
 > 	* Tomcat JDBC Pool: tomcat 서버와 호환성이 좋으며 안정적, 성능은 hikari보다 다소 부족
-> * 스프링에서 @EnableAutoConfiguration 을 통해 기본적인 설정을 대신할 수 있음  
+> * 스프링에서 @EnableAutoConfiguration 또는 @SpringBootConfiguration 를 통해 기본적인 설정을 대신할 수 있음  
 >     (프로퍼티 파일 기준 설정)  
 > 	* 복잡한 설정이 필요할 경우 Bean을 구성해서 추가설정 필요
+> * 프로퍼티에서 spring.datasource.url 없이 spring.datasource.hikari.jdbc-url 만 작성할 경우 url 을 찾지 못해 오류 발생 가능  
+>    (spring.datasource.url 입력하거나, [직접 Bean을 등록해서 hirariCP를 사용하도록 지정](https://velog.io/@on5949/SpringBootFailed-to-configure-a-DataSource-%EC%97%90%EB%9F%AC) 또는 런타임으로 com.h2database:h2 의존성을 추가할 경우 동작)
