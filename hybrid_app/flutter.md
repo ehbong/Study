@@ -87,7 +87,11 @@ flutter build apk --release
 >  factory 생성자는 객체를 직접 생성하는 것이 아니라, 생성된 객체를 반환하거나  
 >  다른 생성자나 메서드를 호출해서 동작하므로, 현재 인스턴스를 가르키는 this를 사용할 수 없음
 
-###### 타이틀 로컬라이징
+
+##### 로컬라이징
+
+
+타이틀 로컬라이징
 > android
 > 1. android/app/src/main/AndroidManifest.xml 파일 검색
 > 2. application label 값 수정 로컬 라이징을 위해 변수 지정 @string/app_name
@@ -107,6 +111,7 @@ flutter build apk --release
 > 8. 각각 선택 후"CFBundleDisplayName" = "지정할 앱이름 각각의 언어로 작성"
 > 9. 우측 목록에서 Runner 아래 Info.plist 선택 후
 > 10. Bundle display name 항목을 제거
+
 
 ###### Drawing based animation
 > * [Rive](https://rive.app/)
