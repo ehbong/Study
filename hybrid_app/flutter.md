@@ -92,7 +92,7 @@ flutter build apk --release
 
 > 공식 라이브러리 보다 쉽게 로컬라이징 설정
 * [이지 로컬라이제이션](https://pub.dev/packages/easy_localization)
-> 언어별 파일 sheet로 관리
+> 언어별 파일 sheet로 관리(작성 후, 이지 로컬라이제이션에 맞는 양식으로 변환)
  * [sheet_loader_localization](https://pub.dev/packages/sheet_loader_localization)
 
 타이틀 로컬라이징
