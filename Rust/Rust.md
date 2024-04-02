@@ -3,6 +3,48 @@
 * [easyRust 문서](https://dhghomon.github.io/easy_rust/Chapter_0.html)
 
 ### 자료형
+
+##### Collection types
+> ***Array***  
+> * 길이가 고정인 배열
+> * 길이가 다르면 다른 타입으로 인식해서 비교할 수 없음
+```rust
+fn main() {
+	let array = ["1", "2"]; // [&str; 2]
+	let array2 = ["1", "2", "3"]; // [&str; 3]
+	// 타입의 형태로 선언 가능
+	let array3 = [0; 10]; // 0이 10개 들어있는 array
+}
+```
+> * slices
+```rust
+let array = ["0", "1", "2"];
+// rust 가 slices를 사용할 때 원본에 소유권을 유지한 체 참조의 형태로 사용하도록 함
+// 따라서 &array[0..2] 로 하면 제대로 실행
+// 0 시작 2는 2앞에 까지 즉 0, 1 까지 출력
+println!("{:?}", array[0..2]); // error
+println!("{:?}", &array[0..2]); // ["0", "1"]
+println!("{:?}", &array[0..=2]); // ["0", "1", "2"]
+```
+> ***Vec***  
+> * 길이가 동적인 배열
+> * String 도 Vec으로 구현
+```rust
+let a = String::from("a");
+let b = String::from("b");
+
+let mut abc_vec = Vec::new();
+
+abc_vec.push(a);
+abc_vec.push(b);
+println!("{:?}", abc_vec); // ["a", "b"]
+println!("{}", abc_vec.capacity()); // capacity 메서드는 점유한 데이터 공간 개수
+// 데이터가 4개 이하면 4, 5~8개는 8, 8~16은 16 으로 기존 데이터 공간을 초과하면 2배씩 확장
+
+// 다른 초기화 방법
+let abc_vec = vec![a, b];
+```
+
 ##### Copy Type
 > * 값의 소유권 이전 없이 복사가 이루어지는 타입
 > * 기본타입들에 해당(정수, 소수, 부울 등)
