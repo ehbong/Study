@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6581bd12834d5404",
+        "id": "2a0de267dad7a6b3",
         "type": "tabs",
         "children": [
           {
-            "id": "021ddf6fd04ac3c3",
+            "id": "6f9ea211cdd5f1fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust/Rust.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Rust/Rust.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,13 +150,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "021ddf6fd04ac3c3",
+  "active": "6f9ea211cdd5f1fb",
   "lastOpenFiles": [
+    "Rust/Rust.md",
     "hybrid_app/flutter.md",
     "Java/java.md",
     "Java/effective java.md",
     "Java/other.md",
-    "Rust/Rust.md",
     "Rust/Untitled.md",
     "Rust",
     "Java/spring.md",

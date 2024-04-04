@@ -44,6 +44,31 @@ println!("{}", abc_vec.capacity()); // capacity 메서드는 점유한 데이터
 // 다른 초기화 방법
 let abc_vec = vec![a, b];
 ```
+> ***Tuples***  
+> * 길이가 고정된 배열
+> * 다양한 자료형을 포함하도록 허용
+```rust
+// 정의
+let tuple: (i32, f64, char) = (42, 3.14, 'a');
+
+// index 접근
+tuple.0 // 0번 인덱스 접근, tuple[] 이 아니라 . 을 찍고 그뒤에 index 표기
+
+// 패턴 매칭
+let person: (&str, u8) = ("Alice", 30);
+let (name, age) = person;
+
+println!("{:?}", name); // "Alice"
+println!("{:?}", age); // 30
+
+match person {
+	// 튜플의 첫 번째 요소가 "Alice"인 경우
+	("Alice", age) => println!("Hello Alice! You are {} years old.", age),
+	// 그 외의 경우
+	(_, age) => println!("Hello! You are {} years old.", age),
+}
+
+```
 
 ##### Copy Type
 > * 값의 소유권 이전 없이 복사가 이루어지는 타입
@@ -100,7 +125,4 @@ fn main() {
 	print_country2(&country2); // 참조로 할 경우 여러번 호출 가능(가변 참조도 가능)
 	print_country2(&country2);
 }
-
-
-
 ```
