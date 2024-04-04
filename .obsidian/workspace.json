@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a0de267dad7a6b3",
+        "id": "becc13edda811a7e",
         "type": "tabs",
         "children": [
           {
-            "id": "6f9ea211cdd5f1fb",
+            "id": "c219a3faed4ba05e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -150,7 +150,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6f9ea211cdd5f1fb",
+  "active": "c219a3faed4ba05e",
   "lastOpenFiles": [
     "Rust/Rust.md",
     "hybrid_app/flutter.md",
