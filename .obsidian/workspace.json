@@ -11,8 +11,12 @@
             "id": "c219a3faed4ba05e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Rust/Rust.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Rust/Rust.md"
+              }
             }
           },
           {
@@ -152,8 +160,9 @@
   },
   "active": "c219a3faed4ba05e",
   "lastOpenFiles": [
-    "Rust/Rust.md",
+    "hybrid_app/react_native.md",
     "hybrid_app/flutter.md",
+    "Rust/Rust.md",
     "Java/java.md",
     "Java/effective java.md",
     "Java/other.md",
@@ -166,7 +175,6 @@
     "other.md",
     "Refactoring.md",
     "designPattern.md",
-    "hybrid_app/react_native.md",
     "Python/python.md",
     "무제 파일.canvas",
     "elixir/Elixir.md",

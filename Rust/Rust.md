@@ -16,7 +16,7 @@ fn main() {
 	let array3 = [0; 10]; // 0이 10개 들어있는 array
 }
 ```
-> * slices
+> * Slices: 배열 분할
 ```rust
 let array = ["0", "1", "2"];
 // rust 가 slices를 사용할 때 원본에 소유권을 유지한 체 참조의 형태로 사용하도록 함
