@@ -98,9 +98,9 @@ FutureBuilder<List<DosingModel>>(
       if (snapshot.connectionState == ConnectionState.waiting) {  
         return const Center(child: CircularProgressIndicator());  
       } else {
-		  // 이벤트 루프에 대기하여 빌드 이벤트가 끝 나고 실행되도록 설정
+		  // 1. 이벤트 루프에 대기하여 빌드 이벤트가 끝 나고 실행되도록 설정 방법
           Future.delayed(Duration.zero, () => Get.offNamed('/'));
-          // 
+          // 2. 위젯이 빌드된 이후 실행되는 콜백을 등록 하는 방법
           WidgetsBinding.instance.addPostFrameCallback(() { 
 	          Get.offNamed('/'); 
 		  });  
