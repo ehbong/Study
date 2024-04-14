@@ -88,7 +88,7 @@ flutter build apk --release
 >  다른 생성자나 메서드를 호출해서 동작하므로, 현재 인스턴스를 가르키는 this를 사용할 수 없음
 
 ###### FutureBuilder
->비동기 동작을 기다려서 빌드하기 위한 위젯
+>비동기 작업 후 빌드하기 위한 위젯
 >* 내부적으로 builder 메서드 내에서 snapshot 으로 진행 상태를 가짐 ([ConnectionState 객체](https://api.flutter.dev/flutter/widgets/ConnectionState.html))
 >* build 메서드가 상태 변경에 따라 실행되므로, 메서드 내부에 페이지 이동 등을 할 경우 주의 필요(예외 발생)
 ```dart
