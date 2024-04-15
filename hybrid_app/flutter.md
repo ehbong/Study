@@ -91,6 +91,7 @@ flutter build apk --release
 >비동기 작업 후 빌드하기 위한 위젯
 >* 내부적으로 builder 메서드 내에서 snapshot 으로 진행 상태를 가짐 ([ConnectionState 객체](https://api.flutter.dev/flutter/widgets/ConnectionState.html))
 >* build 메서드가 상태 변경에 따라 실행되므로, 메서드 내부에 페이지 이동 등을 할 경우 주의 필요(예외 발생)
+>	* [addPostFrameCallback](https://api.flutter.dev/flutter/scheduler/SchedulerBinding/addPostFrameCallback.html)
 ```dart
 FutureBuilder<List<DosingModel>>(  
     future: fetchData(),  
