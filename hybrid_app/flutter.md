@@ -152,6 +152,9 @@ FutureBuilder<List<DosingModel>>(
 >* iOS WKUIDelegate(웹페이지 UI 메소드) 지원
 
 
+##### 광고
+> [adMob 설정 방법](https://codelabs.developers.google.com/codelabs/admob-ads-in-flutter?hl=ko#0)
+
 # Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
