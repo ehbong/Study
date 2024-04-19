@@ -18,6 +18,8 @@ brew install fvm # fvm 설치
 fvm install {version}
 # 특정 버전 사용
 fvm use {version}
+# 특정 버전 전역 사용
+fvm use {version} --force 
 # 버전 목록 조회
 fvm list 
 ```
