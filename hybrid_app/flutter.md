@@ -454,5 +454,14 @@ Widget build(BuildContext context) {
 >* flutter_ringtone_player 라이브러리 설치 후 checkdebugduplicateclasses 에러 발생
 >	* android/build.gradle 파일 내에 ext.kotlin_version 버전을 올려서 해결
 
+
+>24.04.20
+>* build.gradle, setting.gradle 설정 파일의 형식 변경 발생(3.16 이전에 생성된 프로젝트)
+>* 아래 오류 내용
+```
+You are applying Flutter's app_plugin_loader Gradle plugin imperatively using the apply script method, which is deprecated and will be removed in a future release
+```
+>* [공식 문서 내 해당내용](https://docs.flutter.dev/release/breaking-changes/flutter-gradle-plugin-apply) 
+
 ## 무료강의
 * [Flutter 로 웹툰 앱 만들기](https://nomadcoders.co/flutter-for-beginners?gclid=CjwKCAiAleOeBhBdEiwAfgmXf_89CWEtkhR17GavHw6X3Il3vs8_d_CqwjIJJTnnl5qBkbWaANdsfBoCWM4QAvD_BwE)
