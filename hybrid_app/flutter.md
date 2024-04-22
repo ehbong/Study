@@ -150,8 +150,9 @@ FutureBuilder<List<DosingModel>>(
 * [webview_flutter 공식 플러그인](https://pub.dev/packages/webview_flutter)
 >공식 플러그인이므로, 추후 지원 및 업데이트 보장 
 * [flutter_inappwebview 서드파티 플러그인](https://pub.dev/packages/flutter_inappwebview)
->다양한 옵션 제공  
->* iOS WKUIDelegate(웹페이지 UI 메소드) 지원
+>	다양한 옵션 제공  
+>	* iOS WKUIDelegate(웹페이지 UI 메소드) 지원
+>	* [flutter_inappwebview 사용 오픈소스 앱](https://inappwebview.dev/showcase/flutter-app/?appName=Flutter%20Browser)
 
 
 ##### 광고
