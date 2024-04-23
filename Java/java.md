@@ -340,6 +340,12 @@ thread.start();
 // 대기 하지 않으면 메인스레드가 먼저 종료 시, 스레드 작업 완료를 보장하지 않음
 thread.join();
 ```
+> Virtual Thread
+> * JDK21 이후 지원
+> * 기존 스레드 방식과 다른 JVM 위에서 생성된 가상스레드
+> * 기존 스레드 대비, 컨텍스트 스위칭, 메모리 등에서 낮은 비용
+> * CPU 바운드 작업 시는 기존 스레드 대비 불리
+> * [우하한 기술 블로그 내 Virthual Thead 설명](https://techblog.woowahan.com/15398/)
 
 ###### Dynamic dispatch
 > 메서드 호출을 실행 시점에 동적으로 결정하는 메커니즘(다형성 구현의 핵심)
