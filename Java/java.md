@@ -346,6 +346,7 @@ thread.join();
 > * 기존 스레드 대비, 컨텍스트 스위칭, 메모리 등에서 낮은 비용
 > * CPU 바운드 작업 시는 기존 스레드 대비 불리
 > * [우하한 기술 블로그 내 Virthual Thead 설명](https://techblog.woowahan.com/15398/)
+> * [제한된 환경에서의 Virtual Thread, Platform Thread, WebFlux 비교](https://velog.io/@garden6/JDK21-Virtual-Thread-%EC%A0%81%EC%9A%A9-%EB%B9%84%EA%B5%90)
 
 ###### Dynamic dispatch
 > 메서드 호출을 실행 시점에 동적으로 결정하는 메커니즘(다형성 구현의 핵심)
