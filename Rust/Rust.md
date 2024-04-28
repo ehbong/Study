@@ -127,10 +127,25 @@ fn main() {
 }
 ```
 
-### Match
+### Match
 > 패턴 매칭
 > * Elixir 의 패턴 매칭과 유사
 > * Switch 문과 비슷 해 보이지만 다름
 > 	* match 는 다양한 자료형 지원(변수, 리터럴, 열거형, 튜플 등)
 > 	* match 는 반드시 일치 값이 존재(없으면 컴파일 에러)
 > 	* match 는 패턴의 중첩 허용
+> 	* match 안에 if 문도 허용
+```rust
+fn main(){
+    let children = 0;
+    let married = false;
+    
+    match (children, married) {
+    // 패턴 매칭 이후, 안에 if 문으로 추가 조건 가능
+        (children, false) if children > 0 => println!("Not married with {} children", children),
+        (0, true) => println!("married but with no children"),
+        _ => println!("Some other type of marriage and children combination")
+    }
+    
+}
+```
