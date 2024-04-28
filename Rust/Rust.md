@@ -146,6 +146,12 @@ fn main(){
         (0, true) => println!("married but with no children"),
         _ => println!("Some other type of marriage and children combination")
     }
-    
 }
+```
+
+### 3항 연산자 대체 문법
+```rust
+let my_number = 8;
+// if 조건 { 리턴 } else { 리턴 }
+let some_variable = if my_number == 10 { 8 } else { -1 }
 ```
