@@ -155,3 +155,27 @@ let my_number = 8;
 // if 조건 { 리턴 } else { 리턴 }
 let some_variable = if my_number == 10 { 8 } else { -1 }
 ```
+
+#### Struct
+>데이터 정의
+>* enum 과의 차이는, enum은 값 중 1개를 선택하는 or, struct 는 and 구조
+>* 3가지 방식이 존재
+>	* name struct
+```rust
+// 이름과 자료형의 구조
+struct Student {
+	age: u8,
+	name: String,
+	class: String
+}
+```
+>	* tuple struct
+```rust
+// 자료형만 표기
+struct Color(u8, u8, u8);
+```
+>	* unit struct
+```rust
+// 아무데이터가 없는 struct
+struct Dummy;
+```
