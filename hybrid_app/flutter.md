@@ -423,6 +423,13 @@ Widget build(BuildContext context) {
 >* json_serializable : toJson, fromJson 코드 생성기 
 
 
+#### Test
+>[테스트 유형 및 특징](https://docs.flutter.dev/testing/overview)
+>* [Unit Test](https://docs.flutter.dev/cookbook/testing/unit/introduction)
+>* [Widget Test](https://docs.flutter.dev/cookbook/testing/widget/introduction)
+>* [Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
+
+
 
 #### 기타
 > WidgetsFlutterBinding.ensureInitialized 함수
