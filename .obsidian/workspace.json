@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hybrid_app/flutter.md",
+                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hybrid_app/flutter.md"
+                "file": "Rust/Rust.md"
               }
             }
           },
@@ -160,11 +160,11 @@
   },
   "active": "d298b8e4f539c6c1",
   "lastOpenFiles": [
+    "hybrid_app/flutter.md",
     "Rust/Rust.md",
     "Python/SQLAlchemy.md",
     "Java/java.md",
     "Java/effective java.md",
-    "hybrid_app/flutter.md",
     "hybrid_app/react_native.md",
     "Java/other.md",
     "Rust/Untitled.md",
