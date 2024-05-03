@@ -30,6 +30,7 @@
 * [REST API 규칙](https://velog.io/@gga4638/REST-API-URI-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B7%9C%EC%B9%99)
 * [REST API, Soap 차이](https://velog.io/@zioo/JSON-API-SOAP)
 * [websocket 클러스터](https://medium.com/@mohsenes/websocket-cluster-with-nestjs-and-redis-a18882d418ed)
+* [websocket 서버 이슈 및 대처, 우하한 기술 블로그](https://techblog.woowahan.com/2547/)
 
 > Cookie 보안  
 > * HttpOnly: 자바스크립트 접근을 제한
