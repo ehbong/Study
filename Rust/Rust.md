@@ -69,6 +69,17 @@ match person {
 }
 
 ```
+>Range 문법
+```rust
+// 1~5의 값을 가진 range 생성
+let num_range = 1..=5;
+// 5~1의 range 생성
+let revert_num_rage = 5..=1;
+// type 확인
+// core::ops::range::RangeInclusive<T> 의 타입
+// core::ops::range::RangeInclusive<i32>
+println!("{}", std::any::type_name_of_val(&num_range));
+```
 
 ##### Copy Type
 > * 값의 소유권 이전 없이 복사가 이루어지는 타입
