@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1c9dc4bafb81d64",
+        "id": "2990a23926d52261",
         "type": "tabs",
         "children": [
           {
-            "id": "5b009dbae4f0b069",
+            "id": "036f85872a3977f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,13 +158,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5b009dbae4f0b069",
+  "active": "036f85872a3977f4",
   "lastOpenFiles": [
+    "Python/SQLAlchemy.md",
+    "Rust/Rust.md",
     "Java/spring.md",
     "Java/other.md",
-    "Rust/Rust.md",
     "server.md",
-    "Python/SQLAlchemy.md",
     "hybrid_app/flutter.md",
     "Java/java.md",
     "Java/effective java.md",

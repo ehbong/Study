@@ -195,6 +195,30 @@ struct Dummy;
 >	* 4바이트 초과는 2의 배수로 3~8 = 8, 9~16 = 16 으로 내부 데이터와 별개로 패딩(빈 메모리 공간)이 생성
 >	* 패딩으로 인해 정렬 및 메모리 접근 속도를 증가 시킬 수 있음[[패딩 접근 설명](https://bumukisbest.tistory.com/18)]
 
+#### Enum
+>선택형 데이터 정의
+>* enum은 내부적인 숫자를 보유
+```rust
+// 값을 부여하면 해당 값으로 숫자가 부여되고,
+// 값을 부여하지 않으면 이전 값 +1 의 값이 부여된다.
+// 시작값에 부여된 값이 없으면 0
+// 아래 코드에서 시작값을 부여하지 않을 경우 RedGiant 와 RedDwarf 이 1로 충돌로 예외가 발생한다.
+enum Star {
+    BrownDwarf = 10,
+    RedDwarf, // 11
+    YellowStar = 100,
+    RedGiant = 1,
+    DeadStar, // 2
+}
+
+fn main(){
+	use Star::*;
+	let starvec = vec![BrownDwarf, RedDwarf, YellowStar, RedGiant, DeadStar];
+	for star in starvec {
+		println!("It's the number {}", star as u32);
+	}
+}
+```
 #### Trait
 > 다른언어의 인터페이스와 비슷한 개념 
 > * 인터페이스와 다르게 메서드 구현 가능
