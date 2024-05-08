@@ -71,14 +71,16 @@ match person {
 ```
 >Range 문법
 ```rust
+// 1~4의 값을 가진 range 생성
+let num_range1 = 1..5;
 // 1~5의 값을 가진 range 생성
-let num_range = 1..=5;
+let num_range2 = 1..=5;
 // 5~1의 range 생성
 let revert_num_rage = 5..=1;
 // type 확인
 // core::ops::range::RangeInclusive<T> 의 타입
 // core::ops::range::RangeInclusive<i32>
-println!("{}", std::any::type_name_of_val(&num_range));
+println!("{}", std::any::type_name_of_val(&num_range2));
 ```
 
 ##### Copy Type
@@ -223,6 +225,26 @@ fn main(){
 > 다른언어의 인터페이스와 비슷한 개념 
 > * 인터페이스와 다르게 메서드 구현 가능
 > * 제네릭 타입 구현 가능
+
+#### loop
+> 다른언어의 while Ture 와 비슷한 역할
+> * 무한 반복문
+> * 조건을 사용해 내부에서 break를 작성
+> * 중복 loop 사용 시 이름 지정으로 break 가능
+```rust
+fn main{
+	let count = 0;
+	// 이름 지정 앞에 ' 를 넣는 것은 라이프타임 혹은 레이블 문법
+	'f_loop: loop {
+		's_loop: loop {
+			count += 1;
+			if count == 3{
+				break 'f_loop;
+			}
+		}
+	}
+}
+```
 
 #### Attribute
 >다른 언어의 어노테이션과 비슷한 역할을 수행
