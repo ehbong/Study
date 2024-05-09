@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,15 +159,15 @@
   },
   "active": "036f85872a3977f4",
   "lastOpenFiles": [
-    "Python/SQLAlchemy.md",
+    "hybrid_app/flutter.md",
+    "hybrid_app/react_native.md",
     "Rust/Rust.md",
+    "Python/SQLAlchemy.md",
     "Java/spring.md",
     "Java/other.md",
     "server.md",
-    "hybrid_app/flutter.md",
     "Java/java.md",
     "Java/effective java.md",
-    "hybrid_app/react_native.md",
     "Rust/Untitled.md",
     "Rust",
     "db.md",

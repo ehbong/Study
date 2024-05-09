@@ -102,7 +102,8 @@ fn main() {
 }
 ```
 
-### Reference
+
+#### Reference
 >* ***&*** : immutable reference 수정 불가능
 >* ***&mut*** : mutable  reference 수정 가능
 ```rust
@@ -140,7 +141,9 @@ fn main() {
 }
 ```
 
-### Match
+
+### 문법
+#### Match
 > 패턴 매칭
 > * Elixir 의 패턴 매칭과 유사
 > * Switch 문과 비슷 해 보이지만 다름
@@ -162,7 +165,7 @@ fn main(){
 }
 ```
 
-### 3항 연산자 대체 문법
+#### 3항 연산자 대체 문법
 ```rust
 let my_number = 8;
 // if 조건 { 리턴 } else { 리턴 }
@@ -243,6 +246,38 @@ fn main{
 			}
 		}
 	}
+}
+```
+
+#### impl
+>* associated function 를 선언하는 방법
+>* 일반적인 메소드와는 다르게 인스턴스가 아니라 타입 자체에 연결된 함수
+>* 주로 생성자 역할을 하며, 타입의 새 인스턴스를 반환하는 데 사용
+```rust
+struct Animal {
+	age: u8,
+	animal_type: AnimalType,
+}
+
+enum AnimalType {
+	Cat,
+	Dog,
+}
+
+// Animal 에 대한 연관함수 선언
+impl Animal {
+	// 함수명(인자)-> 리턴타입(자기자신을 반환하므로 Self 또는 Animal)
+	fn new_cat(age: u8) -> Self {
+		Self {
+			age,
+			animal_type: AnimalType::Cat,
+		}
+	}
+}
+
+fn main(){
+	// age 가 10 이고 animal_type 이 Cat 인 Animal 인스턴스 생성
+	let my_cat = Animal::new_cat(10);
 }
 ```
 
