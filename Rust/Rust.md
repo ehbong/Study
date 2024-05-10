@@ -254,11 +254,12 @@ fn main{
 >* 일반적인 메소드와는 다르게 인스턴스가 아니라 타입 자체에 연결된 함수
 >* 주로 생성자 역할을 하며, 타입의 새 인스턴스를 반환하는 데 사용
 ```rust
+#[derive(Debug)]
 struct Animal {
 	age: u8,
 	animal_type: AnimalType,
 }
-
+#[derive(Debug)]
 enum AnimalType {
 	Cat,
 	Dog,
@@ -267,17 +268,26 @@ enum AnimalType {
 // Animal 에 대한 연관함수 선언
 impl Animal {
 	// 함수명(인자)-> 리턴타입(자기자신을 반환하므로 Self 또는 Animal)
+	// Self 를 사용할 때는 첫글자를 대문자로 작성
 	fn new_cat(age: u8) -> Self {
 		Self {
 			age,
 			animal_type: AnimalType::Cat,
 		}
 	}
+	// self 가 변수명으로 사용할 때 소문자로 시작
+	fn print(&self) {
+		println!("Animal : {:?}", self);
+	}
 }
 
 fn main(){
 	// age 가 10 이고 animal_type 이 Cat 인 Animal 인스턴스 생성
 	let my_cat = Animal::new_cat(10);
+	// my_cat.print() 로 동작하게 하는 것은 컴파일러가 임의로
+	// Animal::print(&my_cat); 로 변환 
+	// syntactic sugar 기능
+	my_cat.print();
 }
 ```
 
