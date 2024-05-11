@@ -199,6 +199,24 @@ struct Dummy;
 >	* 4바이트 미만은 패딩 없이 처리
 >	* 4바이트 초과는 2의 배수로 3~8 = 8, 9~16 = 16 으로 내부 데이터와 별개로 패딩(빈 메모리 공간)이 생성
 >	* 패딩으로 인해 정렬 및 메모리 접근 속도를 증가 시킬 수 있음[[패딩 접근 설명](https://bumukisbest.tistory.com/18)]
+>* Destructuring (구조분해)
+>	* 복잡한 데이터 구조를 분해하여 그 구성 요소를 개별 변수에 할당
+>	* 튜플, 배열, 구조체, 열거형 등 다양한 데이터 타입에 적용
+```rust
+let student Student {
+	age: 15,
+	name: "tom".to_string(),
+	class: "A".to_string()
+}
+// destructuring 를 통해서 
+// Student 구조체 안에 값을 꺼내서 변수에 담아 사용
+let Student { age, name, class } = student;
+// : 키워드를 통해 기존 키 값이 아닌 다른 변수명을 사용 가능
+let Student { age: a, name: n, class: c} = student;
+
+println!(" name: {}, age: {}, class: {}", name, age, class);
+println!(" name: {}, age: {}, class: {}", n, a, c);
+```
 
 #### Enum
 >선택형 데이터 정의
@@ -287,7 +305,8 @@ fn main(){
 	// my_cat.print() 로 동작하게 하는 것은 컴파일러가 임의로
 	// Animal::print(&my_cat); 로 변환 
 	// syntactic sugar 기능
-	my_cat.print();
+	my_cat.print(); // 동일한 결과
+	Animal::print(&my_cat); // 동일한 결과
 }
 ```
 
