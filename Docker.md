@@ -11,6 +11,7 @@
 * [Docker logs 명령어 및 파일 위치](https://hoony-gunputer.tistory.com/entry/docker-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-log-%EB%82%A8%EA%B8%B0%EA%B8%B0)
 * [Jenkins 와 Docker 그리고 AWS](https://pks2974.medium.com/jenkins-%EC%99%80-docker-%EA%B7%B8%EB%A6%AC%EA%B3%A0-aws-cli-%EC%82%BD%EC%A7%88%EA%B8%B0-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-e728986960e2)
 * [Docker ubuntu의 systemctl 명령어 사용 방법](https://junyharang.tistory.com/399)
+* [Docker 다루기 from vsCode](https://youtu.be/zqY-tcf5KK8?si=ataoLpYs73NFKR9P)
 ##### 설치(ubuntu)
 ```bash
   $ sudo apt-get update
