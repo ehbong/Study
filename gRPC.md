@@ -7,6 +7,7 @@
 * [뱅크샐러드 grpc 적용기](https://blog.banksalad.com/tech/production-ready-grpc-in-golang/)
 * [gRPC GIT](https://github.com/grpc)
 * [gRPC vs http api 비교](https://docs.microsoft.com/ko-kr/aspnet/core/grpc/comparison?view=aspnetcore-6.0)
+* [gRPC 특징 및 간단 설명](https://youtu.be/uwrR5e5_FH8?si=-6AuApaXTjHHtG0k)
   
 |특징|설명|
 |----|----|
