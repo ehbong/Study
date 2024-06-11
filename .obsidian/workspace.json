@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e43ac6b4c1e1e81",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +170,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e053d1e79fb17fac",
+  "active": "8e43ac6b4c1e1e81",
   "lastOpenFiles": [
     "Rust/Rust.md",
     "Python/Other.md",
