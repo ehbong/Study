@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Java/spring.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "8e43ac6b4c1e1e81",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Java/spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Java/spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Java/spring.md"
               }
             }
           },
@@ -170,8 +159,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8e43ac6b4c1e1e81",
+  "active": "e053d1e79fb17fac",
   "lastOpenFiles": [
+    "Java/java.md",
+    "Docker.md",
     "Rust/Rust.md",
     "Python/Other.md",
     "hybrid_app/flutter.md",
@@ -180,7 +171,6 @@
     "Java/spring.md",
     "Java/other.md",
     "server.md",
-    "Java/java.md",
     "Java/effective java.md",
     "Rust/Untitled.md",
     "Rust",
@@ -195,7 +185,6 @@
     "elixir",
     "2024-01-03.md",
     "2023-12-05.md",
-    "Docker.md",
     "vscode.md",
     "network.md",
     "kubernetes.md",
