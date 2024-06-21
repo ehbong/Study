@@ -28,6 +28,27 @@ class MemberService{
 > * JDBC드라이버를 통해 DB와 상호작용
 * [JPA공식문서](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
 
+```yaml
+# 설정 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydatabase # 데이터베이스 주소
+    username: root # 이름
+    password: password # 비밀번호
+  jpa:
+    hibernate:
+	# 스키마 생성 및 업데이트 설정(none, validate, update, create, create-drop)
+      ddl-auto: update 
+    show-sql: true # 쿼리 출력 여부
+    properties:
+      hibernate:
+        format_sql: true # SQL 쿼리를 포맷팅 여부
+        dialect: org.hibernate.dialect.MySQL5Dialect # 사용 DB 형태 지정
+    generate-ddl: true # 스키마 생성 여부(스키마 생성만 가능)
+    open-in-view: false # 데이터 베이스 커넥션 반납 시점 지연 여부
+
+```
+
 ###### 영속성 컨텍스트(PersistenceContext)
 > 구성요소
 > * 엔티티 객체: 데이터베이스 레코드와 매핑된 객체  
