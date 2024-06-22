@@ -46,6 +46,27 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect # 사용 DB 형태 지정
     generate-ddl: true # 스키마 생성 여부(스키마 생성만 가능)
     open-in-view: false # 데이터 베이스 커넥션 반납 시점 지연 여부
+```
+```yaml
+# jpa 와 비교를 위해 mybatis 설정
+mybatis:
+  config-location: classpath:mybatis-config.xml  # MyBatis 설정 파일의 위치
+  mapper-locations: classpath:mapper/*.xml       # 매퍼 XML 파일의 위치
+  type-aliases-package: com.example.demo.model   # 타입 별칭을 사용할 패키지
+  type-handlers-package: com.example.demo.type   # 타입 핸들러를 찾을 패키지
+  executor-type: SIMPLE                          # Executor 타입 (SIMPLE, REUSE, BATCH)
+  check-config-location: true                    # MyBatis 설정 파일의 존재 여부를 확인
+  configuration:                                 # MyBatis Configuration 설정
+    map-underscore-to-camel-case: true           # underscore를 camelCase로 자동 변환
+    cache-enabled: true                          # 2차 캐시 사용 여부
+    lazy-loading-enabled: true                   # 지연 로딩 사용 여부
+    aggressive-lazy-loading: false               # 적극적 지연 로딩 사용 여부
+    multiple-result-sets-enabled: true           # 다중 결과 셋 사용 여부
+    use-column-label: true                       # 컬럼 라벨을 사용할지 여부
+    use-generated-keys: true                     # 자동 생성된 키 사용 여부
+    default-statement-timeout: 30                # 기본 스테이트먼트 타임아웃 (초)
+    default-fetch-size: 100                      # 기본 페치 크기
+
 
 ```
 
