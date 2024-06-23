@@ -162,6 +162,9 @@
   "active": "e053d1e79fb17fac",
   "lastOpenFiles": [
     "Java/spring.md",
+    "Java/other.md",
+    "golang/Go.md",
+    "golang/fiber.md",
     "Java/java.md",
     "Docker.md",
     "Rust/Rust.md",
@@ -169,7 +172,6 @@
     "hybrid_app/flutter.md",
     "hybrid_app/react_native.md",
     "Python/SQLAlchemy.md",
-    "Java/other.md",
     "server.md",
     "Java/effective java.md",
     "Rust/Untitled.md",
@@ -188,8 +190,6 @@
     "vscode.md",
     "network.md",
     "kubernetes.md",
-    "gRPC.md",
-    "git.md",
-    "figma.md"
+    "gRPC.md"
   ]
 }

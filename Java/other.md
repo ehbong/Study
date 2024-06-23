@@ -105,6 +105,17 @@ transient public String firstName; // 키워드로 적용
 > 데이터 타입
 * [Hibernate Basic Types DB 데이터 타입과 매칭되는 객체 데이터 타입](https://docs.jboss.org/hibernate/orm/5.5/userguide/html_single/Hibernate_User_Guide.html#basic)
 
+>메서드 명명 규칙
+>* 기본쿼리 + 조건
+```java
+// 기본 쿼리
+findBy // 조건 조회 find 와 by 사이에 엔티티 추가 가능
+countBy // 개수 조회
+deleteBy // 삭제
+existsBy // 존재 확인
+```
+>* [조건식관련 공식 문서](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
+
 ##### QueryDSL
 >쿼리를 자바 코드를 사용해, 쿼리를 체이닝방식으로 작성하는 라이브러리  
 >장점  
