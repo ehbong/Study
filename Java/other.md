@@ -19,9 +19,6 @@ class MemberService{
 
 ```
 
-
-
-
 ## JPA
 > java ORM기술을 사용하는 인터페이스
 > * Hibernate, OpenJPA 등이 JPA의 구현체
@@ -110,6 +107,9 @@ transient public String firstName; // 키워드로 적용
 ```java
 // 기본 쿼리
 findBy // 조건 조회 find 와 by 사이에 엔티티 추가 가능
+List<User> findByUserName(String UserName); // userName 이 일치하는 값 조회
+// email 과 lastname 이 일치하는 값 조회
+List<User> findByEmailAddressAndLastname(String emailAddress, String lastname);
 countBy // 개수 조회
 deleteBy // 삭제
 existsBy // 존재 확인
