@@ -115,6 +115,7 @@ deleteBy // 삭제
 existsBy // 존재 확인
 ```
 >* [조건식관련 공식 문서](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
+>* 조건식에 부여되는 엔티티필드의 순서와 관련 된 최적화는 JPA 에서 수행하지 않고, 데이터베이스에서 진행하는 실행계획 최적화에 따라 달라짐.
 
 ##### QueryDSL
 >쿼리를 자바 코드를 사용해, 쿼리를 체이닝방식으로 작성하는 라이브러리  
