@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/other.md",
+                "file": "hybrid_app/flutter.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/other.md",
+                "file": "hybrid_app/flutter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/other.md",
+                "file": "hybrid_app/flutter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/other.md"
+                "file": "hybrid_app/flutter.md"
               }
             }
           },
@@ -161,8 +161,8 @@
   },
   "active": "e053d1e79fb17fac",
   "lastOpenFiles": [
-    "Java/spring.md",
     "Java/other.md",
+    "Java/spring.md",
     "golang/Go.md",
     "golang/fiber.md",
     "Java/java.md",
