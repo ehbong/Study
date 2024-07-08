@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI.md",
+                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI.md",
+                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI.md"
+                "file": "Rust/Rust.md"
               }
             }
           },
@@ -161,6 +161,13 @@
   },
   "active": "288c60ba045f2ddf",
   "lastOpenFiles": [
+    "Python/Other.md",
+    "Python/Flask.md",
+    "Python/Pycharm.md",
+    "Python/fastAPI.md",
+    "Python/python.md",
+    "Python/SQLAlchemy.md",
+    "Rust/Rust.md",
     "AI.md",
     "Java/java.md",
     "hybrid_app/flutter.md",
@@ -169,10 +176,7 @@
     "golang/Go.md",
     "golang/fiber.md",
     "Docker.md",
-    "Rust/Rust.md",
-    "Python/Other.md",
     "hybrid_app/react_native.md",
-    "Python/SQLAlchemy.md",
     "server.md",
     "Java/effective java.md",
     "Rust/Untitled.md",
@@ -182,14 +186,10 @@
     "other.md",
     "Refactoring.md",
     "designPattern.md",
-    "Python/python.md",
     "무제 파일.canvas",
     "elixir/Elixir.md",
     "elixir",
     "2024-01-03.md",
-    "2023-12-05.md",
-    "vscode.md",
-    "network.md",
-    "kubernetes.md"
+    "2023-12-05.md"
   ]
 }
