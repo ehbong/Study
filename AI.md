@@ -9,3 +9,4 @@
 
 * [LangGraph 공식](https://langchain-ai.github.io/langgraph/)
 * [LangChain 한글 튜토리얼](https://wikidocs.net/233341)
+* [LLM 설치 툴 Ollama](https://ollama.com/)

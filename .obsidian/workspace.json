@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Rust.md",
+                "file": "AI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Rust.md",
+                "file": "AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Rust.md",
+                "file": "AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/Rust.md"
+                "file": "AI.md"
               }
             }
           },
@@ -161,13 +161,13 @@
   },
   "active": "288c60ba045f2ddf",
   "lastOpenFiles": [
+    "Rust/Rust.md",
     "Python/Other.md",
     "Python/Flask.md",
     "Python/Pycharm.md",
     "Python/fastAPI.md",
     "Python/python.md",
     "Python/SQLAlchemy.md",
-    "Rust/Rust.md",
     "AI.md",
     "Java/java.md",
     "hybrid_app/flutter.md",
