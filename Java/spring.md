@@ -225,6 +225,10 @@ public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
 ```
 
 
+#### LogBack
+> [공식 문서](https://logback.qos.ch/manual/index.html)
+> * [기본 사용 방법](https://breakcoding.tistory.com/400)
+
 #### Kafka
 > 카프카 설정
 ```yml
