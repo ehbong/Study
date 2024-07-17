@@ -154,7 +154,12 @@ FutureBuilder<List<DosingModel>>(
 >	* iOS WKUIDelegate(웹페이지 UI 메소드) 지원
 >	* [flutter_inappwebview 사용 오픈소스 앱](https://inappwebview.dev/showcase/flutter-app/?appName=Flutter%20Browser)
 
-
+#### Test
+>* [공식 테스트 가이드](https://codelabs.developers.google.com/codelabs/flutter-app-testing?hl=ko#0)
+>테스트 종류
+>* Provider 단위 테스트: 특정 함수, 객체 등의 값 변화를 테스트
+>* 위젯 테스트: 위젯의 동작 이후 위젯 화면 변화를 테스트
+>* 통합 UI 테스트: 실제 앱 구동 후 UI 변화를 테스트
 ##### 광고
 > [adMob 설정 방법](https://codelabs.developers.google.com/codelabs/admob-ads-in-flutter?hl=ko#0)
 
@@ -424,7 +429,7 @@ Widget build(BuildContext context) {
 
 
 #### Test
->[테스트 유형 및 특징](https://docs.flutter.dev/testing/overview)
+>[공식 문서 테스트 유형 및 특징](https://docs.flutter.dev/testing/overview)
 >* [Unit Test](https://docs.flutter.dev/cookbook/testing/unit/introduction)
 >* [Widget Test](https://docs.flutter.dev/cookbook/testing/widget/introduction)
 >* [Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
