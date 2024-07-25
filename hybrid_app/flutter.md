@@ -89,7 +89,7 @@ flutter build apk --release
 >  factory 생성자는 객체를 직접 생성하는 것이 아니라, 생성된 객체를 반환하거나  
 >  다른 생성자나 메서드를 호출해서 동작하므로, 현재 인스턴스를 가르키는 this를 사용할 수 없음
 
-###### FutureBuilder
+###### FutureBuilder
 >비동기 작업 후 빌드하기 위한 위젯
 >* 내부적으로 builder 메서드 내에서 snapshot 으로 진행 상태를 가짐 ([ConnectionState 객체](https://api.flutter.dev/flutter/widgets/ConnectionState.html))
 >* build 메서드가 상태 변경에 따라 실행되므로, 메서드 내부에 페이지 이동 등을 할 경우 주의 필요(예외 발생)
@@ -163,6 +163,8 @@ FutureBuilder<List<DosingModel>>(
 ##### 광고
 > [adMob 설정 방법](https://codelabs.developers.google.com/codelabs/admob-ads-in-flutter?hl=ko#0)
 
+> Android 설정
+> * [Manifest application 요소 설명](https://blog.naver.com/PostView.nhn?blogId=anyin93&logNo=221843857206)
 # Dart
 > 변수
 > * var: 초기 값으로 자료형이 결정
