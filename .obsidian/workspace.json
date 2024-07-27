@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "739fe395ad84cc98",
+        "id": "a3b7781913ca740d",
         "type": "tabs",
         "children": [
           {
-            "id": "89cb18575e9d3b74",
+            "id": "0bea63efe387f6a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,10 +159,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "89cb18575e9d3b74",
+  "active": "0bea63efe387f6a1",
   "lastOpenFiles": [
-    "hybrid_app/react_native.md",
     "hybrid_app/flutter.md",
+    "hybrid_app/react_native.md",
     "AI.md",
     "Rust/Rust.md",
     "Python/Other.md",

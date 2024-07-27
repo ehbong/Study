@@ -436,6 +436,15 @@ Widget build(BuildContext context) {
 >* [Widget Test](https://docs.flutter.dev/cookbook/testing/widget/introduction)
 >* [Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
 
+#### Build Runner
+>[build_runner github](https://github.com/dart-lang/build/tree/master/build_runner)
+>* [필터 빌드 방법](https://github.com/dart-lang/build/blob/master/docs/partial_builds.md)
+```bash
+dart run build_runner build \
+  --build-filter="web/main.dart.js" \
+  --build-filter="package:build_web_compilers/**/*.js"
+```
+
 
 
 #### 기타
