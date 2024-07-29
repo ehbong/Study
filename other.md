@@ -20,7 +20,16 @@
 * [DDD + 육각형 설계](https://velog.io/@roo333/%EC%A7%80%EC%86%8D-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%ED%8C%A8%ED%84%B4-Hexagonal-Architecture)
 * [UseCase에 대해 설명 유튜브](https://www.youtube.com/watch?v=5DVIUl5DoUo)
 * [우선순위 Queue, Heap](https://velog.io/@jun_/Algorithm-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90Priority-Queue%EC%99%80-%ED%9E%99Heap)
-* [event loop 설명](https://youtu.be/8aGhZQkoFbQ?si=cHG_V61kMHm2BYPO)\
+>Event Loop
+>* [event loop 설명](https://youtu.be/8aGhZQkoFbQ?si=cHG_V61kMHm2BYPO)
+>싱글 스레드 환경에서 비동기 작업을 처리하고, 콜백을 관리하는 방법. 
+>테스크 큐와 콜스택을 활용해서 동작  
+>1. 콜스택에서 비동기 작업이 발생 
+>2. 메인 스레드가 아닌 추가적인 스레드를 사용하여 비동기 작업을 처리
+>3. 비동기 작업이 완료되면 테스크 큐에 등록
+>4. 테스크 큐에서 대기하며 콜스택이  비어있는지 확인
+>5. 콜스택이 비어있을 경우 테스크 큐에서 pop해서 콜스택에 등록 후 처리
+
 #### Web-Worker
 * [Web Workers API 공식문서](https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API/Using_web_workers)
 * [Web-Worker에-대해서](https://velog.io/@choi5798/%EC%9B%B9-%EC%9B%8C%EC%BB%A4Web-Worker%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
