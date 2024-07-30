@@ -29,6 +29,8 @@
 >3. 비동기 작업이 완료되면 테스크 큐에 등록
 >4. 테스크 큐에서 대기하며 콜스택이  비어있는지 확인
 >5. 콜스택이 비어있을 경우 테스크 큐에서 pop해서 콜스택에 등록 후 처리
+>언어 별로 구현체가 다르지만  기본적인 형태는 동일
+>* Javscript: libuv, Python: asyncio
 
 #### Web-Worker
 * [Web Workers API 공식문서](https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API/Using_web_workers)
