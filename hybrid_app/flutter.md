@@ -331,7 +331,7 @@ Future<Map<String, dynamic>> _readAndParseJson() async {
 }
 ```
 
-
+### 문법
 ###### [extension](https://dart.dev/language/extension-methods)
 > Dart 2.7 버전부터 도입된 기능으로 기존 클래스에 새로운 기능을 추가할 때 사용
 > * 상속 등으로 가능하지만 조금 더 직관적으로 변경 가능
@@ -377,6 +377,8 @@ var list2 = [0, ...list]; //[0, 1, 2, 3]
 var list3 = [0, ...?list]; // list가 빈값일 수 있으면 ? 를 추가
 ```
 
+
+### 자주쓰는 라이브러리
 #### GetX
 * [상태관리 라이브러리 getX 공식](https://pub.dev/packages/get)
 * [getX 유튜브 강의](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE)
