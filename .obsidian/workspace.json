@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elixir/Elixir.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elixir/Elixir.md",
+                "file": "Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elixir/Elixir.md",
+                "file": "Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elixir/Elixir.md"
+                "file": "Rust/Rust.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   },
   "active": "eefd15bc73c0d936",
   "lastOpenFiles": [
+    "elixir/Elixir.md",
     "other.md",
     "Python/Other.md",
     "git.md",
@@ -188,7 +189,6 @@
     "Refactoring.md",
     "designPattern.md",
     "무제 파일.canvas",
-    "elixir/Elixir.md",
     "elixir",
     "2024-01-03.md"
   ]

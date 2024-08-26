@@ -322,3 +322,31 @@ fn main(){
 // 테스트 함수를 정의할 때 사용
 #[test]
 ```
+
+#### Generics
+>다양성을 위해 사양하는 다른 언어의 제네릭과 동일
+```rust
+// 함수 뒤에 <> 를 통해 선언
+fn give_things<T> (input:T) -> T {
+	input
+}
+
+// 제약 조건이 있는 T 를 사용할 때
+fn print_display<T:std::fmt::Display> (input: T){
+	println!("{}", input);
+}
+// where 를 사용해서 제약 조건 분리
+fn print_display<T> (input: T)
+where
+	T:std::fmt::Display
+{
+	println!("{}", input);
+}
+
+fn main(){
+	let a = give_things(10);
+	let b = give_things(String::from("anythings"));
+	println!("{}", a);
+	println!("{}", b);
+}
+```
