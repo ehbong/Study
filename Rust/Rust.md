@@ -350,3 +350,34 @@ fn main(){
 	println!("{}", b);
 }
 ```
+
+
+#### Option
+> 값이 없을 때를 대비하기 위한 enum 타입
+> * 명시적으로 값이 없을 수 있음을 뜻함
+> * null 처리를 통해 에러를 방지하거나 처리 할 수 있음
+```rust
+enum Option<T> {
+	// 반환 타입이 Option 이기 때문에 바로 T를 반환 하는 것이 아닌 Some(T)로
+	// wrap 해서 반환, 이를 해제하기 위해 .unwrap() 를 통해 값을 추출
+	Some(T), 
+	None, // null
+}
+
+// Some 사용 방법
+fn find_even_number(numbers: Vec<i32>) -> Option<i32> { 
+	for num in numbers { 
+		if num % 2 == 0 { 
+			return Some(num); // 짝수를 찾으면 Some으로 감싸서 반환 
+		} 
+	} 
+	None // 짝수를 찾지 못하면 None 반환 
+}
+
+fn main() {
+	let numbers = vec![1, 3, 5, 8, 9];
+
+	let some_even = find_even_number(numbers);
+	println!("{}", some_even.unwrap());
+}
+``` 
