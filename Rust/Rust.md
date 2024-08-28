@@ -4,6 +4,33 @@
 
 ### 자료형
 
+> ***String***
+> 문자열 타입 String 또는 &str  
+> String: 가변 문자 타입
+>   * 힙메모리를 사용
+>   * 문자열 수정 가능, 기존 문자에 수정할 경우 메모리에 따라 수정 및 복사가 이루어짐
+> &str: 불변 참조 타입
+>   * 스택 또는 정적메모리 사용, String 참조 시 힙영역 사용
+>   * 문자열 수정 불가
+>   	* 만약 String을 참조한 이후에 String 데이터가 수정되었다면,  
+>         힙영역이 유지된다면 참조될 당시 상태로 참조, 변경된다면 에러 발생
+```rust
+fn main() {
+    let mut s = String::from("Hello");
+    let s_ref: &str = &s;  // s를 참조하는 불변 참조
+    s = String::from("World") // 이 시점에서 메모리 재할당이 발생
+    println!("{}", s_ref);  // 컴파일 에러: 이미 빌린 후 변경됨
+}
+
+fn main() {
+    let mut s = String::from("Hello");
+    let s_ref: &str = &s;  // s를 참조하는 불변 참조
+    // 기존 데이터의 메모리 주소가 변경되지 않음
+    s.push_str("!");  // "Hello" -> "Hello!"
+    println!("{}", s_ref);  // "Hello" (s_ref는 여전히 "Hello"를 참조)
+}
+``` 
+
 ##### Collection types
 > ***Array***  
 > * 길이가 고정인 배열
