@@ -405,6 +405,14 @@ fn main() {
 	let numbers = vec![1, 3, 5, 8, 9];
 
 	let some_even = find_even_number(numbers);
-	println!("{}", some_even.unwrap());
+	// Some 의 경우 None 이여도 오류가 발생하지 않지만
+	// unwrap 을 할 경우 None 이면 오류 발생
+	println!("{}", some_even);
+	println!("{}", some_even.unwrap()); // None이면 오류발생
+	
+	// unwrap 시 값이 비어있을 때를 방지 처리 방법
+	if some_even.is_some() {
+		// 값이 있을 떄
+	}
 }
 ``` 
