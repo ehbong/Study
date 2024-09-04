@@ -4,6 +4,8 @@
 * [입문자를 위한 강의](https://www.youtube.com/watch?v=Yt-DjG5b4iA&list=PLnIaYcDMsScxP2Nl8pEbmI__wkF0YVu0a)
 * [플러터 3.0.0 Version 업데이트 정리](https://kdjun97.github.io/flutter/flutter-version-3/)
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
+* [flutter stt](https://pub.dev/packages/speech_to_text)
+* [flutter tts](https://pub.dev/packages/flutter_tts)
 ###### [버전 관리(FVM)](https://fvm.app/)
 > flutter 버전 관리 툴
 > fvm설치
