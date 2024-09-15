@@ -6,6 +6,7 @@
 * [플러터 보일러 플레이트](https://github.com/zubairehman/flutter-boilerplate-project/tree/master)
 * [flutter stt](https://pub.dev/packages/speech_to_text)
 * [flutter tts](https://pub.dev/packages/flutter_tts)
+* [flutter app 템플릿](https://flutterawesome.com/)
 ###### [버전 관리(FVM)](https://fvm.app/)
 > flutter 버전 관리 툴
 > fvm설치
