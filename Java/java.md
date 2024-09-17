@@ -345,6 +345,8 @@ thread.join();
 > * 기존 스레드 방식과 다른 JVM 위에서 생성된 가상스레드
 > * 기존 스레드 대비, 컨텍스트 스위칭, 메모리 등에서 낮은 비용
 > * CPU 바운드 작업 시는 기존 스레드 대비 불리
+> * 동시성 프로그래밍이 간편해짐
+> * 기존의 블로킹 I/O 코드에 적용을 추천
 > * [우하한 기술 블로그 내 Virthual Thead 설명](https://techblog.woowahan.com/15398/)
 > * [제한된 환경에서의 Virtual Thread, Platform Thread, WebFlux 비교](https://velog.io/@garden6/JDK21-Virtual-Thread-%EC%A0%81%EC%9A%A9-%EB%B9%84%EA%B5%90)
 
