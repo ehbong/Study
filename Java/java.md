@@ -359,6 +359,9 @@ thread.join();
 
 ###### Supplier
 > 자바스크립트의 함수를 인자로 전달하는 것처럼 메소드 자체를 전달하기 위해 자바8 부터 도입된 기능
+> * 함수형 인터페이스
+> * 인자 값을 받지 않고 리턴 값이 있는 함수에 사용
+> * 지연 호출을 위해 사용
 > java.util.function.Supplier
 ```java
 import java.util.function.Supplier;
