@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0983c964c9e663ec",
+        "id": "860c613125ca3a68",
         "type": "tabs",
         "children": [
           {
-            "id": "8bd94730b96f74e1",
+            "id": "19da3e5d0a9cab50",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.8.4"
+                "currentVersion": "1.8.7"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "title": "Release Notes 1.8.7"
             }
           }
         ]
@@ -172,7 +172,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8bd94730b96f74e1",
+  "active": "19da3e5d0a9cab50",
   "lastOpenFiles": [
     "Rust/Rust.md",
     "elixir/Elixir.md",
